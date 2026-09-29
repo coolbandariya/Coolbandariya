@@ -1,54 +1,61 @@
-# Hi, I'm Kaustubh Dua 👋
+<div align="center">
 
-### Computer Engineering Student | Software Developer | AI/ML Enthusiast
+<img src="assets/profile-banner.svg" alt="Kaustubh Dua — Computer Engineering student and software developer" width="100%" />
 
-I'm a Computer Engineering student at **Jaypee Institute of Information Technology (JIIT), Noida**, interested in building practical software, exploring AI/ML, and contributing to open-source projects.
+### Computer Engineering · Software Development · Applied AI
 
-I enjoy taking ideas from concept to working prototypes—especially projects that combine thoughtful product design with useful engineering.
+Building practical projects, learning by shipping, and contributing to open source.
 
----
+[![GitHub](https://img.shields.io/badge/GitHub-coolbandariya-181717?style=flat&logo=github)](https://github.com/coolbandariya)
+[![Profile](https://komarev.com/ghpvc/?username=coolbandariya&style=flat&color=0e7490&label=Profile%20views)](https://github.com/coolbandariya)
 
-## 🚀 Featured Projects
-
-| Project | What it explores |
-|---|---|
-| [NIRDHOOM](https://github.com/coolbandariya/nihdhoom) | A field-first platform concept connecting agricultural operations, evidence, residue workflows, and payments. |
-| [GitGlobe](https://github.com/coolbandariya/GitGlobe) | A project focused on exploring and visualizing the GitHub ecosystem. |
-| [SATARK](https://github.com/coolbandariya/Satark) | A safety-focused software project. |
-| [Adapt AI](https://github.com/coolbandariya/adapt-ai) | An AI-oriented project exploring adaptive, useful experiences. |
-| [JYC Website](https://github.com/coolbandariya/JYC-Website) | Website work for the JIIT Youth Club, with an emphasis on clear, accessible presentation. |
-| [Smart Waste Project](https://github.com/coolbandariya/smart_waste_project) | A project exploring technology-assisted waste management. |
-
-*Project descriptions are brief summaries; see each repository for its current implementation and documentation.*
+</div>
 
 ---
 
-## 🧰 Interests & Technologies
+## About
 
-- **Development:** Web development, software engineering, application architecture
-- **AI/ML:** Applied AI, intelligent tools, practical prototypes
-- **Problem solving:** Data structures and algorithms
-- **Community:** Open source, student projects, hackathons
+I'm **Kaustubh Dua**, a Computer Engineering student at **Jaypee Institute of Information Technology (JIIT), Noida**. I enjoy turning ideas into working software and exploring the intersection of product thinking, engineering, and AI.
 
-I work with technologies across projects and continue to expand my toolkit. Please refer to individual repositories for the exact stack used in each project.
+My current interests include:
+- Software engineering and web application development
+- Applied AI/ML and useful developer tools
+- Data structures, algorithms, and problem solving
+- Open-source collaboration and student-led projects
 
----
+## Selected projects
 
-## 🌱 Currently
+A few projects from my repositories. The links below lead to their source code and current documentation.
+
+| Project | Focus |
+| --- | --- |
+| **[NIRDHOOM](https://github.com/coolbandariya/nihdhoom)** | Field-first agricultural operations concept connecting field activity, evidence, residue workflows, and payments. |
+| **[GitGlobe](https://github.com/coolbandariya/GitGlobe)** | Exploring and visualizing information from the GitHub ecosystem. |
+| **[SATARK](https://github.com/coolbandariya/Satark)** | Safety-focused software project. |
+| **[Adapt AI](https://github.com/coolbandariya/adapt-ai)** | An AI-oriented project exploring adaptive experiences. |
+| **[JYC Website](https://github.com/coolbandariya/JYC-Website)** | Website work for the JIIT Youth Club. |
+| **[Smart Waste Project](https://github.com/coolbandariya/smart_waste_project)** | Technology-assisted waste-management project. |
+
+> These are short summaries, not claims about production readiness. Please check each repository for its current features, setup instructions, and status.
+
+## What I'm working on
 
 - Building and refining software projects
-- Improving my problem-solving and development skills
+- Strengthening my DSA and software-development fundamentals
 - Exploring practical applications of AI
-- Learning through open-source collaboration and hands-on work
+- Learning through hands-on development and open-source work
 
----
+## Tech
 
-## 🤝 Connect
+I use different tools and languages across projects and continue to expand my toolkit. For an accurate view of a project's stack, see that repository's README and source files.
+
+## Explore & connect
 
 - **GitHub:** [@coolbandariya](https://github.com/coolbandariya)
-
-Feel free to explore my repositories, open an issue, or reach out through GitHub if you'd like to discuss a project or collaborate.
+- Browse the repositories below to see experiments, coursework, and project work.
 
 ---
 
-<sub>Thanks for stopping by!</sub>
+<div align="center">
+  <sub>Thanks for visiting — feedback and thoughtful collaboration are welcome.</sub>
+</div>
