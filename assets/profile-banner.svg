@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">Kaustubh Dua — software and AI</title>
+<desc id="desc">Minimal dark navy banner with a subtle geometric network and the text Kaustubh Dua, Computer Engineering student and software developer.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101827"/><stop offset="1" stop-color="#172b3b"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#67e8f9"/><stop offset="1" stop-color="#a5f3fc"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".045" stroke-width="1"/></pattern>
+</defs>
+<rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+<rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+<g fill="none" stroke="#67e8f9" stroke-opacity=".25" stroke-width="1.5">
+<path d="M820 50L940 105 1080 54 1160 132 1030 220 900 190 820 270 740 205 820 50Z"/>
+<path d="M940 105L900 190 1030 220 1080 54M740 205L900 190 1160 132"/>
+</g>
+<g fill="#67e8f9"><circle cx="820" cy="50" r="5"/><circle cx="940" cy="105" r="5"/><circle cx="1080" cy="54" r="5"/><circle cx="1160" cy="132" r="5"/><circle cx="1030" cy="220" r="5"/><circle cx="900" cy="190" r="5"/><circle cx="820" cy="270" r="5"/><circle cx="740" cy="205" r="5"/></g>
+<rect x="64" y="62" width="6" height="190" rx="3" fill="url(#accent)"/>
+<text x="96" y="135" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="52" font-weight="700" letter-spacing="-1.5">Kaustubh Dua</text>
+<text x="99" y="180" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Computer Engineering Student · Software Developer</text>
+<text x="99" y="220" fill="#67e8f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="2.2">BUILDING · LEARNING · CONTRIBUTING</text>
+</svg>
