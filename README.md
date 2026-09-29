@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/github/followers/coolbandariya?style=flat-square&label=Followers&color=0e7490" alt="GitHub followers">
 </p>
 
-<a href="#about">About</a> &nbsp;·&nbsp; <a href="#projects">Projects</a> &nbsp;·&nbsp; <a href="#current-focus">Focus</a> &nbsp;·&nbsp; <a href="#toolbox">Toolbox</a> &nbsp;·&nbsp; <a href="#community">Community</a> &nbsp;·&nbsp; <a href="#connect">Connect</a>
+<a href="#about">About</a> &nbsp;·&nbsp; <a href="#projects">Projects</a> &nbsp;·&nbsp; <a href="#toolbox">Tech stack</a> &nbsp;·&nbsp; <a href="#focus">Focus</a> &nbsp;·&nbsp; <a href="#community">Community</a> &nbsp;·&nbsp; <a href="#connect">Connect</a>
 
 </div>
 
@@ -20,72 +20,138 @@
 <a id="about"></a>
 ## Hey, I'm Kaustubh 👋
 
-I'm a Computer Engineering student at **Jaypee Institute of Information Technology (JIIT), Noida**, interested in building useful software and understanding the engineering behind it.
+I'm a Computer Engineering student at **Jaypee Institute of Information Technology (JIIT), Noida**. I like building useful software, exploring how systems work, and improving projects through iteration.
 
-My interests include **software engineering, applied AI, and fintech**. I enjoy taking an idea from an early prototype through iteration: clarifying the problem, shaping the experience, and making the implementation easier to understand and maintain.
+My interests include **software engineering, applied AI, data-driven products, and fintech**. Across my repositories, I've worked on web applications, local AI, geospatial data, route optimization, and data-structure-driven simulations.
 
-> Currently learning by building, testing, reviewing, and improving.
+<img src="assets/tech-orbit.svg" alt="Custom illustration: software, AI, and connected systems" width="100%" />
 
 <a id="projects"></a>
-## Projects
+## Selected projects
 
-A selection of projects that reflect what I've been exploring. Each repository is the source of truth for its current status and implementation.
+A quick tour of different problem spaces represented in my public repositories. Project descriptions reflect the repository documentation; check each repo for its current implementation and status.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/coolbandariya/nihdhoom">NIRDHOOM</a></h3>
-      <p>A field-first agricultural operations project exploring connected workflows for field activity, machinery, evidence, residue handling, and records.</p>
-      <p><sub>Product workflows · Web application</sub></p>
+      <h3><a href="https://github.com/coolbandariya/nihdhoom">🌾 NIRDHOOM</a></h3>
+      <p>Field-first agricultural operations concept connecting field activity, machinery workflows, evidence, residue handling, and records.</p>
+      <sub>React · JavaScript · TypeScript · Vite · Supabase · Leaflet · Three.js</sub>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/coolbandariya/GitGlobe">GitGlobe</a></h3>
-      <p>A project exploring ways to visualize and navigate information from the GitHub ecosystem.</p>
-      <p><sub>Developer tooling · GitHub</sub></p>
+      <h3><a href="https://github.com/coolbandariya/GitGlobe">🌐 GitGlobe</a></h3>
+      <p>A 3D interactive globe for exploring open-source repositories by semantic similarity, with search, domain filters, and navigable visual discovery.</p>
+      <sub>Three.js · WebGL · Python · UMAP · embeddings · data pipelines</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/coolbandariya/Satark">SATARK</a></h3>
-      <p>A safety-focused software project centered on making useful information and workflows more accessible.</p>
-      <p><sub>Applied software</sub></p>
+      <h3><a href="https://github.com/coolbandariya/adapt-ai">🧠 Adapt AI</a></h3>
+      <p>A hardware-aware local AI assistant that profiles system memory, recommends locally runnable models, and provides chat, telemetry, file attachments, and Python execution.</p>
+      <sub>Python · FastAPI · Ollama · JavaScript · Tailwind · Chart.js</sub>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/coolbandariya/adapt-ai">Adapt AI</a></h3>
-      <p>An AI-oriented project exploring adaptive and personalized experiences.</p>
-      <p><sub>Applied AI</sub></p>
+      <h3><a href="https://github.com/coolbandariya/Satark">🛡️ SATARK</a></h3>
+      <p>A Streamlit security-awareness and threat-analysis app for examining suspicious messages, URLs, images, and documents with evidence-oriented results.</p>
+      <sub>Python · Streamlit · Groq · Pillow · pypdf · ReportLab</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/coolbandariya/Akash-Chalak">🛰️ AkashChalak</a></h3>
+      <p>Satellite-assisted air-quality and hotspot decision-support prototype with live-source ingestion, spatial interpolation, and mapped results.</p>
+      <sub>Python · FastAPI · React · Leaflet · scikit-learn · PostgreSQL · TimescaleDB</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/coolbandariya/smart_waste_project">♻️ Smart Waste</a></h3>
+      <p>Waste collection workflow combining IoT-style time-series data, fill-level prediction, priority scoring, and vehicle-route optimization.</p>
+      <sub>Python · Streamlit · Random Forest · OR-Tools · Folium · Pandas</sub>
     </td>
   </tr>
 </table>
 
+<img src="assets/project-ecosystem.svg" alt="Illustration connecting product engineering, AI and data, geospatial systems, and software systems" width="100%" />
+
 <details>
-  <summary><b>Explore more projects</b></summary>
+  <summary><b>More repositories</b></summary>
   <br>
 
-  - **[JYC Website](https://github.com/coolbandariya/JYC-Website)** — Website development for the JIIT Youth Club.
-  - **[Smart Bike Taxi Platform](https://github.com/coolbandariya/Smart_bike_taxi_platform)** — C++17 ride-booking simulation featuring graph-based route search, a custom hash table, and a defined ride lifecycle.
-  - **[Smart Waste Project](https://github.com/coolbandariya/smart_waste_project)** — A technology-assisted waste-management project.
+  - **[JYC Website](https://github.com/coolbandariya/JYC-Website)** — Club-first public website for JIIT Youth Club, with React, Vite, React Router, Supabase, Three.js, and a CSS-first interaction layer.
+  - **[Smart Bike Taxi Platform](https://github.com/coolbandariya/Smart_bike_taxi_platform)** — C++17 ride-booking simulation using Dijkstra routing, a custom hash table, FIFO requests, local persistence, CMake, and CTest.
+  - **[Nord Studio Task Manager](https://github.com/coolbandariya/nord-studio-task-manager)** — Lightweight task manager built with vanilla HTML, CSS, and JavaScript.
+  - **[Weather Core Matrix](https://github.com/coolbandariya/weather-core-matrix)** — Browser-based weather dashboard using vanilla HTML, CSS, and JavaScript.
+  - **[AkashChalak (alternate repository)](https://github.com/coolbandariya/AkashChalak)** — Alternate repository for the air-quality prototype; see both repository histories before treating them as separate projects.
+  - **[GitHub Skills exercise](https://github.com/coolbandariya/skills-introduction-to-github)** — Repository used for a GitHub learning exercise.
 
 </details>
 
-<a id="current-focus"></a>
-## Current focus
-
-| Area | What I'm developing |
-| --- | --- |
-| **Problem solving** | Building stronger DSA fundamentals and practicing with C++. |
-| **Web engineering** | Creating responsive interfaces and maintainable applications. |
-| **Applied AI** | Exploring practical AI capabilities through project work. |
-| **Open source** | Improving through collaboration, code review, and scoped contributions. |
-
 <a id="toolbox"></a>
-## Toolbox
+## Tech stack across my repositories
+
+These are technologies found in the source and documentation of my public projects—not a claim of equal experience or proficiency in every tool.
+
+**Languages**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=cpp,js,html,css,react,git,github,linux,vscode,vercel,supabase&perline=11" alt="C++, JavaScript, HTML, CSS, React, Git, GitHub, Linux, VS Code, Vercel and Supabase">
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
 </p>
 
-<sub>A visual snapshot of tools I've used or explored—not a proficiency ranking.</sub>
+**Frameworks, libraries & platforms**
+
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit">
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=111827" alt="Supabase">
+  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js">
+  <img src="https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white" alt="Leaflet">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" alt="Chart.js">
+</p>
+
+**AI, data & geospatial**
+
+<p>
+  <img src="https://img.shields.io/badge/Ollama-111827?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
+  <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white" alt="Groq">
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/Google_OR--Tools-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google OR-Tools">
+  <img src="https://img.shields.io/badge/Folium-77B829?style=flat-square&logo=python&logoColor=white" alt="Folium">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/TimescaleDB-FDB515?style=flat-square&logo=timescale&logoColor=111827" alt="TimescaleDB">
+</p>
+
+**Engineering & tooling**
+
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white" alt="CMake">
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111827" alt="Linux">
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
+  <img src="https://img.shields.io/badge/ Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+</p>
+
+Also present in project dependencies or documentation: **Pandas, NumPy, UMAP, Pillow, pypdf, ReportLab, psutil, GPUtil, React Router, and Supabase Edge Functions**.
+
+<a id="focus"></a>
+## What I'm focused on
+
+| Area | Current direction |
+| --- | --- |
+| **DSA & systems** | Strengthening fundamentals through C++ and structured problem solving. |
+| **Full-stack development** | Building responsive interfaces and connecting them to reliable backend services. |
+| **Applied AI** | Exploring local inference, AI-assisted workflows, and data-driven applications. |
+| **Engineering quality** | Improving modularity, validation, tests, documentation, and CI. |
+| **Open source** | Learning through collaboration, code review, and useful contributions. |
 
 <a id="community"></a>
 ## Open source & community
