@@ -2,7 +2,8 @@
 
 <img src="assets/profile-banner.svg" alt="Kaustubh Dua — Computer Engineering student and software developer" width="100%" />
 
-<h3>Computer Engineering student · Software developer · Applied AI explorer</h3>
+<h3>Computer Engineering · Software Development · Applied AI</h3>
+<p><i>Turning ideas into working software, one iteration at a time.</i></p>
 
 <p>
   <a href="https://github.com/coolbandariya"><img src="https://img.shields.io/badge/GitHub-coolbandariya-181717?style=flat-square&logo=github" alt="GitHub profile"></a>
@@ -10,12 +11,13 @@
   <img src="https://img.shields.io/github/followers/coolbandariya?style=flat-square&label=Followers&color=0e7490" alt="GitHub followers">
 </p>
 
-<a href="#selected-work">Selected work</a> &nbsp;·&nbsp; <a href="#what-im-focused-on">Current focus</a> &nbsp;·&nbsp; <a href="#tools-ive-worked-with">Tools</a> &nbsp;·&nbsp; <a href="#connect">Connect</a>
+<a href="#about">About</a> &nbsp;·&nbsp; <a href="#selected-work">Projects</a> &nbsp;·&nbsp; <a href="#what-im-focused-on">Focus</a> &nbsp;·&nbsp; <a href="#tools-ive-worked-with">Tools</a> &nbsp;·&nbsp; <a href="#connect">Connect</a>
 
 </div>
 
 ---
 
+<a id="about"></a>
 ## Hey, I'm Kaustubh 👋
 
 **I like building things that solve real problems—and understanding how they work under the hood.**
@@ -24,12 +26,14 @@ I'm a Computer Engineering student at **Jaypee Institute of Information Technolo
 
 My interests sit around **software engineering, applied AI, and fintech**. I’m still learning, and this profile is a snapshot of that process—not a claim that every project is production-ready.
 
-<details>
-  <summary><b>A little more about how I build</b></summary>
-  <br>
-  I’m interested in the full journey: understanding a problem, choosing a practical approach, building a usable interface, and making the underlying logic easier to maintain. I value clear documentation, useful feedback, and steady iteration.
-</details>
+<p align="left">
+  <img src="https://img.shields.io/badge/Approach-Problem%20first-0e7490?style=flat-square" alt="Problem first">
+  <img src="https://img.shields.io/badge/Values-Clear%20code%20%26%20iteration-0e7490?style=flat-square" alt="Clear code and iteration">
+</p>
 
+I care about the whole process: understanding the problem, choosing a practical approach, building a usable interface, and making the implementation easier to maintain.
+
+<a id="selected-work"></a>
 ## Selected work
 
 A few projects that represent the kinds of problems I like exploring.
@@ -71,6 +75,7 @@ A few projects that represent the kinds of problems I like exploring.
 
 </details>
 
+<a id="what-im-focused-on"></a>
 ## What I'm focused on
 
 | Area | What I'm working toward |
@@ -80,6 +85,7 @@ A few projects that represent the kinds of problems I like exploring.
 | **Applied AI** | Exploring practical AI features and product ideas. |
 | **Open source** | Learning through collaboration, code review, and contributions. |
 
+<a id="tools-ive-worked-with"></a>
 ## Tools I've worked with
 
 <p>
@@ -91,7 +97,9 @@ A few projects that represent the kinds of problems I like exploring.
 ## Open source & community
 
 - Contributor to **GirlScript Summer of Code (GSSoC) 2026**.
-- Interested in student-led development and collaborative open-source projects.
+- Interested in student-led development, code review, and collaborative open-source projects.
+
+I’m keen to learn from maintainers and contribute to projects where I can make a useful, well-scoped improvement.
 
 ## GitHub activity
 
@@ -105,10 +113,11 @@ A few projects that represent the kinds of problems I like exploring.
 
 <sub>These are third-party visualizations of GitHub activity. They may have caching delays or service interruptions.</sub>
 
+<a id="connect"></a>
 ## Connect
 
 <div align="center">
-  <a href="https://github.com/coolbandariya"><img src="https://img.shields.io/badge/GitHub-Find%20me-181717?style=for-the-badge&logo=github" alt="GitHub profile"></a>
+  <a href="https://github.com/coolbandariya"><img src="https://img.shields.io/badge/GitHub-coolbandariya-181717?style=for-the-badge&logo=github" alt="GitHub profile"></a>
   <br><br>
-  <sub>Thanks for stopping by. Feel free to explore the repositories or share constructive feedback.</sub>
+  <sub>Have an idea, collaboration, or constructive feedback? Explore my repositories and reach out through GitHub.</sub>
 </div>
