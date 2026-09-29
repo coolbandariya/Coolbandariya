@@ -137,7 +137,7 @@ These are technologies found in the source and documentation of my public projec
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111827" alt="Linux">
   <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
-  <img src="https://img.shields.io/badge/ Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
 </p>
 
 Also present in project dependencies or documentation: **Pandas, NumPy, UMAP, Pillow, pypdf, ReportLab, psutil, GPUtil, React Router, and Supabase Edge Functions**.
