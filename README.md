@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/github/followers/coolbandariya?style=flat-square&label=Followers&color=0e7490" alt="GitHub followers">
 </p>
 
-<a href="#about">About</a> &nbsp;·&nbsp; <a href="#selected-work">Projects</a> &nbsp;·&nbsp; <a href="#what-im-focused-on">Focus</a> &nbsp;·&nbsp; <a href="#tools-ive-worked-with">Tools</a> &nbsp;·&nbsp; <a href="#connect">Connect</a>
+<a href="#about">About</a> &nbsp;·&nbsp; <a href="#projects">Projects</a> &nbsp;·&nbsp; <a href="#current-focus">Focus</a> &nbsp;·&nbsp; <a href="#toolbox">Toolbox</a> &nbsp;·&nbsp; <a href="#community">Community</a> &nbsp;·&nbsp; <a href="#connect">Connect</a>
 
 </div>
 
@@ -20,98 +20,90 @@
 <a id="about"></a>
 ## Hey, I'm Kaustubh 👋
 
-**I like building things that solve real problems—and understanding how they work under the hood.**
+I'm a Computer Engineering student at **Jaypee Institute of Information Technology (JIIT), Noida**, interested in building useful software and understanding the engineering behind it.
 
-I'm a Computer Engineering student at **Jaypee Institute of Information Technology (JIIT), Noida**. I enjoy moving from an idea to a working prototype, learning through iteration, and improving the engineering behind what I build.
+My interests include **software engineering, applied AI, and fintech**. I enjoy taking an idea from an early prototype through iteration: clarifying the problem, shaping the experience, and making the implementation easier to understand and maintain.
 
-My interests sit around **software engineering, applied AI, and fintech**. I’m still learning, and this profile is a snapshot of that process—not a claim that every project is production-ready.
+> Currently learning by building, testing, reviewing, and improving.
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Approach-Problem%20first-0e7490?style=flat-square" alt="Problem first">
-  <img src="https://img.shields.io/badge/Values-Clear%20code%20%26%20iteration-0e7490?style=flat-square" alt="Clear code and iteration">
-</p>
+<a id="projects"></a>
+## Projects
 
-I care about the whole process: understanding the problem, choosing a practical approach, building a usable interface, and making the implementation easier to maintain.
-
-<a id="selected-work"></a>
-## Selected work
-
-A few projects that represent the kinds of problems I like exploring.
+A selection of projects that reflect what I've been exploring. Each repository is the source of truth for its current status and implementation.
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/coolbandariya/nihdhoom">NIRDHOOM</a></h3>
-      <p>Field-first agricultural operations concept connecting field activity, machine workflows, evidence, residue handling, and payment records.</p>
-      <sub>Product workflow · Web application</sub>
+      <p>A field-first agricultural operations project exploring connected workflows for field activity, machinery, evidence, residue handling, and records.</p>
+      <p><sub>Product workflows · Web application</sub></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/coolbandariya/GitGlobe">GitGlobe</a></h3>
-      <p>Exploring ways to visualize and navigate information from the GitHub ecosystem.</p>
-      <sub>Developer tooling · GitHub</sub>
+      <p>A project exploring ways to visualize and navigate information from the GitHub ecosystem.</p>
+      <p><sub>Developer tooling · GitHub</sub></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/coolbandariya/Satark">SATARK</a></h3>
-      <p>A safety-focused software project, built around making useful information and workflows more accessible.</p>
-      <sub>Applied software</sub>
+      <p>A safety-focused software project centered on making useful information and workflows more accessible.</p>
+      <p><sub>Applied software</sub></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/coolbandariya/adapt-ai">Adapt AI</a></h3>
-      <p>An AI-oriented project exploring adaptive, personalized experiences.</p>
-      <sub>Applied AI</sub>
+      <p>An AI-oriented project exploring adaptive and personalized experiences.</p>
+      <p><sub>Applied AI</sub></p>
     </td>
   </tr>
 </table>
 
 <details>
-  <summary><b>More projects</b></summary>
+  <summary><b>Explore more projects</b></summary>
   <br>
 
   - **[JYC Website](https://github.com/coolbandariya/JYC-Website)** — Website development for the JIIT Youth Club.
-  - **[Smart Bike Taxi Platform](https://github.com/coolbandariya/Smart_bike_taxi_platform)** — C++17 ride-booking simulation using Dijkstra's algorithm, a FIFO queue, a custom hash table, and an explicit ride lifecycle.
+  - **[Smart Bike Taxi Platform](https://github.com/coolbandariya/Smart_bike_taxi_platform)** — C++17 ride-booking simulation featuring graph-based route search, a custom hash table, and a defined ride lifecycle.
   - **[Smart Waste Project](https://github.com/coolbandariya/smart_waste_project)** — A technology-assisted waste-management project.
 
 </details>
 
-<a id="what-im-focused-on"></a>
-## What I'm focused on
+<a id="current-focus"></a>
+## Current focus
 
-| Area | What I'm working toward |
+| Area | What I'm developing |
 | --- | --- |
-| **DSA & problem solving** | Strengthening fundamentals and problem-solving with C++. |
-| **Web development** | Building responsive, maintainable applications. |
-| **Applied AI** | Exploring practical AI features and product ideas. |
-| **Open source** | Learning through collaboration, code review, and contributions. |
+| **Problem solving** | Building stronger DSA fundamentals and practicing with C++. |
+| **Web engineering** | Creating responsive interfaces and maintainable applications. |
+| **Applied AI** | Exploring practical AI capabilities through project work. |
+| **Open source** | Improving through collaboration, code review, and scoped contributions. |
 
-<a id="tools-ive-worked-with"></a>
-## Tools I've worked with
+<a id="toolbox"></a>
+## Toolbox
 
 <p>
   <img src="https://skillicons.dev/icons?i=cpp,js,html,css,react,git,github,linux,vscode,vercel,supabase&perline=11" alt="C++, JavaScript, HTML, CSS, React, Git, GitHub, Linux, VS Code, Vercel and Supabase">
 </p>
 
-<sub>This is a snapshot of tools I've used or explored; it isn't a proficiency ranking.</sub>
+<sub>A visual snapshot of tools I've used or explored—not a proficiency ranking.</sub>
 
+<a id="community"></a>
 ## Open source & community
 
 - Contributor to **GirlScript Summer of Code (GSSoC) 2026**.
-- Interested in student-led development, code review, and collaborative open-source projects.
+- Interested in student-led development, collaborative problem-solving, and learning from maintainers.
 
-I’m keen to learn from maintainers and contribute to projects where I can make a useful, well-scoped improvement.
+I value useful, well-scoped contributions and thoughtful feedback.
 
 ## GitHub activity
 
-<p align="center">
+<div align="center">
   <img width="90%" src="https://github-readme-stats.vercel.app/api?username=coolbandariya&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" alt="GitHub statistics">
-</p>
-
-<p align="center">
+  <br><br>
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=coolbandariya&theme=tokyo-night&hide_border=true" alt="GitHub activity graph">
-</p>
+</div>
 
-<sub>These are third-party visualizations of GitHub activity. They may have caching delays or service interruptions.</sub>
+<sub>Activity cards are third-party visualizations and may have caching delays or service interruptions.</sub>
 
 <a id="connect"></a>
 ## Connect
@@ -119,5 +111,5 @@ I’m keen to learn from maintainers and contribute to projects where I can make
 <div align="center">
   <a href="https://github.com/coolbandariya"><img src="https://img.shields.io/badge/GitHub-coolbandariya-181717?style=for-the-badge&logo=github" alt="GitHub profile"></a>
   <br><br>
-  <sub>Have an idea, collaboration, or constructive feedback? Explore my repositories and reach out through GitHub.</sub>
+  <sub>Interested in a project or have constructive feedback? Browse the repositories and connect through GitHub.</sub>
 </div>
