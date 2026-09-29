@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/github/followers/coolbandariya?style=flat-square&label=Followers&color=0e7490" alt="GitHub followers">
 </p>
 
-<a href="#selected-work">Selected work</a> · <a href="#what-im-focused-on">Current focus</a> · <a href="#connect">Connect</a>
+<a href="#selected-work">Selected work</a> &nbsp;·&nbsp; <a href="#what-im-focused-on">Current focus</a> &nbsp;·&nbsp; <a href="#tools-ive-worked-with">Tools</a> &nbsp;·&nbsp; <a href="#connect">Connect</a>
 
 </div>
 
@@ -18,9 +18,17 @@
 
 ## Hey, I'm Kaustubh 👋
 
-I'm a Computer Engineering student at **Jaypee Institute of Information Technology (JIIT), Noida**. I enjoy building software, exploring practical AI applications, and learning by taking ideas from a rough prototype toward something people can use.
+**I like building things that solve real problems—and understanding how they work under the hood.**
 
-I’m especially interested in the intersection of **software engineering, AI, and fintech**. This profile is a snapshot of what I’m building and learning—not a claim that every project is production-ready.
+I'm a Computer Engineering student at **Jaypee Institute of Information Technology (JIIT), Noida**. I enjoy moving from an idea to a working prototype, learning through iteration, and improving the engineering behind what I build.
+
+My interests sit around **software engineering, applied AI, and fintech**. I’m still learning, and this profile is a snapshot of that process—not a claim that every project is production-ready.
+
+<details>
+  <summary><b>A little more about how I build</b></summary>
+  <br>
+  I’m interested in the full journey: understanding a problem, choosing a practical approach, building a usable interface, and making the underlying logic easier to maintain. I value clear documentation, useful feedback, and steady iteration.
+</details>
 
 ## Selected work
 
@@ -65,10 +73,12 @@ A few projects that represent the kinds of problems I like exploring.
 
 ## What I'm focused on
 
-- **DSA & problem solving** — strengthening fundamentals with C++.
-- **Web development** — building and refining usable web applications.
-- **Applied AI** — exploring practical AI features and product ideas.
-- **Open source** — learning to collaborate, review code, and contribute in public.
+| Area | What I'm working toward |
+| --- | --- |
+| **DSA & problem solving** | Strengthening fundamentals and problem-solving with C++. |
+| **Web development** | Building responsive, maintainable applications. |
+| **Applied AI** | Exploring practical AI features and product ideas. |
+| **Open source** | Learning through collaboration, code review, and contributions. |
 
 ## Tools I've worked with
 
@@ -85,14 +95,15 @@ A few projects that represent the kinds of problems I like exploring.
 
 ## GitHub activity
 
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=coolbandariya&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub statistics">
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=coolbandariya&theme=tokyonight&hide_border=true" alt="GitHub contribution streak">
-</div>
+<p align="center">
+  <img width="90%" src="https://github-readme-stats.vercel.app/api?username=coolbandariya&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" alt="GitHub statistics">
+</p>
 
-<div align="center">
+<p align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=coolbandariya&theme=tokyo-night&hide_border=true" alt="GitHub activity graph">
-</div>
+</p>
+
+<sub>These are third-party visualizations of GitHub activity. They may have caching delays or service interruptions.</sub>
 
 ## Connect
 
