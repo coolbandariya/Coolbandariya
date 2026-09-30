@@ -3,6 +3,10 @@
 <img src="assets/profile-banner.svg" alt="Kaustubh Dua — Computer Engineering student and software developer" width="100%" />
 
 <h3>Computer Engineering · Software Development · Applied AI</h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=900&color=67E8F9&center=true&vCenter=true&width=760&height=50&lines=Computer+Engineering+%40+JIIT+Noida;Building+software+that+solves+real+problems;Exploring+Applied+AI+%26+Fintech;Open+Source+Contributor" alt="Animated introduction" />
+</p>
 <p><i>Turning ideas into working software, one iteration at a time.</i></p>
 
 <p>
@@ -170,6 +174,17 @@ I value useful, well-scoped contributions and thoughtful feedback.
 </div>
 
 <sub>Activity cards are third-party visualizations and may have caching delays or service interruptions.</sub>
+
+<a id="snake"></a>
+## Contribution animation
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/coolbandariya/Coolbandariya/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/coolbandariya/Coolbandariya/output/github-contribution-grid-snake.svg">
+    <img alt="Animated contribution graph snake" src="https://raw.githubusercontent.com/coolbandariya/Coolbandariya/output/github-contribution-grid-snake.svg" width="100%">
+  </picture>
+</p>
 
 <a id="connect"></a>
 ## Connect
