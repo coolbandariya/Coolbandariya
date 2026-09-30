@@ -5,9 +5,11 @@
 <h3>Electronics and Computer Science Engineering · JIIT Noida</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=900&color=67E8F9&center=true&vCenter=true&width=760&height=50&lines=Electronics+%26+Computer+Science+Engineering+%40+JIIT+Noida;Building+software+that+solves+real+problems;Exploring+Applied+AI+%26+Fintech;Open+Source+Contributor;Turning+ideas+into+impactful+projects" alt="Animated introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=900&color=67E8F9&center=true&vCenter=true&width=760&height=50&lines=Electronics+%26+Computer+Science+Engineering+%40+JIIT+Noida;Building+useful+software+across+AI+%26+systems;Exploring+applied+AI+%26+fintech" alt="Animated introduction" />
 </p>
-<p><i>Turning ideas into working software, one iteration at a time.</i></p>\n\n<p align="center"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32" alt="Waving hand animation"> &nbsp; <img src="https://img.shields.io/badge/Currently-Engineering%20%26%20Building-0e7490?style=flat-square&logo=github" alt="Currently engineering and building"></p>
+<p><i>Turning ideas into working software, one iteration at a time.</i></p>
+
+<p align="center"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32" alt="Waving hand animation"> &nbsp; <img src="https://img.shields.io/badge/Currently-Engineering%20%26%20Building-0e7490?style=flat-square&logo=github" alt="Currently engineering and building"></p>
 
 <p>
   <a href="https://github.com/coolbandariya"><img src="https://img.shields.io/badge/GitHub-coolbandariya-181717?style=flat-square&logo=github" alt="GitHub profile"></a>
@@ -112,7 +114,7 @@ A quick tour of different problem spaces represented in my public repositories. 
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2600&pause=800&color=67E8F9&center=true&vCenter=true&width=700&height=35&lines=Frontend+%E2%80%A2+Backend+%E2%80%A2+AI;Geospatial+%E2%80%A2+Data+Engineering+%E2%80%A2+Systems;Learning+by+building+and+shipping" alt="Animated technology themes" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2600&pause=800&color=67E8F9&center=true&vCenter=true&width=700&height=35&lines=Frontend+%E2%80%A2+Backend+%E2%80%A2+Applied+AI;Geospatial+%E2%80%A2+Data+%E2%80%A2+Systems" alt="Animated technology themes" />
 </p>
 
 <table>
@@ -206,14 +208,13 @@ I value useful, well-scoped contributions and thoughtful feedback.
 
 ## GitHub activity
 
+<p align="center"><sub>Recent work and contribution activity, presented with lightweight stats.</sub></p>
+
 <div align="center">
   <img width="90%" src="https://github-readme-stats.vercel.app/api?username=coolbandariya&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" alt="GitHub statistics">
   <br><br>
   <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=coolbandariya&theme=tokyonight&hide_border=true" alt="GitHub contribution streak">
   <br><br>
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=coolbandariya&theme=tokyo-night&hide_border=true" alt="GitHub activity graph">
-  <br><br>
-  <img width="95%" src="https://github-profile-trophy.vercel.app/?username=coolbandariya&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6" alt="GitHub profile trophies">
 </div>
 
 <sub>Activity cards are third-party visualizations and may have caching delays or service interruptions.</sub>
