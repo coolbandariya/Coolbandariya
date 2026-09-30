@@ -99,82 +99,85 @@ A quick tour of different problem spaces represented in my public repositories. 
 <p align="center"><img src="assets/signal-divider.svg" width="100%" alt="Animated signal divider" /></p>
 
 <a id="toolbox"></a>
-## Technology map across my repositories
+## 🧰 Technology stack
 
-A repository-backed overview of the languages, frameworks, libraries, and tools used across my public projects. Technologies are grouped by project so the list shows **where each tool appears**, rather than implying equal depth in every technology.
+<p align="center"><i>A snapshot of the tools used across my projects — grouped by what I build with them.</i></p>
 
-<details open>
-<summary><b>🧩 Languages & core web technologies</b></summary>
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++17" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+</p>
 
-- **C++17** — Smart Bike Taxi Platform (CMake, CTest)
-- **Python** — Smart Waste, AkashChalak, Adapt AI, GitGlobe API and data pipeline, SATARK, NIRDHOOM dispatch service
-- **JavaScript / TypeScript** — JYC Website, NIRDHOOM, GitGlobe web app
-- **HTML5 / CSS3** — Weather Core Matrix, Nord Studio Task Manager, and web interfaces across projects
-- **SQL / PostgreSQL** — GitGlobe pipeline, AkashChalak, JYC Website, NIRDHOOM (Supabase/Postgres)
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2600&pause=800&color=67E8F9&center=true&vCenter=true&width=700&height=35&lines=Frontend+%E2%80%A2+Backend+%E2%80%A2+AI;Geospatial+%E2%80%A2+Data+Engineering+%E2%80%A2+Systems;Learning+by+building+and+shipping" alt="Animated technology themes" />
+</p>
 
-</details>
+<table>
+<tr><td width="50%" valign="top">
+
+### ⚡ Languages & foundations
+<p>
+<img src="https://skillicons.dev/icons?i=cpp,python,js,ts,html,css&theme=dark" alt="C++, Python, JavaScript, TypeScript, HTML, CSS" />
+</p>
+<sub>C++17 · Python · JavaScript · TypeScript · HTML5 · CSS3 · SQL</sub>
+
+### 🎨 Frontend & interactive UI
+<p>
+<img src="https://skillicons.dev/icons?i=react,vite,threejs,tailwind&theme=dark" alt="React, Vite, Three.js, Tailwind CSS" />
+</p>
+<sub>React · Vite · Three.js · React Three Fiber · Drei · Framer Motion · React Router · TanStack Query · Zustand · Leaflet · Chart.js · Lucide</sub>
+
+### 🗄️ Backend & databases
+<p>
+<img src="https://skillicons.dev/icons?i=fastapi,postgres,supabase,redis,docker&theme=dark" alt="FastAPI, PostgreSQL, Supabase, Redis, Docker" />
+</p>
+<sub>FastAPI · Supabase · PostgreSQL · SQLAlchemy · Pydantic · Qdrant · Redis · Docker Compose</sub>
+
+</td><td width="50%" valign="top">
+
+### 🧠 AI, ML & data
+<p>
+<img src="https://skillicons.dev/icons?i=tensorflow,sklearn,opencv&theme=dark" alt="TensorFlow, scikit-learn, OpenCV" />
+</p>
+<sub>TensorFlow · scikit-learn · NumPy · Pandas · Joblib · Ollama · Groq · UMAP · HDBSCAN · Prefect · BigQuery · HTTPX</sub>
+
+### 🌍 Geospatial & optimization
+<p>
+<img src="https://skillicons.dev/icons?i=python,postgres&theme=dark" alt="Python and PostgreSQL" />
+</p>
+<sub>GeoPandas · Rasterio · xarray · netCDF4 · Google Earth Engine · CDS API · Folium · OR-Tools · Dijkstra</sub>
+
+### 🧪 Testing, build & delivery
+<p>
+<img src="https://skillicons.dev/icons?i=githubactions,cmake,vercel&theme=dark" alt="GitHub Actions, CMake, Vercel" />
+</p>
+<sub>GitHub Actions · Playwright · Vitest · CMake · CTest · Vercel · Oxlint · Pillow · pypdf · ReportLab</sub>
+
+</td></tr>
+</table>
 
 <details>
-<summary><b>⚛️ Frontend, UI & 3D</b></summary>
+<summary><b>📦 Explore technologies by repository</b></summary>
 
-- **React, React DOM, Vite, TypeScript** — GitGlobe, JYC Website, NIRDHOOM
-- **Three.js, React Three Fiber, Drei** — GitGlobe, JYC Website, NIRDHOOM
-- **Framer Motion** — GitGlobe
-- **TanStack React Query, Zustand, camera-controls** — GitGlobe
-- **React Router** — JYC Website
-- **Tailwind CSS / @tailwindcss-vite** — NIRDHOOM; Tailwind utilities in Adapt AI
-- **Leaflet** — AkashChalak and NIRDHOOM
-- **Lucide React, Chart.js** — GitGlobe/NIRDHOOM and Adapt AI respectively
-- **Vanilla HTML, CSS, JavaScript** — Weather Core Matrix, Nord Studio Task Manager, Adapt AI interface
-
-</details>
-
-<details>
-<summary><b>🧠 AI, machine learning & data</b></summary>
-
-- **scikit-learn, NumPy, Pandas, Joblib** — Smart Waste and AkashChalak
-- **TensorFlow** — AkashChalak
-- **Ollama, FastAPI, psutil, GPUtil** — Adapt AI
-- **Groq** — SATARK
-- **UMAP, HDBSCAN** — GitGlobe pipeline
-- **Qdrant, Redis, PostgreSQL drivers (psycopg2 / asyncpg), Pydantic Settings** — GitGlobe API
-- **Prefect, HTTPX, Google Cloud BigQuery, Google Auth, db-dtypes** — GitGlobe pipeline
-- **Pydantic, SQLAlchemy, psycopg** — AkashChalak backend
+| Repository | Technologies represented |
+| --- | --- |
+| **NIRDHOOM** | React, JavaScript, TypeScript, Vite, Supabase, Leaflet, Three.js, FastAPI, OR-Tools |
+| **GitGlobe** | React, TypeScript, Vite, Three.js, Framer Motion, TanStack Query, Zustand, Python, UMAP, HDBSCAN, Qdrant, Redis, Prefect, BigQuery |
+| **Adapt AI** | Python, FastAPI, Ollama, JavaScript, Tailwind CSS, Chart.js, psutil, GPUtil |
+| **SATARK** | Python, Streamlit, Groq, OpenCV, Pillow, pypdf, ReportLab |
+| **AkashChalak** | Python, FastAPI, React, Leaflet, scikit-learn, TensorFlow, PostgreSQL, GeoPandas, Rasterio, xarray, netCDF4 |
+| **Smart Waste** | Python, Streamlit, scikit-learn, NumPy, Pandas, Folium, OR-Tools |
+| **JYC Website** | React, Vite, React Router, Supabase, Three.js |
+| **Smart Bike Taxi Platform** | C++17, CMake, CTest, Dijkstra, custom hash table, FIFO queue |
+| **Nord Studio Task Manager** | HTML, CSS, JavaScript |
+| **Weather Core Matrix** | HTML, CSS, JavaScript |
 
 </details>
 
-<details>
-<summary><b>🗺️ Geospatial, climate & optimization</b></summary>
-
-- **GeoPandas, Rasterio, xarray, netCDF4** — AkashChalak
-- **Google Earth Engine API, CDS API** — AkashChalak data-source integrations
-- **Folium, Streamlit-Folium, OR-Tools** — Smart Waste
-- **Leaflet** — AkashChalak and NIRDHOOM
-- **OR-Tools, FastAPI, Uvicorn** — NIRDHOOM dispatch optimization service
-- **Custom graph algorithms (Dijkstra), hash table and FIFO queue** — Smart Bike Taxi Platform
-
-</details>
-
-<details>
-<summary><b>🧰 Backend, testing, build & delivery</b></summary>
-
-- **Supabase / Supabase JS** — JYC Website and NIRDHOOM
-- **FastAPI, Uvicorn** — Adapt AI, AkashChalak, GitGlobe API, NIRDHOOM dispatch
-- **Vitest, TypeScript, TSX, Vite** — GitGlobe web tooling
-- **Playwright** — JYC Website and NIRDHOOM browser tests
-- **CMake, CTest, C++17** — Smart Bike Taxi Platform
-- **GitHub Actions** — CI workflows across multiple repositories; contribution-snake generation for this profile
-- **Vercel** — deployment configuration in JYC Website, GitGlobe, and NIRDHOOM
-- **Docker Compose** — AkashChalak and GitGlobe pipeline
-- **OpenCV, Pillow, pypdf, ReportLab** — SATARK document/image analysis and PDF reporting
-- **Oxlint** — NIRDHOOM code-quality tooling
-
-</details>
-
-**Repository note:** AkashChalak and Akash-Chalak contain the same project lineage, so they are listed as one technology family. The GitHub Skills repository is a guided GitHub exercise, not a separate application stack.
-
-
-<p align="center"><img src="assets/signal-divider.svg" width="100%" alt="Animated signal divider" /></p>
+<p align="center"><sub>Technologies are shown because they appear in project files or documentation; this is a project map, not a proficiency ranking.</sub></p>
 
 <a id="focus"></a>
 ## What I'm focused on
