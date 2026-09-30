@@ -170,7 +170,11 @@ I value useful, well-scoped contributions and thoughtful feedback.
 <div align="center">
   <img width="90%" src="https://github-readme-stats.vercel.app/api?username=coolbandariya&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" alt="GitHub statistics">
   <br><br>
+  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=coolbandariya&theme=tokyonight&hide_border=true" alt="GitHub contribution streak">
+  <br><br>
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=coolbandariya&theme=tokyo-night&hide_border=true" alt="GitHub activity graph">
+  <br><br>
+  <img width="95%" src="https://github-profile-trophy.vercel.app/?username=coolbandariya&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6" alt="GitHub profile trophies">
 </div>
 
 <sub>Activity cards are third-party visualizations and may have caching delays or service interruptions.</sub>
