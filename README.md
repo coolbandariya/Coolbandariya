@@ -2,12 +2,12 @@
 
 <img src="assets/profile-banner.svg" alt="Kaustubh Dua — Computer Engineering student and software developer" width="100%" />
 
-<h3>Computer Engineering · Software Development · Applied AI</h3>
+<h3>Electronics and Computer Science Engineering · JIIT Noida</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=900&color=67E8F9&center=true&vCenter=true&width=760&height=50&lines=Computer+Engineering+%40+JIIT+Noida;Building+software+that+solves+real+problems;Exploring+Applied+AI+%26+Fintech;Open+Source+Contributor" alt="Animated introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=900&color=67E8F9&center=true&vCenter=true&width=760&height=50&lines=Electronics+%26+Computer+Science+Engineering+%40+JIIT+Noida;Building+software+that+solves+real+problems;Exploring+Applied+AI+%26+Fintech;Open+Source+Contributor;Turning+ideas+into+impactful+projects" alt="Animated introduction" />
 </p>
-<p><i>Turning ideas into working software, one iteration at a time.</i></p>
+<p><i>Turning ideas into working software, one iteration at a time.</i></p>\n\n<p align="center"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32" alt="Waving hand animation"> &nbsp; <img src="https://img.shields.io/badge/Currently-Engineering%20%26%20Building-0e7490?style=flat-square&logo=github" alt="Currently engineering and building"></p>
 
 <p>
   <a href="https://github.com/coolbandariya"><img src="https://img.shields.io/badge/GitHub-coolbandariya-181717?style=flat-square&logo=github" alt="GitHub profile"></a>
@@ -24,7 +24,7 @@
 <a id="about"></a>
 ## Hey, I'm Kaustubh 👋
 
-I'm a Computer Engineering student at **Jaypee Institute of Information Technology (JIIT), Noida**. I like building useful software, exploring how systems work, and improving projects through iteration.
+I'm pursuing **Electronics and Computer Science Engineering at Jaypee Institute of Information Technology (JIIT), Noida**. I like building useful software, exploring how systems work, and improving projects through iteration.
 
 My interests include **software engineering, applied AI, data-driven products, and fintech**. Across my repositories, I've worked on web applications, local AI, geospatial data, route optimization, and data-structure-driven simulations.
 
