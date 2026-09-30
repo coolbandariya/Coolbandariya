@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/profile-banner.svg" alt="Kaustubh Dua — Computer Engineering student and software developer" width="100%" />
+<img src="assets/profile-banner.svg" alt="Kaustubh Dua — Electronics and Computer Science Engineering student at JIIT Noida" width="100%" />
 
 <h3>Electronics and Computer Science Engineering · JIIT Noida</h3>
 
@@ -21,6 +21,9 @@
 
 ---
 
+
+<p align="center"><img src="assets/signal-divider.svg" width="100%" alt="Animated signal divider" /></p>
+
 <a id="about"></a>
 ## Hey, I'm Kaustubh 👋
 
@@ -29,6 +32,9 @@ I'm pursuing **Electronics and Computer Science Engineering at Jaypee Institute 
 My interests include **software engineering, applied AI, data-driven products, and fintech**. Across my repositories, I've worked on web applications, local AI, geospatial data, route optimization, and data-structure-driven simulations.
 
 <img src="assets/tech-orbit.svg" alt="Custom illustration: software, AI, and connected systems" width="100%" />
+
+
+<p align="center"><img src="assets/signal-divider.svg" width="100%" alt="Animated signal divider" /></p>
 
 <a id="projects"></a>
 ## Selected projects
@@ -88,6 +94,9 @@ A quick tour of different problem spaces represented in my public repositories. 
   - **[GitHub Skills exercise](https://github.com/coolbandariya/skills-introduction-to-github)** — Repository used for a GitHub learning exercise.
 
 </details>
+
+
+<p align="center"><img src="assets/signal-divider.svg" width="100%" alt="Animated signal divider" /></p>
 
 <a id="toolbox"></a>
 ## Technology map across my repositories
@@ -164,6 +173,9 @@ A repository-backed overview of the languages, frameworks, libraries, and tools 
 
 **Repository note:** AkashChalak and Akash-Chalak contain the same project lineage, so they are listed as one technology family. The GitHub Skills repository is a guided GitHub exercise, not a separate application stack.
 
+
+<p align="center"><img src="assets/signal-divider.svg" width="100%" alt="Animated signal divider" /></p>
+
 <a id="focus"></a>
 ## What I'm focused on
 
@@ -175,6 +187,9 @@ A repository-backed overview of the languages, frameworks, libraries, and tools 
 | **Engineering quality** | Improving modularity, validation, tests, documentation, and CI. |
 | **Open source** | Learning through collaboration, code review, and useful contributions. |
 
+
+<p align="center"><img src="assets/signal-divider.svg" width="100%" alt="Animated signal divider" /></p>
+
 <a id="community"></a>
 ## Open source & community
 
@@ -182,6 +197,9 @@ A repository-backed overview of the languages, frameworks, libraries, and tools 
 - Interested in student-led development, collaborative problem-solving, and learning from maintainers.
 
 I value useful, well-scoped contributions and thoughtful feedback.
+
+
+<p align="center"><img src="assets/signal-divider.svg" width="100%" alt="Animated signal divider" /></p>
 
 ## GitHub activity
 
@@ -207,6 +225,9 @@ I value useful, well-scoped contributions and thoughtful feedback.
     <img alt="Animated contribution graph snake" src="https://raw.githubusercontent.com/coolbandariya/Coolbandariya/output/github-contribution-grid-snake.svg" width="100%">
   </picture>
 </p>
+
+
+<p align="center"><img src="assets/signal-divider.svg" width="100%" alt="Animated signal divider" /></p>
 
 <a id="connect"></a>
 ## Connect
