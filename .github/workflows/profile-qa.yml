@@ -49,6 +49,9 @@ jobs:
           assert 'class="pulse"' not in Path("assets/capability-wall.svg").read_text(encoding="utf-8")
           assert 'class="p"' not in Path("assets/workshop-command.svg").read_text(encoding="utf-8")
           assert 'class="pulse"' not in Path("assets/stack-stream.svg").read_text(encoding="utf-8")
+          assert "stroke-dasharray" not in Path("assets/project-bento.svg").read_text(encoding="utf-8")
+          assert "stroke-dasharray" not in Path("assets/profile-banner.svg").read_text(encoding="utf-8")
+          assert "translateX(1200px)" not in Path("assets/project-bento.svg").read_text(encoding="utf-8")
           assert banner.exists() and divider.exists()
 
           for path in (banner, divider, ecosystem, circuit, terminal, stack):
