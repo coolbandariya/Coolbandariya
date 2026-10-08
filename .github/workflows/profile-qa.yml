@@ -31,6 +31,8 @@ jobs:
           assert "Electronics & Computer Engineering" in readme
           assert "ECE student" not in readme
           assert "coolbandariya" not in readme.lower()
+          assert "orbital" not in readme.lower()
+          assert "constellation" not in readme.lower()
           assert banner.exists() and divider.exists()
 
           for path in (banner, divider, ecosystem, circuit, terminal):
