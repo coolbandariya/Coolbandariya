@@ -14,11 +14,11 @@
 
 ---
 
-## Electronics & Computer Engineering student building useful systems
+## Electronics & Computer Engineering · AI · Data · Systems
 
 **JIIT Noida · Electronics & Computer Engineering · AI · Data · Systems · Product**
 
-I build software where **AI, data, systems and real-world constraints** meet. I care about **useful systems, inspectable decisions and software that can survive contact with reality.**
+I build software where **AI, data, systems and real-world constraints** meet — with a bias toward **useful products, inspectable decisions and engineering that survives contact with reality.**
 
 ---
 
@@ -33,13 +33,13 @@ I build software where **AI, data, systems and real-world constraints** meet. I 
 </tr>
 </table>
 
-> **What I optimise for:** useful software, explicit constraints, testable behaviour and evidence that a feature actually works.
+> **Engineering principle:** clarity over cleverness · evidence over assumptions · useful software over feature count.
 
 ---
 
 ## Selected work
 
-<div align="center"><img src="./assets/project-bento.svg" width="96%" alt="Animated bento grid of Kaustubh’s selected engineering projects"/></div>
+<div align="center"><img src="./assets/project-bento.svg" width="96%" alt="Selected engineering projects presented as a dark interactive bento system"/></div>
 
 ### 01 · GitGlobe — Open-source discovery
 **A 3D map of the open-source landscape.**
@@ -122,11 +122,11 @@ The official JYC 128 website combines content architecture, verified public reco
 
 </div>
 
-<div align="center"><img src="./assets/capability-wall.svg" width="96%" alt="Animated engineering capability wall"/></div>
+<div align="center"><img src="./assets/capability-wall.svg" width="96%" alt="Engineering capabilities across AI, data, product, optimisation and delivery"/></div>
 
-<div align="center"><img src="./assets/workshop-command.svg" width="96%" alt="Animated terminal and digital workshop visualization"/></div>
+<div align="center"><img src="./assets/workshop-command.svg" width="96%" alt="Digital engineering workshop showing the build and verification loop"/></div>
 
-<div align="center"><img src="./assets/stack-stream.svg" width="96%" alt="Animated engineering technology stack stream"/></div>
+<div align="center"><img src="./assets/stack-stream.svg" width="96%" alt="Seamless engineering technology stack stream"/></div>
 
 ---
 
@@ -151,7 +151,7 @@ I’m especially interested in problems where the clean diagram ends and reality
 
 ## Build protocol
 
-<div align="center"><img src="./assets/signal-divider.svg" width="72%" alt="Animated engineering signal"/></div>
+<div align="center"><img src="./assets/signal-divider.svg" width="72%" alt="Engineering section marker"/></div>
 
 <div align="center">
 **01 · UNDERSTAND** → **02 · DESIGN** → **03 · BUILD** → **04 · TEST** → **05 · VERIFY** → **06 · SHIP**
@@ -199,6 +199,6 @@ I care about **clarity over cleverness, evidence over assumptions and useful sof
 **[GitHub](https://github.com/kaustubhdua)** · **[Repositories](https://github.com/kaustubhdua?tab=repositories)**
 
 <br/><br/>
-<img src="./assets/signal-divider.svg" width="58%" alt="Animated engineering signal divider"/>
+<img src="./assets/signal-divider.svg" width="58%" alt="Engineering section marker"/>
 <sub>Electronics & Computer Engineering · builder · open-source learner</sub>
 </div>
