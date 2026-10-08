@@ -41,7 +41,7 @@ My projects span open-source discovery, field operations, voice-first assistance
 
 ## Selected work
 
-<div align="center"><img src="./assets/project-ecosystem.svg" width="96%" alt="Animated bento grid of Kaustubh’s selected engineering projects"/></div>
+<div align="center"><img src="./assets/project-bento.svg" width="96%" alt="Animated bento grid of Kaustubh’s selected engineering projects"/></div>
 
 ### 01 · GitGlobe — Open-source discovery
 **A 3D map of the open-source landscape.**
@@ -124,9 +124,9 @@ The official JYC 128 website combines content architecture, verified public reco
 
 </div>
 
-<div align="center"><img src="./assets/engineering-circuit.svg" width="96%" alt="Animated engineering capability wall"/></div>
+<div align="center"><img src="./assets/capability-wall.svg" width="96%" alt="Animated engineering capability wall"/></div>
 
-<div align="center"><img src="./assets/terminal-galaxy.svg" width="96%" alt="Animated terminal and digital workshop visualization"/></div>
+<div align="center"><img src="./assets/workshop-command.svg" width="96%" alt="Animated terminal and digital workshop visualization"/></div>
 
 ---
 
