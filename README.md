@@ -97,7 +97,6 @@ The official JYC 128 website combines content architecture, verified public reco
 ### Other work
 
 | Project | Engineering signal |
-
 |---|---|
 | **[Satark](https://github.com/kaustubhdua/Satark)** | Security analysis, explainability and safer engineering workflows |
 | **[AkashChalak](https://github.com/kaustubhdua/AkashChalak)** | Geospatial air-quality analysis and environmental intelligence |
