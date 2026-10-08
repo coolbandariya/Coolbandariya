@@ -1,16 +1,17 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg?v=21505c3" width="100%" alt="Kaustubh Dua — ECM student building AI systems, data products and software"/>
+<img src="./assets/profile-banner.svg?v=1727ca1" width="100%" alt="Kaustubh Dua — Electronics and Computer Engineering, AI systems, data and product engineering"/>
 
 <p>
-<a href="#selected-work">SELECTED WORK</a> &nbsp;·&nbsp;
+<a href="#selected-work">WORK</a> &nbsp;·&nbsp;
 <a href="#toolkit">TOOLKIT</a> &nbsp;·&nbsp;
-<a href="https://github.com/kaustubhdua?tab=repositories">ALL PROJECTS ↗</a>
+<a href="#approach">APPROACH</a> &nbsp;·&nbsp;
+<a href="https://github.com/kaustubhdua?tab=repositories">ALL REPOS ↗</a>
 </p>
 
 **Electronics & Computer Engineering · JIIT Noida**
 
-I build practical software across **AI, data, optimisation and product engineering**.
+Building practical software across AI, data, optimisation and product engineering.
 
 </div>
 
@@ -18,22 +19,22 @@ I build practical software across **AI, data, optimisation and product engineeri
 
 ## Selected work
 
-<div align="center"><img src="./assets/project-bento.svg" width="100%" alt="Four selected projects across field operations, voice AI, product engineering and machine learning"/></div>
-
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [Nirdhoom ↗](https://github.com/kaustubhdua/nihdhoom)
-Field operations for crop-residue management.
+### [01 / Nirdhoom ↗](https://github.com/kaustubhdua/nihdhoom)
+
+Field operations for crop-residue management, with an emphasis on usable workflows and optimisation.
 
 <sub>React · Supabase · PostgreSQL · OR-Tools</sub>
 
 </td>
 <td width="50%" valign="top">
 
-### [Saathi ↗](https://github.com/kaustubhdua/Saathi)
-Voice-first, multilingual assistance with explicit AI and provider boundaries.
+### [02 / Saathi ↗](https://github.com/kaustubhdua/Saathi)
+
+Voice-first, multilingual assistance with clear AI boundaries and provider integrations.
 
 <sub>Next.js · FastAPI · Python · AI</sub>
 
@@ -42,16 +43,18 @@ Voice-first, multilingual assistance with explicit AI and provider boundaries.
 <tr>
 <td width="50%" valign="top">
 
-### [JYC 128 ↗](https://github.com/kaustubhdua/JYC-Website)
-A public-facing website built with accessibility, testing and maintainability in mind.
+### [03 / JYC 128 ↗](https://github.com/kaustubhdua/JYC-Website)
+
+A public-facing website focused on accessibility, maintainability and reliable delivery.
 
 <sub>React · Vite · Playwright · CI</sub>
 
 </td>
 <td width="50%" valign="top">
 
-### [Smart Waste ↗](https://github.com/kaustubhdua/smart_waste_project)
-Predictive waste monitoring connected to collection-priority scoring and route optimisation.
+### [04 / Smart Waste ↗](https://github.com/kaustubhdua/smart_waste_project)
+
+Predictive waste monitoring linked to collection-priority scoring and route optimisation.
 
 <sub>Python · scikit-learn · OR-Tools</sub>
 
@@ -59,57 +62,60 @@ Predictive waste monitoring connected to collection-priority scoring and route o
 </tr>
 </table>
 
-<sub>More work: [Satark](https://github.com/kaustubhdua/Satark) · [AkashChalak](https://github.com/kaustubhdua/AkashChalak) · [Smart Bike Taxi](https://github.com/kaustubhdua/Smart_bike_taxi_platform)</sub>
+<details>
+<summary><strong>More projects ↗</strong></summary>
+
+- [SATARK](https://github.com/kaustubhdua/Satark) — digital threat triage and verification.
+- [AkashChalak](https://github.com/kaustubhdua/AkashChalak) — explore the project and implementation.
+- [Smart Bike Taxi](https://github.com/kaustubhdua/Smart_bike_taxi_platform) — a software platform for bike-taxi workflows.
+
+</details>
 
 ## Toolkit
 
-<div align="center"><img src="./assets/capability-wall.svg" width="100%" alt="AI, data, product, optimisation and software delivery capabilities"/></div>
+<details open>
+<summary><strong>01 · Languages & application development</strong></summary>
 
-<sub>Python · TypeScript · React · Next.js · FastAPI · PostgreSQL · Supabase · scikit-learn · OR-Tools · GitHub Actions · Playwright</sub>
+**Languages** — Python · TypeScript · JavaScript · SQL
 
-## How I build
+**Application** — React · Next.js · Vite · FastAPI
 
-**Understand → Model → Build → Test → Verify → Ship**
+</details>
 
-I care about clear system boundaries, failure-path testing and being honest about what is shipped, simulated or still a prototype.
+<details>
+<summary><strong>02 · Data, AI & optimisation</strong></summary>
 
----
+**Libraries** — scikit-learn · Pandas · NumPy · OR-Tools
 
-<!-- PROFILE_SYNC_START -->
-## GitHub snapshot
+**Focus** — LLM integrations · Data analysis · Route optimisation
 
-<table>
-<tr>
-<td align="center"><strong>15</strong><br/><sub>REPOSITORIES</sub></td>
-<td align="center"><strong>0</strong><br/><sub>STARS</sub></td>
-<td align="center"><strong>4</strong><br/><sub>FOLLOWERS</sub></td>
-<td align="center"><strong>3</strong><br/><sub>FORKS</sub></td>
-</tr>
-</table>
+</details>
 
-| Project | Stars | Forks | Updated |
-|---|---:|---:|---|
-| [Nirdhoom](https://github.com/kaustubhdua/nihdhoom) | 0 | 3 | 2026-10-08 |
-| [Saathi](https://github.com/kaustubhdua/Saathi) | 0 | 0 | 2026-10-08 |
-| [JYC Website](https://github.com/kaustubhdua/JYC-Website) | 0 | 0 | 2026-10-08 |
-| [Smart Waste](https://github.com/kaustubhdua/smart_waste_project) | 0 | 0 | 2026-10-08 |
+<details>
+<summary><strong>03 · Infrastructure & quality</strong></summary>
 
-<sub>Automatically refreshed 2026-10-08 13:31 UTC · public repository signals</sub>
-<!-- PROFILE_SYNC_END -->
+**Data & platforms** — PostgreSQL · Supabase · Git · GitHub Actions
 
-## Activity
+**Testing** — Playwright · Pytest · CI · API testing
+
+</details>
+
+## Approach
 
 <div align="center">
-<a href="https://github.com/kaustubhdua"><img src="https://github-readme-activity-graph.vercel.app/graph?username=kaustubhdua&bg_color=00000000&color=94a3b8&line=38bdf8&point=a78bfa&area=true&hide_border=true" width="100%" alt="GitHub contribution activity"/></a>
-<br/>
-<a href="https://github.com/kaustubhdua"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake.svg"><img src="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake.svg" width="100%" alt="GitHub contribution activity"/></picture></a>
+
+**DISCOVER** → **MODEL** → **BUILD** → **TEST** → **VERIFY** → **SHIP**
+
 </div>
 
+I care about clear system boundaries, useful interfaces, failure-path testing and being precise about what is shipped versus what is still a prototype.
+
 ---
 
 <div align="center">
 
-**[Explore my repositories ↗](https://github.com/kaustubhdua?tab=repositories)**
+[**Explore all repositories ↗**](https://github.com/kaustubhdua?tab=repositories)
 
 <sub>Build thoughtfully. Verify everything.</sub>
+
 </div>
