@@ -36,6 +36,9 @@ jobs:
           assert "ECE student" not in readme
           assert "coolbandariya" not in readme.lower()
 assert "GitGlobe" not in readme
+          assert "PROFILE VIEWS" not in readme
+          assert "No description yet." not in readme
+          assert "Animated GitHub contribution activity" not in readme
           assert "orbital" not in readme.lower()
           assert "constellation" not in readme.lower()
           assert "project-ecosystem.svg" not in readme
