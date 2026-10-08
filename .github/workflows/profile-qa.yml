@@ -24,9 +24,9 @@ jobs:
           readme = Path("README.md").read_text(encoding="utf-8")
           banner = Path("assets/profile-banner.svg")
           divider = Path("assets/signal-divider.svg")
-          ecosystem = Path("assets/project-ecosystem.svg")
-          circuit = Path("assets/engineering-circuit.svg")
-          terminal = Path("assets/terminal-galaxy.svg")
+          ecosystem = Path("assets/project-bento.svg")
+          circuit = Path("assets/capability-wall.svg")
+          terminal = Path("assets/workshop-command.svg")
 
           assert "Electronics & Computer Engineering" in readme
           assert "ECE student" not in readme
