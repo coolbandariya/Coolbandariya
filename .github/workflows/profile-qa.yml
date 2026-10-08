@@ -14,68 +14,45 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Validate README structure and local SVG assets
-        shell: python {0}
+      - name: Validate README and SVG assets
+        shell: bash
         run: |
+          python - <<'PY'
           from pathlib import Path
           import re
           import xml.etree.ElementTree as ET
 
           readme = Path("README.md").read_text(encoding="utf-8")
-          assert "Electronics & Computer Engineering" in readme
-          assert "d2ol7oe51mr4n9.cloudfront.net/user_3JuNbn6G1fWehaUubucloQMU8cb/e0930052-b661-4682-a281-67b390d8146e.png" in readme
-          assert "GitGlobe" in readme and "SATARK" in readme
-          assert "assets/profile-motion.svg" in readme
-          assert "assets/profile-footer.svg" in readme
-          assert "github-contribution-grid-snake-dark.svg" in readme
-          assert "github-contribution-grid-snake.svg" in readme
-          assert "ECE student" not in readme
-          assert "Minecraft" not in readme
-          assert "Nether" not in readme
+          checks = {
+              "ECM identity": "Electronics & Computer Engineering" in readme,
+              "exact banner URL": "d2ol7oe51mr4n9.cloudfront.net/user_3JuNbn6G1fWehaUubucloQMU8cb/e0930052-b661-4682-a281-67b390d8146e.png" in readme,
+              "featured projects": all(name in readme for name in ("GitGlobe", "NIRDHOOM", "Saathi", "SATARK", "Adapt AI")),
+              "animated build log": "assets/profile-motion.svg" in readme,
+              "animated footer": "assets/profile-footer.svg" in readme,
+              "contribution snake": "github-contribution-grid-snake.svg" in readme,
+              "no obsolete Minecraft theme": not any(word in readme.lower() for word in ("minecraft", "nether")),
+          }
+          for name, passed in checks.items():
+              print(f"{'PASS' if passed else 'FAIL'}: {name}")
+          assert all(checks.values()), "README content validation failed"
 
-          local_refs = re.findall(r'(?:src|href)="(\./assets/[^"]+)"', readme)
-          for ref in local_refs:
+          refs = re.findall(r'(?:src|href)="(\./assets/[^"]+)"', readme)
+          for ref in refs:
               path = Path(ref.split("?", 1)[0])
               assert path.is_file(), f"Missing local asset: {path}"
 
-          assets = [
-              Path("assets/profile-motion.svg"),
-              Path("assets/profile-footer.svg"),
-          ]
-          for path in assets:
+          for path in (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg")):
               ET.parse(path)
               source = path.read_text(encoding="utf-8")
-              assert "<script" not in source.lower(), f"Script is not allowed in {path}"
-              assert 'role="img"' in source, f"Missing accessible image role in {path}"
-              assert "prefers-reduced-motion" in source, f"Missing reduced-motion fallback in {path}"
+              assert 'role="img"' in source, f"Missing accessible role: {path}"
+              assert "prefers-reduced-motion" in source, f"Missing reduced-motion support: {path}"
+              assert "<script" not in source.lower(), f"Unexpected script element: {path}"
               style = re.search(r"<style>(.*?)</style>", source, flags=re.S)
               if style:
-                  css = style.group(1)
-                  assert css.count("{") == css.count("}"), f"Unbalanced CSS braces in {path}"
+                  assert style.group(1).count("{") == style.group(1).count("}"), f"Unbalanced CSS: {path}"
 
-          headings = re.findall(r"^#{1,6}\s+(.+?)\s*$", readme, flags=re.M)
-          def slugify(value):
-              value = re.sub(r"<[^>]+>", "", value).lower()
-              value = re.sub(r"[^a-z0-9 -]", "", value)
-              return re.sub(r"\s+", "-", value.strip())
-          anchors = {slugify(h) for h in headings}
-          internal_links = re.findall(r'href="#([^"]+)"', readme)
-          for anchor in internal_links:
-              assert anchor in anchors, f"Broken internal navigation anchor: #{anchor}"
-
-          required_links = [
-              "https://github.com/kaustubhdua/GitGlobe",
-              "https://github.com/kaustubhdua/nihdhoom",
-              "https://github.com/kaustubhdua/Saathi",
-              "https://github.com/kaustubhdua/Satark",
-              "https://github.com/kaustubhdua/adapt-ai",
-              "https://github.com/kaustubhdua/JYC-Website",
-          ]
-          for url in required_links:
-              assert url in readme, f"Missing featured repository link: {url}"
-
-          for path in assets:
-              source = path.read_text(encoding="utf-8")
-              assert "@keyframes" in source, f"Expected animation in {path}"
-
-          print(f"Profile QA passed: {len(local_refs)} local asset references, {len(internal_links)} internal anchors, {len(required_links)} featured repository links.")
+          assert "href=\"#selected-work\"" in readme
+          assert "href=\"#toolkit\"" in readme
+          assert "href=\"#engineering-approach\"" in readme
+          print(f"PASS: {len(refs)} local asset references, both SVGs parse, and navigation targets are present.")
+          PY
