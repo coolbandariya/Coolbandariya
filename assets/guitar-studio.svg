@@ -1,86 +1,71 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
-<title id="title">Now playing — guitar, music and creative reset</title>
-<desc id="desc">A premium monochrome guitar studio banner with an electric guitar, animated strings, moving audio waveform, practice goals and music-inspired interface details.</desc>
+<title id="title">Now Playing — electric guitar studio</title>
+<desc id="desc">An animated, clearly recognizable double-cutaway electric guitar with six vibrating strings, a fretboard, pickups, bridge, tuning pegs and an audio waveform in a dark studio.</desc>
 <defs>
-  <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e9e3d8"/><stop offset=".45" stop-color="#77746f"/><stop offset="1" stop-color="#242424"/></linearGradient>
-  <linearGradient id="neck" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#373532"/><stop offset=".5" stop-color="#b6b0a5"/><stop offset="1" stop-color="#3b3936"/></linearGradient>
-  <radialGradient id="halo"><stop offset="0" stop-color="#a6a0b6" stop-opacity=".22"/><stop offset="1" stop-color="#a6a0b6" stop-opacity="0"/></radialGradient>
-  <filter id="soft"><feGaussianBlur stdDeviation="3"/></filter>
+ <linearGradient id="bodyPaint" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4777ff"/><stop offset=".28" stop-color="#1d2d63"/><stop offset=".7" stop-color="#111725"/><stop offset="1" stop-color="#05070b"/></linearGradient>
+ <linearGradient id="neckWood" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7b4c2b"/><stop offset=".22" stop-color="#c08b59"/><stop offset=".5" stop-color="#6f4529"/><stop offset=".8" stop-color="#b78353"/><stop offset="1" stop-color="#493020"/></linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6f6f1"/><stop offset=".5" stop-color="#8b95a7"/><stop offset="1" stop-color="#353b48"/></linearGradient>
+ <radialGradient id="glow"><stop offset="0" stop-color="#315bff" stop-opacity=".3"/><stop offset="1" stop-color="#315bff" stop-opacity="0"/></radialGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="5"/></filter>
 </defs>
 <style>
-.bg{fill:#0c0f12}.frame{fill:none;stroke:#363a40;stroke-width:1.2}.micro{fill:#a8a7a4;font:10px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:2px}.eyebrow{fill:#d6d1c7;font:11px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:3px}.headline{fill:#f2efe8;font:800 42px system-ui,-apple-system,sans-serif;letter-spacing:-1.5px}.copy{fill:#b9b8b4;font:12px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.7px}.mutedline{stroke:#46484c;stroke-width:1}.accent{stroke:#d6d1c7;fill:none}.string{stroke:#e8e4dc;stroke-width:.8;transform-box:fill-box;transform-origin:center;animation:pluck 1.8s ease-in-out infinite}.wave{fill:none;stroke:#d8d4cb;stroke-width:1.5;stroke-linecap:round;stroke-dasharray:3 7;animation:wave 6s linear infinite}.pulse{fill:#e5e0d6;transform-box:fill-box;transform-origin:center;animation:pulse 3s ease-out infinite}.card{fill:#13171b;stroke:#3b3f44;stroke-width:1}.cardtitle{fill:#e9e5dc;font:11px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:1.8px}.cardcopy{fill:#aaa9a5;font:10px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:1px}.meter{fill:#3b3e43}.meterfill{fill:#c7c1b7;transform-origin:left;animation:meter 4.5s ease-in-out infinite}.grain{opacity:.06}
-@keyframes pluck{0%,100%{transform:skewY(0);opacity:.65}15%{transform:skewY(1.5deg);opacity:1}35%{transform:skewY(-1deg);opacity:.8}55%{transform:skewY(.35deg);opacity:.7}}@keyframes wave{to{stroke-dashoffset:-120}}@keyframes pulse{0%{transform:scale(.6);opacity:.7}85%,100%{transform:scale(1.8);opacity:0}}@keyframes meter{0%,100%{transform:scaleX(.45)}50%{transform:scaleX(1)}}
-@media(prefers-reduced-motion:reduce){.string,.wave,.pulse,.meterfill{animation:none}.meterfill{transform:scaleX(.75)}}
+.bg{fill:#080b11}.frame{fill:none;stroke:#283142;stroke-width:1}.micro{fill:#9ba8c0;font:10px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:2px}.eyebrow{fill:#d8e0f2;font:11px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:3px}.headline{fill:#f4f6fb;font:800 42px system-ui,-apple-system,sans-serif;letter-spacing:-1.5px}.copy{fill:#b7c0d3;font:12px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.7px}.rule{stroke:#344057;stroke-width:1}.wave{fill:none;stroke:#7fa2ff;stroke-width:1.7;stroke-linecap:round;stroke-dasharray:2 6;animation:wave 4.5s linear infinite}.string{fill:none;stroke:#f4f6ff;stroke-width:.8;transform-box:fill-box;transform-origin:center;animation:pluck 1.3s ease-in-out infinite}.string:nth-child(2){animation-delay:.12s}.string:nth-child(3){animation-delay:.24s}.string:nth-child(4){animation-delay:.36s}.string:nth-child(5){animation-delay:.48s}.string:nth-child(6){animation-delay:.6s}.led{fill:#7fa2ff;animation:led 2.2s ease-in-out infinite}.glint{fill:#fff;opacity:.7;animation:glint 3.5s ease-in-out infinite}.bar{fill:#8daaff;transform-box:fill-box;transform-origin:center;animation:meter .8s ease-in-out infinite alternate}
+@keyframes pluck{0%,100%{transform:skewY(0);opacity:.65}20%{transform:skewY(1.2deg);opacity:1}45%{transform:skewY(-.8deg);opacity:.85}70%{transform:skewY(.25deg);opacity:.75}}@keyframes wave{to{stroke-dashoffset:-96}}@keyframes led{0%,100%{opacity:.35}50%{opacity:1}}@keyframes glint{0%,100%{opacity:.15}50%{opacity:.9}}@keyframes meter{from{transform:scaleY(.25)}to{transform:scaleY(1)}}
+@media(prefers-reduced-motion:reduce){.string,.wave,.led,.glint,.bar{animation:none}}
 </style>
-<rect class="bg" width="1200" height="270" rx="12"/>
-<rect class="frame" x=".75" y=".75" width="1198.5" height="268.5" rx="11"/>
-<circle cx="425" cy="130" r="230" fill="url(#halo)"/>
-<path class="mutedline" d="M28 35H1172"/>
-<circle cx="36" cy="22" r="3" fill="#d9d4ca"/><text class="eyebrow" x="50" y="26">SIDE B / OFF THE CLOCK</text>
-<text class="micro" x="1170" y="26" text-anchor="end">GUITAR • MUSIC • RESET</text>
-<!-- Left editorial copy -->
-<text class="headline" x="34" y="91">NOW</text>
-<text class="headline" x="34" y="132">PLAYING.</text>
-<path d="M35 147H176" stroke="#bcb6aa" stroke-width="2"/>
-<text class="eyebrow" x="35" y="171">SAME SIX STRINGS.</text>
-<text class="eyebrow" x="35" y="188">DIFFERENT WORLDS.</text>
-<text class="copy" x="35" y="216">A little music between builds.</text>
-<text class="micro" x="35" y="239">CREATIVE RESET / EST. ANYTIME</text>
-<!-- Detailed stylized electric guitar -->
-<g transform="translate(235 32) rotate(-19 205 95)">
-  <ellipse cx="214" cy="105" rx="185" ry="110" fill="#c5bdb0" opacity=".05" filter="url(#soft)"/>
-  <!-- neck and headstock -->
-  <path d="M215 82 L390 42 L405 64 L231 109Z" fill="url(#neck)" stroke="#d2ccc1" stroke-width="1.1"/>
-  <path d="M389 42 L429 23 L449 29 L447 48 L409 65Z" fill="#77736d" stroke="#e0d9cd" stroke-width="1.1"/>
-  <!-- fret markers and frets -->
-  <g stroke="#e3ddd2" stroke-width=".8" opacity=".8">
-    <path d="M239 78L246 102 M258 73L265 98 M278 68L285 93 M299 63L306 88 M321 58L328 83 M343 53L350 78 M365 48L372 73 M387 43L394 68"/>
-  </g>
-  <g fill="#d8d2c7">
-    <circle cx="277" cy="80" r="2"/><circle cx="319" cy="69" r="2"/><circle cx="359" cy="60" r="2"/>
-  </g>
-  <!-- body silhouette -->
-  <path d="M219 85 C201 60 167 60 148 80 C132 96 141 112 124 127 C104 144 115 176 142 184 C164 191 181 177 197 184 C222 197 253 179 250 154 C248 137 233 132 240 116 C246 102 238 91 219 85Z" fill="url(#body)" stroke="#eee8dd" stroke-width="1.7"/>
-  <path d="M220 89 C201 71 174 71 157 85 C143 97 152 112 136 130 C122 146 130 167 148 174 C166 182 183 166 198 175 C218 186 240 170 237 153 C234 137 219 132 228 114 C235 102 232 95 220 89Z" fill="none" stroke="#3a3834" stroke-width="1.5"/>
-  <!-- pickguard, pickups and controls -->
-  <path d="M175 95 C193 86 213 98 215 116 L208 149 L178 156 L160 134Z" fill="#272625" stroke="#b9b2a6" stroke-width="1"/>
-  <rect x="173" y="108" width="30" height="7" rx="2" fill="#d8d2c7" stroke="#242424" stroke-width="1"/>
-  <rect x="180" y="132" width="29" height="7" rx="2" fill="#d8d2c7" stroke="#242424" stroke-width="1"/>
-  <path d="M207 143L224 153L225 160L204 154Z" fill="#ded8cc" stroke="#3b3935" stroke-width="1"/>
-  <circle cx="218" cy="126" r="4" fill="#d6d0c4"/><circle cx="224" cy="139" r="3" fill="#d6d0c4"/>
-  <circle cx="159" cy="146" r="3" fill="#d6d0c4"/><circle cx="165" cy="154" r="3" fill="#d6d0c4"/>
-  <!-- strings from bridge over fretboard -->
-  <g>
-    <path class="string" d="M201 151L445 30"/><path class="string" style="animation-delay:.15s" d="M205 153L444 35"/><path class="string" style="animation-delay:.3s" d="M209 155L443 40"/><path class="string" style="animation-delay:.45s" d="M213 157L442 45"/><path class="string" style="animation-delay:.6s" d="M217 159L441 50"/><path class="string" style="animation-delay:.75s" d="M221 161L439 55"/>
-  </g>
-  <!-- tuning pegs -->
-  <g fill="#d8d2c7" stroke="#2c2b29" stroke-width="1">
-    <circle cx="410" cy="35" r="4"/><circle cx="424" cy="29" r="4"/><circle cx="438" cy="25" r="4"/>
-    <circle cx="414" cy="56" r="4"/><circle cx="428" cy="51" r="4"/><circle cx="442" cy="46" r="4"/>
-  </g>
+<rect class="bg" width="1200" height="270" rx="12"/><rect class="frame" x=".75" y=".75" width="1198.5" height="268.5" rx="11"/>
+<circle cx="505" cy="138" r="255" fill="url(#glow)"/>
+<path class="rule" d="M28 35H1172"/><circle cx="36" cy="22" r="3" fill="#86a4ff"/><text class="eyebrow" x="50" y="26">SIDE B / OFF THE CLOCK</text><text class="micro" x="1170" y="26" text-anchor="end">GUITAR • MUSIC • RESET</text>
+<text class="headline" x="34" y="91">NOW</text><text class="headline" x="34" y="132">PLAYING.</text><path d="M35 147H176" stroke="#7295ff" stroke-width="2"/>
+<text class="eyebrow" x="35" y="171">SAME SIX STRINGS.</text><text class="eyebrow" x="35" y="188">DIFFERENT WORLDS.</text><text class="copy" x="35" y="216">A little music between builds.</text><text class="micro" x="35" y="239">CREATIVE RESET / EST. ANYTIME</text>
+<!-- Strat-style electric guitar: classic double cutaways, pickguard, pickups, tremolo bridge and six tuners -->
+<g transform="translate(175 1) rotate(-20 405 132)">
+ <ellipse cx="405" cy="156" rx="184" ry="83" fill="#000" opacity=".65" filter="url(#shadow)"/>
+ <!-- neck -->
+ <path d="M409 111 L665 75 L681 94 L424 139Z" fill="url(#neckWood)" stroke="#e3c49e" stroke-width="1.2"/>
+ <path d="M661 75 L701 59 Q716 58 720 71 L710 94 L680 96Z" fill="#6c482e" stroke="#d9b48c" stroke-width="1.2"/>
+ <!-- dark fretboard -->
+ <path d="M418 112 L666 77 L678 91 L425 134Z" fill="#211c1a" stroke="#d7b28c" stroke-width="1"/>
+ <!-- frets -->
+ <g stroke="#c4cbd8" stroke-width=".8" opacity=".8">
+ <path d="M445 108L449 130 M466 105L470 127 M488 102L492 124 M510 99L514 121 M532 96L536 118 M554 93L558 115 M576 90L580 112 M598 87L602 109 M620 84L624 106 M642 81L646 103 M662 79L666 99"/>
+ </g>
+ <g fill="#b8c9f6"><circle cx="476" cy="113" r="2"/><circle cx="520" cy="106" r="2"/><circle cx="565" cy="100" r="2"/><circle cx="610" cy="93" r="2"/></g>
+ <!-- recognizable Strat double-cutaway body -->
+ <path d="M400 106 C380 83 348 79 326 93 C310 104 307 122 320 136 C331 148 328 158 313 170 C294 186 305 211 330 217 C351 223 370 211 388 205 C404 199 417 202 432 211 C451 223 475 213 480 194 C485 177 469 165 462 154 C453 139 463 127 453 113 C441 95 419 94 400 106Z" fill="url(#bodyPaint)" stroke="#c5d2f4" stroke-width="2"/>
+ <path d="M399 112 C380 92 351 89 332 101 C319 110 317 123 330 137 C344 152 337 162 321 175 C308 187 317 204 335 209 C354 215 373 202 390 197 C405 192 420 198 435 205 C450 212 469 203 472 189 C475 176 459 164 452 152 C443 137 454 126 445 115 C434 101 415 101 399 112Z" fill="none" stroke="#7b9aff" stroke-width="1.2" opacity=".85"/>
+ <!-- pickguard -->
+ <path d="M378 111 C396 103 420 111 427 130 L432 164 C423 181 398 189 378 175 L356 148 C351 132 360 118 378 111Z" fill="#dce4f6" stroke="#8497c8" stroke-width="1.2"/>
+ <!-- pickups: three distinct single coils -->
+ <g fill="#202633" stroke="#9ba8c6" stroke-width="1">
+ <rect x="382" y="119" width="36" height="8" rx="2" transform="rotate(-8 400 123)"/>
+ <rect x="387" y="139" width="36" height="8" rx="2" transform="rotate(-8 405 143)"/>
+ <rect x="390" y="159" width="36" height="8" rx="2" transform="rotate(-8 408 163)"/>
+ </g>
+ <g fill="#f0f3fa"><circle cx="388" cy="122" r="1"/><circle cx="396" cy="121" r="1"/><circle cx="404" cy="120" r="1"/><circle cx="412" cy="119" r="1"/><circle cx="393" cy="142" r="1"/><circle cx="401" cy="141" r="1"/><circle cx="409" cy="140" r="1"/><circle cx="417" cy="139" r="1"/></g>
+ <!-- bridge and tremolo -->
+ <path d="M385 174L431 168L435 179L390 186Z" fill="url(#metal)" stroke="#f2f5ff" stroke-width="1"/>
+ <path d="M428 178L450 194L447 199L426 184Z" fill="url(#metal)" stroke="#9ba7c3" stroke-width=".8"/>
+ <!-- volume/tone knobs and selector -->
+ <g fill="url(#metal)" stroke="#202633" stroke-width="1"><circle cx="352" cy="173" r="6"/><circle cx="360" cy="188" r="6"/><circle cx="370" cy="199" r="5"/></g>
+ <path d="M350 143L342 133" stroke="#202633" stroke-width="3" stroke-linecap="round"/>
+ <!-- six real strings running bridge to nut -->
+ <g>
+ <path class="string" d="M393 181L704 69"/><path class="string" d="M399 182L704 73"/><path class="string" d="M405 183L703 77"/><path class="string" d="M411 184L702 81"/><path class="string" d="M417 185L700 85"/><path class="string" d="M423 186L698 89"/>
+ </g>
+ <!-- six tuning pegs, three per side -->
+ <g fill="url(#metal)" stroke="#242b39" stroke-width="1">
+ <circle cx="684" cy="69" r="4.3"/><circle cx="697" cy="65" r="4.3"/><circle cx="710" cy="63" r="4.3"/><circle cx="690" cy="91" r="4.3"/><circle cx="703" cy="87" r="4.3"/><circle cx="715" cy="82" r="4.3"/>
+ </g>
+ <circle class="glint" cx="344" cy="107" r="3"/>
 </g>
-<!-- Sound waveform -->
-<g transform="translate(660 95)">
-  <text class="micro" x="0" y="-13">FREQUENCY / FEELING</text>
-  <path class="wave" d="M0 20L18 20L25 10L32 30L39 2L46 37L53 14L60 22L67 20L80 20L89 5L98 35L107 0L116 39L125 13L134 20L145 20L155 8L165 31L175 2L185 36L195 13L205 20L216 20L226 7L236 34L246 4L256 38L266 14L276 20L287 20L297 9L307 31L317 2L327 37L337 13L347 20L360 20L370 7L380 34L390 4L400 38L410 14L420 20"/>
-  <path d="M0 50H420" stroke="#4b4d51" stroke-width="2"/>
-  <path d="M0 50H276" stroke="#e5dfd4" stroke-width="2"/>
-  <circle class="pulse" cx="276" cy="50" r="4"/>
-  <text class="micro" x="420" y="68" text-anchor="end">VOLUME UP / NO RUSH</text>
-</g>
-<!-- Right panel -->
-<g transform="translate(850 48)">
-  <rect class="card" width="320" height="187" rx="8"/>
-  <text class="cardtitle" x="17" y="25">THE PRACTICE ROOM</text>
-  <text class="micro" x="302" y="25" text-anchor="end">01—03</text>
-  <path class="mutedline" d="M16 37H304"/>
-  <text class="cardcopy" x="17" y="59">01 / WARM UP</text><rect class="meter" x="17" y="68" width="286" height="4" rx="2"/><rect class="meterfill" x="17" y="68" width="220" height="4" rx="2"/>
-  <text class="cardcopy" x="17" y="91">02 / FIND THE GROOVE</text><rect class="meter" x="17" y="100" width="286" height="4" rx="2"/><rect class="meterfill" x="17" y="100" width="185" height="4" rx="2" style="animation-delay:.7s"/>
-  <text class="cardcopy" x="17" y="123">03 / PLAY SOMETHING NEW</text><rect class="meter" x="17" y="132" width="286" height="4" rx="2"/><rect class="meterfill" x="17" y="132" width="245" height="4" rx="2" style="animation-delay:1.4s"/>
-  <g transform="translate(17 153)">
-    <rect x="0" y="0" width="88" height="21" rx="4" fill="#e6e0d5"/><text x="44" y="14" text-anchor="middle" fill="#17191c" font-family="ui-monospace,monospace" font-size="9" letter-spacing="1.5">TUNE IN</text>
-    <text class="micro" x="112" y="14">PLAY • PAUSE • REPEAT</text>
-  </g>
+<!-- Animated signal visualizer -->
+<g transform="translate(770 94)">
+ <text class="micro" x="0" y="-13">FREQUENCY / FEELING</text>
+ <g transform="translate(0 18)">
+ <rect class="bar" x="0" y="13" width="3" height="7" rx="1"/><rect class="bar" x="12" y="8" width="3" height="17" rx="1" style="animation-delay:.1s"/><rect class="bar" x="24" y="2" width="3" height="29" rx="1" style="animation-delay:.2s"/><rect class="bar" x="36" y="-5" width="3" height="43" rx="1" style="animation-delay:.3s"/><rect class="bar" x="48" y="4" width="3" height="25" rx="1" style="animation-delay:.4s"/><rect class="bar" x="60" y="10" width="3" height="13" rx="1" style="animation-delay:.5s"/><rect class="bar" x="72" y="0" width="3" height="33" rx="1" style="animation-delay:.6s"/><rect class="bar" x="84" y="-12" width="3" height="57" rx="1" style="animation-delay:.7s"/><rect class="bar" x="96" y="2" width="3" height="29" rx="1" style="animation-delay:.8s"/><rect class="bar" x="108" y="7" width="3" height="19" rx="1" style="animation-delay:.9s"/><rect class="bar" x="120" y="-2" width="3" height="37" rx="1" style="animation-delay:1s"/><rect class="bar" x="132" y="4" width="3" height="25" rx="1" style="animation-delay:1.1s"/><rect class="bar" x="144" y="-10" width="3" height="53" rx="1" style="animation-delay:1.2s"/><rect class="bar" x="156" y="3" width="3" height="27" rx="1" style="animation-delay:1.3s"/><rect class="bar" x="168" y="9" width="3" height="15" rx="1" style="animation-delay:1.4s"/><rect class="bar" x="180" y="-4" width="3" height="41" rx="1" style="animation-delay:1.5s"/><rect class="bar" x="192" y="6" width="3" height="21" rx="1" style="animation-delay:1.6s"/><rect class="bar" x="204" y="12" width="3" height="9" rx="1" style="animation-delay:1.7s"/><rect class="bar" x="216" y="3" width="3" height="27" rx="1" style="animation-delay:1.8s"/><rect class="bar" x="228" y="10" width="3" height="13" rx="1" style="animation-delay:1.9s"/><rect class="bar" x="240" y="14" width="3" height="5" rx="1" style="animation-delay:2s"/>
+ </g>
+ <path class="wave" d="M0 65H250"/><path class="rule" d="M0 78H250"/><text class="micro" x="250" y="96" text-anchor="end">PLAY • PAUSE • REPEAT</text>
 </g>
 <text class="micro" x="1170" y="254" text-anchor="end">A PERSONAL INTERLUDE / KAUSTUBH DUA</text>
 </svg>
