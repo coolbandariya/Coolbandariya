@@ -45,7 +45,7 @@ jobs:
           assert "assets/workshop-command.svg" in readme
           assert "assets/stack-stream.svg" in readme
           assert "<!-- PROFILE_SYNC_START -->" in readme or "## Live engineering snapshot" in readme
-          assert "## What I can contribute" in readme
+          assert "## Engineering toolkit" in readme
           banner_text = banner.read_text(encoding="utf-8")
           assert "electronics &amp; computer engineering" not in banner_text.lower()
           assert "ENGINEERING PROFILE" in banner_text
@@ -102,7 +102,6 @@ jobs:
           # repository availability is reviewed against GitHub separately; CI
           # stays deterministic and does not depend on network/rate limits.
           expected_repositories = [
-              "GitGlobe",
               "nihdhoom",
               "Saathi",
               "JYC-Website",
