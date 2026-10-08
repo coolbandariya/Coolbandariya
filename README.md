@@ -2,19 +2,30 @@
 
 <img src="./assets/profile-banner.svg" width="100%" alt="Kaustubh Dua — Electronics & Computer Engineering student building AI, data and systems"/>
 
-<p><a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/SELECTED_WORK-111827?style=flat-square&logo=github&logoColor=white" alt="Selected work"/></a> <a href="https://github.com/kaustubhdua?tab=followers"><img src="https://img.shields.io/badge/OPEN_SOURCE-334155?style=flat-square&logo=github&logoColor=white" alt="Open source"/></a></p>
+<p><a href="#selected-work"><img src="https://img.shields.io/badge/SELECTED_WORK-111827?style=flat-square&logo=github&logoColor=white" alt="Selected work"/></a> <a href="#engineering-map"><img src="https://img.shields.io/badge/ENGINEERING_MAP-334155?style=flat-square&logo=github&logoColor=white" alt="Engineering map"/></a> <a href="#how-i-build"><img src="https://img.shields.io/badge/HOW_I_BUILD-0f766e?style=flat-square&logo=githubactions&logoColor=white" alt="How I build"/></a> <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-475569?style=flat-square&logo=github&logoColor=white" alt="All repositories"/></a></p>
 
 </div>
 
 ---
 
-## Building at the intersection of software & reality
+## Electronics & Computer Engineering student building useful systems
 
-**Electronics & Computer Engineering · JIIT Noida**
+**JIIT Noida · AI · Data · Systems · Product · Open Source**
 
-I build software where **AI, data, systems and real-world constraints** meet.
+I build software where **AI, data, systems and real-world constraints** meet. My strongest work sits at the boundary between a technical idea and the messy conditions needed to make it useful.
 
 My projects span open-source discovery, field operations, voice-first assistance, geospatial intelligence, security analysis and optimisation. I enjoy the whole engineering loop: **understand the problem → design the system → build it → test what can fail → ship what is actually true.**
+
+---
+
+## Engineering snapshot
+
+| Signal | Evidence |
+|---|---|
+| **Open-source discovery** | 198,731-repository semantic globe in GitGlobe |
+| **Real-world operations** | Field-first residue coordination in Nirdhoom |
+| **Voice + AI** | Source-backed, provider-aware assistance in Saathi |
+| **Production web** | CI, CodeQL, accessibility and browser QA in JYC 128 |
 
 ---
 
@@ -142,7 +153,7 @@ I care about **clarity over cleverness, evidence over assumptions and useful sof
 <div align="center">
 <a href="https://github.com/kaustubhdua"><img src="https://github-readme-activity-graph.vercel.app/graph?username=kaustubhdua&bg_color=00000000&color=64748b&line=0f766e&point=0284c7&area=true&hide_border=true" width="94%" alt="GitHub contribution activity"/></a>
 <br/>
-<sub>Contribution history is shown as GitHub activity; the projects above are the work I want you to explore first.</sub>
+<sub>Activity is supporting evidence; the selected projects above are the work I want you to explore first.</sub>
 </div>
 
 ---
