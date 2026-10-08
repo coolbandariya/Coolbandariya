@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg" width="100%" alt="Kaustubh Dua — Electronics & Computer Engineering student building AI, data and systems"/>
+<img src="./assets/profile-banner.svg?v=20f3136" width="100%" alt="Kaustubh Dua — Electronics & Computer Engineering · AI · Data · Systems · Product Engineering"/>
 
 <p><a href="#selected-work"><img src="https://img.shields.io/badge/SELECTED_WORK-111827?style=flat-square&logo=github&logoColor=white" alt="Selected work"/></a> <a href="#engineering-toolkit"><img src="https://img.shields.io/badge/ENGINEERING_TOOLKIT-334155?style=flat-square&logo=github&logoColor=white" alt="What I can contribute"/></a> <a href="#how-i-work"><img src="https://img.shields.io/badge/HOW_I_WORK-0f766e?style=flat-square&logo=githubactions&logoColor=white" alt="Build protocol"/></a> <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-475569?style=flat-square&logo=github&logoColor=white" alt="All repositories"/></a></p>
 
