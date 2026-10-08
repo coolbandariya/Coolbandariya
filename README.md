@@ -6,6 +6,16 @@
 
 </div>
 
+<div align="center">
+  <a href="https://github.com/kaustubhdua"><img src="https://komarev.com/ghpvc/?username=kaustubhdua&label=PROFILE%20VIEWS&color=0f766e&style=flat-square" alt="Profile views"/></a>
+  <a href="https://github.com/kaustubhdua?tab=followers"><img src="https://img.shields.io/github/followers/kaustubhdua?label=FOLLOWERS&style=flat-square&color=334155" alt="GitHub followers"/></a>
+  <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/github/stars/kaustubhdua?label=STARS&style=flat-square&color=0f766e" alt="GitHub stars"/></a>
+</div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2600&pause=900&color=0F766E&center=true&vCenter=true&width=720&lines=Electronics+%26+Computer+Engineering+student;AI+%2B+Data+%2B+Systems+%2B+Product;Building+software+that+survives+real-world+constraints;Open-source+learner+%7C+builder+%7C+shipper" alt="Animated introduction"/>
+</div>
+
 ---
 
 ## Electronics & Computer Engineering student building useful systems
@@ -147,6 +157,45 @@ I care about **clarity over cleverness, evidence over assumptions and useful sof
 - 🧪 Learning through projects, reviews and experimentation
 
 ---
+
+## GitHub intelligence
+
+<div align="center">
+
+<a href="https://github.com/kaustubhdua"><img src="https://github-readme-stats.vercel.app/api?username=kaustubhdua&show_icons=true&hide_border=true&bg_color=00000000&title_color=0f766e&text_color=64748b&icon_color=0284c7&rank_icon=github&include_all_commits=true&count_private=true" width="49%" alt="GitHub statistics"/></a>
+<a href="https://github.com/kaustubhdua"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaustubhdua&layout=compact&hide_border=true&bg_color=00000000&title_color=0f766e&text_color=64748b&langs_count=8" width="40%" alt="Top languages"/></a>
+
+<br/>
+
+<a href="https://github.com/kaustubhdua"><img src="https://streak-stats.demolab.com?user=kaustubhdua&hide_border=true&background=00000000&ring=0f766e&fire=0284c7&currStreakLabel=0f766e&sideLabels=64748b&dates=94a3b8" width="70%" alt="GitHub contribution streak"/></a>
+
+</div>
+
+### Contribution signal
+
+<div align="center">
+<a href="https://github.com/kaustubhdua"><img src="https://github-readme-activity-graph.vercel.app/graph?username=kaustubhdua&bg_color=00000000&color=64748b&line=0f766e&point=0284c7&area=true&hide_border=true" width="94%" alt="GitHub contribution activity"/></a>
+<br/>
+<sub>Stats show activity; the selected projects above show engineering substance.</sub>
+</div>
+
+### Achievement layer
+
+<div align="center">
+<a href="https://github.com/kaustubhdua"><img src="https://github-profile-trophy.vercel.app/?username=kaustubhdua&theme=flat&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" width="94%" alt="GitHub profile trophies"/></a>
+</div>
+
+### Contribution animation
+
+<div align="center">
+<a href="https://github.com/kaustubhdua"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake.svg"><img src="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake.svg" width="94%" alt="Animated GitHub contribution snake"/></picture></a>
+</div>
+
+### Generated profile summary
+
+<div align="center">
+<a href="https://github.com/vn7n24fzkq/github-profile-summary-cards"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaustubhdua&theme=github_dark" width="94%" alt="Generated GitHub profile summary"/></a>
+</div>
 
 ## GitHub activity
 
