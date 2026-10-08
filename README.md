@@ -4,6 +4,8 @@
 
 <img src="./assets/profile-motion.svg?v=20261009" width="100%" alt="Animated monochrome engineering build log"/>
 
+<img src="./assets/system-map.svg?v=20261009" width="100%" alt="Animated map connecting product design, intelligence and reliability"/>
+
 <p>
   <a href="#selected-work">SELECTED WORK</a> &nbsp;·&nbsp;
   <a href="#toolkit">TOOLKIT</a> &nbsp;·&nbsp;
@@ -188,6 +190,8 @@ I care about clear system boundaries, useful interfaces, failure-path testing an
 
 <div align="center">
 
+<sub>Contribution activity is generated daily by GitHub Actions. If the image is missing on first load, open the repository Actions tab to inspect the generator.</sub>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake.svg"/>
@@ -196,16 +200,36 @@ I care about clear system boundaries, useful interfaces, failure-path testing an
 
 </div>
 
-<details>
-<summary><strong>GitHub statistics</strong></summary>
+## GitHub dashboard
 
 <div align="center">
 
-<img src="https://github-readme-stats-fast.vercel.app/api?username=kaustubhdua&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="165" alt="GitHub repository and contribution statistics"/>
+<a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-EXPLORE-252525?style=for-the-badge&logo=github&logoColor=white" alt="Explore all repositories"/></a>
+<a href="https://github.com/kaustubhdua?tab=stars"><img src="https://img.shields.io/badge/STARRED-WORK-252525?style=for-the-badge&logo=github&logoColor=white" alt="Open starred repositories"/></a>
+<a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge/GITHUB-FOLLOW-252525?style=for-the-badge&logo=github&logoColor=white" alt="Visit GitHub profile"/></a>
 
 </div>
 
-</details>
+<div align="center">
+
+<a href="https://github.com/kaustubhdua">
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=kaustubhdua&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&include_all_commits=true" height="170" alt="Live GitHub statistics for kaustubhdua"/>
+</a>
+<a href="https://github.com/kaustubhdua?tab=repositories">
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kaustubhdua&layout=compact&hide_border=true&theme=transparent&langs_count=8" height="170" alt="Most-used languages across public repositories"/>
+</a>
+
+</div>
+
+<div align="center">
+
+<a href="https://github.com/kaustubhdua">
+  <img src="https://streak-stats.demolab.com?user=kaustubhdua&hide_border=true&theme=transparent&date_format=M%20j%5B%2C%20Y%5D" width="80%" alt="GitHub contribution streak for kaustubhdua"/>
+</a>
+
+</div>
+
+<sub>These cards are generated from GitHub activity by third-party services; availability and refresh timing depend on those services. No contribution totals are hard-coded.</sub>
 
 ---
 
