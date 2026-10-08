@@ -30,6 +30,8 @@ jobs:
               "animated build log": "assets/profile-motion.svg" in readme,
               "animated system map": "assets/system-map.svg" in readme,
               "animated footer": "assets/profile-footer.svg" in readme,
+              "animated guitar section": "assets/profile-guitar.svg" in readme,
+              "removed engineering approach": "## Engineering approach" not in readme,
               "contribution snake": "github-contribution-grid-snake.svg" in readme,
               "no obsolete Minecraft theme": not any(word in readme.lower() for word in ("minecraft", "nether")),
               "no placeholder copy": not any(text in readme.lower() for text in ("no description yet", "todo:", "lorem ipsum")),
@@ -66,7 +68,7 @@ jobs:
               assert f"https://github.com/kaustubhdua/{repository}" in readme, f"Missing project link: {repository}"
 
           # Parse SVGs as XML and check accessibility, safe markup and motion fallbacks.
-          animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"), Path("assets/system-map.svg"))
+          animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"), Path("assets/system-map.svg"), Path("assets/profile-guitar.svg"))
           for path in animated_assets:
               ET.parse(path)
               source = path.read_text(encoding="utf-8")
