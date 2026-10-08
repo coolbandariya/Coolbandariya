@@ -55,6 +55,9 @@ jobs:
           stack_text = Path("assets/stack-stream.svg").read_text(encoding="utf-8")
           assert "translateX(-1344px)" in stack_text
           assert stack_text.count("GitHub Actions") == 2
+          assert "clipPath id=\"viewport\"" in stack_text
+          assert "translateX(-1362px)" in stack_text
+          assert "translateX(-1344px)" not in stack_text
           assert "translateX(-720px)" not in stack_text
           assert banner.exists() and divider.exists()
 
