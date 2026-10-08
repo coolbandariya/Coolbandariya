@@ -248,7 +248,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <div align="center">
 
-<img src="./assets/guitar-studio.svg?v=20261009" width="100%" alt="Animated editorial guitar studio banner with electric guitar, music waveform, practice goals, chords and playlist-inspired panels"/>
+<img src="./assets/guitar-studio.svg?v=20261010-electric-guitar" width="100%" alt="Animated editorial guitar studio banner with electric guitar, music waveform, practice goals, chords and playlist-inspired panels"/>
 
 **GUITAR · MUSIC · CREATIVE RESET**
 
