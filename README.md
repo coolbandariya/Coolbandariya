@@ -170,6 +170,27 @@ I care about **clarity over cleverness, evidence over assumptions and useful sof
 
 ---
 
+## Build protocol
+
+<div align="center"><img src="./assets/signal-divider.svg" width="72%" alt="Animated engineering signal"/></div>
+
+<div align="center">
+**01 · UNDERSTAND** → **02 · DESIGN** → **03 · BUILD** → **04 · TEST** → **05 · VERIFY** → **06 · SHIP**
+</div>
+
+I care about **clarity over cleverness, evidence over assumptions and useful software over feature count**.
+
+---
+
+## Open-source signal
+
+- 🎓 **Electronics & Computer Engineering — JIIT Noida**
+- 🌱 **GirlScript Summer of Code — 2026**
+- 🤝 Student-led open-source collaboration
+- 🧪 Learning through projects, reviews and experimentation
+
+---
+
 ## Engineering dashboard
 
 <div align="center">
