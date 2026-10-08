@@ -1,353 +1,224 @@
 <div align="center">
 
-# ⛏️ KAUSTUBH DUA
+<img src="./assets/profile-banner.svg" width="100%" alt="Animated Minecraft-inspired developer banner"/>
 
-### `ELECTRONICS & COMPUTER ENGINEERING · BUILDER · OPEN-SOURCE EXPLORER`
+# KAUSTUBH DUA
 
-**Welcome to my world.** I build practical software where engineering, data, AI, maps, automation and human-friendly UX meet.
+### Electronics & Computer Engineering · JIIT Noida
 
-<img src="./assets/profile-banner.svg" alt="Minecraft-inspired Nether developer banner" width="100%"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=900&color=A6E3A1&center=true&vCenter=true&width=760&lines=Building+software+that+solves+real+problems.;AI+%C2%B7+Data+%C2%B7+Maps+%C2%B7+Automation+%C2%B7+UX;Engineering+student+%7C+Builder+%7C+Open-source+learner" alt="Animated introduction"/>
 
 <p>
-  <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/⛏_EXPLORE_BUILDS-5fbf5f?style=for-the-badge&labelColor=161b22" alt="Explore builds"/></a>
-  <a href="https://github.com/kaustubhdua?tab=followers"><img src="https://img.shields.io/badge/👥_JOIN_THE_WORLD-cba6f7?style=for-the-badge&labelColor=161b22" alt="Followers"/></a>
-  <a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge/🧭_GITHUB-89b4fa?style=for-the-badge&labelColor=161b22" alt="GitHub"/></a>
+  <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/Projects-111827?style=for-the-badge&logo=github&logoColor=white" alt="Projects"/></a>
+  <a href="https://github.com/kaustubhdua?tab=followers"><img src="https://img.shields.io/badge/Followers-111827?style=for-the-badge&logo=github&logoColor=white" alt="Followers"/></a>
+  <a href="https://github.com/kaustubhdua"><img src="https://komarev.com/ghpvc/?username=kaustubhdua&style=for-the-badge&color=5fbf5f&label=PROFILE+VIEWS" alt="Profile views"/></a>
 </p>
-
-<sub>🌋 NETHER ATMOSPHERE · 🧱 PIXEL UI · ⚡ ENGINEERING · 🎮 GAME-INSPIRED · ✨ ORIGINAL SVG ASSETS</sub>
 
 </div>
 
 <p align="center">
-  <img src="./assets/signal-divider.svg" width="94%" alt="Animated Nether divider"/>
+  <img src="./assets/signal-divider.svg" width="88%" alt="Animated divider"/>
 </p>
 
-<div align="center">
+## About
 
-## 🎮 PLAYER PROFILE
+I'm an **Electronics & Computer Engineering student at JIIT Noida** who enjoys turning ideas into working software.
+
+My work spans **AI, data, maps, optimisation, automation and product-focused interfaces**. I care about the whole build: understanding the problem, designing the experience, writing maintainable code, testing the weak spots and shipping something useful.
+
+> **Build with intent. Ship with care. Keep learning.**
+
+---
+
+## Selected work
 
 <table>
 <tr>
-<td align="center" width="25%">
+<td width="50%" valign="top">
 
-🧑‍💻  
-**PLAYER**
+### 🌾 Nirdhoom
 
-Kaustubh Dua
+A platform connecting the agricultural workflow from **field → service → evidence → residue → buyer**.
 
-</td>
-<td align="center" width="25%">
+**Focus:** agriculture · logistics · verification
 
-🎓  
-**CLASS**
-
-ECM · JIIT Noida
+<a href="https://github.com/kaustubhdua/nihdhoom">View repository →</a>
 
 </td>
-<td align="center" width="25%">
+<td width="50%" valign="top">
 
-🌋  
-**BIOME**
+### 🌐 GitGlobe
 
-India
+An interactive way to explore the open-source ecosystem through **discovery, graphs and visual interaction**.
+
+**Focus:** open source · data · UX
+
+<a href="https://github.com/kaustubhdua/GitGlobe">View repository →</a>
 
 </td>
-<td align="center" width="25%">
+</tr>
 
-⚔️  
-**PLAYSTYLE**
+<tr>
+<td width="50%" valign="top">
 
-Build → Debug → Ship
+### 🧠 Adapt AI
+
+Practical AI assistants and workflows focused on **usefulness, automation and privacy-aware design**.
+
+**Focus:** AI · automation · product engineering
+
+<a href="https://github.com/kaustubhdua/adapt-ai">View repository →</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🛡️ Satark
+
+Security-analysis tooling designed around **explainability and safer defaults**.
+
+**Focus:** security · analysis · engineering
+
+<a href="https://github.com/kaustubhdua/Satark">View repository →</a>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🛰️ AkashChalak
+
+Maps, air-quality information and spatial decision-making brought together into one product.
+
+**Focus:** geospatial · environment · data
+
+<a href="https://github.com/kaustubhdua/Akash-Chalak">View repository →</a>
+
+</td>
+<td width="50%" valign="top">
+
+### ♻️ Smart Waste
+
+Prediction, prioritisation and route optimisation for more efficient waste operations.
+
+**Focus:** data · sustainability · optimisation
+
+<a href="https://github.com/kaustubhdua/smart_waste_project">View repository →</a>
 
 </td>
 </tr>
 </table>
 
-> **I turn messy problems into useful things — then keep polishing until the rough edges disappear.**
+<p align="center">
+  <sub>More builds live in the repositories below.</sub><br/>
+  <a href="https://github.com/kaustubhdua?tab=repositories"><b>Explore all repositories →</b></a>
+</p>
 
-I am an **Electronics & Computer Engineering** student interested in building software that goes beyond the screen: intelligent tools, data products, maps, automation, optimisation and interfaces people can actually understand.
+---
 
-</div>
+## Technology
 
 <p align="center">
-  <img src="./assets/engineering-circuit.svg" width="88%" alt="Engineering circuit decoration"/>
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,ts,js,html,css,react,nextjs,vite,threejs,fastapi,supabase,postgres,docker,git,github,vercel&perline=9" alt="Technology stack"/>
 </p>
 
 <div align="center">
 
-## ❤️ PLAYER HUD
+**Languages**  
+C · C++ · Python · TypeScript · JavaScript · SQL
+
+**Frontend**  
+React · Next.js · Vite · Three.js · Leaflet · Motion
+
+**Backend & data**  
+FastAPI · Supabase · PostgreSQL · Redis · Docker
+
+**Computing**  
+PyTorch · TensorFlow · NumPy · Pandas · OR-Tools
+
+</div>
+
+---
+
+## What I'm exploring
+
+<img src="./assets/tech-orbit.svg" width="100%" alt="Animated technology orbit"/>
+
+<div align="center">
+
+**AI** · **DATA** · **MAPS** · **OPTIMISATION** · **AUTOMATION** · **HUMAN-FRIENDLY UX**
+
+</div>
+
+I'm particularly interested in software that **leaves the screen and solves something in the real world**.
+
+---
+
+## How I build
 
 <table>
 <tr>
-<td align="center">❤️ ❤️ ❤️ ❤️ ❤️<br/><sub><b>HEALTH</b><br/>Curiosity</sub></td>
-<td align="center">🛡️ 🛡️ 🛡️ 🛡️<br/><sub><b>ARMOR</b><br/>Engineering mindset</sub></td>
-<td align="center">⚡ ⚡ ⚡ ⚡ ⚡<br/><sub><b>ENERGY</b><br/>Always learning</sub></td>
-<td align="center">🟩 🟩 🟩 🟩 🟨<br/><sub><b>XP</b><br/>Still leveling up</sub></td>
+<td align="center"><b>01</b><br/><sub>Understand</sub></td>
+<td align="center">→</td>
+<td align="center"><b>02</b><br/><sub>Prototype</sub></td>
+<td align="center">→</td>
+<td align="center"><b>03</b><br/><sub>Test</sub></td>
+<td align="center">→</td>
+<td align="center"><b>04</b><br/><sub>Polish</sub></td>
+<td align="center">→</td>
+<td align="center"><b>05</b><br/><sub>Ship</sub></td>
 </tr>
 </table>
 
-</div>
-
-<p align="center">
-  <img src="./assets/signal-divider.svg" width="94%" alt="Animated Nether divider"/>
-</p>
-
-<div align="center">
-
-## 🎒 INVENTORY
-
-<table>
-<tr>
-<td align="center"><b>🧱 CORE</b><br/><sub>C · C++ · Python · TypeScript<br/>JavaScript · SQL</sub></td>
-<td align="center"><b>🎨 FRONTEND</b><br/><sub>React · Next.js · Vite<br/>Three.js · Leaflet · Motion</sub></td>
-</tr>
-<tr>
-<td align="center"><b>⚙️ BACKEND & DATA</b><br/><sub>FastAPI · Supabase · PostgreSQL<br/>Redis · Docker</sub></td>
-<td align="center"><b>🧪 COMPUTING</b><br/><sub>PyTorch · TensorFlow · NumPy<br/>Pandas · OR-Tools · CI</sub></td>
-</tr>
-</table>
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=cpp,c,python,ts,js,html,css,react,nextjs,vite,threejs,fastapi,supabase,postgres,docker,git,github,vercel&perline=9" alt="Technology inventory"/>
-
-<br/><br/>
-
-<sub>Inventory shows technologies used across projects — not a claim of expert-level proficiency in every item.</sub>
-
-</div>
-
-<p align="center">
-  <img src="./assets/signal-divider.svg" width="94%" alt="Animated Nether divider"/>
-</p>
-
-<div align="center">
-
-## 🗺️ WORLD MAP
-
-### 🌾 NIRDHOOM
-**Field → service → evidence → residue → buyer**
-
-Agriculture · logistics · verification
-
-[⛏️ **ENTER BUILD**](https://github.com/kaustubhdua/nihdhoom)
+I try to keep architecture understandable, interfaces obvious, failure modes reproducible and documentation useful.
 
 ---
 
-### 🌐 GITGLOBE
-**Explore the open-source world visually**
+## Open source & learning
 
-Discovery · graphs · interaction · UX
+🎓 **Electronics & Computer Engineering — JIIT Noida**  
+🌱 **GirlScript Summer of Code — 2026**  
+🤝 **Student-led open source · collaboration · code review**
 
-[⛏️ **ENTER BUILD**](https://github.com/kaustubhdua/GitGlobe)
-
----
-
-### 🧠 ADAPT AI
-**Practical AI assistants and workflows**
-
-AI · automation · privacy
-
-[⛏️ **ENTER BUILD**](https://github.com/kaustubhdua/adapt-ai)
+I'm still early in the journey, so I value **shipping real projects, contributing in public and learning from stronger engineers** over collecting technology names.
 
 ---
 
-### 🛡️ SATARK
-**Explainable security-analysis tooling**
-
-Security · analysis · safe defaults
-
-[⛏️ **ENTER BUILD**](https://github.com/kaustubhdua/Satark)
-
----
-
-### 🛰️ AKASHCHALAK
-**Maps, air quality and spatial decisions**
-
-Geo · environment · data
-
-[⛏️ **ENTER BUILD**](https://github.com/kaustubhdua/Akash-Chalak)
-
----
-
-### ♻️ SMART WASTE
-**Prediction, prioritisation and route optimisation**
-
-Data · sustainability · optimisation
-
-[⛏️ **ENTER BUILD**](https://github.com/kaustubhdua/smart_waste_project)
-
-</div>
-
-<p align="center">
-  <img src="./assets/project-ecosystem.svg" width="92%" alt="Project ecosystem"/>
-</p>
+## GitHub activity
 
 <div align="center">
-
-## 📜 QUEST LOG
-
-| STATUS | QUEST | AREA |
-|:---:|:---|:---|
-| 🟢 **ACTIVE** | Build practical AI + data products | AI · Data |
-| 🟢 **ACTIVE** | Explore maps and spatial computing | Geo · Environment |
-| 🟢 **ACTIVE** | Improve engineering quality and UX | Architecture · UX |
-| 🟡 **LEARNING** | Go deeper into systems and optimisation | Computing |
-| 🟣 **OPEN** | Contribute, collaborate and learn in public | Open Source |
-
-</div>
-
-<p align="center">
-  <img src="./assets/signal-divider.svg" width="94%" alt="Animated Nether divider"/>
-</p>
-
-<div align="center">
-
-## ⚒️ BUILD LOOP
-
-### 💡 FIND → 🧱 BUILD → 🧪 BREAK → 🎨 POLISH → 🚀 SHIP → 📈 LEARN
-
-<table>
-<tr>
-<td align="center">💡<br/><b>FIND</b><br/><sub>Understand the real problem</sub></td>
-<td align="center">🧱<br/><b>BUILD</b><br/><sub>Make the useful version</sub></td>
-<td align="center">🧪<br/><b>BREAK</b><br/><sub>Hunt edge cases</sub></td>
-<td align="center">🎨<br/><b>POLISH</b><br/><sub>Remove rough edges</sub></td>
-<td align="center">🚀<br/><b>SHIP</b><br/><sub>Make it useful</sub></td>
-</tr>
-</table>
-
-</div>
-
-<p align="center">
-  <img src="./assets/signal-divider.svg" width="94%" alt="Animated Nether divider"/>
-</p>
-
-<div align="center">
-
-## 🧰 NETHER CHEST
-
-<details>
-<summary><strong>OPEN CHEST · MORE BUILDS</strong></summary>
-<br/>
-
-| BUILD | PURPOSE |
-|:---|:---|
-| 🏫 [**JIIT Youth Club**](https://github.com/kaustubhdua/JYC-Website) | Student community platform |
-| 📚 [**JIIT Toppers**](https://github.com/kaustubhdua/Jiit-toppers-) | Academic utility |
-| 🗣️ [**Saathi**](https://github.com/kaustubhdua/Saathi) | Communication-focused build |
-| 🏍️ [**Smart Bike Taxi**](https://github.com/kaustubhdua/Smart_bike_taxi_platform) | Mobility platform |
-| ✅ [**Nord Studio**](https://github.com/kaustubhdua/nord-studio-task-manager) | Task management |
-| 🌦️ [**Weather Core Matrix**](https://github.com/kaustubhdua/weather-core-matrix) | Weather/data exploration |
-| 📘 [**GitHub Skills**](https://github.com/kaustubhdua/skills-introduction-to-github) | GitHub learning |
-
-</details>
-
-</div>
-
-<p align="center">
-  <img src="./assets/signal-divider.svg" width="94%" alt="Animated Nether divider"/>
-</p>
-
-<div align="center">
-
-## 📊 WORLD STATISTICS
 
 <a href="https://github.com/kaustubhdua">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kaustubhdua&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&theme=transparent" alt="Kaustubh's GitHub statistics"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kaustubhdua&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&theme=transparent" alt="GitHub statistics"/>
 </a>
 <a href="https://github.com/kaustubhdua">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaustubhdua&layout=compact&hide_border=true&langs_count=8&theme=transparent" alt="Kaustubh's most used languages"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaustubhdua&layout=compact&hide_border=true&langs_count=8&theme=transparent" alt="Top languages"/>
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/kaustubhdua">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaustubhdua&bg_color=00000000&color=cdd6f4&line=a6e3a1&point=f9e2af&area=true&hide_border=true" width="96%" alt="GitHub contribution activity graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaustubhdua&bg_color=00000000&color=cdd6f4&line=a6e3a1&point=f9e2af&area=true&hide_border=true" width="96%" alt="GitHub activity graph"/>
 </a>
 
 </div>
 
-<p align="center">
-  <img src="./assets/signal-divider.svg" width="94%" alt="Animated Nether divider"/>
-</p>
+---
 
 <div align="center">
 
-## 🏆 ACHIEVEMENTS
+### Let's build something useful.
 
-<table>
-<tr>
-<td align="center">🎓<br/><b>ECM</b><br/><sub>Electronics & Computer Engineering<br/>JIIT Noida</sub></td>
-<td align="center">🌱<br/><b>GSSoC</b><br/><sub>GirlScript Summer of Code<br/>2026</sub></td>
-<td align="center">🤝<br/><b>OPEN SOURCE</b><br/><sub>Student-led collaboration<br/>and contribution</sub></td>
-</tr>
-</table>
-
-</div>
-
-<p align="center">
-  <img src="./assets/signal-divider.svg" width="94%" alt="Animated Nether divider"/>
-</p>
-
-<div align="center">
-
-## 🛡️ ENGINEERING CODEX
-
-| PRINCIPLE | HOW I BUILD |
-|:---:|:---|
-| 🧱 **ARCHITECTURE** | Keep complexity understandable |
-| 🧪 **TESTING** | Catch regressions before users do |
-| 🎨 **UX** | Make the next action obvious |
-| ⚡ **PERFORMANCE** | Ship only what earns its place |
-| 🛡️ **SECURITY** | Protect inputs, secrets and users |
-| 📖 **DOCUMENTATION** | Leave the path clearer than I found it |
-
-<br/>
-
-> **If it works → make it understandable.**  
-> **If it breaks → make it reproducible.**  
-> **If it repeats → automate it.**  
-> **If it matters → document it.**
-
-</div>
-
-<p align="center">
-  <img src="./assets/tech-orbit.svg" width="90%" alt="Technology orbit"/>
-</p>
-
-<div align="center">
-
-## 🌋 CURRENTLY EXPLORING
-
-`AI × DATA × MAPS × OPTIMISATION × AUTOMATION × HUMAN-FRIENDLY UX`
-
-I am especially interested in software that **leaves the screen and solves something in the real world**.
-
-</div>
-
-<p align="center">
-  <img src="./assets/signal-divider.svg" width="94%" alt="Animated Nether divider"/>
-</p>
-
-<div align="center">
-
-## 🤝 MULTIPLAYER MODE
-
-Have a project, idea, bug, collaboration or interesting problem?
-
-**Open a discussion, issue or pull request.**
-
-<br/>
-
-<a href="https://github.com/kaustubhdua">
-  <img src="https://img.shields.io/badge/🌋_ENTER_MY_WORLD-5fbf5f?style=for-the-badge&labelColor=161b22" alt="Enter Kaustubh Dua's GitHub"/>
-</a>
+<a href="https://github.com/kaustubhdua?tab=repositories">Projects</a>
+&nbsp;·&nbsp;
+<a href="https://github.com/kaustubhdua">GitHub</a>
+&nbsp;·&nbsp;
+<a href="https://github.com/kaustubhdua?tab=followers">Connect</a>
 
 <br/><br/>
 
-### 🌋 SPAWN → BUILD → DEBUG → POLISH → SHIP → LEARN → REPEAT
+<img src="./assets/signal-divider.svg" width="70%" alt="Animated footer divider"/>
 
-<sub>🎮 Minecraft-inspired · 🧱 original artwork · ⚔️ real projects · 🧪 no fake stats · 🔥 always crafting</sub>
+<sub>Built with curiosity · engineered with intent · inspired by the worlds I grew up exploring.</sub>
 
 </div>
