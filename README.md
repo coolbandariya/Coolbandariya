@@ -11,7 +11,7 @@
 
 **Electronics & Computer Engineering · JIIT Noida**
 
-I turn ideas into practical software across **AI, data, optimisation and product engineering**.
+I build practical software at the intersection of **AI, data, systems and product engineering** — from decision-support workflows to tools for discovering and understanding software.
 
 </div>
 
@@ -23,40 +23,60 @@ I turn ideas into practical software across **AI, data, optimisation and product
 <tr>
 <td width="50%" valign="top">
 
-### [01 — Nirdhoom ↗](https://github.com/kaustubhdua/nihdhoom)
+### [01 — GitGlobe ↗](https://github.com/kaustubhdua/GitGlobe)
 
-Crop-residue management workflows, supported by data and optimisation.
+An interactive 3D map for exploring open-source repositories by capability, turning software discovery into spatial navigation.
 
-<sub><code>React</code> <code>Supabase</code> <code>PostgreSQL</code> <code>OR-Tools</code></sub>
+<sub><code>Three.js</code> <code>WebGL</code> <code>Embeddings</code> <code>Data pipelines</code></sub>
 
 </td>
 <td width="50%" valign="top">
 
-### [02 — Saathi ↗](https://github.com/kaustubhdua/Saathi)
+### [02 — NIRDHOOM ↗](https://github.com/kaustubhdua/nihdhoom)
 
-Voice-first, multilingual assistance with AI-backed interactions.
+A field-first crop-residue coordination system connecting field requests, service workflows, operational evidence and buyer pathways.
 
-<sub><code>Next.js</code> <code>FastAPI</code> <code>Python</code></sub>
+<sub><code>React</code> <code>Supabase</code> <code>PostgreSQL</code> <code>OR-Tools</code></sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [03 — JYC Website ↗](https://github.com/kaustubhdua/JYC-Website)
+### [03 — Saathi ↗](https://github.com/kaustubhdua/Saathi)
 
-A public-facing web experience with an emphasis on usability and reliable delivery.
+A voice-first, multilingual assistance platform with source-aware answers, consent-based workflows and human escalation paths.
 
-<sub><code>React</code> <code>Vite</code> <code>Playwright</code></sub>
+<sub><code>Next.js</code> <code>FastAPI</code> <code>Python</code> <code>Speech APIs</code></sub>
 
 </td>
 <td width="50%" valign="top">
 
-### [04 — Smart Waste ↗](https://github.com/kaustubhdua/smart_waste_project)
+### [04 — SATARK ↗](https://github.com/kaustubhdua/Satark)
 
-Predictive waste monitoring connected to collection-priority and route optimisation.
+An AI-assisted security-awareness workspace for triaging suspicious messages, links, images, QR codes, PDFs and supported videos.
 
-<sub><code>Python</code> <code>scikit-learn</code> <code>OR-Tools</code></sub>
+<sub><code>Python</code> <code>Streamlit</code> <code>Threat triage</code> <code>CI</code></sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [05 — Adapt AI ↗](https://github.com/kaustubhdua/adapt-ai)
+
+A team-built local AI assistant that checks available hardware and recommends a suitable model before running chat, file and Python workflows on-device.
+
+<sub><code>FastAPI</code> <code>Ollama</code> <code>Local inference</code></sub>
+
+</td>
+<td width="50%" valign="top">
+
+### [06 — JYC Website ↗](https://github.com/kaustubhdua/JYC-Website)
+
+The public website for JIIT Youth Club 128, covering its organisation, clubs, events, history, gallery and recruitment journey.
+
+<sub><code>React</code> <code>Vite</code> <code>Playwright</code> <code>CI</code></sub>
 
 </td>
 </tr>
@@ -65,8 +85,8 @@ Predictive waste monitoring connected to collection-priority and route optimisat
 <details>
 <summary><strong>More projects ↗</strong></summary>
 
-- [SATARK](https://github.com/kaustubhdua/Satark) — digital threat triage and verification.
-- [AkashChalak](https://github.com/kaustubhdua/AkashChalak) — aerospace-focused engineering project.
+- [Smart Waste Collection](https://github.com/kaustubhdua/smart_waste_project) — a predictive-to-optimisation pipeline for waste collection using synthetic IoT-style data.
+- [AkashChalak](https://github.com/kaustubhdua/AkashChalak) — a satellite-assisted air-quality and hotspot decision-support prototype for India.
 - [Smart Bike Taxi](https://github.com/kaustubhdua/Smart_bike_taxi_platform) — a platform for bike-taxi workflows.
 
 </details>
@@ -102,7 +122,7 @@ Predictive waste monitoring connected to collection-priority and route optimisat
 <code>Pandas</code><br/>
 <code>NumPy</code><br/>
 <code>scikit-learn</code><br/>
-<code>OR-Tools</code>
+<code>Embeddings</code>
 
 </td>
 </tr>
@@ -112,7 +132,8 @@ Predictive waste monitoring connected to collection-priority and route optimisat
 **04 / Data platforms**
 
 <code>PostgreSQL</code><br/>
-<code>Supabase</code>
+<code>Supabase</code><br/>
+<code>Ollama</code>
 
 </td>
 <td width="33%" valign="top">
@@ -144,7 +165,7 @@ Predictive waste monitoring connected to collection-priority and route optimisat
 
 </div>
 
-I value clear system boundaries, useful interfaces, failure-path testing and honest reporting of what is shipped versus what remains a prototype.
+I care about clear system boundaries, useful interfaces, failure-path testing and honest status labels. I distinguish prototypes, simulated data and connected live integrations rather than presenting a working demo as proven real-world impact.
 
 ---
 
