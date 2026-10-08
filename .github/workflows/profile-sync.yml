@@ -74,6 +74,19 @@ jobs:
               updated = (r.get("updated_at") or "")[:10] or "—"
               return f'| [{name}](https://github.com/{owner}/{name}) | {desc} | {r.get("stargazers_count", 0)} | {r.get("language") or "—"} | {topics} | {updated} |'
 
+          featured_names = ["GitGlobe", "nihdhoom", "Saathi", "JYC-Website"]
+          featured_rows = []
+          for name in featured_names:
+              try:
+                  meta = api(f"/repos/{owner}/{name}")
+                  langs = api(f"/repos/{owner}/{name}/languages")
+                  tech = ", ".join(list(langs.keys())[:6]) or meta.get("language") or "—"
+                  featured_rows.append(
+                      f'| [{name}](https://github.com/{owner}/{name}) | {meta.get("stargazers_count", 0)} | {meta.get("forks_count", 0)} | {tech} | {(meta.get("updated_at") or "")[:10]} |'
+                  )
+              except Exception:
+                  pass
+
           latest = []
           for r in repos:
               if r.get("fork") or r.get("archived") or r["name"] in excluded:
@@ -94,6 +107,12 @@ jobs:
           <td width="25%" align="center"><strong>{forks}</strong><br/><sub>FORKS</sub></td>
           </tr>
           </table>
+
+          **Featured projects — live repository signals**
+
+          | Project | Stars | Forks | Detected technology | Updated |
+          |---|---:|---:|---|---|
+          {chr(10).join(featured_rows)}
 
           **Latest repository activity**
 
