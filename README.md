@@ -128,6 +128,8 @@ The official JYC 128 website combines content architecture, verified public reco
 
 <div align="center"><img src="./assets/workshop-command.svg" width="96%" alt="Animated terminal and digital workshop visualization"/></div>
 
+<div align="center"><img src="./assets/stack-stream.svg" width="96%" alt="Animated engineering technology stack stream"/></div>
+
 ---
 
 ## Research interests
