@@ -49,8 +49,9 @@ assert "GitGlobe" not in readme
           assert "## Engineering toolkit" in readme
           banner_text = banner.read_text(encoding="utf-8")
           assert "electronics &amp; computer engineering" not in banner_text.lower()
-          assert "ENGINEERING PROFILE" in banner_text
+          assert "KAUSTUBH DUA / 01" in banner_text
           assert "AI · DATA · SYSTEMS · PRODUCT ENGINEERING" in banner_text
+          assert 'width="1200" height="400"' in banner_text
           assert readme.count("I build software where") == 1
           assert "GirlScript Summer of Code" not in readme
           assert "https://github.com/coolbandariya" not in readme
