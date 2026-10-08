@@ -2,7 +2,7 @@
 
 <img src="./assets/profile-banner.svg" width="100%" alt="Kaustubh Dua — Electronics & Computer Engineering student building AI, data and systems"/>
 
-<p><a href="#selected-work"><img src="https://img.shields.io/badge/SELECTED_WORK-111827?style=flat-square&logo=github&logoColor=white" alt="Selected work"/></a> <a href="#what-i-can-contribute"><img src="https://img.shields.io/badge/CAPABILITY_WALL-334155?style=flat-square&logo=github&logoColor=white" alt="What I can contribute"/></a> <a href="#build-protocol"><img src="https://img.shields.io/badge/BUILD_PROTOCOL-0f766e?style=flat-square&logo=githubactions&logoColor=white" alt="Build protocol"/></a> <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-475569?style=flat-square&logo=github&logoColor=white" alt="All repositories"/></a></p>
+<p><a href="#selected-work"><img src="https://img.shields.io/badge/SELECTED_WORK-111827?style=flat-square&logo=github&logoColor=white" alt="Selected work"/></a> <a href="#engineering-toolkit"><img src="https://img.shields.io/badge/ENGINEERING_TOOLKIT-334155?style=flat-square&logo=github&logoColor=white" alt="What I can contribute"/></a> <a href="#how-i-work"><img src="https://img.shields.io/badge/HOW_I_WORK-0f766e?style=flat-square&logo=githubactions&logoColor=white" alt="Build protocol"/></a> <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-475569?style=flat-square&logo=github&logoColor=white" alt="All repositories"/></a></p>
 
 </div>
 
@@ -182,25 +182,24 @@ I’m especially interested in problems where the clean diagram ends and reality
 
 | Project | Stars | Forks | Detected technology | Updated |
 |---|---:|---:|---|---|
-| [nihdhoom](https://github.com/kaustubhdua/nihdhoom) | 0 | 3 | TypeScript, CSS, PLpgSQL, JavaScript, Python, HTML | 2026-10-08 |
+| [Nirdhoom](https://github.com/kaustubhdua/nihdhoom) | 0 | 3 | TypeScript, CSS, PLpgSQL, JavaScript, Python, HTML | 2026-10-08 |
 | [Saathi](https://github.com/kaustubhdua/Saathi) | 0 | 0 | Python, TypeScript, JavaScript, Dockerfile | 2026-10-07 |
 | [JYC-Website](https://github.com/kaustubhdua/JYC-Website) | 0 | 0 | CSS, JavaScript, PLpgSQL, TypeScript, HTML, PowerShell | 2026-10-08 |
-| [smart_waste_project](https://github.com/kaustubhdua/smart_waste_project) | 0 | 0 | Python | 2026-10-05 |
+| [Smart Waste](https://github.com/kaustubhdua/smart_waste_project) | 0 | 0 | Python | 2026-10-05 |
 
 **Latest repository activity**
 
 | Repository | What it is | Stars | Primary language | Topics | Updated |
 |---|---|---:|---|---|---|
-| [JYC-Website](https://github.com/kaustubhdua/JYC-Website) | No description yet. | 0 | CSS | — | 2026-10-08 |
-| [nihdhoom](https://github.com/kaustubhdua/nihdhoom) | No description yet. | 0 | TypeScript | — | 2026-10-08 |
-| [Saathi](https://github.com/kaustubhdua/Saathi) | No description yet. | 0 | Python | — | 2026-10-07 |
-| [smart_waste_project](https://github.com/kaustubhdua/smart_waste_project) | AI-powered IoT waste monitoring, priority scoring, and OR-Tools route optimization dashboard. | 0 | Python | folium, fuzzy-logic, machine-learning, or-tools, python, route-optimization, streamlit | 2026-10-05 |
-| [nord-studio-task-manager](https://github.com/kaustubhdua/nord-studio-task-manager) | No description yet. | 0 | CSS | — | 2026-10-05 |
-| [weather-core-matrix](https://github.com/kaustubhdua/weather-core-matrix) | No description yet. | 0 | CSS | — | 2026-10-05 |
+| [JYC-Website](https://github.com/kaustubhdua/JYC-Website) | Public JIIT Youth Club website | 0 | CSS | — | 2026-10-08 |
+| [nihdhoom](https://github.com/kaustubhdua/nihdhoom) | Field-first crop-residue coordination platform | 0 | TypeScript | — | 2026-10-08 |
+| [Saathi](https://github.com/kaustubhdua/Saathi) | Voice-first multilingual assistance platform | 0 | Python | — | 2026-10-07 |
+| [smart_waste_project](https://github.com/kaustubhdua/smart_waste_project) | AI-powered IoT waste monitoring, priority scoring, and route optimisation | 0 | Python | machine-learning · or-tools · route-optimization | 2026-10-05 |
+| [nord-studio-task-manager](https://github.com/kaustubhdua/nord-studio-task-manager) | Browser task manager | 0 | CSS | — | 2026-10-05 |
+| [weather-core-matrix](https://github.com/kaustubhdua/weather-core-matrix) | Browser weather dashboard | 0 | CSS | — | 2026-10-05 |
 
-<sub>Automatically refreshed 2026-10-08 13:17 UTC. Featured projects above remain curated; this section reflects the current public GitHub portfolio.</sub>
+<sub>Automatically refreshed from GitHub; featured projects are curated and protected from forks.</sub>
 <!-- PROFILE_SYNC_END -->
-
 ## Contributions & collaboration
 
 Not every repository on my GitHub is a sole-authored project.
