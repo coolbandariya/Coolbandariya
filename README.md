@@ -10,7 +10,7 @@
   <a href="https://github.com/kaustubhdua?tab=stars"><img src="https://img.shields.io/badge/Stars-see%20projects-a65b36?style=for-the-badge&logo=github&logoColor=white" alt="Starred projects" /></a>
 </p>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1100&color=4F8A3B&center=true&vCenter=true&width=820&height=42&lines=Building+useful+software%2C+one+block+at+a+time.;React+%C2%B7+TypeScript+%C2%B7+Python+%C2%B7+C%2B%2B+%C2%B7+AI;Build+%E2%86%92+Test+%E2%86%92+Polish+%E2%86%92+Ship+%E2%86%92+Learn" alt="Animated introduction" />
+<sub>🟩 Local SVG animation · no JavaScript · no third-party runtime</sub>
 
 </div>
 
@@ -83,23 +83,23 @@ I care about the part after the demo too: **clean architecture, reliable behavio
 
 ### 💻 Languages
 
-<img src="https://skillicons.dev/icons?i=cpp,python,ts,js,html,css,sql&theme=dark" alt="C++, Python, TypeScript, JavaScript, HTML, CSS, SQL" />
+`C++17` · `Python` · `TypeScript` · `JavaScript` · `SQL` · `HTML/CSS`
 
 ### 🖥️ Frontend
 
-<img src="https://skillicons.dev/icons?i=react,vite,nextjs,threejs&theme=dark" alt="React, Vite, Next.js, Three.js" />
+`React` · `Vite` · `Next.js` · `Three.js` · `Leaflet` · `Motion`
 
 ### ⚙️ Backend · Data · DevOps
 
-<img src="https://skillicons.dev/icons?i=fastapi,supabase,postgres,redis,docker,githubactions,vercel&theme=dark" alt="FastAPI, Supabase, PostgreSQL, Redis, Docker, GitHub Actions, Vercel" />
+`FastAPI` · `Supabase` · `PostgreSQL` · `Redis` · `Docker` · `GitHub Actions` · `Vercel`
 
 ### 🤖 AI · Data · Maps
 
-<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch&theme=dark" alt="Python, TensorFlow, PyTorch" />
+`TensorFlow` · `PyTorch` · `NumPy` · `Pandas` · `GeoPandas` · `OR-Tools`
 
 </div>
 
-<sub>These technologies appear across my projects; the list is not a claim of expert-level proficiency in every item.</sub>
+<sub>Technologies represented across my projects — not a claim of expert-level proficiency in every item.</sub>
 
 ---
 
