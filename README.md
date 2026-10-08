@@ -116,6 +116,8 @@ The official JYC 128 website combines content architecture, verified public reco
 
 <div align="center"><img src="./assets/engineering-circuit.svg" width="96%" alt="Animated engineering capability signal"/></div>
 
+<div align="center"><img src="./assets/terminal-galaxy.svg" width="96%" alt="Animated terminal and orbital systems visualization"/></div>
+
 ---
 
 ## What I’m exploring
@@ -177,6 +179,10 @@ I care about **clarity over cleverness, evidence over assumptions and useful sof
 <a href="https://github.com/kaustubhdua"><img src="https://github-readme-activity-graph.vercel.app/graph?username=kaustubhdua&bg_color=00000000&color=64748b&line=0f766e&point=0284c7&area=true&hide_border=true" width="94%" alt="GitHub contribution activity"/></a>
 <br/>
 <sub>Stats show activity; the selected projects above show engineering substance.</sub>
+
+<br/><br/>
+
+<a href="https://github.com/lowlighter/metrics"><img src="https://metrics.lecoq.io/kaustubhdua?template=classic&base.indepth=false&base.hireable=true&base.skip=false&languages=1&languages.limit=8&languages.threshold=0%25&languages.details=percentage&languages.indepth=true&languages.analysis.timeout=15&languages.categories=markup%2Cprogramming&config.timezone=Asia%2FKolkata" width="94%" alt="Generated GitHub engineering metrics"/></a>
 </div>
 
 ### Achievement layer
@@ -195,14 +201,6 @@ I care about **clarity over cleverness, evidence over assumptions and useful sof
 
 <div align="center">
 <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaustubhdua&theme=github_dark" width="94%" alt="Generated GitHub profile summary"/></a>
-</div>
-
-## GitHub activity
-
-<div align="center">
-<a href="https://github.com/kaustubhdua"><img src="https://github-readme-activity-graph.vercel.app/graph?username=kaustubhdua&bg_color=00000000&color=64748b&line=0f766e&point=0284c7&area=true&hide_border=true" width="94%" alt="GitHub contribution activity"/></a>
-<br/>
-<sub>Activity is supporting evidence; the selected projects above are the work I want you to explore first.</sub>
 </div>
 
 ---
