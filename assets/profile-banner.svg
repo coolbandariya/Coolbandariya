@@ -1,20 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-<title id="title">Kaustubh Dua — software and AI</title>
-<desc id="desc">Minimal dark navy banner with a subtle geometric network and the text Kaustubh Dua, Computer Engineering student and software developer.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Kaustubh Dua — Minecraft-inspired developer profile</title>
+<desc id="desc">A Minecraft-inspired pixel-art scene with a sunrise, blocky terrain, a crafting table, a pickaxe and Kaustubh Dua's name.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101827"/><stop offset="1" stop-color="#172b3b"/></linearGradient>
-  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#67e8f9"/><stop offset="1" stop-color="#a5f3fc"/></linearGradient>
-  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".045" stroke-width="1"/></pattern>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#63b9e8"/><stop offset=".62" stop-color="#b8e5f4"/><stop offset="1" stop-color="#f4d49b"/></linearGradient>
+  <pattern id="pixels" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101714" stop-opacity=".94"/><stop offset="1" stop-color="#1b241c" stop-opacity=".88"/></linearGradient>
 </defs>
-<rect width="1200" height="320" rx="24" fill="url(#bg)"/>
-<rect width="1200" height="320" rx="24" fill="url(#grid)"/>
-<g fill="none" stroke="#67e8f9" stroke-opacity=".25" stroke-width="1.5">
-<path d="M820 50L940 105 1080 54 1160 132 1030 220 900 190 820 270 740 205 820 50Z"/>
-<path d="M940 105L900 190 1030 220 1080 54M740 205L900 190 1160 132"/>
-</g>
-<g fill="#67e8f9"><circle cx="820" cy="50" r="5"/><circle cx="940" cy="105" r="5"/><circle cx="1080" cy="54" r="5"/><circle cx="1160" cy="132" r="5"/><circle cx="1030" cy="220" r="5"/><circle cx="900" cy="190" r="5"/><circle cx="820" cy="270" r="5"/><circle cx="740" cy="205" r="5"/></g>
-<rect x="64" y="62" width="6" height="190" rx="3" fill="url(#accent)"/>
-<text x="96" y="135" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="52" font-weight="700" letter-spacing="-1.5">Kaustubh Dua</text>
-<text x="99" y="180" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Computer Engineering Student · Software Developer</text>
-<text x="99" y="220" fill="#67e8f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="2.2">BUILDING · LEARNING · CONTRIBUTING</text>
+<rect width="1200" height="360" fill="url(#sky)"/>
+<rect width="1200" height="360" fill="url(#pixels)"/>
+<circle cx="1010" cy="74" r="36" fill="#fff1a8"/>
+<g opacity=".8" fill="#477d67"><path d="M0 205l120-65 90 52 100-88 120 101 90-62 110 62 95-105 120 85 105-44 150 69v70H0z"/></g>
+<g><rect y="250" width="1200" height="110" fill="#76502e"/><rect y="250" width="1200" height="22" fill="#4f8a3b"/><path d="M0 272h120v16H0zm160 0h110v16H160zm180 0h140v16H340zm205 0h120v16H545zm175 0h145v16H720zm195 0h130v16H915zm165 0h120v16h-120z" fill="#5d3e25" opacity=".75"/>
+<g fill="#2f6e2c"><rect x="70" y="225" width="16" height="25"/><rect x="86" y="211" width="16" height="39"/><rect x="102" y="225" width="16" height="25"/><rect x="1030" y="220" width="16" height="30"/><rect x="1046" y="204" width="16" height="46"/><rect x="1062" y="220" width="16" height="30"/></g></g>
+<g transform="translate(835 128)"><rect x="0" y="0" width="96" height="96" fill="#a65b36" stroke="#713d27" stroke-width="4"/><path d="M8 8h80v16H8zM8 40h80v16H8zM8 72h80v16H8zM24 0v96M56 0v96M80 0v96" stroke="#d17a45" stroke-width="5" opacity=".65"/><rect x="36" y="-20" width="24" height="20" fill="#6f4b2d"/></g>
+<g transform="translate(958 148)" stroke="#4b3520" stroke-width="9" stroke-linecap="square"><path d="M0 0l74 74M74 0L0 74" stroke="#b88952" stroke-width="15"/><path d="M6 6l62 62M68 6L6 68" stroke="#d4b16f" stroke-width="5"/></g>
+<rect x="54" y="48" width="650" height="184" rx="10" fill="url(#panel)" stroke="#9bbf82" stroke-opacity=".45" stroke-width="2"/>
+<rect x="76" y="70" width="6" height="140" fill="#77b255"/>
+<text x="104" y="112" fill="#d6f2bf" font-family="monospace" font-size="15" letter-spacing="3">SPAWN POINT · JIIT NOIDA</text>
+<text x="104" y="164" fill="#ffffff" font-family="monospace" font-size="48" font-weight="700">KAUSTUBH DUA</text>
+<text x="106" y="198" fill="#d6d9d0" font-family="monospace" font-size="18">ECE student · software builder · curious tinkerer</text>
+<text x="106" y="224" fill="#9fd36b" font-family="monospace" font-size="14">BUILD → TEST → SHIP → LEARN → REPEAT</text>
 </svg>
