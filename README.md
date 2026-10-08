@@ -107,26 +107,34 @@ Smart Waste predicts future bin fill levels, converts operational conditions int
 
 > **Ownership rule:** the four projects above are presented as work in your own repositories. Collaborative work and forks are not represented as sole-authored projects.
 
-## What I can contribute
+## Engineering toolkit
 
-<div align="center">
+<table>
+<tr><td><strong>AI / ML</strong></td><td>Python · scikit-learn · embeddings · model evaluation · AI workflows</td></tr>
+<tr><td><strong>Data / backend</strong></td><td>PostgreSQL · Supabase · FastAPI · APIs · data pipelines</td></tr>
+<tr><td><strong>Product / web</strong></td><td>React · Next.js · TypeScript · Vite · Three.js · Leaflet</td></tr>
+<tr><td><strong>Optimisation</strong></td><td>OR-Tools · routing · prioritisation · constraint-based systems</td></tr>
+<tr><td><strong>Delivery</strong></td><td>Docker · GitHub Actions · CI · CodeQL · Playwright · accessibility</td></tr>
+</table>
 
-| Capability | Working with |
-|---|---|
-| **AI / ML** | PyTorch · TensorFlow · embeddings · model evaluation · AI workflows |
-| **Data / Systems** | Python · PostgreSQL · Supabase · Redis · APIs · data pipelines |
-| **Product / Web** | React · Next.js · TypeScript · Vite · Three.js · Leaflet |
-| **Optimisation** | OR-Tools · routing · prioritisation · constraint-based thinking |
-| **Infrastructure** | Docker · GitHub Actions · CI · security boundaries · deployment |
-| **Engineering practice** | Testing · documentation · provenance · accessibility · performance |
+> **Signal over inventory:** technologies are included because they appear in the projects above or support the engineering practices demonstrated by them.
 
-</div>
+<div align="center"><img src="./assets/capability-wall.svg" width="96%" alt="Engineering strengths across AI, data, product, optimisation and delivery"/></div>
 
-<div align="center"><img src="./assets/capability-wall.svg" width="96%" alt="Engineering capabilities across AI, data, product, optimisation and delivery"/></div>
+---
 
-<div align="center"><img src="./assets/workshop-command.svg" width="96%" alt="Digital engineering workshop showing the build and verification loop"/></div>
+## How I work
 
-<div align="center"><img src="./assets/stack-stream.svg" width="96%" alt="Seamless engineering technology stack stream"/></div>
+**01 · UNDERSTAND** → define the real problem and constraints  
+**02 · MODEL** → make data, interfaces and system boundaries explicit  
+**03 · BUILD** → ship a usable vertical slice  
+**04 · TEST** → attack failure paths, not only happy paths  
+**05 · VERIFY** → separate evidence from assumptions  
+**06 · SHIP** → document what is real, simulated and unfinished
+
+I care about **clarity over cleverness, evidence over assumptions and useful software over feature count.**
+
+<div align="center"><img src="./assets/workshop-command.svg" width="96%" alt="Engineering workshop showing the build, test and verification mindset"/></div>
 
 ---
 
@@ -138,26 +146,14 @@ I’m especially interested in problems where the clean diagram ends and reality
 
 ---
 
-## Current mission
+## Currently
 
 | Signal | Focus |
 |---|---|
 | **Building** | Larger projects with stronger architecture, testing and product thinking |
 | **Learning** | Systems fundamentals, machine learning, data engineering and production software |
 | **Contributing** | Student-led open source and collaborative engineering work |
-| **Looking for** | Strong engineering teams, serious projects and opportunities to learn by shipping |
-
----
-
-## Build protocol
-
-<div align="center"><img src="./assets/signal-divider.svg" width="72%" alt="Engineering section marker"/></div>
-
-<div align="center">
-**01 · UNDERSTAND** → **02 · DESIGN** → **03 · BUILD** → **04 · TEST** → **05 · VERIFY** → **06 · SHIP**
-</div>
-
-I care about **clarity over cleverness, evidence over assumptions and useful software over feature count**.
+| **Looking for** | Software engineering, AI, data and systems internships where I can learn by shipping |
 
 ---
 
