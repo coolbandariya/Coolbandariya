@@ -176,9 +176,9 @@ I’m especially interested in problems where the clean diagram ends and reality
 
 | Repository | What it is | Stars | Primary language | Topics | Updated |
 |---|---|---:|---|---|---|
-| [JYC-Website](https://github.com/kaustubhdua/JYC-Website) | No description yet. | 0 | CSS | — | 2026-10-08 |
-| [nihdhoom](https://github.com/kaustubhdua/nihdhoom) | No description yet. | 0 | TypeScript | — | 2026-10-08 |
-| [Saathi](https://github.com/kaustubhdua/Saathi) | No description yet. | 0 | Python | — | 2026-10-07 |
+| [JYC-Website](https://github.com/kaustubhdua/JYC-Website) | Official JIIT Youth Club public website. | 0 | CSS | — | 2026-10-08 |
+| [nihdhoom](https://github.com/kaustubhdua/nihdhoom) | Field-first crop-residue coordination platform. | 0 | TypeScript | — | 2026-10-08 |
+| [Saathi](https://github.com/kaustubhdua/Saathi) | Voice-first multilingual assistance platform. | 0 | Python | — | 2026-10-07 |
 | [smart_waste_project](https://github.com/kaustubhdua/smart_waste_project) | AI-powered IoT waste monitoring, priority scoring, and OR-Tools route optimization dashboard. | 0 | Python | folium, fuzzy-logic, machine-learning, or-tools, python, route-optimization, streamlit | 2026-10-05 |
 | [nord-studio-task-manager](https://github.com/kaustubhdua/nord-studio-task-manager) | No description yet. | 0 | CSS | — | 2026-10-05 |
 | [weather-core-matrix](https://github.com/kaustubhdua/weather-core-matrix) | No description yet. | 0 | CSS | — | 2026-10-05 |
