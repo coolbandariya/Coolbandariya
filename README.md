@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg?v=b3df96d" width="100%" alt="Kaustubh Dua — ECM student building AI systems, data products and software"/>
+<img src="./assets/profile-banner.svg?v=21505c3" width="100%" alt="Kaustubh Dua — ECM student building AI systems, data products and software"/>
 
 <p>
 <a href="#selected-work">SELECTED WORK</a> &nbsp;·&nbsp;
