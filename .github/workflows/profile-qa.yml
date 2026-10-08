@@ -30,6 +30,9 @@ jobs:
           stack = Path("assets/stack-stream.svg")
 
           assert "Electronics & Computer Engineering" in readme
+          assert "AI · Data · Systems" in readme
+          assert "Animated engineering signal" not in readme
+          assert "Animated engineering capability wall" not in readme
           assert "ECE student" not in readme
           assert "coolbandariya" not in readme.lower()
           assert "orbital" not in readme.lower()
