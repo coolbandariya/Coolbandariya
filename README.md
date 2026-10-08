@@ -2,7 +2,7 @@
 
 <img src="./assets/profile-banner.svg" width="100%" alt="Kaustubh Dua — Electronics & Computer Engineering student building AI, data and systems"/>
 
-<p><a href="#systems-constellation"><img src="https://img.shields.io/badge/SYSTEMS_CONSTELLATION-111827?style=flat-square&logo=github&logoColor=white" alt="Selected work"/></a> <a href="#systems-map"><img src="https://img.shields.io/badge/SYSTEMS_MAP-334155?style=flat-square&logo=github&logoColor=white" alt="Capability wall"/></a> <a href="#build-protocol"><img src="https://img.shields.io/badge/BUILD_PROTOCOL-0f766e?style=flat-square&logo=githubactions&logoColor=white" alt="Build protocol"/></a> <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-475569?style=flat-square&logo=github&logoColor=white" alt="All repositories"/></a></p>
+<p><a href="#selected-work"><img src="https://img.shields.io/badge/SELECTED_WORK-111827?style=flat-square&logo=github&logoColor=white" alt="Selected work"/></a> <a href="#capability-wall"><img src="https://img.shields.io/badge/CAPABILITY_WALL-334155?style=flat-square&logo=github&logoColor=white" alt="Capability wall"/></a> <a href="#build-protocol"><img src="https://img.shields.io/badge/BUILD_PROTOCOL-0f766e?style=flat-square&logo=githubactions&logoColor=white" alt="Build protocol"/></a> <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-475569?style=flat-square&logo=github&logoColor=white" alt="All repositories"/></a></p>
 
 </div>
 
@@ -40,7 +40,7 @@ My projects span open-source discovery, field operations, voice-first assistance
 <div align="center"><img src="./assets/project-ecosystem.svg" width="96%" alt="Animated bento grid of Kaustubh’s selected engineering projects"/></div>
 
 ### GitGlobe · Open-source discovery
-**A 3D map of the open-source universe.**
+**A 3D map of the open-source landscape.**
 
 GitGlobe places **198,731 repositories** on an interactive globe according to what they do rather than what they are called. It combines semantic embeddings, spherical UMAP, WebGL rendering, search, repository ranking and a popularity-blind quality model.
 
