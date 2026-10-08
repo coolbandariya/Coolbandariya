@@ -1,68 +1,68 @@
 <div align="center">
 
-<img src="assets/profile-banner.svg" alt="Minecraft-inspired pixel-art developer banner for Kaustubh Dua" width="100%" />
+<img src="./assets/profile-banner.svg" alt="Minecraft-inspired pixel-art banner for Kaustubh Dua" width="100%" />
 
-# 🧱 Kaustubh Dua
+### ⛏️ Electronics & Computer Engineering student · JIIT Noida · Software builder
 
-### ECE student @ JIIT Noida · Software builder · Open-source learner
+<p>
+  <a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge/GitHub-kaustubhdua-182018?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/Repos-explore-3f7d32?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
+  <a href="https://github.com/kaustubhdua?tab=stars"><img src="https://img.shields.io/badge/Stars-see%20projects-a65b36?style=for-the-badge&logo=github&logoColor=white" alt="Starred projects" /></a>
+</p>
 
-<p><a href="https://github.com/kaustubhdua">GitHub</a> · <a href="#-quest-board">Quest Board</a> · <a href="#-inventory">Inventory</a> · <a href="#-crafting-philosophy">Crafting Philosophy</a> · <a href="#-multiplayer">Multiplayer</a></p>
-
-> ⛏️ **I turn “what if?” into things that actually run.**
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1100&color=4F8A3B&center=true&vCenter=true&width=820&height=42&lines=Building+useful+software%2C+one+block+at+a+time.;React+%C2%B7+TypeScript+%C2%B7+Python+%C2%B7+C%2B%2B+%C2%B7+AI;Build+%E2%86%92+Test+%E2%86%92+Polish+%E2%86%92+Ship+%E2%86%92+Learn" alt="Animated introduction" />
 
 </div>
 
-<p align="center"><img src="assets/signal-divider.svg" width="100%" alt="" /></p>
+<p align="center"><img src="./assets/signal-divider.svg" width="100%" alt="" /></p>
 
-## 🧑‍🌾 About this player
+## 🧑‍🌾 Player profile
 
-Hi, I'm **Kaustubh Dua**, an Electronics & Computer Science Engineering student at **Jaypee Institute of Information Technology (JIIT), Noida**.
+Hi, I'm **Kaustubh Dua**, an **Electronics & Computer Engineering (ECM) student at JIIT, Noida**.
 
-I like building systems from the ground up — especially products involving **full-stack engineering, applied AI, maps, data, optimisation, automation and thoughtful UX**.
+I enjoy turning rough ideas into working products — especially where **software, applied AI, data, maps, optimisation, automation and thoughtful UX** meet.
 
-I don't want a project to merely *look finished*. I want it to be understandable, testable, secure, responsive and useful.
+I care about the part after the demo too: **clean architecture, reliable behaviour, responsive interfaces, tests, security, performance and documentation**.
 
-### 🎮 Current game mode
+<div align="center">
 
-- 🧱 **Build** — practical products instead of tutorial-only projects
-- 🤖 **Explore** — applied AI, local inference, data and automation
-- 🧭 **Design** — clear interfaces, useful flows and accessible UX
-- 🧪 **Harden** — testing, CI, security, performance and documentation
-- 🌱 **Learn** — iterate in public and contribute to open source
+**🎮 Current mode**
 
-<details><summary><strong>📊 Player profile</strong></summary>
+🧱 Build &nbsp;·&nbsp; 🤖 Explore AI &nbsp;·&nbsp; 🧭 Design UX &nbsp;·&nbsp; 🧪 Harden systems &nbsp;·&nbsp; 🌱 Learn in public
+
+</div>
+
+<details>
+<summary><strong>📜 Character sheet</strong></summary>
 
 | Attribute | Current state |
 | --- | --- |
-| 🎓 Class | ECE @ JIIT Noida |
+| 🎓 Class | **ECM @ JIIT Noida** |
 | 🧭 Focus | Software engineering + applied AI |
-| 🧰 Favourite challenge | Turning rough ideas into working systems |
-| 🧪 Engineering mindset | Test → debug → simplify → ship |
-| 🌎 Open source | Learning, contributing and collaborating |
-| 🎯 Long game | Build useful technology and keep getting better |
+| 🛠️ Favourite challenge | Turning an idea into a dependable product |
+| 🧪 Engineering loop | Test → debug → simplify → ship |
+| 🌎 Open source | Learning, contributing & collaborating |
+| 🎯 Long game | Build useful technology and keep improving |
 
 </details>
 
 ---
 
-<a id="quests"></a>
+## 🗺️ Quest board
 
-## 🗺️ Quest Board
+**Flagship builds** — the projects that best represent what I like to make.
 
-These are the builds I currently care most about.
-
-| 🟩 Quest | 🎯 Mission |
+| Quest | Mission |
 | --- | --- |
 | 🌾 **[NIRDHOOM](https://github.com/kaustubhdua/nihdhoom)** | Field-first crop-residue coordination connecting farmers, services, evidence, operations and buyers. |
-| 🌐 **[GitGlobe](https://github.com/kaustubhdua/GitGlobe)** | Visual + semantic exploration of open-source repositories. |
+| 🌐 **[GitGlobe](https://github.com/kaustubhdua/GitGlobe)** | Visual and semantic exploration of open-source repositories. |
 | 🧠 **[Adapt AI](https://github.com/kaustubhdua/adapt-ai)** | Hardware-aware local AI assistant for useful, privacy-conscious workflows. |
 | 🛡️ **[SATARK](https://github.com/kaustubhdua/Satark)** | Security-awareness and threat-analysis tooling with evidence-oriented results. |
 | 🛰️ **[AkashChalak](https://github.com/kaustubhdua/AkashChalak)** | Spatial air-quality and hotspot decision-support experiments. |
 | ♻️ **[Smart Waste](https://github.com/kaustubhdua/smart_waste_project)** | Waste prediction, prioritisation and route-optimisation experiments. |
 
-### 📦 More builds in the chest
-
-<details><summary><strong>Open the chest</strong></summary>
+<details>
+<summary><strong>📦 Open the storage chest — more builds</strong></summary>
 
 - 🏫 **[JIIT Youth Club Website](https://github.com/kaustubhdua/JYC-Website)** — official student-organisation website.
 - 📚 **[JIIT Toppers](https://github.com/kaustubhdua/Jiit-toppers-)** — student-first academic workspace prototype.
@@ -73,113 +73,125 @@ These are the builds I currently care most about.
 
 </details>
 
-> 🧭 **Project status changes.** The individual repository README is the source of truth for current features and release state.
+<sub>Project descriptions are intentionally short; each repository README is the source of truth for its current implementation and status.</sub>
 
 ---
-
-<a id="inventory"></a>
 
 ## 🎒 Inventory
 
+<div align="center">
+
 ### 💻 Languages
-`C++17` · `Python` · `TypeScript` · `JavaScript` · `SQL` · `HTML/CSS`
+
+<img src="https://skillicons.dev/icons?i=cpp,python,ts,js,html,css,sql&theme=dark" alt="C++, Python, TypeScript, JavaScript, HTML, CSS, SQL" />
 
 ### 🖥️ Frontend
-`React` · `Vite` · `React Router` · `Three.js` · `Leaflet` · `Motion`
 
-### ⚙️ Backend & Data
-`FastAPI` · `Supabase` · `PostgreSQL` · `Pydantic` · `SQLAlchemy` · `Redis` · `Docker`
+<img src="https://skillicons.dev/icons?i=react,vite,nextjs,threejs&theme=dark" alt="React, Vite, Next.js, Three.js" />
 
-### 🤖 AI / ML
-`Ollama` · `Groq` · `scikit-learn` · `TensorFlow` · `NumPy` · `Pandas`
+### ⚙️ Backend · Data · DevOps
 
-### 🗺️ Maps & Optimisation
-`GeoPandas` · `Rasterio` · `Folium` · `OR-Tools` · `Dijkstra`
+<img src="https://skillicons.dev/icons?i=fastapi,supabase,postgres,redis,docker,githubactions,vercel&theme=dark" alt="FastAPI, Supabase, PostgreSQL, Redis, Docker, GitHub Actions, Vercel" />
 
-### 🧪 Engineering
-`GitHub Actions` · `Playwright` · `Vitest` · `CMake` · `CTest` · `Vercel`
+### 🤖 AI · Data · Maps
 
-<sub>Technologies represented across my projects — not a claim that I have expert-level proficiency in every item.</sub>
+<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch&theme=dark" alt="Python, TensorFlow, PyTorch" />
+
+</div>
+
+<sub>These technologies appear across my projects; the list is not a claim of expert-level proficiency in every item.</sub>
 
 ---
 
-<a id="crafting-philosophy"></a>
+## 🛠️ Crafting philosophy
 
-## 🛠️ Crafting Philosophy
+> **A good build is more than a working demo.**
 
-A good build is more than a working demo.
-
-| 🧱 Material | 🔨 How I use it |
+| Material | How I use it |
 | --- | --- |
-| **Architecture** | Break large systems into understandable, testable pieces. |
-| **Testing** | Make regressions easier to catch and reproduce. |
-| **UX** | Make interfaces obvious, responsive and accessible. |
-| **Performance** | Keep bundles, images and interactions intentional. |
-| **Security** | Treat inputs, dependencies and secrets as first-class concerns. |
-| **Documentation** | Make the next person's first hour much easier. |
-
-### 🔁 My usual loop
-
-~~~text
-        ┌──────────────┐
-        │     IDEA     │
-        └──────┬───────┘
-               ↓
-        ┌──────────────┐
-        │   PROTOTYPE  │
-        └──────┬───────┘
-               ↓
-        ┌──────────────┐
-        │ TEST + DEBUG │
-        └──────┬───────┘
-               ↓
-        ┌──────────────┐
-        │    POLISH    │
-        └──────┬───────┘
-               ↓
-        ┌──────────────┐
-        │     SHIP     │
-        └──────┬───────┘
-               │
-               └──────────────→ LEARN → REPEAT
-~~~
-
-> **If it works:** make it understandable.  
-> **If it breaks:** make it reproducible.  
-> **If it repeats:** automate it.  
-> **If it matters:** document it.
-
----
-
-## 🏆 Achievements & Community
-
-- 🎓 Electronics & Computer Science Engineering student at **JIIT Noida**
-- 🌱 Contributor to **GirlScript Summer of Code (GSSoC) 2026**
-- 🤝 Interested in student-led open source, constructive code review and collaborative building
-
-## 🌱 What I'm exploring
-
-I'm especially interested in the space where software meets the real world:
-
-**AI × data × maps × optimisation × automation × human-friendly UX**
-
-The goal isn't to use every shiny tool.
-
-The goal is to find the simplest combination of tools that solves the actual problem.
-
----
-
-<a id="multiplayer"></a>
-
-## 🤝 Multiplayer?
-
-<p align="center"><a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge/GitHub-kaustubhdua-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub — kaustubhdua" /></a></p>
-
-If you want to **collaborate, review a project, explore an idea, or build something useful**, feel free to open an issue or discussion in one of the repositories above.
+| 🧱 Architecture | Split complexity into understandable, testable pieces. |
+| 🧪 Testing | Catch regressions before users do. |
+| 🎨 UX | Make interfaces obvious, responsive and accessible. |
+| ⚡ Performance | Keep bundles, images and interactions intentional. |
+| 🛡️ Security | Treat inputs, dependencies and secrets as first-class concerns. |
+| 📚 Documentation | Make the next person's first hour easier. |
 
 <div align="center">
 
-### 🟩 Spawn → Build → Test → Ship → Learn → Repeat
+```text
+        ┌──────────┐
+        │   IDEA   │
+        └────┬─────┘
+             ↓
+       ┌────────────┐
+       │  PROTOTYPE │
+       └─────┬──────┘
+             ↓
+       ┌────────────┐
+       │ TEST + FIX │
+       └─────┬──────┘
+             ↓
+        ┌──────────┐
+        │  POLISH  │
+        └────┬─────┘
+             ↓
+        ┌──────────┐
+        │   SHIP   │
+        └────┬─────┘
+             ↓
+        ┌──────────┐
+        │  LEARN   │
+        └────┬─────┘
+             └──────────→ 🔁
+```
+
+</div>
+
+**If it works:** make it understandable.  
+**If it breaks:** make it reproducible.  
+**If it repeats:** automate it.  
+**If it matters:** document it.
+
+---
+
+## 🌱 Currently exploring
+
+<div align="center">
+
+**AI × Data × Maps × Optimisation × Automation × Human-friendly UX**
+
+</div>
+
+I'm especially interested in software that leaves the screen and helps solve a real problem.
+
+The goal isn't to collect every shiny tool.  
+The goal is to find the **simplest reliable combination of tools for the problem at hand**.
+
+---
+
+## 🏆 Milestones
+
+- 🎓 Electronics & Computer Engineering student at **JIIT Noida**
+- 🌱 Contributor to **GirlScript Summer of Code (GSSoC) 2026**
+- 🤝 Interested in student-led open source, constructive code review and collaborative building
+
+---
+
+## 🤝 Multiplayer?
+
+If you're building something useful and want another pair of eyes, feel free to explore the projects above or open an issue/discussion in a repository.
+
+<div align="center">
+
+<a href="https://github.com/kaustubhdua">
+  <img src="https://img.shields.io/badge/🧭_ENTER_MY_WORLD-GitHub-182018?style=for-the-badge" alt="Visit my GitHub" />
+</a>
+
+<br /><br />
+
+<img src="./assets/signal-divider.svg" width="78%" alt="" />
+
+### 🟩 Spawn → Build → Test → Polish → Ship → Learn → Repeat
 
 <sub>🎮 Minecraft-inspired · 🧱 real projects · 🧪 no fake stats · ⚒️ always crafting</sub>
 
