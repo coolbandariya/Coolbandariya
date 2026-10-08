@@ -12,9 +12,9 @@
 <p align="center"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32" alt="Waving hand animation"> &nbsp; <img src="https://img.shields.io/badge/Currently-Engineering%20%26%20Building-0e7490?style=flat-square&logo=github" alt="Currently engineering and building"></p>
 
 <p>
-  <a href="https://github.com/coolbandariya"><img src="https://img.shields.io/badge/GitHub-coolbandariya-181717?style=flat-square&logo=github" alt="GitHub profile"></a>
-  <img src="https://komarev.com/ghpvc/?username=coolbandariya&style=flat-square&label=Profile%20views&color=0e7490" alt="Profile views">
-  <img src="https://img.shields.io/github/followers/coolbandariya?style=flat-square&label=Followers&color=0e7490" alt="GitHub followers">
+  <a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge/GitHub-kaustubhdua-181717?style=flat-square&logo=github" alt="GitHub profile"></a>
+  <img src="https://komarev.com/ghpvc/?username=kaustubhdua&style=flat-square&label=Profile%20views&color=0e7490" alt="Profile views">
+  <img src="https://img.shields.io/github/followers/kaustubhdua?style=flat-square&label=Followers&color=0e7490" alt="GitHub followers">
 </p>
 
 <a href="#about">About</a> &nbsp;·&nbsp; <a href="#projects">Projects</a> &nbsp;·&nbsp; <a href="#toolbox">Tech stack</a> &nbsp;·&nbsp; <a href="#focus">Focus</a> &nbsp;·&nbsp; <a href="#community">Community</a> &nbsp;·&nbsp; <a href="#connect">Connect</a>
@@ -46,36 +46,36 @@ A quick tour of different problem spaces represented in my public repositories. 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/coolbandariya/nihdhoom">🌾 NIRDHOOM</a></h3>
+      <h3><a href="https://github.com/kaustubhdua/nihdhoom">🌾 NIRDHOOM</a></h3>
       <p>Field-first agricultural operations concept connecting field activity, machinery workflows, evidence, residue handling, and records.</p>
       <sub>React · JavaScript · TypeScript · Vite · Supabase · Leaflet · Three.js</sub>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/coolbandariya/GitGlobe">🌐 GitGlobe</a></h3>
+      <h3><a href="https://github.com/kaustubhdua/GitGlobe">🌐 GitGlobe</a></h3>
       <p>A 3D interactive globe for exploring open-source repositories by semantic similarity, with search, domain filters, and navigable visual discovery.</p>
       <sub>Three.js · WebGL · Python · UMAP · embeddings · data pipelines</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/coolbandariya/adapt-ai">🧠 Adapt AI</a></h3>
+      <h3><a href="https://github.com/kaustubhdua/adapt-ai">🧠 Adapt AI</a></h3>
       <p>A hardware-aware local AI assistant that profiles system memory, recommends locally runnable models, and provides chat, telemetry, file attachments, and Python execution.</p>
       <sub>Python · FastAPI · Ollama · JavaScript · Tailwind · Chart.js</sub>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/coolbandariya/Satark">🛡️ SATARK</a></h3>
+      <h3><a href="https://github.com/kaustubhdua/Satark">🛡️ SATARK</a></h3>
       <p>A Streamlit security-awareness and threat-analysis app for examining suspicious messages, URLs, images, and documents with evidence-oriented results.</p>
       <sub>Python · Streamlit · Groq · Pillow · pypdf · ReportLab</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/coolbandariya/Akash-Chalak">🛰️ AkashChalak</a></h3>
+      <h3><a href="https://github.com/kaustubhdua/Akash-Chalak">🛰️ AkashChalak</a></h3>
       <p>Satellite-assisted air-quality and hotspot decision-support prototype with live-source ingestion, spatial interpolation, and mapped results.</p>
       <sub>Python · FastAPI · React · Leaflet · scikit-learn · PostgreSQL · TimescaleDB</sub>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/coolbandariya/smart_waste_project">♻️ Smart Waste</a></h3>
+      <h3><a href="https://github.com/kaustubhdua/smart_waste_project">♻️ Smart Waste</a></h3>
       <p>Waste collection workflow combining IoT-style time-series data, fill-level prediction, priority scoring, and vehicle-route optimization.</p>
       <sub>Python · Streamlit · Random Forest · OR-Tools · Folium · Pandas</sub>
     </td>
@@ -88,12 +88,12 @@ A quick tour of different problem spaces represented in my public repositories. 
   <summary><b>More repositories</b></summary>
   <br>
 
-  - **[JYC Website](https://github.com/coolbandariya/JYC-Website)** — Club-first public website for JIIT Youth Club, with React, Vite, React Router, Supabase, Three.js, and a CSS-first interaction layer.
-  - **[Smart Bike Taxi Platform](https://github.com/coolbandariya/Smart_bike_taxi_platform)** — C++17 ride-booking simulation using Dijkstra routing, a custom hash table, FIFO requests, local persistence, CMake, and CTest.
-  - **[Nord Studio Task Manager](https://github.com/coolbandariya/nord-studio-task-manager)** — Lightweight task manager built with vanilla HTML, CSS, and JavaScript.
-  - **[Weather Core Matrix](https://github.com/coolbandariya/weather-core-matrix)** — Browser-based weather dashboard using vanilla HTML, CSS, and JavaScript.
-  - **[AkashChalak (alternate repository)](https://github.com/coolbandariya/AkashChalak)** — Alternate repository for the air-quality prototype; see both repository histories before treating them as separate projects.
-  - **[GitHub Skills exercise](https://github.com/coolbandariya/skills-introduction-to-github)** — Repository used for a GitHub learning exercise.
+  - **[JYC Website](https://github.com/kaustubhdua/JYC-Website)** — Club-first public website for JIIT Youth Club, with React, Vite, React Router, Supabase, Three.js, and a CSS-first interaction layer.
+  - **[Smart Bike Taxi Platform](https://github.com/kaustubhdua/Smart_bike_taxi_platform)** — C++17 ride-booking simulation using Dijkstra routing, a custom hash table, FIFO requests, local persistence, CMake, and CTest.
+  - **[Nord Studio Task Manager](https://github.com/kaustubhdua/nord-studio-task-manager)** — Lightweight task manager built with vanilla HTML, CSS, and JavaScript.
+  - **[Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix)** — Browser-based weather dashboard using vanilla HTML, CSS, and JavaScript.
+  - **[AkashChalak (alternate repository)](https://github.com/kaustubhdua/AkashChalak)** — Alternate repository for the air-quality prototype; see both repository histories before treating them as separate projects.
+  - **[GitHub Skills exercise](https://github.com/kaustubhdua/skills-introduction-to-github)** — Repository used for a GitHub learning exercise.
 
 </details>
 
@@ -211,9 +211,9 @@ I value useful, well-scoped contributions and thoughtful feedback.
 <p align="center"><sub>Recent work and contribution activity, presented with lightweight stats.</sub></p>
 
 <div align="center">
-  <img width="90%" src="https://github-readme-stats.vercel.app/api?username=coolbandariya&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" alt="GitHub statistics">
+  <img width="90%" src="https://github-readme-stats.vercel.app/api?username=kaustubhdua&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" alt="GitHub statistics">
   <br><br>
-  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=coolbandariya&theme=tokyonight&hide_border=true" alt="GitHub contribution streak">
+  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=kaustubhdua&theme=tokyonight&hide_border=true" alt="GitHub contribution streak">
   <br><br>
 </div>
 
@@ -224,9 +224,9 @@ I value useful, well-scoped contributions and thoughtful feedback.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/coolbandariya/Coolbandariya/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/coolbandariya/Coolbandariya/output/github-contribution-grid-snake.svg">
-    <img alt="Animated contribution graph snake" src="https://raw.githubusercontent.com/coolbandariya/Coolbandariya/output/github-contribution-grid-snake.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaustubhdua/Coolbandariya/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaustubhdua/Coolbandariya/output/github-contribution-grid-snake.svg">
+    <img alt="Animated contribution graph snake" src="https://raw.githubusercontent.com/kaustubhdua/Coolbandariya/output/github-contribution-grid-snake.svg" width="100%">
   </picture>
 </p>
 
@@ -237,7 +237,7 @@ I value useful, well-scoped contributions and thoughtful feedback.
 ## Connect
 
 <div align="center">
-  <a href="https://github.com/coolbandariya"><img src="https://img.shields.io/badge/GitHub-coolbandariya-181717?style=for-the-badge&logo=github" alt="GitHub profile"></a>
+  <a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge/GitHub-kaustubhdua-181717?style=for-the-badge&logo=github" alt="GitHub profile"></a>
   <br><br>
   <sub>Interested in a project or have constructive feedback? Browse the repositories and connect through GitHub.</sub>
 </div>
