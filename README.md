@@ -2,7 +2,7 @@
 
 <img src="./assets/profile-banner.svg" width="100%" alt="Kaustubh Dua — Electronics & Computer Engineering student building AI, data and systems"/>
 
-<p><a href="#selected-work"><img src="https://img.shields.io/badge/SELECTED_WORK-111827?style=flat-square&logo=github&logoColor=white" alt="Selected work"/></a> <a href="#capability-wall"><img src="https://img.shields.io/badge/CAPABILITY_WALL-334155?style=flat-square&logo=github&logoColor=white" alt="Capability wall"/></a> <a href="#build-protocol"><img src="https://img.shields.io/badge/BUILD_PROTOCOL-0f766e?style=flat-square&logo=githubactions&logoColor=white" alt="Build protocol"/></a> <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-475569?style=flat-square&logo=github&logoColor=white" alt="All repositories"/></a></p>
+<p><a href="#selected-work"><img src="https://img.shields.io/badge/SELECTED_WORK-111827?style=flat-square&logo=github&logoColor=white" alt="Selected work"/></a> <a href="#what-i-can-contribute"><img src="https://img.shields.io/badge/CAPABILITY_WALL-334155?style=flat-square&logo=github&logoColor=white" alt="What I can contribute"/></a> <a href="#build-protocol"><img src="https://img.shields.io/badge/BUILD_PROTOCOL-0f766e?style=flat-square&logo=githubactions&logoColor=white" alt="Build protocol"/></a> <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-475569?style=flat-square&logo=github&logoColor=white" alt="All repositories"/></a></p>
 
 </div>
 
