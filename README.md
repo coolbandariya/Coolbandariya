@@ -195,7 +195,8 @@ I care about **clarity over cleverness, evidence over assumptions and useful sof
 ---
 
 <div align="center">
-### Build something useful.
+
+## Build something useful.
 
 **[GitHub](https://github.com/kaustubhdua)** · **[Repositories](https://github.com/kaustubhdua?tab=repositories)**
 
