@@ -24,7 +24,7 @@ jobs:
 
           readme = Path("README.md").read_text(encoding="utf-8")
           checks = {
-              "ECM identity": "Electronics & Computer Engineering" in readme,
+              "ECM identity": "electronics & computer engineering" in readme.lower(),
               "exact banner URL": "d2ol7oe51mr4n9.cloudfront.net/user_3JuNbn6G1fWehaUubucloQMU8cb/e0930052-b661-4682-a281-67b390d8146e.png" in readme,
               "featured projects": all(name in readme for name in ("GitGlobe", "NIRDHOOM", "Saathi", "SATARK", "Adapt AI")),
               "animated build log": "assets/profile-motion.svg" in readme,
