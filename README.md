@@ -132,6 +132,11 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 ![React](https://img.shields.io/badge/React-252525?style=flat-square&logo=react&logoColor=F4EFE5)
 ![Next.js](https://img.shields.io/badge/Next.js-252525?style=flat-square&logo=nextdotjs&logoColor=F4EFE5)
 ![Vite](https://img.shields.io/badge/Vite-252525?style=flat-square&logo=vite&logoColor=F4EFE5)
+![React Router](https://img.shields.io/badge/React_Router-252525?style=flat-square&logo=reactrouter&logoColor=F4EFE5)
+![Zustand](https://img.shields.io/badge/Zustand-252525?style=flat-square)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-252525?style=flat-square&logo=reactquery&logoColor=F4EFE5)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-252525?style=flat-square&logo=tailwindcss&logoColor=F4EFE5)
+![Chart.js](https://img.shields.io/badge/Chart.js-252525?style=flat-square&logo=chartdotjs&logoColor=F4EFE5)
 ![Three.js](https://img.shields.io/badge/Three.js-252525?style=flat-square&logo=threedotjs&logoColor=F4EFE5)
 ![WebGL](https://img.shields.io/badge/WebGL-252525?style=flat-square&logo=webgl&logoColor=F4EFE5)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-252525?style=flat-square&logo=tailwindcss&logoColor=F4EFE5)
@@ -149,6 +154,9 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 ![REST APIs](https://img.shields.io/badge/REST_APIs-252525?style=flat-square)
 ![Python services](https://img.shields.io/badge/Python_services-252525?style=flat-square)
 ![Speech APIs](https://img.shields.io/badge/Speech_APIs-252525?style=flat-square)
+![Pydantic](https://img.shields.io/badge/Pydantic-252525?style=flat-square&logo=pydantic&logoColor=F4EFE5)
+![Prisma](https://img.shields.io/badge/Prisma-252525?style=flat-square&logo=prisma&logoColor=F4EFE5)
+![Node.js](https://img.shields.io/badge/Node.js-252525?style=flat-square&logo=nodedotjs&logoColor=F4EFE5)
 
 </td>
 <td valign="top">
@@ -164,6 +172,15 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 ![OR--Tools](https://img.shields.io/badge/OR--Tools-252525?style=flat-square&logo=google&logoColor=F4EFE5)
 ![Fuzzy logic](https://img.shields.io/badge/Fuzzy_logic-252525?style=flat-square)
 ![Geospatial mapping](https://img.shields.io/badge/Geospatial_mapping-252525?style=flat-square)
+![Folium](https://img.shields.io/badge/Folium-252525?style=flat-square)
+![Qdrant](https://img.shields.io/badge/Qdrant-252525?style=flat-square)
+![Vertex AI](https://img.shields.io/badge/Vertex_AI-252525?style=flat-square&logo=googlecloud&logoColor=F4EFE5)
+![NVIDIA NIM](https://img.shields.io/badge/NVIDIA_NIM-252525?style=flat-square&logo=nvidia&logoColor=F4EFE5)
+![Prefect](https://img.shields.io/badge/Prefect-252525?style=flat-square)
+![Pillow](https://img.shields.io/badge/Pillow-252525?style=flat-square)
+![OpenCV](https://img.shields.io/badge/OpenCV-252525?style=flat-square&logo=opencv&logoColor=F4EFE5)
+![ReportLab](https://img.shields.io/badge/ReportLab-252525?style=flat-square)
+![pypdf](https://img.shields.io/badge/pypdf-252525?style=flat-square)
 
 </td>
 </tr>
@@ -173,6 +190,10 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 **05 / Databases & integrations**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
+![PostGIS](https://img.shields.io/badge/PostGIS-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
+![TimescaleDB](https://img.shields.io/badge/TimescaleDB-252525?style=flat-square)
+![Qdrant](https://img.shields.io/badge/Qdrant-252525?style=flat-square)
+![Prisma](https://img.shields.io/badge/Prisma-252525?style=flat-square&logo=prisma&logoColor=F4EFE5)
 ![Supabase](https://img.shields.io/badge/Supabase-252525?style=flat-square&logo=supabase&logoColor=F4EFE5)
 ![SQLite](https://img.shields.io/badge/SQLite-252525?style=flat-square&logo=sqlite&logoColor=F4EFE5)
 ![Ollama](https://img.shields.io/badge/Local_inference-252525?style=flat-square&logo=ollama&logoColor=F4EFE5)
@@ -187,6 +208,11 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-252525?style=flat-square&logo=githubactions&logoColor=F4EFE5)
 ![Pytest](https://img.shields.io/badge/Pytest-252525?style=flat-square&logo=pytest&logoColor=F4EFE5)
 ![Playwright](https://img.shields.io/badge/Playwright-252525?style=flat-square&logo=playwright&logoColor=F4EFE5)
+![CMake](https://img.shields.io/badge/CMake-252525?style=flat-square&logo=cmake&logoColor=F4EFE5)
+![Docker](https://img.shields.io/badge/Docker-252525?style=flat-square&logo=docker&logoColor=F4EFE5)
+![CTest](https://img.shields.io/badge/CTest-252525?style=flat-square)
+![ESLint](https://img.shields.io/badge/ESLint-252525?style=flat-square&logo=eslint&logoColor=F4EFE5)
+![CodeQL](https://img.shields.io/badge/CodeQL-252525?style=flat-square&logo=github&logoColor=F4EFE5)
 ![CI workflows](https://img.shields.io/badge/CI_workflows-252525?style=flat-square)
 ![Threat triage](https://img.shields.io/badge/Threat_triage-252525?style=flat-square)
 
