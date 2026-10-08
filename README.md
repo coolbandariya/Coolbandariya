@@ -218,11 +218,11 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <div align="center">
 
-<img src="./assets/profile-guitar.svg?v=20261009" width="100%" alt="Animated guitar strings and music waveform"/>
+<img src="./assets/guitar-studio.svg?v=20261009" width="100%" alt="Animated editorial guitar studio banner with electric guitar, music waveform, practice goals, chords and playlist-inspired panels"/>
 
-**GUITAR · MUSIC · BUILDING THINGS**
+**GUITAR · MUSIC · CREATIVE RESET**
 
-*Different kind of strings. Same love for getting the details right.*
+*Same six strings. Different worlds. Infinite ideas.*
 
 </div>
 
