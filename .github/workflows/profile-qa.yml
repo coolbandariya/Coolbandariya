@@ -27,6 +27,7 @@ jobs:
           ecosystem = Path("assets/project-bento.svg")
           circuit = Path("assets/capability-wall.svg")
           terminal = Path("assets/workshop-command.svg")
+          stack = Path("assets/stack-stream.svg")
 
           assert "Electronics & Computer Engineering" in readme
           assert "ECE student" not in readme
@@ -41,7 +42,7 @@ jobs:
           assert "assets/workshop-command.svg" in readme
           assert banner.exists() and divider.exists()
 
-          for path in (banner, divider, ecosystem, circuit, terminal):
+          for path in (banner, divider, ecosystem, circuit, terminal, stack):
               ET.parse(path)
               text = path.read_text(encoding="utf-8")
               assert "<script" not in text.lower()
