@@ -116,6 +116,13 @@ assert "GitGlobe" not in readme
           asset_text = [p.read_text(encoding="utf-8") for p in (banner, divider, ecosystem, circuit, terminal, stack)]
           assert sum(text.count("@keyframes") for text in asset_text) >= 8, "Expected richer animation system"
           # Keep decorative motion deliberately slow: no profile asset should introduce a sub-5s loop.
-          durations = re.findall(r"animation:[^;}]*?(\d+(?:\.\d+)?)s", "\n".join(asset_text))
-          assert all(float(d) >= 5 for d in durations), f"Animation loop is too fast: {durations}"
+          animation_specs = re.findall(r"animation:([^;}]+)", "\n".join(asset_text))
+          loop_durations = []
+          for spec in animation_specs:
+              if "infinite" not in spec:
+                  continue
+              match = re.search(r"(\d+(?:\.\d+)?)s", spec)
+              if match:
+                  loop_durations.append(float(match.group(1)))
+          assert all(d >= 5 for d in loop_durations), f"Animation loop is too fast: {loop_durations}"
           print(f"Profile QA passed: {len(local_refs)} local assets, {len(internal_links)} internal anchors, {len(expected_repositories)} curated project links.")
