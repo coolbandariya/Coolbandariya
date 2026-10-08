@@ -24,14 +24,18 @@ My projects span open-source discovery, field operations, voice-first assistance
 
 ---
 
-## Mission brief
+## At a glance
 
-| Signal | Evidence |
-|---|---|
-| **Open-source discovery** | 198,731-repository semantic globe in GitGlobe |
-| **Real-world operations** | Field-first residue coordination in Nirdhoom |
-| **Voice + AI** | Source-backed, provider-aware assistance in Saathi |
-| **Production web** | CI, CodeQL, accessibility and browser QA in JYC 128 |
+<table>
+<tr>
+<td width="25%" align="center"><strong>AI + ML</strong><br/><sub>models · embeddings · evaluation</sub></td>
+<td width="25%" align="center"><strong>DATA</strong><br/><sub>pipelines · APIs · PostgreSQL</sub></td>
+<td width="25%" align="center"><strong>PRODUCT</strong><br/><sub>React · TypeScript · UX</sub></td>
+<td width="25%" align="center"><strong>SYSTEMS</strong><br/><sub>optimisation · CI · deployment</sub></td>
+</tr>
+</table>
+
+> **What I optimise for:** useful software, explicit constraints, testable behaviour and evidence that a feature actually works.
 
 ---
 
@@ -39,8 +43,10 @@ My projects span open-source discovery, field operations, voice-first assistance
 
 <div align="center"><img src="./assets/project-ecosystem.svg" width="96%" alt="Animated bento grid of Kaustubh’s selected engineering projects"/></div>
 
-### GitGlobe · Open-source discovery
+### 01 · GitGlobe — Open-source discovery
 **A 3D map of the open-source landscape.**
+
+> **Proof:** 198,731 repositories · semantic embeddings · spherical UMAP · WebGL · search · ranking
 
 GitGlobe places **198,731 repositories** on an interactive globe according to what they do rather than what they are called. It combines semantic embeddings, spherical UMAP, WebGL rendering, search, repository ranking and a popularity-blind quality model.
 
@@ -50,8 +56,10 @@ GitGlobe places **198,731 repositories** on an interactive globe according to wh
 
 ---
 
-### Nirdhoom · Field operations
+### 02 · Nirdhoom — Field operations
 **Field → service → evidence → residue → buyer.**
+
+> **Proof:** field workflows · booking · dispatch · operator evidence · verification · OR-Tools
 
 A field-first crop-residue coordination platform built around an operational chain instead of another dashboard. It brings together field workflows, booking, dispatch, operator evidence, verification, residue pooling and an OR-Tools dispatch foundation.
 
@@ -61,8 +69,10 @@ A field-first crop-residue coordination platform built around an operational cha
 
 ---
 
-### Saathi · Voice + AI
+### 03 · Saathi — Voice + AI
 **Voice-first assistance for real-world workflows.**
+
+> **Proof:** deterministic intent routing · provider adapters · consent · human escalation · readiness gates
 
 A multilingual assistance platform built around source-backed answers, deterministic intent routing, provider adapters, consent, human escalation and measurable readiness gates. Simulated capabilities are deliberately separated from provider-backed ones.
 
@@ -72,8 +82,10 @@ A multilingual assistance platform built around source-backed answers, determini
 
 ---
 
-### JYC 128 · Product engineering
+### 04 · JYC 128 — Product engineering
 **An editorial product for JIIT Youth Club.**
+
+> **Proof:** verified records · media provenance · accessibility · SEO · CI · CodeQL · browser QA
 
 The official JYC 128 website combines content architecture, verified public records, media provenance, accessibility, SEO, responsive design, CI, CodeQL and browser QA.
 
