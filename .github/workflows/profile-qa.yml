@@ -24,13 +24,15 @@ jobs:
           readme = Path("README.md").read_text(encoding="utf-8")
           banner = Path("assets/profile-banner.svg")
           divider = Path("assets/signal-divider.svg")
+          ecosystem = Path("assets/project-ecosystem.svg")
+          circuit = Path("assets/engineering-circuit.svg")
 
-          assert "Electronics & Computer Engineering (ECM)" in readme
+          assert "Electronics & Computer Engineering" in readme
           assert "ECE student" not in readme
           assert "coolbandariya" not in readme.lower()
           assert banner.exists() and divider.exists()
 
-          for path in (banner, divider):
+          for path in (banner, divider, ecosystem, circuit):
               ET.parse(path)
               text = path.read_text(encoding="utf-8")
               assert "<script" not in text.lower()
