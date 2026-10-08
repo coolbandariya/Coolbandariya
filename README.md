@@ -22,16 +22,17 @@ I build software where **AI, data, systems and real-world constraints** meet —
 
 ---
 
-## At a glance
+## Recruiter snapshot
 
 <table>
 <tr>
-<td width="25%" align="center"><strong>AI + ML</strong><br/><sub>models · embeddings · evaluation</sub></td>
-<td width="25%" align="center"><strong>DATA</strong><br/><sub>pipelines · APIs · PostgreSQL</sub></td>
-<td width="25%" align="center"><strong>PRODUCT</strong><br/><sub>React · TypeScript · UX</sub></td>
-<td width="25%" align="center"><strong>SYSTEMS</strong><br/><sub>optimisation · CI · deployment</sub></td>
+<td width="34%" align="center"><strong>ECM STUDENT</strong><br/><sub>JIIT Noida · Electronics & Computer Engineering</sub></td>
+<td width="33%" align="center"><strong>BUILDER</strong><br/><sub>AI · data · systems · product engineering</sub></td>
+<td width="33%" align="center"><strong>PROOF</strong><br/><sub>GitGlobe · Nirdhoom · Saathi · JYC 128</sub></td>
 </tr>
 </table>
+
+**What you can expect from the projects below:** real repositories, concrete technical decisions, explicit constraints, and clear boundaries between prototype, simulated and provider-backed functionality.
 
 > **Engineering principle:** clarity over cleverness · evidence over assumptions · useful software over feature count.
 
@@ -96,6 +97,7 @@ The official JYC 128 website combines content architecture, verified public reco
 ### Other work
 
 | Project | Engineering signal |
+
 |---|---|
 | **[Satark](https://github.com/kaustubhdua/Satark)** | Security analysis, explainability and safer engineering workflows |
 | **[AkashChalak](https://github.com/kaustubhdua/AkashChalak)** | Geospatial air-quality analysis and environmental intelligence |
@@ -107,7 +109,7 @@ The official JYC 128 website combines content architecture, verified public reco
 
 ---
 
-## Capability wall
+## What I can contribute
 
 <div align="center">
 
@@ -130,7 +132,7 @@ The official JYC 128 website combines content architecture, verified public reco
 
 ---
 
-## Research interests
+## Engineering interests
 
 **AI systems** · **Data products** · **Geospatial computing** · **Optimisation** · **Automation** · **Developer experience**
 
@@ -170,18 +172,18 @@ I care about **clarity over cleverness, evidence over assumptions and useful sof
 
 ---
 
-## Engineering dashboard
+## GitHub evidence
 
 <div align="center">
 <a href="https://github.com/kaustubhdua"><img src="https://github-readme-stats.vercel.app/api?username=kaustubhdua&show_icons=true&hide_border=true&bg_color=00000000&title_color=0f766e&text_color=64748b&icon_color=0284c7&rank_icon=github&include_all_commits=true&count_private=true" width="58%" alt="GitHub statistics"/></a>
 </div>
 
-### Activity
+### Contribution signal
 
 <div align="center">
 <a href="https://github.com/kaustubhdua"><img src="https://github-readme-activity-graph.vercel.app/graph?username=kaustubhdua&bg_color=00000000&color=64748b&line=0f766e&point=0284c7&area=true&hide_border=true" width="94%" alt="GitHub contribution activity"/></a>
 <br/>
-<sub>Activity is supporting evidence; the selected projects above are the main proof.</sub>
+<sub>GitHub activity is supporting evidence; the selected projects above are the main proof.</sub>
 </div>
 
 ### Contribution activity
