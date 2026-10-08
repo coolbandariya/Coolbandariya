@@ -1,123 +1,112 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
-<title id="title">Kaustubh Dua — engineering profile</title>
-<desc id="desc">Cinematic animated engineering banner showing a dark technical grid, flowing data lines, orbiting nodes, telemetry panels and Kaustubh Dua's engineering identity.</desc>
+<title id="title">Kaustubh Dua — Orbital Systems Lab</title>
+<desc id="desc">Animated orbital systems laboratory interface combining terminal telemetry, engineering signals, project constellations and a living systems core.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030712"/><stop offset=".42" stop-color="#081525"/><stop offset="1" stop-color="#06101c"/></linearGradient>
-  <radialGradient id="cyan"><stop stop-color="#38bdf8" stop-opacity=".20"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
-  <radialGradient id="green"><stop stop-color="#22c55e" stop-opacity=".15"/><stop offset="1" stop-color="#22c55e" stop-opacity="0"/></radialGradient>
-  <linearGradient id="signal"><stop stop-color="#22c55e" stop-opacity="0"/><stop offset=".35" stop-color="#22c55e"/><stop offset=".72" stop-color="#38bdf8"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></linearGradient>
-  <linearGradient id="metal" x2="1"><stop stop-color="#94a3b8" stop-opacity=".35"/><stop offset=".5" stop-color="#e2e8f0" stop-opacity=".08"/><stop offset="1" stop-color="#94a3b8" stop-opacity=".35"/></linearGradient>
-  <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#94a3b8" stroke-opacity=".065"/></pattern>
-  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".8" fill="#38bdf8" opacity=".12"/></pattern>
-  <filter id="blur"><feGaussianBlur stdDeviation="30"/></filter>
-  <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
-  <clipPath id="clip"><rect x="0" y="0" width="1600" height="620" rx="30"/></clipPath>
-  <style>
-    .flow{stroke-dasharray:8 20;animation:flow 3.8s linear infinite}
-    .flow2{stroke-dasharray:2 15;animation:flow 2.2s linear infinite}
-    .orbit{transform-origin:1210px 290px;animation:orbit 18s linear infinite}
-    .orbit2{transform-origin:1210px 290px;animation:orbit 11s linear infinite reverse}
-    .pulse{animation:pulse 2.4s ease-in-out infinite}
-    .pulse2{animation:pulse 2.4s ease-in-out .8s infinite}
-    .blink{animation:blink 1.8s steps(1,end) infinite}
-    .reveal{animation:reveal 1.2s ease-out both}
-    .reveal2{animation:reveal 1.2s .25s ease-out both}
-    .reveal3{animation:reveal 1.2s .5s ease-out both}
-    .scan{animation:scan 6s ease-in-out infinite}
-    .bars{animation:bars 3s ease-in-out infinite}
-    @keyframes flow{to{stroke-dashoffset:-112}}
-    @keyframes orbit{to{transform:rotate(360deg)}}
-    @keyframes pulse{0%,100%{opacity:.25;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)}}
-    @keyframes blink{0%,35%,100%{opacity:1}36%,70%{opacity:.28}}
-    @keyframes reveal{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-    @keyframes scan{0%,100%{transform:translateX(-30px);opacity:0}15%,80%{opacity:.8}50%{transform:translateX(860px)}}
-    @keyframes bars{0%,100%{transform:scaleY(.65)}50%{transform:scaleY(1)}}
-    @media(prefers-reduced-motion:reduce){.flow,.flow2,.orbit,.orbit2,.pulse,.pulse2,.blink,.reveal,.reveal2,.reveal3,.scan,.bars{animation:none}}
-  </style>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617"/><stop offset=".5" stop-color="#071827"/><stop offset="1" stop-color="#041019"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#38bdf8" stop-opacity=".28"/><stop offset=".5" stop-color="#22c55e" stop-opacity=".08"/><stop offset="1" stop-color="#22c55e" stop-opacity="0"/></radialGradient>
+<linearGradient id="signal"><stop stop-color="#22c55e" stop-opacity="0"/><stop offset=".3" stop-color="#22c55e"/><stop offset=".7" stop-color="#38bdf8"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#94a3b8" stroke-opacity=".055"/></pattern>
+<pattern id="micro" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".65" fill="#38bdf8" opacity=".11"/></pattern>
+<filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+<filter id="soft"><feGaussianBlur stdDeviation="4"/></filter>
+<clipPath id="clip"><rect width="1600" height="620" rx="30"/></clipPath>
+<style>
+.flow{stroke-dasharray:7 20;animation:flow 3.2s linear infinite}
+.flow2{stroke-dasharray:2 13;animation:flow 2s linear infinite}
+.orbit{transform-origin:1190px 292px;animation:spin 18s linear infinite}
+.orbit2{transform-origin:1190px 292px;animation:spin 11s linear infinite reverse}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+.blink{animation:blink 1.8s steps(1,end) infinite}
+.reveal{animation:reveal 1s ease-out both}
+.reveal2{animation:reveal 1s .22s ease-out both}
+.scan{animation:scan 6s ease-in-out infinite}
+.bars{animation:bars 2.8s ease-in-out infinite}
+@keyframes flow{to{stroke-dashoffset:-108}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes pulse{0%,100%{opacity:.3;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)}}
+@keyframes blink{0%,40%,100%{opacity:1}41%,75%{opacity:.25}}
+@keyframes reveal{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes scan{0%,100%{transform:translateX(-40px);opacity:0}18%,78%{opacity:.75}50%{transform:translateX(870px)}}
+@keyframes bars{0%,100%{transform:scaleY(.55)}50%{transform:scaleY(1)}}
+@media(prefers-reduced-motion:reduce){.flow,.flow2,.orbit,.orbit2,.pulse,.blink,.reveal,.reveal2,.scan,.bars{animation:none}}
+</style>
 </defs>
-
 <g clip-path="url(#clip)">
 <rect width="1600" height="620" fill="url(#bg)"/>
 <rect width="1600" height="620" fill="url(#grid)"/>
-<rect width="1600" height="620" fill="url(#dots)" opacity=".55"/>
-<ellipse cx="1290" cy="160" rx="450" ry="360" fill="url(#cyan)" filter="url(#blur)"/>
-<ellipse cx="220" cy="520" rx="390" ry="240" fill="url(#green)" filter="url(#blur)"/>
+<rect width="1600" height="620" fill="url(#micro)" opacity=".65"/>
+<ellipse cx="1190" cy="292" rx="480" ry="370" fill="url(#glow)" filter="url(#blur)"/>
 
-<!-- cinematic frame -->
-<rect x="24" y="24" width="1552" height="572" rx="24" fill="none" stroke="url(#metal)" stroke-width="1"/>
-<path d="M58 96H380M1220 96H1542M58 548H460M1140 548H1542" stroke="#64748b" stroke-opacity=".25"/>
-<path d="M58 86V106M1542 86V106M58 538V558M1542 538V558" stroke="#94a3b8" stroke-opacity=".35"/>
+<rect x="24" y="24" width="1552" height="572" rx="26" fill="none" stroke="#64748b" stroke-opacity=".28"/>
+<path d="M56 94H410M1190 94H1544M56 550H470M1110 550H1544" stroke="#94a3b8" stroke-opacity=".22"/>
+<path d="M56 84V104M1544 84V104M56 540V560M1544 540V560" stroke="#94a3b8" stroke-opacity=".35"/>
 
-<!-- left signal network -->
+<!-- engineering signal network -->
 <g fill="none" stroke-linecap="round">
- <path d="M-40 462H205L300 367H478L548 297H710" stroke="#334155" stroke-width="2"/>
- <path class="flow" d="M-40 462H205L300 367H478L548 297H710" stroke="url(#signal)" stroke-width="3"/>
- <path d="M110 620V510L245 375H410L500 285H620" stroke="#334155" stroke-width="2"/>
- <path class="flow2" d="M110 620V510L245 375H410L500 285H620" stroke="#38bdf8" stroke-opacity=".8" stroke-width="2"/>
- <path d="M0 190H150L220 120H420" stroke="#334155" stroke-width="2"/>
- <path class="flow2" d="M0 190H150L220 120H420" stroke="#22c55e" stroke-opacity=".65" stroke-width="2"/>
+<path d="M-30 470H190L290 370H470L555 285H735" stroke="#334155" stroke-width="2"/>
+<path class="flow" d="M-30 470H190L290 370H470L555 285H735" stroke="url(#signal)" stroke-width="3"/>
+<path d="M90 620V520L235 375H405L505 275H650" stroke="#334155" stroke-width="2"/>
+<path class="flow2" d="M90 620V520L235 375H405L505 275H650" stroke="#38bdf8" stroke-opacity=".8" stroke-width="2"/>
+<path d="M0 178H145L225 98H430" stroke="#334155" stroke-width="2"/>
+<path class="flow2" d="M0 178H145L225 98H430" stroke="#22c55e" stroke-opacity=".7" stroke-width="2"/>
 </g>
 <g fill="#06101c" stroke="#38bdf8" stroke-width="2">
- <circle class="pulse" cx="205" cy="462" r="6"/><circle class="pulse2" cx="300" cy="367" r="5"/>
- <circle class="pulse" cx="478" cy="367" r="5"/><circle class="pulse2" cx="548" cy="297" r="5"/>
- <circle class="pulse" cx="245" cy="375" r="5"/><circle class="pulse2" cx="500" cy="285" r="5"/>
+<circle class="pulse" cx="190" cy="470" r="6"/><circle class="pulse" cx="290" cy="370" r="5"/><circle class="pulse" cx="470" cy="370" r="5"/><circle class="pulse" cx="555" cy="285" r="5"/><circle class="pulse" cx="235" cy="375" r="5"/>
 </g>
 
-<!-- right technical globe / system core -->
-<g class="orbit" fill="none" stroke="#38bdf8" stroke-opacity=".23" stroke-width="1.5">
- <ellipse cx="1210" cy="290" rx="230" ry="92" transform="rotate(-18 1210 290)"/>
- <ellipse cx="1210" cy="290" rx="230" ry="92" transform="rotate(42 1210 290)"/>
+<!-- orbital systems core -->
+<g class="orbit" fill="none" stroke="#38bdf8" stroke-opacity=".24" stroke-width="1.5">
+<ellipse cx="1190" cy="292" rx="245" ry="96" transform="rotate(-18 1190 292)"/>
+<ellipse cx="1190" cy="292" rx="245" ry="96" transform="rotate(42 1190 292)"/>
 </g>
-<g class="orbit2" fill="none" stroke="#22c55e" stroke-opacity=".22" stroke-width="1.2">
- <ellipse cx="1210" cy="290" rx="185" ry="70" transform="rotate(78 1210 290)"/>
+<g class="orbit2" fill="none" stroke="#22c55e" stroke-opacity=".24" stroke-width="1.3">
+<ellipse cx="1190" cy="292" rx="195" ry="72" transform="rotate(78 1190 292)"/>
 </g>
-<circle cx="1210" cy="290" r="112" fill="#071523" stroke="#334155" stroke-width="1.5"/>
-<circle cx="1210" cy="290" r="92" fill="none" stroke="#38bdf8" stroke-opacity=".14"/>
-<circle cx="1210" cy="290" r="67" fill="none" stroke="#22c55e" stroke-opacity=".16"/>
-<path d="M1210 188V392M1108 290H1312M1140 230L1280 350M1280 230L1140 350" stroke="#64748b" stroke-opacity=".12"/>
-<circle class="pulse" cx="1210" cy="290" r="14" fill="#22c55e" opacity=".75"/>
-<circle cx="1210" cy="290" r="5" fill="#f8fafc"/>
-<g class="orbit"><circle cx="1440" cy="290" r="6" fill="#38bdf8"/><circle cx="980" cy="290" r="5" fill="#22c55e"/></g>
+<circle cx="1190" cy="292" r="116" fill="#061421" stroke="#334155" stroke-width="1.5"/>
+<circle cx="1190" cy="292" r="90" fill="none" stroke="#38bdf8" stroke-opacity=".15"/>
+<circle cx="1190" cy="292" r="64" fill="none" stroke="#22c55e" stroke-opacity=".18"/>
+<path d="M1190 182V402M1080 292H1300M1118 220L1262 364M1262 220L1118 364" stroke="#64748b" stroke-opacity=".11"/>
+<circle class="pulse" cx="1190" cy="292" r="15" fill="#22c55e"/>
+<circle cx="1190" cy="292" r="5" fill="#f8fafc"/>
+<g class="orbit"><circle cx="1435" cy="292" r="6" fill="#38bdf8"/><circle cx="945" cy="292" r="5" fill="#22c55e"/></g>
 
-<!-- scan light -->
-<g class="scan"><rect x="690" y="108" width="3" height="360" fill="#38bdf8" filter="url(#glow)"/></g>
+<!-- scanning system -->
+<g class="scan"><rect x="710" y="110" width="3" height="360" fill="#38bdf8" filter="url(#soft)"/></g>
 
 <!-- identity -->
-<g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#94a3b8">
- <text x="82" y="83" font-size="12" letter-spacing="3">SYSTEM / PROFILE_01</text>
- <text x="82" y="526" font-size="12" letter-spacing="2">JIIT NOIDA · ELECTRONICS &amp; COMPUTER ENGINEERING</text>
- <text x="82" y="550" font-size="11" fill="#64748b" letter-spacing="1.4">AI · DATA · SYSTEMS · PRODUCT · OPEN SOURCE</text>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+<text x="78" y="78" font-size="11" fill="#64748b" letter-spacing="3">ORBITAL SYSTEMS LAB / PROFILE_01</text>
+<text x="78" y="530" font-size="11" fill="#64748b" letter-spacing="2">JIIT NOIDA · ELECTRONICS &amp; COMPUTER ENGINEERING</text>
+<text x="78" y="552" font-size="10" fill="#475569" letter-spacing="1.5">AI · DATA · SYSTEMS · PRODUCT · OPEN SOURCE</text>
 </g>
 <g class="reveal" font-family="Inter,ui-sans-serif,system-ui,sans-serif">
- <text x="82" y="225" fill="#f8fafc" font-size="76" font-weight="800" letter-spacing="-3">KAUSTUBH DUA</text>
- <text x="86" y="265" fill="#cbd5e1" font-size="23">student engineer building useful systems</text>
+<text x="78" y="220" font-size="72" font-weight="800" letter-spacing="-3" fill="#f8fafc">KAUSTUBH DUA</text>
+<text x="82" y="261" font-size="22" fill="#cbd5e1">student engineer building useful systems</text>
 </g>
 
-<!-- live telemetry -->
+<!-- mission telemetry -->
 <g class="reveal2" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
- <rect x="82" y="318" width="510" height="116" rx="16" fill="#07111f" fill-opacity=".8" stroke="#334155"/>
- <circle cx="110" cy="348" r="5" fill="#22c55e" class="blink"/>
- <text x="126" y="353" fill="#e2e8f0" font-size="12" letter-spacing="1.5">CURRENT SIGNAL</text>
- <text x="110" y="383" fill="#22c55e" font-size="17">BUILDING</text>
- <text x="222" y="383" fill="#cbd5e1" font-size="14">AI + DATA + REAL-WORLD WORKFLOWS</text>
- <g transform="translate(110 412)" fill="#38bdf8" opacity=".7">
-   <rect width="4" height="14" class="bars" transform-origin="2 14"/><rect x="12" width="4" height="21" class="bars" transform-origin="14 21"/><rect x="24" width="4" height="10" class="bars" transform-origin="26 10"/><rect x="36" width="4" height="18" class="bars" transform-origin="38 18"/><rect x="48" width="4" height="12" class="bars" transform-origin="50 12"/><rect x="60" width="4" height="23" class="bars" transform-origin="62 23"/>
- </g>
- <text x="205" y="424" fill="#64748b" font-size="10">SIGNAL STABLE · MOTION ENABLED</text>
+<rect x="78" y="314" width="560" height="122" rx="16" fill="#06111e" fill-opacity=".86" stroke="#334155"/>
+<circle cx="107" cy="344" r="5" fill="#22c55e" class="blink"/>
+<text x="124" y="349" font-size="11" fill="#94a3b8" letter-spacing="1.6">CURRENT MISSION</text>
+<text x="107" y="380" font-size="17" fill="#22c55e">BUILD → TEST → VERIFY → SHIP</text>
+<text x="107" y="407" font-size="13" fill="#cbd5e1">AI + DATA + REAL-WORLD WORKFLOWS</text>
+<g transform="translate(107 420)" fill="#38bdf8" opacity=".7">
+<rect width="4" height="13" class="bars" transform-origin="2 13"/><rect x="12" width="4" height="21" class="bars" transform-origin="14 21"/><rect x="24" width="4" height="10" class="bars" transform-origin="26 10"/><rect x="36" width="4" height="18" class="bars" transform-origin="38 18"/><rect x="48" width="4" height="14" class="bars" transform-origin="50 14"/>
+</g>
 </g>
 
-<!-- right telemetry labels -->
-<g class="reveal3" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11">
- <text x="1370" y="130" fill="#64748b">CORE</text><text x="1370" y="151" fill="#22c55e">ONLINE</text>
- <text x="1370" y="196" fill="#64748b">FOCUS</text><text x="1370" y="217" fill="#cbd5e1">SYSTEMS</text>
- <text x="1370" y="262" fill="#64748b">MODE</text><text x="1370" y="283" fill="#38bdf8">BUILD / SHIP</text>
- <text x="1370" y="328" fill="#64748b">OPEN SOURCE</text><text x="1370" y="349" fill="#cbd5e1">ACTIVE</text>
+<!-- telemetry labels -->
+<g class="reveal2" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11">
+<text x="1370" y="132" fill="#64748b">CORE</text><text x="1370" y="152" fill="#22c55e">ONLINE</text>
+<text x="1370" y="198" fill="#64748b">FOCUS</text><text x="1370" y="218" fill="#38bdf8">SYSTEMS</text>
+<text x="1370" y="264" fill="#64748b">MODE</text><text x="1370" y="284" fill="#cbd5e1">BUILD / SHIP</text>
+<text x="1370" y="330" fill="#64748b">OPEN SOURCE</text><text x="1370" y="350" fill="#cbd5e1">ACTIVE</text>
 </g>
 
-<!-- small status ticks -->
-<g fill="#64748b" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="9">
- <text x="1010" y="440">X 01</text><text x="1160" y="440">X 02</text><text x="1310" y="440">X 03</text>
+<!-- constellation labels -->
+<g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="9" fill="#475569">
+<text x="1000" y="455">GITGLOBE</text><text x="1138" y="455">SAATHI</text><text x="1260" y="455">NIRDHOOM</text>
 </g>
-<g stroke="#64748b" stroke-opacity=".3"><path d="M1010 452H1060M1160 452H1210M1310 452H1360"/></g>
 </g>
 </svg>
