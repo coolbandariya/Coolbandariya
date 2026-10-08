@@ -28,13 +28,23 @@ I build software where **AI, data, systems and real-world constraints** meet —
 <tr>
 <td width="34%" align="center"><strong>ECM STUDENT</strong><br/><sub>JIIT Noida · Electronics & Computer Engineering</sub></td>
 <td width="33%" align="center"><strong>BUILDER</strong><br/><sub>AI · data · systems · product engineering</sub></td>
-<td width="33%" align="center"><strong>PROOF</strong><br/><sub>GitGlobe · Nirdhoom · Saathi · JYC 128</sub></td>
+<td width="33%" align="center"><strong>PROOF</strong><br/><sub>Nirdhoom · Saathi · JYC 128 · Smart Waste</sub></td>
 </tr>
 </table>
 
 **What you can expect:** projects I can point to, engineering decisions I can explain, and honest boundaries around what is prototype, simulated, provider-backed or shipped.
 
 > **Engineering principle:** clarity over cleverness · evidence over assumptions · useful software over feature count.
+
+---
+
+## Recruiter read
+
+**Target:** software engineering · AI engineering · data / systems internships
+
+**Strongest evidence:** product engineering · AI workflows · optimisation · data-backed systems
+
+**What I want a reviewer to notice:** I do not just assemble demos — I try to make constraints, failure modes, verification and system boundaries explicit.
 
 ---
 
