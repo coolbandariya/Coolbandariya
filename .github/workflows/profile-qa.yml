@@ -33,6 +33,12 @@ jobs:
           assert "coolbandariya" not in readme.lower()
           assert "orbital" not in readme.lower()
           assert "constellation" not in readme.lower()
+          assert "project-ecosystem.svg" not in readme
+          assert "engineering-circuit.svg" not in readme
+          assert "terminal-galaxy.svg" not in readme
+          assert "assets/project-bento.svg" in readme
+          assert "assets/capability-wall.svg" in readme
+          assert "assets/workshop-command.svg" in readme
           assert banner.exists() and divider.exists()
 
           for path in (banner, divider, ecosystem, circuit, terminal):
@@ -76,4 +82,5 @@ jobs:
           for name in expected_repositories:
               assert f"https://github.com/kaustubhdua/{name}" in readme, f"Missing project link: {name}"
 
+          assert sum(text.count("@keyframes") for text in [p.read_text(encoding="utf-8") for p in (banner, divider, ecosystem, circuit, terminal)]) >= 8, "Expected richer animation system"
           print(f"Profile QA passed: {len(local_refs)} local assets, {len(internal_links)} internal anchors, {len(expected_repositories)} curated project links.")
