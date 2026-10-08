@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg?v=a7a66b9" width="100%" alt="Kaustubh Dua — ECM student at JIIT Noida, building AI, data and product engineering projects"/>
+<img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3JuNbn6G1fWehaUubucloQMU8cb/e0930052-b661-4682-a281-67b390d8146e.png" width="100%" alt="Exact Kaustubh Dua profile banner: monochrome halftone portrait, editorial typography, JIIT Noida ECM identity and engineering motifs"/>
+
+<img src="./assets/profile-motion.svg?v=e0c22e8" width="100%" alt="Animated build log: turning complex problems into useful products, practical AI systems, and connected workflows"/>
 
 <p>
 <a href="#selected-work">SELECTED WORK</a> &nbsp;·&nbsp;
