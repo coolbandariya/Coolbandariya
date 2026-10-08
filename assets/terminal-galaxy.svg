@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
+<title id="title">Kaustubh Dua terminal and systems telemetry</title>
+<desc id="desc">Animated terminal-style engineering panel connected to an orbital systems visualization.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617"/><stop offset=".55" stop-color="#071521"/><stop offset="1" stop-color="#06111d"/></linearGradient>
+  <radialGradient id="core"><stop stop-color="#38bdf8" stop-opacity=".45"/><stop offset=".45" stop-color="#22c55e" stop-opacity=".16"/><stop offset="1" stop-color="#22c55e" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#94a3b8" stroke-opacity=".055"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+  <style>
+    .type{animation:type 4.8s steps(32,end) infinite}
+    .cursor{animation:blink 1s steps(1,end) infinite}
+    .orbit{transform-origin:1050px 210px;animation:spin 16s linear infinite}
+    .orbit2{transform-origin:1050px 210px;animation:spin 10s linear infinite reverse}
+    .pulse{animation:pulse 2.5s ease-in-out infinite}
+    @keyframes type{0%,8%{clip-path:inset(0 100% 0 0)}45%,75%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}
+    @keyframes blink{50%{opacity:0}}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes pulse{50%{opacity:1;transform:scale(1.35)}}
+    @media(prefers-reduced-motion:reduce){.type,.cursor,.orbit,.orbit2,.pulse{animation:none}}
+  </style>
+</defs>
+<rect width="1400" height="420" rx="24" fill="url(#bg)"/>
+<rect width="1400" height="420" rx="24" fill="url(#grid)"/>
+<circle cx="1050" cy="210" r="190" fill="url(#core)" filter="url(#blur)"/>
+<rect x="28" y="28" width="1344" height="364" rx="18" fill="none" stroke="#64748b" stroke-opacity=".28"/>
+
+<g font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+ <rect x="70" y="70" width="650" height="280" rx="14" fill="#020617" fill-opacity=".82" stroke="#334155"/>
+ <circle cx="98" cy="96" r="5" fill="#ef4444"/><circle cx="116" cy="96" r="5" fill="#eab308"/><circle cx="134" cy="96" r="5" fill="#22c55e"/>
+ <text x="170" y="101" font-size="11" fill="#64748b" letter-spacing="1.8">KAUSTUBH@SYSTEMS — TERMINAL</text>
+ <text x="98" y="145" font-size="13" fill="#22c55e">$</text>
+ <text x="118" y="145" font-size="13" fill="#e2e8f0">whoami</text>
+ <text x="98" y="174" font-size="13" fill="#38bdf8">electronics-computer-engineering / builder</text>
+ <text x="98" y="214" font-size="13" fill="#22c55e">$</text>
+ <text x="118" y="214" font-size="13" fill="#e2e8f0">focus</text>
+ <text x="98" y="243" font-size="13" fill="#cbd5e1">AI · DATA · SYSTEMS · PRODUCT · OPEN SOURCE</text>
+ <text x="98" y="283" font-size="13" fill="#22c55e">$</text>
+ <g class="type"><text x="118" y="283" font-size="13" fill="#e2e8f0">build → test → verify → ship → repeat</text></g>
+ <rect class="cursor" x="423" y="272" width="8" height="16" fill="#38bdf8"/>
+ <text x="98" y="321" font-size="11" fill="#64748b">status: operational · evidence over assumptions</text>
+</g>
+
+<g fill="none" stroke="#38bdf8" stroke-opacity=".22">
+ <ellipse class="orbit" cx="1050" cy="210" rx="210" ry="78" transform="rotate(-18 1050 210)"/>
+ <ellipse class="orbit2" cx="1050" cy="210" rx="175" ry="60" transform="rotate(52 1050 210)"/>
+ <ellipse cx="1050" cy="210" rx="128" ry="42" transform="rotate(-65 1050 210)"/>
+</g>
+<circle cx="1050" cy="210" r="78" fill="#071523" stroke="#334155"/>
+<circle cx="1050" cy="210" r="48" fill="none" stroke="#22c55e" stroke-opacity=".28"/>
+<circle class="pulse" cx="1050" cy="210" r="10" fill="#22c55e"/>
+<circle cx="1050" cy="210" r="4" fill="#f8fafc"/>
+<g class="orbit"><circle cx="1260" cy="210" r="5" fill="#38bdf8"/><circle cx="840" cy="210" r="5" fill="#22c55e"/></g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11">
+ <text x="1135" y="112" fill="#64748b">MODE</text><text x="1135" y="132" fill="#38bdf8">BUILD / SHIP</text>
+ <text x="1135" y="165" fill="#64748b">CORE</text><text x="1135" y="185" fill="#22c55e">ONLINE</text>
+ <text x="1135" y="218" fill="#64748b">SIGNAL</text><text x="1135" y="238" fill="#cbd5e1">STABLE</text>
+ <text x="1135" y="271" fill="#64748b">SYSTEM</text><text x="1135" y="291" fill="#cbd5e1">REAL-WORLD</text>
+</g>
+</svg>
