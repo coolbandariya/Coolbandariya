@@ -201,6 +201,16 @@ I’m especially interested in problems where the clean diagram ends and reality
 <sub>Automatically refreshed 2026-10-08 13:11 UTC. Featured projects above remain curated; this section reflects the current public GitHub portfolio.</sub>
 <!-- PROFILE_SYNC_END -->
 
+## Contributions & collaboration
+
+Not every repository on my GitHub is a sole-authored project.
+
+**Adapt AI** is collaborative work with multiple contributors: a hardware-aware local AI assistant that profiles available resources and recommends locally runnable models. I keep collaborative work separate from the selected projects above so ownership stays clear.
+
+**[View Adapt AI →](https://github.com/kaustubhdua/adapt-ai)**
+
+---
+
 ## GitHub evidence
 
 <div align="center">
