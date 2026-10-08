@@ -4,6 +4,8 @@
 
 <img src="./assets/profile-motion.svg?v=20261009" width="100%" alt="Animated monochrome engineering build log"/>
 
+<img src="./assets/system-map.svg?v=20261009" width="100%" alt="Animated map connecting product design, intelligence and reliability"/>
+
 <p>
   <a href="#selected-work">SELECTED WORK</a> &nbsp;·&nbsp;
   <a href="#toolkit">TOOLKIT</a> &nbsp;·&nbsp;
