@@ -182,10 +182,10 @@ I’m especially interested in problems where the clean diagram ends and reality
 
 | Project | Stars | Forks | Detected technology | Updated |
 |---|---:|---:|---|---|
-| [GitGlobe](https://github.com/kaustubhdua/GitGlobe) | 0 | 0 | Python, TypeScript, CSS, JavaScript, Shell, HTML | 2026-09-30 |
 | [nihdhoom](https://github.com/kaustubhdua/nihdhoom) | 0 | 3 | TypeScript, CSS, PLpgSQL, JavaScript, Python, HTML | 2026-10-08 |
 | [Saathi](https://github.com/kaustubhdua/Saathi) | 0 | 0 | Python, TypeScript, JavaScript, Dockerfile | 2026-10-07 |
 | [JYC-Website](https://github.com/kaustubhdua/JYC-Website) | 0 | 0 | CSS, JavaScript, PLpgSQL, TypeScript, HTML, PowerShell | 2026-10-08 |
+| [smart_waste_project](https://github.com/kaustubhdua/smart_waste_project) | 0 | 0 | Python | 2026-10-05 |
 
 **Latest repository activity**
 
@@ -198,7 +198,7 @@ I’m especially interested in problems where the clean diagram ends and reality
 | [nord-studio-task-manager](https://github.com/kaustubhdua/nord-studio-task-manager) | No description yet. | 0 | CSS | — | 2026-10-05 |
 | [weather-core-matrix](https://github.com/kaustubhdua/weather-core-matrix) | No description yet. | 0 | CSS | — | 2026-10-05 |
 
-<sub>Automatically refreshed 2026-10-08 13:11 UTC. Featured projects above remain curated; this section reflects the current public GitHub portfolio.</sub>
+<sub>Automatically refreshed 2026-10-08 13:17 UTC. Featured projects above remain curated; this section reflects the current public GitHub portfolio.</sub>
 <!-- PROFILE_SYNC_END -->
 
 ## Contributions & collaboration
