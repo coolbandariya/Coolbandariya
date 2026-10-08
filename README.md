@@ -1,17 +1,17 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg?v=1727ca1" width="100%" alt="Kaustubh Dua — Electronics and Computer Engineering, AI systems, data and product engineering"/>
+<img src="./assets/profile-banner.svg?v=a7a66b9" width="100%" alt="Kaustubh Dua — ECM student at JIIT Noida, building AI, data and product engineering projects"/>
 
 <p>
-<a href="#selected-work">WORK</a> &nbsp;·&nbsp;
+<a href="#selected-work">SELECTED WORK</a> &nbsp;·&nbsp;
 <a href="#toolkit">TOOLKIT</a> &nbsp;·&nbsp;
-<a href="#approach">APPROACH</a> &nbsp;·&nbsp;
-<a href="https://github.com/kaustubhdua?tab=repositories">ALL REPOS ↗</a>
+<a href="#how-i-work">HOW I WORK</a> &nbsp;·&nbsp;
+<a href="https://github.com/kaustubhdua?tab=repositories">ALL REPOSITORIES ↗</a>
 </p>
 
 **Electronics & Computer Engineering · JIIT Noida**
 
-Building practical software across AI, data, optimisation and product engineering.
+I turn ideas into practical software across **AI, data, optimisation and product engineering**.
 
 </div>
 
@@ -23,40 +23,40 @@ Building practical software across AI, data, optimisation and product engineerin
 <tr>
 <td width="50%" valign="top">
 
-### [01 / Nirdhoom ↗](https://github.com/kaustubhdua/nihdhoom)
+### [01 — Nirdhoom ↗](https://github.com/kaustubhdua/nihdhoom)
 
-Field operations for crop-residue management, with an emphasis on usable workflows and optimisation.
+Crop-residue management workflows, supported by data and optimisation.
 
-<sub>React · Supabase · PostgreSQL · OR-Tools</sub>
+<sub><code>React</code> <code>Supabase</code> <code>PostgreSQL</code> <code>OR-Tools</code></sub>
 
 </td>
 <td width="50%" valign="top">
 
-### [02 / Saathi ↗](https://github.com/kaustubhdua/Saathi)
+### [02 — Saathi ↗](https://github.com/kaustubhdua/Saathi)
 
-Voice-first, multilingual assistance with clear AI boundaries and provider integrations.
+Voice-first, multilingual assistance with AI-backed interactions.
 
-<sub>Next.js · FastAPI · Python · AI</sub>
+<sub><code>Next.js</code> <code>FastAPI</code> <code>Python</code></sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [03 / JYC 128 ↗](https://github.com/kaustubhdua/JYC-Website)
+### [03 — JYC Website ↗](https://github.com/kaustubhdua/JYC-Website)
 
-A public-facing website focused on accessibility, maintainability and reliable delivery.
+A public-facing web experience with an emphasis on usability and reliable delivery.
 
-<sub>React · Vite · Playwright · CI</sub>
+<sub><code>React</code> <code>Vite</code> <code>Playwright</code></sub>
 
 </td>
 <td width="50%" valign="top">
 
-### [04 / Smart Waste ↗](https://github.com/kaustubhdua/smart_waste_project)
+### [04 — Smart Waste ↗](https://github.com/kaustubhdua/smart_waste_project)
 
-Predictive waste monitoring linked to collection-priority scoring and route optimisation.
+Predictive waste monitoring connected to collection-priority and route optimisation.
 
-<sub>Python · scikit-learn · OR-Tools</sub>
+<sub><code>Python</code> <code>scikit-learn</code> <code>OR-Tools</code></sub>
 
 </td>
 </tr>
@@ -66,41 +66,77 @@ Predictive waste monitoring linked to collection-priority scoring and route opti
 <summary><strong>More projects ↗</strong></summary>
 
 - [SATARK](https://github.com/kaustubhdua/Satark) — digital threat triage and verification.
-- [AkashChalak](https://github.com/kaustubhdua/AkashChalak) — explore the project and implementation.
-- [Smart Bike Taxi](https://github.com/kaustubhdua/Smart_bike_taxi_platform) — a software platform for bike-taxi workflows.
+- [AkashChalak](https://github.com/kaustubhdua/AkashChalak) — aerospace-focused engineering project.
+- [Smart Bike Taxi](https://github.com/kaustubhdua/Smart_bike_taxi_platform) — a platform for bike-taxi workflows.
 
 </details>
 
 ## Toolkit
 
-<details open>
-<summary><strong>01 · Languages & application development</strong></summary>
+<table>
+<tr>
+<td width="33%" valign="top">
 
-**Languages** — Python · TypeScript · JavaScript · SQL
+**01 / Languages**
 
-**Application** — React · Next.js · Vite · FastAPI
+<code>Python</code><br/>
+<code>TypeScript</code><br/>
+<code>JavaScript</code><br/>
+<code>SQL</code>
 
-</details>
+</td>
+<td width="33%" valign="top">
 
-<details>
-<summary><strong>02 · Data, AI & optimisation</strong></summary>
+**02 / Application**
 
-**Libraries** — scikit-learn · Pandas · NumPy · OR-Tools
+<code>React</code><br/>
+<code>Next.js</code><br/>
+<code>Vite</code><br/>
+<code>FastAPI</code>
 
-**Focus** — LLM integrations · Data analysis · Route optimisation
+</td>
+<td width="34%" valign="top">
 
-</details>
+**03 / Data & AI**
 
-<details>
-<summary><strong>03 · Infrastructure & quality</strong></summary>
+<code>Pandas</code><br/>
+<code>NumPy</code><br/>
+<code>scikit-learn</code><br/>
+<code>OR-Tools</code>
 
-**Data & platforms** — PostgreSQL · Supabase · Git · GitHub Actions
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
 
-**Testing** — Playwright · Pytest · CI · API testing
+**04 / Data platforms**
 
-</details>
+<code>PostgreSQL</code><br/>
+<code>Supabase</code>
 
-## Approach
+</td>
+<td width="33%" valign="top">
+
+**05 / Quality**
+
+<code>Pytest</code><br/>
+<code>Playwright</code><br/>
+<code>API testing</code>
+
+</td>
+<td width="34%" valign="top">
+
+**06 / Delivery**
+
+<code>Git</code><br/>
+<code>GitHub Actions</code><br/>
+<code>CI</code>
+
+</td>
+</tr>
+</table>
+
+## How I work
 
 <div align="center">
 
@@ -108,7 +144,7 @@ Predictive waste monitoring linked to collection-priority scoring and route opti
 
 </div>
 
-I care about clear system boundaries, useful interfaces, failure-path testing and being precise about what is shipped versus what is still a prototype.
+I value clear system boundaries, useful interfaces, failure-path testing and honest reporting of what is shipped versus what remains a prototype.
 
 ---
 
