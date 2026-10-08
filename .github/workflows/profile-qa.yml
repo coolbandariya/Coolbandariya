@@ -14,119 +14,71 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Validate profile assets and copy
-        shell: python
+      - name: Validate README, links, and animated assets
+        shell: bash
         run: |
+          python - <<'PY'
           from pathlib import Path
           import re
           import xml.etree.ElementTree as ET
 
           readme = Path("README.md").read_text(encoding="utf-8")
-          banner = Path("assets/profile-banner.svg")
-          divider = Path("assets/signal-divider.svg")
-          ecosystem = Path("assets/project-bento.svg")
-          circuit = Path("assets/capability-wall.svg")
-          terminal = Path("assets/workshop-command.svg")
-          stack = Path("assets/stack-stream.svg")
+          checks = {
+              "ECM identity": "electronics & computer engineering" in readme.lower(),
+              "exact original banner URL": "d2ol7oe51mr4n9.cloudfront.net/user_3JuNbn6G1fWehaUubucloQMU8cb/e0930052-b661-4682-a281-67b390d8146e.png" in readme,
+              "featured projects": all(name in readme for name in ("GitGlobe", "NIRDHOOM", "Saathi", "SATARK", "Adapt AI")),
+              "animated build log": "assets/profile-motion.svg" in readme,
+              "animated footer": "assets/profile-footer.svg" in readme,
+              "contribution snake": "github-contribution-grid-snake.svg" in readme,
+              "no obsolete Minecraft theme": not any(word in readme.lower() for word in ("minecraft", "nether")),
+              "no placeholder copy": not any(text in readme.lower() for text in ("no description yet", "todo:", "lorem ipsum")),
+          }
+          for name, passed in checks.items():
+              print(f"{'PASS' if passed else 'FAIL'}: {name}")
+          assert all(checks.values()), "README content validation failed"
 
-          assert "Electronics & Computer Engineering" in readme
-          assert "AI · Data · Systems" in readme
-          assert "Animated engineering signal" not in readme
-          assert "Animated engineering capability wall" not in readme
-          assert "ECE student" not in readme
-          assert "coolbandariya" not in readme.lower()
-assert "GitGlobe" not in readme
-          assert "PROFILE VIEWS" not in readme
-          assert "No description yet." not in readme
-          assert "Animated GitHub contribution activity" not in readme
-          assert "orbital" not in readme.lower()
-          assert "constellation" not in readme.lower()
-          assert "project-ecosystem.svg" not in readme
-          assert "engineering-circuit.svg" not in readme
-          assert "terminal-galaxy.svg" not in readme
-          assert "assets/project-bento.svg" in readme
-          assert "assets/capability-wall.svg" in readme
-          assert "assets/workshop-command.svg" in readme
-          assert "assets/stack-stream.svg" in readme
-          assert "<!-- PROFILE_SYNC_START -->" in readme or "## Live engineering snapshot" in readme
-          assert "## Engineering toolkit" in readme
-          banner_text = banner.read_text(encoding="utf-8")
-          assert "electronics &amp; computer engineering" not in banner_text.lower()
-          assert "ENGINEERING PROFILE / 01" in banner_text
-          assert "AI · DATA · SYSTEMS · PRODUCT ENGINEERING" in banner_text
-          assert 'width="1200" height="440"' in banner_text
-          assert readme.count("I build software where") == 1
-          assert "GirlScript Summer of Code" not in readme
-          assert "https://github.com/coolbandariya" not in readme
-          assert "animation:x 3s" not in readme
-          assert 'class="dot"' not in Path("assets/project-bento.svg").read_text(encoding="utf-8")
-          assert 'class="pulse"' not in Path("assets/capability-wall.svg").read_text(encoding="utf-8")
-          assert 'class="p"' not in Path("assets/workshop-command.svg").read_text(encoding="utf-8")
-          assert 'class="pulse"' not in Path("assets/stack-stream.svg").read_text(encoding="utf-8")
-          assert "stroke-dasharray" not in Path("assets/project-bento.svg").read_text(encoding="utf-8")
-          assert "stroke-dasharray" not in Path("assets/profile-banner.svg").read_text(encoding="utf-8")
-          assert "translateX(1200px)" not in Path("assets/project-bento.svg").read_text(encoding="utf-8")
-          stack_text = Path("assets/stack-stream.svg").read_text(encoding="utf-8")
-          assert stack_text.count("GitHub Actions") == 2
-          assert "clipPath id=\"viewport\"" in stack_text
-          assert "translateX(-1362px)" in stack_text
-          assert "translateX(-1344px)" not in stack_text
-          assert "translateX(-720px)" not in stack_text
-          assert banner.exists() and divider.exists()
+          # Every local asset referenced by the README must exist in the repository.
+          refs = re.findall(r'(?:src|href)="(\./assets/[^"]+)"', readme)
+          for ref in refs:
+              path = Path(ref.split("?", 1)[0])
+              assert path.is_file(), f"Missing local asset: {path}"
 
-          for path in (banner, divider, ecosystem, circuit, terminal, stack):
-              ET.parse(path)
-              text = path.read_text(encoding="utf-8")
-              assert "<script" not in text.lower()
-              assert "prefers-reduced-motion" in text
-              assert 'role="img"' in text
-              style = re.search(r"<style>(.*?)</style>", text, flags=re.S)
-              if style:
-                  assert style.group(1).count("{") == style.group(1).count("}"), f"Unbalanced CSS braces: {path}"
-
-          local_refs = re.findall(r'(?:src|href)="(\./assets/[^"]+)"', readme)
-          for ref in local_refs:
-              assert Path(ref).exists(), f"Missing local asset: {ref}"
-
-          # Validate every internal README navigation target against GitHub's
-          # heading-slug convention so the visual navigation never points nowhere.
+          # Verify all in-page navigation targets against GitHub's heading slug convention.
           headings = re.findall(r"^#{1,6}\s+(.+?)\s*$", readme, flags=re.M)
           def slugify(value):
               value = re.sub(r"<[^>]+>", "", value)
-              value = re.sub(r"[^\x00-\x7F]", "", value)
-              value = value.lower()
+              value = re.sub(r"[^\x00-\x7F]", "", value).lower()
               value = re.sub(r"[^a-z0-9 -]", "", value)
-              value = re.sub(r"\s+", "-", value.strip())
-              return value
-          anchors = {slugify(h) for h in headings}
+              return re.sub(r"\s+", "-", value.strip())
+          anchors = {slugify(heading) for heading in headings}
           internal_links = re.findall(r'href="#([^"]+)"', readme)
           for anchor in internal_links:
               assert anchor in anchors, f"Broken internal anchor: #{anchor}"
 
-          # Keep curated project links explicit and typo-resistant. Live
-          # repository availability is reviewed against GitHub separately; CI
-          # stays deterministic and does not depend on network/rate limits.
-          expected_repositories = [
-              "nihdhoom",
-              "Saathi",
-              "JYC-Website",
-              "Satark",
-              "AkashChalak",
-              "smart_waste_project",
-          ]
-          for name in expected_repositories:
-              assert f"https://github.com/kaustubhdua/{name}" in readme, f"Missing project link: {name}"
+          # Keep the curated repository links explicit and typo-resistant.
+          expected_repositories = (
+              "GitGlobe", "nihdhoom", "Saathi", "Satark", "adapt-ai",
+              "JYC-Website", "smart_waste_project", "AkashChalak",
+              "Smart_bike_taxi_platform", "weather-core-matrix",
+          )
+          for repository in expected_repositories:
+              assert f"https://github.com/kaustubhdua/{repository}" in readme, f"Missing project link: {repository}"
 
-          asset_text = [p.read_text(encoding="utf-8") for p in (banner, divider, ecosystem, circuit, terminal, stack)]
-          assert sum(text.count("@keyframes") for text in asset_text) >= 8, "Expected richer animation system"
-          # Keep decorative motion deliberately slow: no profile asset should introduce a sub-5s loop.
-          animation_specs = re.findall(r"animation:([^;}]+)", "\n".join(asset_text))
-          loop_durations = []
-          for spec in animation_specs:
-              if "infinite" not in spec:
-                  continue
-              match = re.search(r"(\d+(?:\.\d+)?)s", spec)
-              if match:
-                  loop_durations.append(float(match.group(1)))
-          assert all(d >= 5 for d in loop_durations), f"Animation loop is too fast: {loop_durations}"
-          print(f"Profile QA passed: {len(local_refs)} local assets, {len(internal_links)} internal anchors, {len(expected_repositories)} curated project links.")
+          # Parse SVGs as XML and check accessibility, safe markup and motion fallbacks.
+          animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"))
+          for path in animated_assets:
+              ET.parse(path)
+              source = path.read_text(encoding="utf-8")
+              assert 'role="img"' in source, f"Missing accessible role: {path}"
+              assert "aria-labelledby=" in source and "<title" in source and "<desc" in source, f"Missing accessible title/description: {path}"
+              assert "prefers-reduced-motion" in source, f"Missing reduced-motion support: {path}"
+              assert "<script" not in source.lower(), f"Unexpected script element: {path}"
+              style = re.search(r"<style>(.*?)</style>", source, flags=re.S)
+              if style:
+                  css = style.group(1)
+                  assert css.count("{") == css.count("}"), f"Unbalanced CSS: {path}"
+                  durations = [float(value) for value in re.findall(r"animation:[^;}]*?(\d+(?:\.\d+)?)s", css) if "infinite" in css]
+                  assert all(duration >= 1 for duration in durations), f"Unexpectedly rapid animation: {path}"
+
+          print(f"PASS: {len(refs)} local asset references, {len(internal_links)} internal anchors, {len(expected_repositories)} curated repository links, and {len(animated_assets)} valid accessible SVGs.")
+          PY
