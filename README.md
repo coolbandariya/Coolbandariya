@@ -2,96 +2,100 @@
 
 <img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3JuNbn6G1fWehaUubucloQMU8cb/e0930052-b661-4682-a281-67b390d8146e.png" width="100%" alt="Kaustubh Dua — Electronics and Computer Engineering at JIIT Noida, building practical software"/>
 
-<img src="./assets/profile-motion.svg?v=e0c22e8" width="100%" alt="Animated build log about practical AI systems, useful products, and connected workflows"/>
+<img src="./assets/profile-motion.svg?v=20261009" width="100%" alt="Animated monochrome engineering build log"/>
 
 <p>
-  <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/Explore-Projects-c74635?style=for-the-badge&logo=github&logoColor=white" alt="Explore projects"/></a>
-  <a href="https://github.com/kaustubhdua?tab=stars"><img src="https://img.shields.io/badge/Explore-Starred%20Repos-252525?style=for-the-badge&logo=github&logoColor=white" alt="Starred repositories"/></a>
-  <img src="https://komarev.com/ghpvc/?username=kaustubhdua&style=for-the-badge&color=7d2634&label=PROFILE+VIEWS" alt="Profile views"/>
+  <a href="#selected-work">SELECTED WORK</a> &nbsp;·&nbsp;
+  <a href="#toolkit">TOOLKIT</a> &nbsp;·&nbsp;
+  <a href="#engineering-approach">ENGINEERING APPROACH</a> &nbsp;·&nbsp;
+  <a href="https://github.com/kaustubhdua?tab=repositories">ALL REPOSITORIES ↗</a>
 </p>
 
-**Electronics & Computer Engineering · JIIT Noida**
+**ELECTRONICS & COMPUTER ENGINEERING · JIIT NOIDA**
 
-I build practical software at the intersection of **AI, data, systems, and product engineering** — from decision-support workflows to tools for discovering and understanding software.
+I build practical software across **AI, data, systems and product engineering** — with a focus on turning complex problems into useful, testable tools.
 
-*Discover → Model → Build → Test → Verify → Ship*
+<p>
+  <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-252525?style=flat-square&logo=github&logoColor=white" alt="Explore repositories"/></a>
+  <a href="https://github.com/kaustubhdua?tab=stars"><img src="https://img.shields.io/badge/OPEN-STARRED%20WORK-252525?style=flat-square&logo=github&logoColor=white" alt="Starred repositories"/></a>
+</p>
 
 </div>
 
 ---
 
-## Featured builds
+## Selected work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🌐 [GitGlobe](https://github.com/kaustubhdua/GitGlobe)
+### [01 / GitGlobe ↗](https://github.com/kaustubhdua/GitGlobe)
 
-Explore open-source repositories through an interactive 3D map that turns software discovery into spatial navigation.
+An interactive 3D map for exploring open-source repositories by capability — making software discovery feel spatial.
 
-**Three.js · WebGL · Embeddings · Data pipelines**
-
-</td>
-<td width="50%" valign="top">
-
-### 🌾 [NIRDHOOM](https://github.com/kaustubhdua/nihdhoom)
-
-A field-first crop-residue coordination system connecting field requests, service workflows, operational evidence, and buyer pathways.
-
-**React · Supabase · PostgreSQL · OR-Tools**
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🗣️ [Saathi](https://github.com/kaustubhdua/Saathi)
-
-A voice-first, multilingual assistance platform designed around source-aware answers, consent-based workflows, and human escalation.
-
-**Next.js · FastAPI · Python · Speech APIs**
+<sub><code>Three.js</code> <code>WebGL</code> <code>Embeddings</code> <code>Data pipelines</code></sub>
 
 </td>
 <td width="50%" valign="top">
 
-### 🛡️ [SATARK](https://github.com/kaustubhdua/Satark)
+### [02 / NIRDHOOM ↗](https://github.com/kaustubhdua/nihdhoom)
 
-An AI-assisted security-awareness workspace for triaging suspicious messages, links, images, QR codes, PDFs, and supported videos.
+A crop-residue coordination system connecting field requests, service workflows, operational evidence and buyer pathways.
 
-**Python · Streamlit · Threat triage · CI**
+<sub><code>React</code> <code>Supabase</code> <code>PostgreSQL</code> <code>OR-Tools</code></sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 [Adapt AI](https://github.com/kaustubhdua/adapt-ai)
+### [03 / Saathi ↗](https://github.com/kaustubhdua/Saathi)
 
-A team-built local AI assistant that checks available hardware and recommends a suitable model for on-device workflows.
+A voice-first, multilingual assistance platform built around source-aware answers, consent-based workflows and human escalation.
 
-**FastAPI · Ollama · Local inference**
+<sub><code>Next.js</code> <code>FastAPI</code> <code>Python</code> <code>Speech APIs</code></sub>
 
 </td>
 <td width="50%" valign="top">
 
-### 🎭 [JIIT Youth Club Website](https://github.com/kaustubhdua/JYC-Website)
+### [04 / SATARK ↗](https://github.com/kaustubhdua/Satark)
 
-A public-facing website for JIIT Youth Club 128, covering its organisation, clubs, events, gallery, and recruitment journey.
+An AI-assisted security-awareness workspace for triaging suspicious messages, links, images, QR codes, PDFs and supported videos.
 
-**React · Vite · Playwright · CI**
+<sub><code>Python</code> <code>Streamlit</code> <code>Threat triage</code> <code>CI</code></sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [05 / Adapt AI ↗](https://github.com/kaustubhdua/adapt-ai)
+
+A team-built local AI assistant that checks available hardware and recommends a suitable model for on-device chat, file and Python workflows.
+
+<sub><code>FastAPI</code> <code>Ollama</code> <code>Local inference</code></sub>
+
+</td>
+<td width="50%" valign="top">
+
+### [06 / JIIT Youth Club Website ↗](https://github.com/kaustubhdua/JYC-Website)
+
+The public website for JIIT Youth Club 128, covering its organisation, clubs, events, history, gallery and recruitment journey.
+
+<sub><code>React</code> <code>Vite</code> <code>Playwright</code> <code>CI</code></sub>
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><strong>More projects</strong></summary>
+<summary><strong>More builds ↗</strong></summary>
 
-- **[Smart Waste Collection](https://github.com/kaustubhdua/smart_waste_project)** — a predictive-to-optimisation pipeline for waste collection using synthetic IoT-style data.
-- **[AkashChalak](https://github.com/kaustubhdua/AkashChalak)** — a satellite-assisted air-quality and hotspot decision-support prototype for India.
-- **[Smart Bike Taxi Platform](https://github.com/kaustubhdua/Smart_bike_taxi_platform)** — a platform for bike-taxi workflows.
-- **[Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix)** — a focused weather-related project.
+- [Smart Waste Collection](https://github.com/kaustubhdua/smart_waste_project) — a predictive-to-optimisation pipeline using synthetic IoT-style data.
+- [AkashChalak](https://github.com/kaustubhdua/AkashChalak) — a satellite-assisted air-quality and hotspot decision-support prototype for India.
+- [Smart Bike Taxi Platform](https://github.com/kaustubhdua/Smart_bike_taxi_platform) — a platform for bike-taxi workflows.
+- [Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix) — a focused weather-related project.
 
 [Browse all repositories →](https://github.com/kaustubhdua?tab=repositories)
 
@@ -105,60 +109,60 @@ A public-facing website for JIIT Youth Club 128, covering its organisation, club
 <tr>
 <td width="33%" valign="top">
 
-**Languages**
+**01 / Languages**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-252525?style=flat-square&logo=python&logoColor=F4EFE5)
+![TypeScript](https://img.shields.io/badge/TypeScript-252525?style=flat-square&logo=typescript&logoColor=F4EFE5)
+![JavaScript](https://img.shields.io/badge/JavaScript-252525?style=flat-square&logo=javascript&logoColor=F4EFE5)
+![SQL](https://img.shields.io/badge/SQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
 
 </td>
 <td width="33%" valign="top">
 
-**Application**
+**02 / Application**
 
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=nextdotjs&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-252525?style=flat-square&logo=react&logoColor=F4EFE5)
+![Next.js](https://img.shields.io/badge/Next.js-252525?style=flat-square&logo=nextdotjs&logoColor=F4EFE5)
+![Vite](https://img.shields.io/badge/Vite-252525?style=flat-square&logo=vite&logoColor=F4EFE5)
+![FastAPI](https://img.shields.io/badge/FastAPI-252525?style=flat-square&logo=fastapi&logoColor=F4EFE5)
 
 </td>
 <td width="34%" valign="top">
 
-**Data & AI**
+**03 / Data & AI**
 
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-222222?style=flat-square&logo=ollama&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-252525?style=flat-square&logo=pandas&logoColor=F4EFE5)
+![NumPy](https://img.shields.io/badge/NumPy-252525?style=flat-square&logo=numpy&logoColor=F4EFE5)
+![scikit--learn](https://img.shields.io/badge/scikit--learn-252525?style=flat-square&logo=scikitlearn&logoColor=F4EFE5)
+![Ollama](https://img.shields.io/badge/Ollama-252525?style=flat-square&logo=ollama&logoColor=F4EFE5)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-**Data platforms**
+**04 / Data platforms**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=black)
-
-</td>
-<td valign="top">
-
-**Quality**
-
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![API testing](https://img.shields.io/badge/API-Testing-6B7280?style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
+![Supabase](https://img.shields.io/badge/Supabase-252525?style=flat-square&logo=supabase&logoColor=F4EFE5)
 
 </td>
 <td valign="top">
 
-**Delivery**
+**05 / Quality**
 
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![CI](https://img.shields.io/badge/CI-Quality_gates-6B7280?style=flat-square)
+![Pytest](https://img.shields.io/badge/Pytest-252525?style=flat-square&logo=pytest&logoColor=F4EFE5)
+![Playwright](https://img.shields.io/badge/Playwright-252525?style=flat-square&logo=playwright&logoColor=F4EFE5)
+![API testing](https://img.shields.io/badge/API-Testing-252525?style=flat-square)
+
+</td>
+<td valign="top">
+
+**06 / Delivery**
+
+![Git](https://img.shields.io/badge/Git-252525?style=flat-square&logo=git&logoColor=F4EFE5)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-252525?style=flat-square&logo=githubactions&logoColor=F4EFE5)
+![CI](https://img.shields.io/badge/CI-Quality_gates-252525?style=flat-square)
 
 </td>
 </tr>
@@ -166,7 +170,7 @@ A public-facing website for JIIT Youth Club 128, covering its organisation, club
 
 ---
 
-## How I work
+## Engineering approach
 
 <div align="center">
 
@@ -176,38 +180,41 @@ A public-facing website for JIIT Youth Club 128, covering its organisation, club
 
 </div>
 
-I care about clear system boundaries, useful interfaces, failure-path testing, and honest status labels. I distinguish prototypes, simulated data, and connected live integrations instead of presenting a working demo as proven real-world impact.
+I care about clear system boundaries, useful interfaces, failure-path testing and honest status labels. I distinguish prototypes, simulated data and connected live integrations instead of presenting a demo as proven real-world impact.
 
 ---
 
-## GitHub activity
-
-<div align="center">
-
-<img src="https://github-readme-stats-fast.vercel.app/api?username=kaustubhdua&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="165" alt="GitHub contribution and repository statistics"/>
-<img src="https://streak-stats.demolab.com/?user=kaustubhdua&hide_border=true&theme=transparent" height="165" alt="GitHub contribution streak"/>
-
-</div>
+## Activity
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake.svg"/>
-  <img src="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake.svg" alt="Animated contribution graph"/>
+  <img src="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake.svg" width="100%" alt="Animated GitHub contribution snake; generated by the repository workflow"/>
 </picture>
 
 </div>
 
----
-
-## Find me
+<details>
+<summary><strong>GitHub statistics</strong></summary>
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-Explore%20my%20work-181717?style=for-the-badge&logo=github)](https://github.com/kaustubhdua)
-[![Repositories](https://img.shields.io/badge/Repositories-View%20all-7d2634?style=for-the-badge&logo=github)](https://github.com/kaustubhdua?tab=repositories)
+<img src="https://github-readme-stats-fast.vercel.app/api?username=kaustubhdua&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="165" alt="GitHub repository and contribution statistics"/>
 
-**Build thoughtfully. Verify everything.**
+</div>
+
+</details>
+
+---
+
+<div align="center">
+
+<img src="./assets/profile-footer.svg?v=20261009" width="100%" alt="Animated monochrome footer: build thoughtfully, verify everything"/>
+
+<a href="https://github.com/kaustubhdua?tab=repositories">EXPLORE ALL REPOSITORIES ↗</a>
+
+<sub>Build thoughtfully. Verify everything.</sub>
 
 </div>
