@@ -1,0 +1,44 @@
+name: Profile README QA
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate profile assets and copy
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+          import xml.etree.ElementTree as ET
+
+          readme = Path("README.md").read_text(encoding="utf-8")
+          banner = Path("assets/profile-banner.svg")
+          divider = Path("assets/signal-divider.svg")
+
+          assert "Electronics & Computer Engineering (ECM)" in readme
+          assert "ECE student" not in readme
+          assert "coolbandariya" not in readme.lower()
+          assert banner.exists() and divider.exists()
+
+          for path in (banner, divider):
+              ET.parse(path)
+              text = path.read_text(encoding="utf-8")
+              assert "<script" not in text.lower()
+              assert "prefers-reduced-motion" in text
+              assert 'role="img"' in text
+
+          local_refs = re.findall(r'(?:src|href)="(\\./assets/[^"]+)"', readme)
+          for ref in local_refs:
+              assert Path(ref).exists(), f"Missing local asset: {ref}"
+
+          print("Profile README, local assets, accessibility hooks and identity copy are valid.")
