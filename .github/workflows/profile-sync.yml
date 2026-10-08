@@ -32,6 +32,7 @@ jobs:
           import urllib.request
           from pathlib import Path
           from datetime import datetime, timezone
+          from textwrap import dedent
 
           owner = "kaustubhdua"
           repo = "kaustubhdua"
@@ -87,7 +88,7 @@ jobs:
                   break
 
           refreshed = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-          block = f"""<!-- PROFILE_SYNC_START -->
+          block = dedent(f"""<!-- PROFILE_SYNC_START -->
           ## Live engineering snapshot
 
           <table>
@@ -106,7 +107,7 @@ jobs:
           {chr(10).join(repo_row(r) for r in latest)}
 
           <sub>Automatically refreshed {refreshed}. Featured projects above remain curated; this section reflects the current public GitHub portfolio.</sub>
-          <!-- PROFILE_SYNC_END -->"""
+          <!-- PROFILE_SYNC_END -->""").strip()
 
           readme_path = Path("README.md")
           readme = readme_path.read_text(encoding="utf-8")
