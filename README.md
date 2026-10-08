@@ -87,11 +87,13 @@ The official JYC 128 website combines content architecture, verified public reco
 
 | Project | Engineering signal |
 |---|---|
-| **Satark** | Security analysis, explainability and safer engineering workflows |
-| **AkashChalak** | Geospatial air-quality analysis and environmental intelligence |
-| **Smart Waste** | ML prediction, priority scoring and vehicle-route optimisation |
+| **[Satark](https://github.com/kaustubhdua/Satark)** | Security analysis, explainability and safer engineering workflows |
+| **[AkashChalak](https://github.com/kaustubhdua/AkashChalak)** | Geospatial air-quality analysis and environmental intelligence |
+| **[Smart Waste](https://github.com/kaustubhdua/smart_waste_project)** | ML prediction, priority scoring and vehicle-route optimisation |
 
 **[Explore every repository →](https://github.com/kaustubhdua?tab=repositories)**
+
+> **Repository rule:** project links above point to the live source repositories; the profile intentionally avoids presenting prototypes or simulated capabilities as production systems.
 
 ---
 
