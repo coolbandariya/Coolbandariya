@@ -2,7 +2,7 @@
 
 <img src="./assets/profile-banner.svg" width="100%" alt="Kaustubh Dua — Electronics & Computer Engineering student building AI, data and systems"/>
 
-<p><a href="#systems-constellation"><img src="https://img.shields.io/badge/SYSTEMS_CONSTELLATION-111827?style=flat-square&logo=github&logoColor=white" alt="Systems constellation"/></a> <a href="#systems-map"><img src="https://img.shields.io/badge/SYSTEMS_MAP-334155?style=flat-square&logo=github&logoColor=white" alt="Systems map"/></a> <a href="#build-protocol"><img src="https://img.shields.io/badge/BUILD_PROTOCOL-0f766e?style=flat-square&logo=githubactions&logoColor=white" alt="Build protocol"/></a> <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-475569?style=flat-square&logo=github&logoColor=white" alt="All repositories"/></a></p>
+<p><a href="#systems-constellation"><img src="https://img.shields.io/badge/SYSTEMS_CONSTELLATION-111827?style=flat-square&logo=github&logoColor=white" alt="Selected work"/></a> <a href="#systems-map"><img src="https://img.shields.io/badge/SYSTEMS_MAP-334155?style=flat-square&logo=github&logoColor=white" alt="Capability wall"/></a> <a href="#build-protocol"><img src="https://img.shields.io/badge/BUILD_PROTOCOL-0f766e?style=flat-square&logo=githubactions&logoColor=white" alt="Build protocol"/></a> <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-475569?style=flat-square&logo=github&logoColor=white" alt="All repositories"/></a></p>
 
 </div>
 
@@ -35,9 +35,9 @@ My projects span open-source discovery, field operations, voice-first assistance
 
 ---
 
-## Systems constellation
+## Selected work
 
-<div align="center"><img src="./assets/project-ecosystem.svg" width="96%" alt="Animated map connecting Kaustubh’s selected engineering projects"/></div>
+<div align="center"><img src="./assets/project-ecosystem.svg" width="96%" alt="Animated bento grid of Kaustubh’s selected engineering projects"/></div>
 
 ### GitGlobe · Open-source discovery
 **A 3D map of the open-source universe.**
@@ -97,7 +97,7 @@ The official JYC 128 website combines content architecture, verified public reco
 
 ---
 
-## Systems map
+## Capability wall
 
 <div align="center">
 
@@ -112,13 +112,13 @@ The official JYC 128 website combines content architecture, verified public reco
 
 </div>
 
-<div align="center"><img src="./assets/engineering-circuit.svg" width="96%" alt="Animated engineering capability signal"/></div>
+<div align="center"><img src="./assets/engineering-circuit.svg" width="96%" alt="Animated engineering capability wall"/></div>
 
-<div align="center"><img src="./assets/terminal-galaxy.svg" width="96%" alt="Animated terminal and orbital systems visualization"/></div>
+<div align="center"><img src="./assets/terminal-galaxy.svg" width="96%" alt="Animated terminal and digital workshop visualization"/></div>
 
 ---
 
-## Research orbit
+## Research interests
 
 **AI systems** · **Data products** · **Geospatial computing** · **Optimisation** · **Automation** · **Developer experience**
 
@@ -158,7 +158,7 @@ I care about **clarity over cleverness, evidence over assumptions and useful sof
 
 ---
 
-## Telemetry deck
+## Engineering dashboard
 
 <div align="center">
 
@@ -171,7 +171,7 @@ I care about **clarity over cleverness, evidence over assumptions and useful sof
 
 </div>
 
-### Activity telemetry
+### Activity
 
 <div align="center">
 <a href="https://github.com/kaustubhdua"><img src="https://github-readme-activity-graph.vercel.app/graph?username=kaustubhdua&bg_color=00000000&color=64748b&line=0f766e&point=0284c7&area=true&hide_border=true" width="94%" alt="GitHub contribution activity"/></a>
@@ -183,19 +183,19 @@ I care about **clarity over cleverness, evidence over assumptions and useful sof
 <a href="https://github.com/lowlighter/metrics"><img src="https://metrics.lecoq.io/kaustubhdua?template=classic&base.indepth=false&base.hireable=true&base.skip=false&languages=1&languages.limit=8&languages.threshold=0%25&languages.details=percentage&languages.indepth=true&languages.analysis.timeout=15&languages.categories=markup%2Cprogramming&config.timezone=Asia%2FKolkata" width="94%" alt="Generated GitHub engineering metrics"/></a>
 </div>
 
-### Achievement telemetry
+### Achievements
 
 <div align="center">
 <a href="https://github.com/kaustubhdua"><img src="https://github-profile-trophy.vercel.app/?username=kaustubhdua&theme=flat&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" width="94%" alt="GitHub profile trophies"/></a>
 </div>
 
-### Contribution field
+### Contribution activity
 
 <div align="center">
 <a href="https://github.com/kaustubhdua"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake.svg"><img src="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake.svg" width="94%" alt="Animated GitHub contribution snake"/></picture></a>
 </div>
 
-### Profile telemetry
+### Profile summary
 
 <div align="center">
 <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaustubhdua&theme=github_dark" width="94%" alt="Generated GitHub profile summary"/></a>
