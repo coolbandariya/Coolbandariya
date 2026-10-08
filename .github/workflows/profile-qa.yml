@@ -40,6 +40,7 @@ jobs:
           assert "assets/project-bento.svg" in readme
           assert "assets/capability-wall.svg" in readme
           assert "assets/workshop-command.svg" in readme
+          assert "assets/stack-stream.svg" in readme
           assert banner.exists() and divider.exists()
 
           for path in (banner, divider, ecosystem, circuit, terminal, stack):
