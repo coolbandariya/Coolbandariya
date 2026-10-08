@@ -2,41 +2,51 @@
 
 # 🔥 KAUSTUBH DUA
 
-### `ECM STUDENT · SOFTWARE ENGINEER IN PROGRESS · BUILDER`
+### `ELECTRONICS & COMPUTER ENGINEERING · BUILDER · OPEN-SOURCE EXPLORER`
 
-<img src="./assets/profile-banner.svg" alt="Animated original Nether-inspired portfolio scene" width="100%"/>
+<p><b>Welcome to my Minecraft-inspired developer world.</b><br/>
+I build practical software across <b>AI · data · maps · optimisation · automation · UX</b>.</p>
+
+<img src="./assets/profile-banner.svg" alt="Animated Minecraft-inspired Nether developer portfolio banner" width="100%"/>
 
 <p>
-  <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/⛏_EXPLORE_BUILDS-ff6a24?style=for-the-badge&labelColor=12070a" alt="Explore builds"/></a>
+  <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/⛏_VIEW_BUILDS-ff6a24?style=for-the-badge&labelColor=12070a" alt="View builds"/></a>
   <a href="https://github.com/kaustubhdua?tab=followers"><img src="https://img.shields.io/badge/👥_JOIN_THE_WORLD-b968e4?style=for-the-badge&labelColor=12070a" alt="Followers"/></a>
-  <a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge/🧭_GITHUB-ffbf72?style=for-the-badge&labelColor=12070a" alt="GitHub profile"/></a>
+  <a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge/🧭_GITHUB-ffbf72?style=for-the-badge&labelColor=12070a" alt="GitHub"/></a>
 </p>
 
-<sub>🌋 NETHER-INSPIRED · 🧱 PIXEL-ART UI · ✨ SVG MOTION · 🎮 PORTFOLIO MODE</sub>
+<sub>🌋 NETHER ATMOSPHERE · 🧱 PIXEL UI · ✨ ORIGINAL SVG MOTION · 🎮 PORTFOLIO WORLD</sub>
 
 </div>
 
-<p align="center"><img src="./assets/signal-divider.svg" width="94%" alt="Animated Nether divider"/></p>
+<p align="center">
+  <img src="./assets/signal-divider.svg" width="92%" alt="Animated Nether divider"/>
+</p>
 
 <div align="center">
 
 ## 🎮 PLAYER PROFILE
 
-**Kaustubh Dua** is an **Electronics & Computer Engineering (ECM) student at JIIT, Noida** building software across **AI, data, maps, optimisation, automation and UX**.
-
-> **Build the idea. Break the weak spots. Polish the experience. Ship the useful thing.**
-
-I enjoy taking a problem from **idea → interface → logic → data → testing → deployment** and making the result understandable for real people.
+<table>
+<tr>
+<td align="center" width="25%">🧑‍💻<br/><b>PLAYER</b><br/><sub>Kaustubh Dua</sub></td>
+<td align="center" width="25%">🎓<br/><b>CLASS</b><br/><sub>ECM · JIIT Noida</sub></td>
+<td align="center" width="25%">🌋<br/><b>SPAWN</b><br/><sub>India</sub></td>
+<td align="center" width="25%">⚔️<br/><b>PLAYSTYLE</b><br/><sub>Build → Debug → Ship</sub></td>
+</tr>
+</table>
 
 <br/>
 
-| 🧑 PLAYER | 🎓 CLASS | 🌍 SPAWN | ⚔️ PLAYSTYLE |
-|:---:|:---:|:---:|:---:|
-| **Kaustubh Dua** | **ECM** | **JIIT · Noida** | **Build → Debug → Ship** |
+> **Build the idea → break the weak spots → polish the experience → ship the useful thing.**
+
+I like turning messy problems into software that people can actually use — from the first interface to the underlying logic, data, testing and deployment.
 
 </div>
 
-<p align="center"><img src="./assets/signal-divider.svg" width="94%" alt="Animated Nether divider"/></p>
+<p align="center">
+  <img src="./assets/signal-divider.svg" width="92%" alt="Animated Nether divider"/>
+</p>
 
 <div align="center">
 
@@ -44,74 +54,68 @@ I enjoy taking a problem from **idea → interface → logic → data → testin
 
 <table>
 <tr>
-<td width="50%" align="center">
+<td align="center" width="50%">
 
 ### 🌾 NIRDHOOM
 **Field → service → evidence → residue → buyer**
 
 Agriculture · logistics · verification
 
-<br/><br/>
-<a href="https://github.com/kaustubhdua/nihdhoom">ENTER QUEST →</a>
+<a href="https://github.com/kaustubhdua/nihdhoom">⛏ ENTER QUEST</a>
 
 </td>
-<td width="50%" align="center">
+<td align="center" width="50%">
 
 ### 🌐 GITGLOBE
 **Explore the open-source world visually**
 
 Discovery · graphs · interaction · UX
 
-<br/><br/>
-<a href="https://github.com/kaustubhdua/GitGlobe">ENTER QUEST →</a>
+<a href="https://github.com/kaustubhdua/GitGlobe">⛏ ENTER QUEST</a>
 
 </td>
 </tr>
 <tr>
-<td width="50%" align="center">
+<td align="center">
 
 ### 🧠 ADAPT AI
 **Practical AI assistants and workflows**
 
 AI · automation · privacy
 
-<br/><br/>
-<a href="https://github.com/kaustubhdua/adapt-ai">ENTER QUEST →</a>
+<a href="https://github.com/kaustubhdua/adapt-ai">⛏ ENTER QUEST</a>
 
 </td>
-<td width="50%" align="center">
+<td align="center">
 
 ### 🛡️ SATARK
 **Explainable security-analysis tooling**
 
 Security · analysis · safe defaults
 
-<br/><br/>
-<a href="https://github.com/kaustubhdua/Satark">ENTER QUEST →</a>
+<a href="https://github.com/kaustubhdua/Satark">⛏ ENTER QUEST</a>
 
 </td>
 </tr>
 <tr>
-<td width="50%" align="center">
+<td align="center">
 
 ### 🛰️ AKASHCHALAK
 **Maps, air quality and spatial decisions**
 
 Geo · environment · data
 
-<br/><br/>
-<a href="https://github.com/kaustubhdua/AkashChalak">ENTER QUEST →</a>
+<a href="https://github.com/kaustubhdua/AkashChalak">⛏ ENTER QUEST</a>
 
 </td>
-<td width="50%" align="center">
+<td align="center">
 
 ### ♻️ SMART WASTE
 **Prediction, prioritisation and route optimisation**
 
 Data · sustainability · optimisation
 
-<br/><br/>
-<a href="https://github.com/kaustubhdua/smart_waste_project">ENTER QUEST →</a>
+<a href="https://github.com/kaustubhdua/smart_waste_project">⛏ ENTER QUEST</a>
 
 </td>
 </tr>
@@ -119,7 +123,9 @@ Data · sustainability · optimisation
 
 </div>
 
-<p align="center"><img src="./assets/signal-divider.svg" width="94%" alt="Animated Nether divider"/></p>
+<p align="center">
+  <img src="./assets/signal-divider.svg" width="92%" alt="Animated Nether divider"/>
+</p>
 
 <div align="center">
 
@@ -129,31 +135,36 @@ Data · sustainability · optimisation
 
 <br/><br/>
 
-**Core stack:** C++ · Python · TypeScript · JavaScript · SQL  
-**Frontend:** React · Next.js · Vite · Three.js · Leaflet · Motion  
-**Backend & data:** FastAPI · Supabase · PostgreSQL · Redis · Docker  
-**AI & computing:** PyTorch · TensorFlow · NumPy · Pandas · GeoPandas · OR-Tools  
-**Ship & quality:** Git · GitHub Actions · Vercel · testing · security
+<table>
+<tr>
+<td align="center"><b>🧱 CORE</b><br/>C++ · Python · TypeScript · JavaScript · SQL</td>
+<td align="center"><b>🎨 FRONTEND</b><br/>React · Next.js · Vite · Three.js · Leaflet · Motion</td>
+</tr>
+<tr>
+<td align="center"><b>⚙️ BACKEND & DATA</b><br/>FastAPI · Supabase · PostgreSQL · Redis · Docker</td>
+<td align="center"><b>🧪 COMPUTING & QUALITY</b><br/>PyTorch · TensorFlow · NumPy · Pandas · OR-Tools · CI</td>
+</tr>
+</table>
 
-<sub>Technologies used across projects; not a claim of expert-level proficiency in every item.</sub>
+<sub>Technologies used across projects; this is not a claim of expert-level proficiency in every item.</sub>
 
 </div>
 
-<p align="center"><img src="./assets/signal-divider.svg" width="94%" alt="Animated Nether divider"/></p>
+<p align="center">
+  <img src="./assets/signal-divider.svg" width="92%" alt="Animated Nether divider"/>
+</p>
 
 <div align="center">
 
-## 🧭 THE BUILD LOOP
+## 🧭 MY BUILD LOOP
 
 ### 💡 FIND → 🛠️ BUILD → 🧪 BREAK → 🎨 POLISH → 🚀 SHIP → 📈 LEARN → 🔁 REPEAT
-
-<br/>
 
 <table>
 <tr>
 <td align="center">💡<br/><b>FIND</b><br/><sub>understand the real problem</sub></td>
-<td align="center">🛠️<br/><b>BUILD</b><br/><sub>make the smallest useful version</sub></td>
-<td align="center">🧪<br/><b>BREAK</b><br/><sub>hunt edge cases and regressions</sub></td>
+<td align="center">🛠️<br/><b>BUILD</b><br/><sub>make the useful version</sub></td>
+<td align="center">🧪<br/><b>BREAK</b><br/><sub>hunt edge cases</sub></td>
 <td align="center">🎨<br/><b>POLISH</b><br/><sub>remove rough edges</sub></td>
 <td align="center">🚀<br/><b>SHIP</b><br/><sub>make it useful</sub></td>
 </tr>
@@ -161,14 +172,16 @@ Data · sustainability · optimisation
 
 </div>
 
-<p align="center"><img src="./assets/signal-divider.svg" width="94%" alt="Animated Nether divider"/></p>
+<p align="center">
+  <img src="./assets/signal-divider.svg" width="92%" alt="Animated Nether divider"/>
+</p>
 
 <div align="center">
 
-## 📦 NETHER CHEST
+## 🎒 NETHER CHEST
 
 <details>
-<summary><strong>OPEN THE CHEST · MORE BUILDS</strong></summary>
+<summary><strong>OPEN CHEST · MORE BUILDS</strong></summary>
 <br/>
 
 <a href="https://github.com/kaustubhdua/JYC-Website">🏫 JIIT Youth Club</a> ·
@@ -176,19 +189,22 @@ Data · sustainability · optimisation
 <a href="https://github.com/kaustubhdua/Saathi">🗣️ Saathi</a><br/>
 <a href="https://github.com/kaustubhdua/Smart_bike_taxi_platform">🏍️ Smart Bike Taxi</a> ·
 <a href="https://github.com/kaustubhdua/nord-studio-task-manager">✅ Nord Studio</a> ·
-<a href="https://github.com/kaustubhdua/weather-core-matrix">🌦️ Weather Core Matrix</a>
+<a href="https://github.com/kaustubhdua/weather-core-matrix">🌦️ Weather Core Matrix</a> ·
+<a href="https://github.com/kaustubhdua/skills-introduction-to-github">📘 GitHub Skills</a>
 
 </details>
 
 </div>
 
-<p align="center"><img src="./assets/signal-divider.svg" width="94%" alt="Animated Nether divider"/></p>
+<p align="center">
+  <img src="./assets/signal-divider.svg" width="92%" alt="Animated Nether divider"/>
+</p>
 
 <div align="center">
 
 ## 🔥 CURRENTLY EXPLORING
 
-**AI × DATA × MAPS × OPTIMISATION × AUTOMATION × HUMAN-FRIENDLY UX**
+### `AI × DATA × MAPS × OPTIMISATION × AUTOMATION × HUMAN-FRIENDLY UX`
 
 I am especially interested in software that **leaves the screen and solves something in the real world**.
 
@@ -200,7 +216,9 @@ I am especially interested in software that **leaves the screen and solves somet
 
 </div>
 
-<p align="center"><img src="./assets/signal-divider.svg" width="94%" alt="Animated Nether divider"/></p>
+<p align="center">
+  <img src="./assets/signal-divider.svg" width="92%" alt="Animated Nether divider"/>
+</p>
 
 <div align="center">
 
@@ -224,7 +242,9 @@ I am especially interested in software that **leaves the screen and solves somet
 
 </div>
 
-<p align="center"><img src="./assets/signal-divider.svg" width="94%" alt="Animated Nether divider"/></p>
+<p align="center">
+  <img src="./assets/signal-divider.svg" width="92%" alt="Animated Nether divider"/>
+</p>
 
 <div align="center">
 
@@ -236,12 +256,14 @@ Have a project, idea, bug, collaboration or interesting problem?
 
 <br/>
 
-<a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge/🧭_ENTER_MY_WORLD-ff6a24?style=for-the-badge&labelColor=12070a" alt="Enter Kaustubh Dua's GitHub"/></a>
+<a href="https://github.com/kaustubhdua">
+  <img src="https://img.shields.io/badge/🌋_ENTER_MY_WORLD-ff6a24?style=for-the-badge&labelColor=12070a" alt="Enter Kaustubh Dua's GitHub"/>
+</a>
 
 <br/><br/>
 
 ### 🌋 SPAWN → BUILD → DEBUG → POLISH → SHIP → LEARN → REPEAT
 
-<sub>🎮 Nether-inspired · 🧱 original artwork · ⚔️ real projects · 🧪 no fake stats · 🔥 always crafting</sub>
+<sub>🎮 Minecraft-inspired · 🧱 original artwork · ⚔️ real projects · 🧪 no fake stats · 🔥 always crafting</sub>
 
 </div>
