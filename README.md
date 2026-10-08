@@ -164,8 +164,8 @@ I care about **clarity over cleverness, evidence over assumptions and useful sof
 ## Open-source signal
 
 - 🎓 **Electronics & Computer Engineering — JIIT Noida**
-- 🌱 **GirlScript Summer of Code — 2026**
-- 🤝 Student-led open-source collaboration
+- 🌱 **Student-led open-source collaboration**
+- 🤝 **Projects, reviews and collaborative engineering**
 - 🧪 Learning through projects, reviews and experimentation
 
 ---
