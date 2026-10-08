@@ -171,6 +171,41 @@ I care about **clarity over cleverness, evidence over assumptions and useful sof
 
 ---
 
+<!-- PROFILE_SYNC_START -->
+## Live engineering snapshot
+
+<table>
+<tr>
+<td width="25%" align="center"><strong>15</strong><br/><sub>PUBLIC REPOSITORIES</sub></td>
+<td width="25%" align="center"><strong>0</strong><br/><sub>REPOSITORY STARS</sub></td>
+<td width="25%" align="center"><strong>4</strong><br/><sub>FOLLOWERS</sub></td>
+<td width="25%" align="center"><strong>3</strong><br/><sub>FORKS</sub></td>
+</tr>
+</table>
+
+**Featured projects — live repository signals**
+
+| Project | Stars | Forks | Detected technology | Updated |
+|---|---:|---:|---|---|
+| [GitGlobe](https://github.com/kaustubhdua/GitGlobe) | 0 | 0 | Python, TypeScript, CSS, JavaScript, Shell, HTML | 2026-09-30 |
+| [nihdhoom](https://github.com/kaustubhdua/nihdhoom) | 0 | 3 | TypeScript, CSS, PLpgSQL, JavaScript, Python, HTML | 2026-10-08 |
+| [Saathi](https://github.com/kaustubhdua/Saathi) | 0 | 0 | Python, TypeScript, JavaScript, Dockerfile | 2026-10-07 |
+| [JYC-Website](https://github.com/kaustubhdua/JYC-Website) | 0 | 0 | CSS, JavaScript, PLpgSQL, TypeScript, HTML, PowerShell | 2026-10-08 |
+
+**Latest repository activity**
+
+| Repository | What it is | Stars | Primary language | Topics | Updated |
+|---|---|---:|---|---|---|
+| [JYC-Website](https://github.com/kaustubhdua/JYC-Website) | No description yet. | 0 | CSS | — | 2026-10-08 |
+| [nihdhoom](https://github.com/kaustubhdua/nihdhoom) | No description yet. | 0 | TypeScript | — | 2026-10-08 |
+| [Saathi](https://github.com/kaustubhdua/Saathi) | No description yet. | 0 | Python | — | 2026-10-07 |
+| [smart_waste_project](https://github.com/kaustubhdua/smart_waste_project) | AI-powered IoT waste monitoring, priority scoring, and OR-Tools route optimization dashboard. | 0 | Python | folium, fuzzy-logic, machine-learning, or-tools, python, route-optimization, streamlit | 2026-10-05 |
+| [nord-studio-task-manager](https://github.com/kaustubhdua/nord-studio-task-manager) | No description yet. | 0 | CSS | — | 2026-10-05 |
+| [weather-core-matrix](https://github.com/kaustubhdua/weather-core-matrix) | No description yet. | 0 | CSS | — | 2026-10-05 |
+
+<sub>Automatically refreshed 2026-10-08 13:11 UTC. Featured projects above remain curated; this section reflects the current public GitHub portfolio.</sub>
+<!-- PROFILE_SYNC_END -->
+
 ## GitHub evidence
 
 <div align="center">
