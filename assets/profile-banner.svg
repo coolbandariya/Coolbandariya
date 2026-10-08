@@ -1,90 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
-<title id="title">Kaustubh Dua — Minecraft-inspired animated developer profile</title>
-<desc id="desc">A Minecraft-inspired pixel landscape with a crafting table, pickaxe, animated clouds, fireflies and an illuminated developer profile panel.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 520" width="1400" height="520" role="img" aria-labelledby="title desc">
+<title id="title">Kaustubh Dua — Nether-themed Minecraft-inspired developer profile</title>
+<desc id="desc">A pixel-art inspired Nether scene with basalt cliffs, crimson vegetation, a glowing portal and an animated explorer HUD.</desc>
 <defs>
-  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#4b9bd1"/><stop offset=".58" stop-color="#9dd8e8"/><stop offset="1" stop-color="#f1d59e"/></linearGradient>
-  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101714" stop-opacity=".96"/><stop offset="1" stop-color="#1b241c" stop-opacity=".9"/></linearGradient>
-  <radialGradient id="torch" cx=".5" cy=".5"><stop stop-color="#ffd36a" stop-opacity=".8"/><stop offset="1" stop-color="#ffd36a" stop-opacity="0"/></radialGradient>
-  <pattern id="pixels" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern>
+  <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#12050a"/><stop offset=".55" stop-color="#3a0b12"/><stop offset="1" stop-color="#120307"/></linearGradient>
+  <linearGradient id="lava" x2="0" y2="1"><stop stop-color="#ff9b22"/><stop offset=".45" stop-color="#e94b16"/><stop offset="1" stop-color="#7a0b16"/></linearGradient>
+  <linearGradient id="portal" x2="0" y2="1"><stop stop-color="#ff9b35"/><stop offset=".5" stop-color="#e22b24"/><stop offset="1" stop-color="#7c1020"/></linearGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="12"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="4"/></filter>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#ffb45c" stroke-opacity=".045"/></pattern>
   <style>
-    .cloud{animation:drift 22s linear infinite}
-    .cloud2{animation:drift 30s linear infinite reverse}
-    .spark{animation:twinkle 2.4s ease-in-out infinite}
-    .spark2{animation:twinkle 3.1s ease-in-out .7s infinite}
-    .glow{animation:flicker 1.8s ease-in-out infinite}
-    .cursor{animation:blink 1s steps(2,end) infinite}
-    @keyframes drift{from{transform:translateX(-70px)}to{transform:translateX(80px)}}
-    @keyframes twinkle{0%,100%{opacity:.2;transform:translateY(0)}50%{opacity:1;transform:translateY(-3px)}}
-    @keyframes flicker{0%,100%{opacity:.45}50%{opacity:.85}}
+    .ember{animation:float 4s ease-in-out infinite}
+    .ember2{animation:float 5.2s ease-in-out 1s infinite}
+    .portal{animation:pulse 2.2s ease-in-out infinite}
+    .scan{animation:scan 4s linear infinite}
+    .blink{animation:blink 1s steps(2,end) infinite}
+    .lavaGlow{animation:flicker 1.5s ease-in-out infinite}
+    @keyframes float{0%,100%{opacity:.15;transform:translate(0,10px)}50%{opacity:1;transform:translate(12px,-16px)}}
+    @keyframes pulse{0%,100%{opacity:.72}50%{opacity:1}}
+    @keyframes scan{from{transform:translateY(-100px)}to{transform:translateY(470px)}}
     @keyframes blink{50%{opacity:0}}
-    @media (prefers-reduced-motion: reduce){.cloud,.cloud2,.spark,.spark2,.glow,.cursor{animation:none}}
+    @keyframes flicker{0%,100%{opacity:.35}50%{opacity:.8}}
+    @media(prefers-reduced-motion:reduce){.ember,.ember2,.portal,.scan,.blink,.lavaGlow{animation:none}}
   </style>
 </defs>
 
-<rect width="1200" height="380" fill="url(#sky)"/>
-<rect width="1200" height="380" fill="url(#pixels)"/>
+<rect width="1400" height="520" fill="url(#bg)"/>
+<rect width="1400" height="520" fill="url(#grid)"/>
 
-<!-- sun + distant clouds -->
-<circle cx="1000" cy="72" r="38" fill="#fff0a5"/>
-<g class="cloud" fill="#f7fbfa" opacity=".7">
-  <rect x="150" y="64" width="120" height="22" rx="11"/>
-  <rect x="180" y="48" width="52" height="34" rx="17"/>
-  <rect x="228" y="56" width="44" height="27" rx="13"/>
+<!-- Nether haze -->
+<ellipse cx="1080" cy="250" rx="360" ry="210" fill="#e11d2e" opacity=".12" filter="url(#soft)"/>
+<ellipse cx="360" cy="170" rx="280" ry="180" fill="#ff5a1f" opacity=".09" filter="url(#soft)"/>
+
+<!-- basalt cliffs -->
+<path d="M0 0h220l38 72-42 54 34 72-60 74 28 82-36 166H0z" fill="#1b1719"/>
+<path d="M0 90h188l-38 50 28 62-55 46 34 64-58 48 26 60H0z" fill="#282125"/>
+<path d="M1400 0h-230l-44 74 50 58-38 70 72 68-34 72 42 68-38 110h220z" fill="#181316"/>
+<path d="M1400 100h-180l42 54-30 56 54 54-36 68 62 50-24 72h112z" fill="#292025"/>
+
+<!-- lava horizon -->
+<path class="lavaGlow" d="M0 420h230l36-22 90 15 74-18 90 20 90-13 95 18 75-22 96 16 88-17 105 22 75-17 80 18 76-18v118H0z" fill="url(#lava)" opacity=".72"/>
+<path d="M0 462h1400v58H0z" fill="#26070b"/>
+<path d="M0 462h1400" stroke="#ff6a1d" stroke-width="5" opacity=".7"/>
+
+<!-- crimson trees -->
+<g fill="#6f1224" opacity=".9">
+ <path d="M210 370V190h18v-70h24v70h22v180z"/><path d="M245 170l-70-42 12-18 75 34z"/><path d="M262 198l82-52 12 20-82 62z"/>
+ <path d="M1120 390V170h20v-62h24v62h25v220z"/><path d="M1150 165l-82-50 12-19 88 40z"/><path d="M1170 205l88-64 13 20-94 73z"/>
 </g>
-<g class="cloud2" fill="#fff" opacity=".46">
-  <rect x="680" y="98" width="135" height="20" rx="10"/>
-  <rect x="718" y="82" width="55" height="32" rx="16"/>
+<g fill="#b51f3b"><rect x="166" y="116" width="16" height="16"/><rect x="330" y="132" width="14" height="14"/><rect x="1080" y="108" width="14" height="14"/><rect x="1258" y="150" width="17" height="17"/></g>
+
+<!-- portal glow + frame -->
+<rect class="portal" x="515" y="92" width="370" height="310" rx="8" fill="#ff2f25" opacity=".12" filter="url(#soft)"/>
+<rect x="540" y="78" width="320" height="340" fill="#251a1c" stroke="#111" stroke-width="18"/>
+<rect x="562" y="100" width="276" height="296" fill="url(#portal)" stroke="#6e1a1c" stroke-width="12"/>
+<rect x="580" y="118" width="240" height="260" fill="#170a10" opacity=".74"/>
+<path d="M585 135h230M585 165h230M585 195h230M585 225h230M585 255h230M585 285h230M585 315h230M585 345h230" stroke="#ff6b2d" stroke-opacity=".17" stroke-width="10"/>
+<g class="portal" fill="#ffbf54"><rect x="602" y="152" width="7" height="7"/><rect x="780" y="206" width="6" height="6"/><rect x="684" y="328" width="8" height="8"/><rect x="735" y="180" width="5" height="5"/></g>
+
+<!-- foreground basalt -->
+<path d="M0 414l150-40 120 46 110-38 120 46 110-42 120 35 125-44 130 47 120-36 195 44v128H0z" fill="#100d10"/>
+<path d="M0 432l150-40 120 46 110-38 120 46 110-42 120 35 125-44 130 47 120-36 195 44" fill="none" stroke="#3c292d" stroke-width="10"/>
+
+<!-- explorer HUD -->
+<rect x="56" y="48" width="410" height="126" rx="6" fill="#0b080a" fill-opacity=".92" stroke="#b43a3e" stroke-width="2"/>
+<rect x="72" y="66" width="4" height="86" fill="#ff6a24"/>
+<text x="96" y="91" fill="#ffad62" font-family="monospace" font-size="14" letter-spacing="3">NETHER EXPEDITION · JIIT</text>
+<text x="96" y="128" fill="#fff4e6" font-family="monospace" font-size="32" font-weight="700">KAUSTUBH DUA</text>
+<text x="96" y="153" fill="#f0c9b4" font-family="monospace" font-size="13">ECM STUDENT · SOFTWARE BUILDER</text>
+
+<!-- animated status HUD -->
+<rect x="934" y="50" width="410" height="128" rx="6" fill="#0b080a" fill-opacity=".92" stroke="#b43a3e" stroke-width="2"/>
+<text x="960" y="82" fill="#ffad62" font-family="monospace" font-size="13" letter-spacing="2">PLAYER STATUS</text>
+<text x="960" y="111" fill="#f7e7dc" font-family="monospace" font-size="15">CLASS   ECM ENGINEER</text>
+<text x="960" y="136" fill="#f7e7dc" font-family="monospace" font-size="15">MODE    BUILD / DEBUG / SHIP</text>
+<text x="960" y="161" fill="#ff6b2d" font-family="monospace" font-size="14">PORTAL STATUS  OPEN<span class="blink">_</span></text>
+
+<!-- embers -->
+<g fill="#ffb347">
+ <rect class="ember" x="470" y="250" width="6" height="6"/><rect class="ember2" x="910" y="280" width="5" height="5"/>
+ <rect class="ember" x="1000" y="215" width="4" height="4"/><rect class="ember2" x="390" y="340" width="5" height="5"/>
+ <rect class="ember" x="1280" y="300" width="5" height="5"/><rect class="ember2" x="1030" y="350" width="4" height="4"/>
 </g>
 
-<!-- distant block hills -->
-<path d="M0 215l120-65 90 52 100-88 120 101 90-62 110 62 95-105 120 85 105-44 150 69v74H0z" fill="#477d67" opacity=".82"/>
+<!-- scan line -->
+<rect class="scan" x="0" y="0" width="1400" height="2" fill="#ff6a24" opacity=".12"/>
 
-<!-- ground -->
-<rect y="268" width="1200" height="112" fill="#76502e"/>
-<rect y="268" width="1200" height="22" fill="#4f8a3b"/>
-<path d="M0 290h120v16H0zm160 0h110v16H160zm180 0h140v16H340zm205 0h120v16H545zm175 0h145v16H720zm195 0h130v16H915zm165 0h120v16h-120z" fill="#5d3e25" opacity=".72"/>
-
-<!-- trees -->
-<g fill="#2f6e2c">
-  <rect x="70" y="244" width="16" height="24"/><rect x="86" y="224" width="16" height="44"/><rect x="102" y="244" width="16" height="24"/>
-  <rect x="1080" y="240" width="16" height="28"/><rect x="1096" y="216" width="16" height="52"/><rect x="1112" y="240" width="16" height="28"/>
-</g>
-
-<!-- fireflies -->
-<g class="spark" fill="#fff1a8"><rect x="330" y="228" width="5" height="5"/><rect x="780" y="242" width="5" height="5"/></g>
-<g class="spark2" fill="#e6ffbd"><rect x="390" y="250" width="4" height="4"/><rect x="910" y="222" width="4" height="4"/></g>
-
-<!-- crafting table -->
-<g transform="translate(835 144)">
-  <rect x="0" y="0" width="96" height="96" fill="#a65b36" stroke="#713d27" stroke-width="4"/>
-  <path d="M8 8h80v16H8zM8 40h80v16H8zM8 72h80v16H8zM24 0v96M56 0v96M80 0v96" stroke="#d17a45" stroke-width="5" opacity=".65"/>
-  <rect x="36" y="-20" width="24" height="20" fill="#6f4b2d"/>
-</g>
-
-<!-- pickaxe -->
-<g transform="translate(958 164)" stroke="#4b3520" stroke-width="9" stroke-linecap="square">
-  <path d="M0 0l74 74M74 0L0 74" stroke="#b88952" stroke-width="15"/>
-  <path d="M6 6l62 62M68 6L6 68" stroke="#d4b16f" stroke-width="5"/>
-</g>
-
-<!-- torch -->
-<g transform="translate(760 246)">
-  <circle class="glow" cx="12" cy="-6" r="48" fill="url(#torch)"/>
-  <rect x="9" y="0" width="7" height="22" fill="#70482b"/>
-  <path class="glow" d="M12-8c-9-7-3-16 2-22 8 8 10 15 2 22z" fill="#ffd66e"/>
-</g>
-
-<!-- profile panel -->
-<rect x="54" y="48" width="650" height="192" rx="10" fill="url(#panel)" stroke="#9bbf82" stroke-opacity=".5" stroke-width="2"/>
-<rect x="76" y="70" width="6" height="146" fill="#77b255"/>
-<text x="104" y="110" fill="#d6f2bf" font-family="monospace" font-size="15" letter-spacing="3">SPAWN POINT · JIIT NOIDA</text>
-<text x="104" y="163" fill="#fff" font-family="monospace" font-size="48" font-weight="700">KAUSTUBH DUA</text>
-<text x="106" y="197" fill="#d6d9d0" font-family="monospace" font-size="18">ECM student · software builder · curious tinkerer</text>
-<text x="106" y="224" fill="#9fd36b" font-family="monospace" font-size="14">BUILD → TEST → SHIP → LEARN → REPEAT<span class="cursor">_</span></text>
-
-<!-- subtle block foreground -->
-<g opacity=".38">
-  <rect x="0" y="344" width="1200" height="36" fill="#3d2b1c"/>
-  <path d="M0 344h120v12H0zm160 0h110v12H160zm180 0h140v12H340zm205 0h120v12H545zm175 0h145v12H720zm195 0h130v12H915zm165 0h120v12h-120z" fill="#2b4d28"/>
-</g>
+<text x="700" y="494" text-anchor="middle" fill="#f2c9b7" font-family="monospace" font-size="13" letter-spacing="4">ENTER THE NETHER · BUILD SOMETHING WORTH RETURNING FOR</text>
 </svg>
