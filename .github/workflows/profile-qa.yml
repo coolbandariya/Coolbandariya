@@ -28,6 +28,7 @@ jobs:
               "exact original banner URL": "d2ol7oe51mr4n9.cloudfront.net/user_3JuNbn6G1fWehaUubucloQMU8cb/e0930052-b661-4682-a281-67b390d8146e.png" in readme,
               "featured projects": all(name in readme for name in ("GitGlobe", "NIRDHOOM", "Saathi", "SATARK", "Adapt AI")),
               "animated build log": "assets/profile-motion.svg" in readme,
+              "animated system map": "assets/system-map.svg" in readme,
               "animated footer": "assets/profile-footer.svg" in readme,
               "contribution snake": "github-contribution-grid-snake.svg" in readme,
               "no obsolete Minecraft theme": not any(word in readme.lower() for word in ("minecraft", "nether")),
@@ -65,7 +66,7 @@ jobs:
               assert f"https://github.com/kaustubhdua/{repository}" in readme, f"Missing project link: {repository}"
 
           # Parse SVGs as XML and check accessibility, safe markup and motion fallbacks.
-          animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"))
+          animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"), Path("assets/system-map.svg"))
           for path in animated_assets:
               ET.parse(path)
               source = path.read_text(encoding="utf-8")
