@@ -18,9 +18,7 @@
 
 **JIIT Noida · Electronics & Computer Engineering · AI · Data · Systems · Product**
 
-I build software where **AI, data, systems and real-world constraints** meet. My strongest work sits at the boundary between a technical idea and the messy conditions needed to make it useful.
-
-I work at the boundary between technical ideas and messy real-world constraints. I care about **useful systems, inspectable decisions and software that can survive contact with reality.**
+I build software where **AI, data, systems and real-world constraints** meet. I care about **useful systems, inspectable decisions and software that can survive contact with reality.**
 
 ---
 
@@ -61,7 +59,7 @@ GitGlobe places **198,731 repositories** on an interactive globe according to wh
 
 > **Proof:** field workflows · booking · dispatch · operator evidence · verification · OR-Tools
 
-A field-first crop-residue coordination platform built around an operational chain instead of another dashboard. It brings together field workflows, booking, dispatch, operator evidence, verification, residue pooling and an OR-Tools dispatch foundation.
+A field-first crop-residue coordination platform built around an operational chain rather than another dashboard. It brings together field workflows, booking, dispatch, operator evidence, verification, residue pooling and an OR-Tools dispatch foundation.
 
 `React` `Vite` `Supabase` `PostgreSQL` `Leaflet` `OR-Tools` `PWA`
 
@@ -74,7 +72,7 @@ A field-first crop-residue coordination platform built around an operational cha
 
 > **Proof:** deterministic intent routing · provider adapters · consent · human escalation · readiness gates
 
-A multilingual assistance platform built around source-backed answers, deterministic intent routing, provider adapters, consent, human escalation and measurable readiness gates. Simulated capabilities are deliberately separated from provider-backed ones.
+A multilingual assistance platform built around source-backed answers, deterministic intent routing, provider adapters, consent, human escalation and measurable readiness gates. Simulated capabilities are deliberately separated from provider-backed capabilities.
 
 `Next.js` `React` `FastAPI` `Python` `Voice` `AI`
 
@@ -105,7 +103,7 @@ The official JYC 128 website combines content architecture, verified public reco
 
 **[Explore every repository →](https://github.com/kaustubhdua?tab=repositories)**
 
-> **Repository rule:** project links above point to the live source repositories; the profile intentionally avoids presenting prototypes or simulated capabilities as production systems.
+> **Repository rule:** project links above point to the source repositories; the profile intentionally labels prototype and simulated capabilities instead of presenting them as production systems.
 
 ---
 
