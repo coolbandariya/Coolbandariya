@@ -32,7 +32,7 @@ I build software where **AI, data, systems and real-world constraints** meet —
 </tr>
 </table>
 
-**What you can expect from the projects below:** real repositories, concrete technical decisions, explicit constraints, and clear boundaries between prototype, simulated and provider-backed functionality.
+**What you can expect:** projects I can point to, engineering decisions I can explain, and honest boundaries around what is prototype, simulated, provider-backed or shipped.
 
 > **Engineering principle:** clarity over cleverness · evidence over assumptions · useful software over feature count.
 
@@ -40,73 +40,72 @@ I build software where **AI, data, systems and real-world constraints** meet —
 
 ## Selected work
 
-<div align="center"><img src="./assets/project-bento.svg" width="96%" alt="Selected engineering projects presented as a dark interactive bento system"/></div>
+<div align="center"><img src="./assets/project-bento.svg" width="96%" alt="Selected engineering projects across product, AI, optimisation and software engineering"/></div>
 
-### 01 · GitGlobe — Open-source discovery
-**A 3D map of the open-source landscape.**
+### 01 · Nirdhoom — Field operations
+**A field-first coordination platform for crop-residue management.**
 
-> **Proof:** 198,731 repositories · semantic embeddings · spherical UMAP · WebGL · search · ranking
+> **Engineering proof:** field workflows · booking · dispatch · operator evidence · verification · OR-Tools
 
-GitGlobe places **198,731 repositories** on an interactive globe according to what they do rather than what they are called. It combines semantic embeddings, spherical UMAP, WebGL rendering, search, repository ranking and a popularity-blind quality model.
+Nirdhoom models the operational chain from **field → service → evidence → residue → buyer**. The current repository is a **prototype / integration foundation**, with demo and indicative data explicitly separated from real-world outcomes.
 
-`React` `TypeScript` `Three.js` `FastAPI` `Qdrant` `PostgreSQL` `ML`
-
-**[Repository →](https://github.com/kaustubhdua/GitGlobe)**
-
----
-
-### 02 · Nirdhoom — Field operations
-**Field → service → evidence → residue → buyer.**
-
-> **Proof:** field workflows · booking · dispatch · operator evidence · verification · OR-Tools
-
-A field-first crop-residue coordination platform built around an operational chain rather than another dashboard. It brings together field workflows, booking, dispatch, operator evidence, verification, residue pooling and an OR-Tools dispatch foundation.
-
-`React` `Vite` `Supabase` `PostgreSQL` `Leaflet` `OR-Tools` `PWA`
+`React 19` `Vite 8` `Supabase` `PostgreSQL` `Leaflet` `OR-Tools` `PWA`
 
 **[Repository →](https://github.com/kaustubhdua/nihdhoom)**
 
 ---
 
-### 03 · Saathi — Voice + AI
-**Voice-first assistance for real-world workflows.**
+### 02 · Saathi — Voice + AI systems
+**Voice-first, multilingual assistance designed around real service workflows.**
 
-> **Proof:** deterministic intent routing · provider adapters · consent · human escalation · readiness gates
+> **Engineering proof:** deterministic routing · provider adapters · provenance · consent · human escalation · readiness gates
 
-A multilingual assistance platform built around source-backed answers, deterministic intent routing, provider adapters, consent, human escalation and measurable readiness gates. Simulated capabilities are deliberately separated from provider-backed capabilities.
+Saathi combines source-backed answers with deterministic intent routing and provider boundaries. Its architecture deliberately separates **simulated capabilities from provider-backed integrations**, making the system easier to test, inspect and extend.
 
-`Next.js` `React` `FastAPI` `Python` `Voice` `AI`
+`Next.js` `React` `FastAPI` `Python` `Voice` `AI` `Supabase`
 
 **[Repository →](https://github.com/kaustubhdua/Saathi)**
 
 ---
 
-### 04 · JYC 128 — Product engineering
-**An editorial product for JIIT Youth Club.**
+### 03 · JYC 128 — Product engineering
+**A public-facing website engineered as a maintained software product.**
 
-> **Proof:** verified records · media provenance · accessibility · SEO · CI · CodeQL · browser QA
+> **Engineering proof:** accessibility · SEO · media provenance · CI · CodeQL · Playwright · release hardening
 
-The official JYC 128 website combines content architecture, verified public records, media provenance, accessibility, SEO, responsive design, CI, CodeQL and browser QA.
+JYC 128 is the official JIIT Youth Club website. The project demonstrates the less-visible side of shipping software: content architecture, accessibility, security checks, automated quality gates, responsive behaviour and browser-level verification.
 
-`React` `Vite` `Supabase` `CI` `Playwright` `SEO` `Accessibility`
+`React` `Vite` `Supabase` `Playwright` `GitHub Actions` `CodeQL`
 
 **[Repository →](https://github.com/kaustubhdua/JYC-Website)**
 
 ---
 
-### Other work
+### 04 · Smart Waste — ML + optimisation
+**An end-to-end waste collection pipeline connecting prediction to routing.**
+
+> **Engineering proof:** time-series features · Random Forest prediction · priority scoring · OR-Tools route optimisation
+
+Smart Waste predicts future bin fill levels, converts operational conditions into a continuous collection-priority score, then uses route optimisation to connect prediction with dispatch decisions.
+
+`Python` `Pandas` `scikit-learn` `Random Forest` `Google OR-Tools` `ML`
+
+**[Repository →](https://github.com/kaustubhdua/smart_waste_project)**
+
+---
+
+### Secondary work
 
 | Project | Engineering signal |
 |---|---|
-| **[Satark](https://github.com/kaustubhdua/Satark)** | Security analysis, explainability and safer engineering workflows |
-| **[AkashChalak](https://github.com/kaustubhdua/AkashChalak)** | Geospatial air-quality analysis and environmental intelligence |
-| **[Smart Waste](https://github.com/kaustubhdua/smart_waste_project)** | ML prediction, priority scoring and vehicle-route optimisation |
+| **[AkashChalak](https://github.com/kaustubhdua/AkashChalak)** | Satellite-assisted air-quality analysis, spatial interpolation and hotspot detection |
+| **[Satark](https://github.com/kaustubhdua/Satark)** | Security-awareness workflows, AI-assisted analysis, explainability and safer interaction design |
+| **[Smart Bike Taxi](https://github.com/kaustubhdua/Smart_bike_taxi_platform)** | C++17 data structures, shortest-path routing and nearest-driver dispatch |
+| **[JIIT Toppers](https://github.com/kaustubhdua/Jiit-toppers-)** | Student product concept with academic tooling, trust boundaries and campus workflows |
 
-**[Explore every repository →](https://github.com/kaustubhdua?tab=repositories)**
+**[Explore all repositories →](https://github.com/kaustubhdua?tab=repositories)**
 
-> **Repository rule:** project links above point to the source repositories; the profile intentionally labels prototype and simulated capabilities instead of presenting them as production systems.
-
----
+> **Ownership rule:** the four projects above are presented as work in your own repositories. Collaborative work and forks are not represented as sole-authored projects.
 
 ## What I can contribute
 
