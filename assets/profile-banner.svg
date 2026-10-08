@@ -1,23 +1,90 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-<title id="title">Kaustubh Dua — Minecraft-inspired developer profile</title>
-<desc id="desc">A Minecraft-inspired pixel-art scene with a sunrise, blocky terrain, a crafting table, a pickaxe and Kaustubh Dua's name.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+<title id="title">Kaustubh Dua — Minecraft-inspired animated developer profile</title>
+<desc id="desc">A Minecraft-inspired pixel landscape with a crafting table, pickaxe, animated clouds, fireflies and an illuminated developer profile panel.</desc>
 <defs>
-  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#63b9e8"/><stop offset=".62" stop-color="#b8e5f4"/><stop offset="1" stop-color="#f4d49b"/></linearGradient>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#4b9bd1"/><stop offset=".58" stop-color="#9dd8e8"/><stop offset="1" stop-color="#f1d59e"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101714" stop-opacity=".96"/><stop offset="1" stop-color="#1b241c" stop-opacity=".9"/></linearGradient>
+  <radialGradient id="torch" cx=".5" cy=".5"><stop stop-color="#ffd36a" stop-opacity=".8"/><stop offset="1" stop-color="#ffd36a" stop-opacity="0"/></radialGradient>
   <pattern id="pixels" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern>
-  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101714" stop-opacity=".94"/><stop offset="1" stop-color="#1b241c" stop-opacity=".88"/></linearGradient>
+  <style>
+    .cloud{animation:drift 22s linear infinite}
+    .cloud2{animation:drift 30s linear infinite reverse}
+    .spark{animation:twinkle 2.4s ease-in-out infinite}
+    .spark2{animation:twinkle 3.1s ease-in-out .7s infinite}
+    .glow{animation:flicker 1.8s ease-in-out infinite}
+    .cursor{animation:blink 1s steps(2,end) infinite}
+    @keyframes drift{from{transform:translateX(-70px)}to{transform:translateX(80px)}}
+    @keyframes twinkle{0%,100%{opacity:.2;transform:translateY(0)}50%{opacity:1;transform:translateY(-3px)}}
+    @keyframes flicker{0%,100%{opacity:.45}50%{opacity:.85}}
+    @keyframes blink{50%{opacity:0}}
+    @media (prefers-reduced-motion: reduce){.cloud,.cloud2,.spark,.spark2,.glow,.cursor{animation:none}}
+  </style>
 </defs>
-<rect width="1200" height="360" fill="url(#sky)"/>
-<rect width="1200" height="360" fill="url(#pixels)"/>
-<circle cx="1010" cy="74" r="36" fill="#fff1a8"/>
-<g opacity=".8" fill="#477d67"><path d="M0 205l120-65 90 52 100-88 120 101 90-62 110 62 95-105 120 85 105-44 150 69v70H0z"/></g>
-<g><rect y="250" width="1200" height="110" fill="#76502e"/><rect y="250" width="1200" height="22" fill="#4f8a3b"/><path d="M0 272h120v16H0zm160 0h110v16H160zm180 0h140v16H340zm205 0h120v16H545zm175 0h145v16H720zm195 0h130v16H915zm165 0h120v16h-120z" fill="#5d3e25" opacity=".75"/>
-<g fill="#2f6e2c"><rect x="70" y="225" width="16" height="25"/><rect x="86" y="211" width="16" height="39"/><rect x="102" y="225" width="16" height="25"/><rect x="1030" y="220" width="16" height="30"/><rect x="1046" y="204" width="16" height="46"/><rect x="1062" y="220" width="16" height="30"/></g></g>
-<g transform="translate(835 128)"><rect x="0" y="0" width="96" height="96" fill="#a65b36" stroke="#713d27" stroke-width="4"/><path d="M8 8h80v16H8zM8 40h80v16H8zM8 72h80v16H8zM24 0v96M56 0v96M80 0v96" stroke="#d17a45" stroke-width="5" opacity=".65"/><rect x="36" y="-20" width="24" height="20" fill="#6f4b2d"/></g>
-<g transform="translate(958 148)" stroke="#4b3520" stroke-width="9" stroke-linecap="square"><path d="M0 0l74 74M74 0L0 74" stroke="#b88952" stroke-width="15"/><path d="M6 6l62 62M68 6L6 68" stroke="#d4b16f" stroke-width="5"/></g>
-<rect x="54" y="48" width="650" height="184" rx="10" fill="url(#panel)" stroke="#9bbf82" stroke-opacity=".45" stroke-width="2"/>
-<rect x="76" y="70" width="6" height="140" fill="#77b255"/>
-<text x="104" y="112" fill="#d6f2bf" font-family="monospace" font-size="15" letter-spacing="3">SPAWN POINT · JIIT NOIDA</text>
-<text x="104" y="164" fill="#ffffff" font-family="monospace" font-size="48" font-weight="700">KAUSTUBH DUA</text>
-<text x="106" y="198" fill="#d6d9d0" font-family="monospace" font-size="18">ECE student · software builder · curious tinkerer</text>
-<text x="106" y="224" fill="#9fd36b" font-family="monospace" font-size="14">BUILD → TEST → SHIP → LEARN → REPEAT</text>
+
+<rect width="1200" height="380" fill="url(#sky)"/>
+<rect width="1200" height="380" fill="url(#pixels)"/>
+
+<!-- sun + distant clouds -->
+<circle cx="1000" cy="72" r="38" fill="#fff0a5"/>
+<g class="cloud" fill="#f7fbfa" opacity=".7">
+  <rect x="150" y="64" width="120" height="22" rx="11"/>
+  <rect x="180" y="48" width="52" height="34" rx="17"/>
+  <rect x="228" y="56" width="44" height="27" rx="13"/>
+</g>
+<g class="cloud2" fill="#fff" opacity=".46">
+  <rect x="680" y="98" width="135" height="20" rx="10"/>
+  <rect x="718" y="82" width="55" height="32" rx="16"/>
+</g>
+
+<!-- distant block hills -->
+<path d="M0 215l120-65 90 52 100-88 120 101 90-62 110 62 95-105 120 85 105-44 150 69v74H0z" fill="#477d67" opacity=".82"/>
+
+<!-- ground -->
+<rect y="268" width="1200" height="112" fill="#76502e"/>
+<rect y="268" width="1200" height="22" fill="#4f8a3b"/>
+<path d="M0 290h120v16H0zm160 0h110v16H160zm180 0h140v16H340zm205 0h120v16H545zm175 0h145v16H720zm195 0h130v16H915zm165 0h120v16h-120z" fill="#5d3e25" opacity=".72"/>
+
+<!-- trees -->
+<g fill="#2f6e2c">
+  <rect x="70" y="244" width="16" height="24"/><rect x="86" y="224" width="16" height="44"/><rect x="102" y="244" width="16" height="24"/>
+  <rect x="1080" y="240" width="16" height="28"/><rect x="1096" y="216" width="16" height="52"/><rect x="1112" y="240" width="16" height="28"/>
+</g>
+
+<!-- fireflies -->
+<g class="spark" fill="#fff1a8"><rect x="330" y="228" width="5" height="5"/><rect x="780" y="242" width="5" height="5"/></g>
+<g class="spark2" fill="#e6ffbd"><rect x="390" y="250" width="4" height="4"/><rect x="910" y="222" width="4" height="4"/></g>
+
+<!-- crafting table -->
+<g transform="translate(835 144)">
+  <rect x="0" y="0" width="96" height="96" fill="#a65b36" stroke="#713d27" stroke-width="4"/>
+  <path d="M8 8h80v16H8zM8 40h80v16H8zM8 72h80v16H8zM24 0v96M56 0v96M80 0v96" stroke="#d17a45" stroke-width="5" opacity=".65"/>
+  <rect x="36" y="-20" width="24" height="20" fill="#6f4b2d"/>
+</g>
+
+<!-- pickaxe -->
+<g transform="translate(958 164)" stroke="#4b3520" stroke-width="9" stroke-linecap="square">
+  <path d="M0 0l74 74M74 0L0 74" stroke="#b88952" stroke-width="15"/>
+  <path d="M6 6l62 62M68 6L6 68" stroke="#d4b16f" stroke-width="5"/>
+</g>
+
+<!-- torch -->
+<g transform="translate(760 246)">
+  <circle class="glow" cx="12" cy="-6" r="48" fill="url(#torch)"/>
+  <rect x="9" y="0" width="7" height="22" fill="#70482b"/>
+  <path class="glow" d="M12-8c-9-7-3-16 2-22 8 8 10 15 2 22z" fill="#ffd66e"/>
+</g>
+
+<!-- profile panel -->
+<rect x="54" y="48" width="650" height="192" rx="10" fill="url(#panel)" stroke="#9bbf82" stroke-opacity=".5" stroke-width="2"/>
+<rect x="76" y="70" width="6" height="146" fill="#77b255"/>
+<text x="104" y="110" fill="#d6f2bf" font-family="monospace" font-size="15" letter-spacing="3">SPAWN POINT · JIIT NOIDA</text>
+<text x="104" y="163" fill="#fff" font-family="monospace" font-size="48" font-weight="700">KAUSTUBH DUA</text>
+<text x="106" y="197" fill="#d6d9d0" font-family="monospace" font-size="18">ECM student · software builder · curious tinkerer</text>
+<text x="106" y="224" fill="#9fd36b" font-family="monospace" font-size="14">BUILD → TEST → SHIP → LEARN → REPEAT<span class="cursor">_</span></text>
+
+<!-- subtle block foreground -->
+<g opacity=".38">
+  <rect x="0" y="344" width="1200" height="36" fill="#3d2b1c"/>
+  <path d="M0 344h120v12H0zm160 0h110v12H160zm180 0h140v12H340zm205 0h120v12H545zm175 0h145v12H720zm195 0h130v12H915zm165 0h120v12h-120z" fill="#2b4d28"/>
+</g>
 </svg>
