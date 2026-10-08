@@ -9,7 +9,7 @@
 <p>
   <a href="#selected-work">SELECTED WORK</a> &nbsp;·&nbsp;
   <a href="#toolkit">TOOLKIT</a> &nbsp;·&nbsp;
-  <a href="#engineering-approach">ENGINEERING APPROACH</a> &nbsp;·&nbsp;
+  <a href="#now-playing">NOW PLAYING</a> &nbsp;·&nbsp;
   <a href="https://github.com/kaustubhdua?tab=repositories">ALL REPOSITORIES ↗</a>
 </p>
 
@@ -107,85 +107,126 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ## Toolkit
 
+<sub>A broader map of the tools and technologies represented across my projects. Specific stacks vary by repository.</sub>
+
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-**01 / Languages**
+**01 / Languages & foundations**
 
 ![Python](https://img.shields.io/badge/Python-252525?style=flat-square&logo=python&logoColor=F4EFE5)
-![TypeScript](https://img.shields.io/badge/TypeScript-252525?style=flat-square&logo=typescript&logoColor=F4EFE5)
 ![JavaScript](https://img.shields.io/badge/JavaScript-252525?style=flat-square&logo=javascript&logoColor=F4EFE5)
+![TypeScript](https://img.shields.io/badge/TypeScript-252525?style=flat-square&logo=typescript&logoColor=F4EFE5)
+![C](https://img.shields.io/badge/C-252525?style=flat-square&logo=c&logoColor=F4EFE5)
+![C++](https://img.shields.io/badge/C%2B%2B-252525?style=flat-square&logo=cplusplus&logoColor=F4EFE5)
 ![SQL](https://img.shields.io/badge/SQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
+![HTML5](https://img.shields.io/badge/HTML5-252525?style=flat-square&logo=html5&logoColor=F4EFE5)
+![CSS3](https://img.shields.io/badge/CSS3-252525?style=flat-square&logo=css3&logoColor=F4EFE5)
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-**02 / Application**
+**02 / Frontend & experience**
 
 ![React](https://img.shields.io/badge/React-252525?style=flat-square&logo=react&logoColor=F4EFE5)
 ![Next.js](https://img.shields.io/badge/Next.js-252525?style=flat-square&logo=nextdotjs&logoColor=F4EFE5)
 ![Vite](https://img.shields.io/badge/Vite-252525?style=flat-square&logo=vite&logoColor=F4EFE5)
-![FastAPI](https://img.shields.io/badge/FastAPI-252525?style=flat-square&logo=fastapi&logoColor=F4EFE5)
-
-</td>
-<td width="34%" valign="top">
-
-**03 / Data & AI**
-
-![Pandas](https://img.shields.io/badge/Pandas-252525?style=flat-square&logo=pandas&logoColor=F4EFE5)
-![NumPy](https://img.shields.io/badge/NumPy-252525?style=flat-square&logo=numpy&logoColor=F4EFE5)
-![scikit--learn](https://img.shields.io/badge/scikit--learn-252525?style=flat-square&logo=scikitlearn&logoColor=F4EFE5)
-![Ollama](https://img.shields.io/badge/Ollama-252525?style=flat-square&logo=ollama&logoColor=F4EFE5)
+![Three.js](https://img.shields.io/badge/Three.js-252525?style=flat-square&logo=threedotjs&logoColor=F4EFE5)
+![WebGL](https://img.shields.io/badge/WebGL-252525?style=flat-square&logo=webgl&logoColor=F4EFE5)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-252525?style=flat-square&logo=tailwindcss&logoColor=F4EFE5)
+![Streamlit](https://img.shields.io/badge/Streamlit-252525?style=flat-square&logo=streamlit&logoColor=F4EFE5)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-**04 / Data platforms**
+**03 / Backend & APIs**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-252525?style=flat-square&logo=fastapi&logoColor=F4EFE5)
+![Node.js](https://img.shields.io/badge/Node.js-252525?style=flat-square&logo=nodedotjs&logoColor=F4EFE5)
+![REST APIs](https://img.shields.io/badge/REST_APIs-252525?style=flat-square)
+![Python services](https://img.shields.io/badge/Python_services-252525?style=flat-square)
+![Speech APIs](https://img.shields.io/badge/Speech_APIs-252525?style=flat-square)
+
+</td>
+<td valign="top">
+
+**04 / AI, data & optimisation**
+
+![Pandas](https://img.shields.io/badge/Pandas-252525?style=flat-square&logo=pandas&logoColor=F4EFE5)
+![NumPy](https://img.shields.io/badge/NumPy-252525?style=flat-square&logo=numpy&logoColor=F4EFE5)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-252525?style=flat-square&logo=scikitlearn&logoColor=F4EFE5)
+![Ollama](https://img.shields.io/badge/Ollama-252525?style=flat-square&logo=ollama&logoColor=F4EFE5)
+![Embeddings](https://img.shields.io/badge/Embeddings-252525?style=flat-square)
+![LLM workflows](https://img.shields.io/badge/LLM_workflows-252525?style=flat-square)
+![OR--Tools](https://img.shields.io/badge/OR--Tools-252525?style=flat-square&logo=google&logoColor=F4EFE5)
+![Fuzzy logic](https://img.shields.io/badge/Fuzzy_logic-252525?style=flat-square)
+![Geospatial mapping](https://img.shields.io/badge/Geospatial_mapping-252525?style=flat-square)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**05 / Databases & integrations**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
 ![Supabase](https://img.shields.io/badge/Supabase-252525?style=flat-square&logo=supabase&logoColor=F4EFE5)
+![SQLite](https://img.shields.io/badge/SQLite-252525?style=flat-square&logo=sqlite&logoColor=F4EFE5)
+![Ollama](https://img.shields.io/badge/Local_inference-252525?style=flat-square&logo=ollama&logoColor=F4EFE5)
+![IoT-style data](https://img.shields.io/badge/IoT--style_data-252525?style=flat-square)
 
 </td>
 <td valign="top">
 
-**05 / Quality**
-
-![Pytest](https://img.shields.io/badge/Pytest-252525?style=flat-square&logo=pytest&logoColor=F4EFE5)
-![Playwright](https://img.shields.io/badge/Playwright-252525?style=flat-square&logo=playwright&logoColor=F4EFE5)
-![API testing](https://img.shields.io/badge/API-Testing-252525?style=flat-square)
-
-</td>
-<td valign="top">
-
-**06 / Delivery**
+**06 / Testing & delivery**
 
 ![Git](https://img.shields.io/badge/Git-252525?style=flat-square&logo=git&logoColor=F4EFE5)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-252525?style=flat-square&logo=githubactions&logoColor=F4EFE5)
-![CI](https://img.shields.io/badge/CI-Quality_gates-252525?style=flat-square)
+![Pytest](https://img.shields.io/badge/Pytest-252525?style=flat-square&logo=pytest&logoColor=F4EFE5)
+![Playwright](https://img.shields.io/badge/Playwright-252525?style=flat-square&logo=playwright&logoColor=F4EFE5)
+![CI workflows](https://img.shields.io/badge/CI_workflows-252525?style=flat-square)
+![Threat triage](https://img.shields.io/badge/Threat_triage-252525?style=flat-square)
 
 </td>
 </tr>
 </table>
 
+<details>
+<summary><strong>Project-by-project stack map</strong></summary>
+
+| Project | Technologies / concepts |
+|:--|:--|
+| [GitGlobe](https://github.com/kaustubhdua/GitGlobe) | Python, Three.js, WebGL, embeddings, LLM-assisted repository discovery |
+| [NIRDHOOM](https://github.com/kaustubhdua/nihdhoom) | TypeScript, React, Supabase, PostgreSQL, OR-Tools, geospatial workflows |
+| [Saathi](https://github.com/kaustubhdua/Saathi) | Python, Next.js, FastAPI, speech interfaces, multilingual assistance |
+| [SATARK](https://github.com/kaustubhdua/Satark) | Python, Streamlit, security awareness, suspicious-link and file triage |
+| [Adapt AI](https://github.com/kaustubhdua/adapt-ai) | JavaScript, local LLMs, Ollama, hardware-aware model selection, Python execution |
+| [JIIT Youth Club Website](https://github.com/kaustubhdua/JYC-Website) | React, Vite, frontend development, Playwright, CI |
+| [Smart Waste Collection](https://github.com/kaustubhdua/smart_waste_project) | Python, Streamlit, machine learning, fuzzy logic, IoT-style data, OR-Tools |
+| [AkashChalak](https://github.com/kaustubhdua/AkashChalak) | Python, air-quality analysis, hotspot mapping, geospatial decision support |
+| [Smart Bike Taxi Platform](https://github.com/kaustubhdua/Smart_bike_taxi_platform) | C++, platform workflows |
+| [Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix) | Web styling and weather-focused interface |
+
+</details>
+
 ---
 
-## Engineering approach
+## Now playing
 
 <div align="center">
 
-| 01 · DISCOVER | 02 · MODEL | 03 · BUILD | 04 · TEST | 05 · VERIFY | 06 · SHIP |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| Understand the problem | Define boundaries | Build the workflow | Test failure paths | Check the evidence | Deliver clearly |
+<img src="./assets/profile-guitar.svg?v=20261009" width="100%" alt="Animated guitar strings and music waveform"/>
+
+**GUITAR · MUSIC · BUILDING THINGS**
+
+*Different kind of strings. Same love for getting the details right.*
 
 </div>
 
-I care about clear system boundaries, useful interfaces, failure-path testing and honest status labels. I distinguish prototypes, simulated data and connected live integrations instead of presenting a demo as proven real-world impact.
-
 ---
-
 ## Activity
 
 <div align="center">
