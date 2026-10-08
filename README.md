@@ -9,7 +9,7 @@
 </p>
 <p><i>Turning ideas into working software, one iteration at a time.</i></p>
 
-<p align="center"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32" alt="Waving hand animation"> &nbsp; <img src="https://img.shields.io/badge/Currently-Engineering%20%26%20Building-0e7490?style=flat-square&logo=github" alt="Currently engineering and building"></p>
+<p align="center">👋 <b>Currently engineering, learning, and building.</b></p>
 
 <p>
   <a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge/GitHub-kaustubhdua-181717?style=flat-square&logo=github" alt="GitHub profile"></a>
@@ -218,17 +218,6 @@ I value useful, well-scoped contributions and thoughtful feedback.
 </div>
 
 <sub>Activity cards are third-party visualizations and may have caching delays or service interruptions.</sub>
-
-<a id="snake"></a>
-## Contribution animation
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaustubhdua/Coolbandariya/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaustubhdua/Coolbandariya/output/github-contribution-grid-snake.svg">
-    <img alt="Animated contribution graph snake" src="https://raw.githubusercontent.com/kaustubhdua/Coolbandariya/output/github-contribution-grid-snake.svg" width="100%">
-  </picture>
-</p>
 
 
 <p align="center"><img src="assets/signal-divider.svg" width="100%" alt="Animated signal divider" /></p>
