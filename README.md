@@ -12,10 +12,6 @@
   <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/github/stars/kaustubhdua?label=STARS&style=flat-square&color=0f766e" alt="GitHub stars"/></a>
 </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2600&pause=900&color=0F766E&center=true&vCenter=true&width=720&lines=Electronics+%26+Computer+Engineering+student;AI+%2B+Data+%2B+Systems+%2B+Product;Building+software+that+survives+real-world+constraints;Open-source+learner+%7C+builder+%7C+shipper" alt="Animated introduction"/>
-</div>
-
 ---
 
 ## Electronics & Computer Engineering student building useful systems
@@ -28,7 +24,7 @@ My projects span open-source discovery, field operations, voice-first assistance
 
 ---
 
-## Engineering snapshot
+## Mission brief
 
 | Signal | Evidence |
 |---|---|
@@ -39,7 +35,7 @@ My projects span open-source discovery, field operations, voice-first assistance
 
 ---
 
-## Selected work
+## Systems constellation
 
 <div align="center"><img src="./assets/project-ecosystem.svg" width="96%" alt="Animated map connecting Kaustubh’s selected engineering projects"/></div>
 
@@ -99,7 +95,7 @@ The official JYC 128 website combines content architecture, verified public reco
 
 ---
 
-## Engineering map
+## Systems map
 
 <div align="center">
 
@@ -120,7 +116,7 @@ The official JYC 128 website combines content architecture, verified public reco
 
 ---
 
-## What I’m exploring
+## Research orbit
 
 **AI systems** · **Data products** · **Geospatial computing** · **Optimisation** · **Automation** · **Developer experience**
 
@@ -128,7 +124,7 @@ I’m especially interested in problems where the clean diagram ends and reality
 
 ---
 
-## Currently
+## Current mission
 
 | Signal | Focus |
 |---|---|
@@ -139,7 +135,7 @@ I’m especially interested in problems where the clean diagram ends and reality
 
 ---
 
-## How I build
+## Build protocol
 
 <div align="center"><img src="./assets/signal-divider.svg" width="72%" alt="Animated engineering signal"/></div>
 
@@ -151,7 +147,7 @@ I care about **clarity over cleverness, evidence over assumptions and useful sof
 
 ---
 
-## Open source & learning
+## Open-source signal
 
 - 🎓 **Electronics & Computer Engineering — JIIT Noida**
 - 🌱 **GirlScript Summer of Code — 2026**
@@ -160,7 +156,7 @@ I care about **clarity over cleverness, evidence over assumptions and useful sof
 
 ---
 
-## GitHub intelligence
+## Telemetry deck
 
 <div align="center">
 
@@ -173,7 +169,7 @@ I care about **clarity over cleverness, evidence over assumptions and useful sof
 
 </div>
 
-### Contribution signal
+### Activity telemetry
 
 <div align="center">
 <a href="https://github.com/kaustubhdua"><img src="https://github-readme-activity-graph.vercel.app/graph?username=kaustubhdua&bg_color=00000000&color=64748b&line=0f766e&point=0284c7&area=true&hide_border=true" width="94%" alt="GitHub contribution activity"/></a>
@@ -185,19 +181,19 @@ I care about **clarity over cleverness, evidence over assumptions and useful sof
 <a href="https://github.com/lowlighter/metrics"><img src="https://metrics.lecoq.io/kaustubhdua?template=classic&base.indepth=false&base.hireable=true&base.skip=false&languages=1&languages.limit=8&languages.threshold=0%25&languages.details=percentage&languages.indepth=true&languages.analysis.timeout=15&languages.categories=markup%2Cprogramming&config.timezone=Asia%2FKolkata" width="94%" alt="Generated GitHub engineering metrics"/></a>
 </div>
 
-### Achievement layer
+### Achievement telemetry
 
 <div align="center">
 <a href="https://github.com/kaustubhdua"><img src="https://github-profile-trophy.vercel.app/?username=kaustubhdua&theme=flat&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" width="94%" alt="GitHub profile trophies"/></a>
 </div>
 
-### Contribution animation
+### Contribution field
 
 <div align="center">
 <a href="https://github.com/kaustubhdua"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake.svg"><img src="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake.svg" width="94%" alt="Animated GitHub contribution snake"/></picture></a>
 </div>
 
-### Generated profile summary
+### Profile telemetry
 
 <div align="center">
 <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaustubhdua&theme=github_dark" width="94%" alt="Generated GitHub profile summary"/></a>
