@@ -1,15 +1,9 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg?v=20f3136" width="100%" alt="Kaustubh Dua — Electronics & Computer Engineering · AI · Data · Systems · Product Engineering"/>
+<img src="./assets/profile-banner.svg?v=9ad4975" width="100%" alt="Kaustubh Dua — Electronics & Computer Engineering · AI · Data · Systems · Product Engineering"/>
 
-<p><a href="#selected-work"><img src="https://img.shields.io/badge/SELECTED_WORK-111827?style=flat-square&logo=github&logoColor=white" alt="Selected work"/></a> <a href="#engineering-toolkit"><img src="https://img.shields.io/badge/ENGINEERING_TOOLKIT-334155?style=flat-square&logo=github&logoColor=white" alt="What I can contribute"/></a> <a href="#how-i-work"><img src="https://img.shields.io/badge/HOW_I_WORK-0f766e?style=flat-square&logo=githubactions&logoColor=white" alt="Build protocol"/></a> <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-475569?style=flat-square&logo=github&logoColor=white" alt="All repositories"/></a></p>
+<p><a href="#selected-work"><img src="https://img.shields.io/badge/SELECTED_WORK-111827?style=flat-square&logo=github&logoColor=white" alt="Selected work"/></a> <a href="#engineering-toolkit"><img src="https://img.shields.io/badge/ENGINEERING_TOOLKIT-334155?style=flat-square&logo=github&logoColor=white" alt="Engineering toolkit"/></a> <a href="#how-i-work"><img src="https://img.shields.io/badge/HOW_I_WORK-0f766e?style=flat-square&logo=githubactions&logoColor=white" alt="How I work"/></a> <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-475569?style=flat-square&logo=github&logoColor=white" alt="All repositories"/></a></p>
 
-</div>
-
-<div align="center">
-  <a href="https://github.com/kaustubhdua"><img src="https://komarev.com/ghpvc/?username=kaustubhdua&label=PROFILE%20VIEWS&color=0f766e&style=flat-square" alt="Profile views"/></a>
-  <a href="https://github.com/kaustubhdua?tab=followers"><img src="https://img.shields.io/github/followers/kaustubhdua?label=FOLLOWERS&style=flat-square&color=334155" alt="GitHub followers"/></a>
-  <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/github/stars/kaustubhdua?label=STARS&style=flat-square&color=0f766e" alt="GitHub stars"/></a>
 </div>
 
 ---
@@ -35,16 +29,6 @@ I build software where **AI, data, systems and real-world constraints** meet —
 **What you can expect:** projects I can point to, engineering decisions I can explain, and honest boundaries around what is prototype, simulated, provider-backed or shipped.
 
 > **Engineering principle:** clarity over cleverness · evidence over assumptions · useful software over feature count.
-
----
-
-## Recruiter read
-
-**Target:** software engineering · AI engineering · data / systems internships
-
-**Strongest evidence:** product engineering · AI workflows · optimisation · data-backed systems
-
-**What I want a reviewer to notice:** I do not just assemble demos — I try to make constraints, failure modes, verification and system boundaries explicit.
 
 ---
 
