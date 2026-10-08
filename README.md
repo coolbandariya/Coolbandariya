@@ -163,15 +163,6 @@ I’m especially interested in problems where the clean diagram ends and reality
 <!-- PROFILE_SYNC_START -->
 ## Live engineering snapshot
 
-<table>
-<tr>
-<td width="25%" align="center"><strong>15</strong><br/><sub>PUBLIC REPOSITORIES</sub></td>
-<td width="25%" align="center"><strong>0</strong><br/><sub>REPOSITORY STARS</sub></td>
-<td width="25%" align="center"><strong>4</strong><br/><sub>FOLLOWERS</sub></td>
-<td width="25%" align="center"><strong>3</strong><br/><sub>FORKS</sub></td>
-</tr>
-</table>
-
 **Featured projects — live repository signals**
 
 | Project | Stars | Forks | Detected technology | Updated |
@@ -214,14 +205,13 @@ Not every repository on my GitHub is a sole-authored project.
 
 <div align="center">
 <a href="https://github.com/kaustubhdua"><img src="https://github-readme-activity-graph.vercel.app/graph?username=kaustubhdua&bg_color=00000000&color=64748b&line=0f766e&point=0284c7&area=true&hide_border=true" width="94%" alt="GitHub contribution activity"/></a>
-<br/>
 <sub>GitHub activity is supporting evidence; the selected projects above are the main proof.</sub>
 </div>
 
 ### Contribution activity
 
 <div align="center">
-<a href="https://github.com/kaustubhdua"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake.svg"><img src="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake.svg" width="94%" alt="Animated GitHub contribution activity"/></picture></a>
+<a href="https://github.com/kaustubhdua"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake.svg"><img src="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake.svg" width="94%" alt="GitHub contribution activity"/></picture></a>
 </div>
 
 ---
@@ -232,7 +222,5 @@ Not every repository on my GitHub is a sole-authored project.
 
 **[GitHub](https://github.com/kaustubhdua)** · **[Repositories](https://github.com/kaustubhdua?tab=repositories)**
 
-<br/><br/>
-<img src="./assets/signal-divider.svg" width="58%" alt="Engineering section marker"/>
 <sub>Electronics & Computer Engineering · builder · open-source learner</sub>
 </div>
