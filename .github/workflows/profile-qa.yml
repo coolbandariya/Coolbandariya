@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Validate README and SVG assets
+      - name: Validate README, links, and animated assets
         shell: bash
         run: |
           python - <<'PY'
@@ -25,34 +25,60 @@ jobs:
           readme = Path("README.md").read_text(encoding="utf-8")
           checks = {
               "ECM identity": "electronics & computer engineering" in readme.lower(),
-              "exact banner URL": "d2ol7oe51mr4n9.cloudfront.net/user_3JuNbn6G1fWehaUubucloQMU8cb/e0930052-b661-4682-a281-67b390d8146e.png" in readme,
+              "exact original banner URL": "d2ol7oe51mr4n9.cloudfront.net/user_3JuNbn6G1fWehaUubucloQMU8cb/e0930052-b661-4682-a281-67b390d8146e.png" in readme,
               "featured projects": all(name in readme for name in ("GitGlobe", "NIRDHOOM", "Saathi", "SATARK", "Adapt AI")),
               "animated build log": "assets/profile-motion.svg" in readme,
               "animated footer": "assets/profile-footer.svg" in readme,
               "contribution snake": "github-contribution-grid-snake.svg" in readme,
               "no obsolete Minecraft theme": not any(word in readme.lower() for word in ("minecraft", "nether")),
+              "no placeholder copy": not any(text in readme.lower() for text in ("no description yet", "todo:", "lorem ipsum")),
           }
           for name, passed in checks.items():
               print(f"{'PASS' if passed else 'FAIL'}: {name}")
           assert all(checks.values()), "README content validation failed"
 
+          # Every local asset referenced by the README must exist in the repository.
           refs = re.findall(r'(?:src|href)="(\./assets/[^"]+)"', readme)
           for ref in refs:
               path = Path(ref.split("?", 1)[0])
               assert path.is_file(), f"Missing local asset: {path}"
 
-          for path in (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg")):
+          # Verify all in-page navigation targets against GitHub's heading slug convention.
+          headings = re.findall(r"^#{1,6}\s+(.+?)\s*$", readme, flags=re.M)
+          def slugify(value):
+              value = re.sub(r"<[^>]+>", "", value)
+              value = re.sub(r"[^\x00-\x7F]", "", value).lower()
+              value = re.sub(r"[^a-z0-9 -]", "", value)
+              return re.sub(r"\s+", "-", value.strip())
+          anchors = {slugify(heading) for heading in headings}
+          internal_links = re.findall(r'href="#([^"]+)"', readme)
+          for anchor in internal_links:
+              assert anchor in anchors, f"Broken internal anchor: #{anchor}"
+
+          # Keep the curated repository links explicit and typo-resistant.
+          expected_repositories = (
+              "GitGlobe", "nihdhoom", "Saathi", "Satark", "adapt-ai",
+              "JYC-Website", "smart_waste_project", "AkashChalak",
+              "Smart_bike_taxi_platform", "weather-core-matrix",
+          )
+          for repository in expected_repositories:
+              assert f"https://github.com/kaustubhdua/{repository}" in readme, f"Missing project link: {repository}"
+
+          # Parse SVGs as XML and check accessibility, safe markup and motion fallbacks.
+          animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"))
+          for path in animated_assets:
               ET.parse(path)
               source = path.read_text(encoding="utf-8")
               assert 'role="img"' in source, f"Missing accessible role: {path}"
+              assert "aria-labelledby=" in source and "<title" in source and "<desc" in source, f"Missing accessible title/description: {path}"
               assert "prefers-reduced-motion" in source, f"Missing reduced-motion support: {path}"
               assert "<script" not in source.lower(), f"Unexpected script element: {path}"
               style = re.search(r"<style>(.*?)</style>", source, flags=re.S)
               if style:
-                  assert style.group(1).count("{") == style.group(1).count("}"), f"Unbalanced CSS: {path}"
+                  css = style.group(1)
+                  assert css.count("{") == css.count("}"), f"Unbalanced CSS: {path}"
+                  durations = [float(value) for value in re.findall(r"animation:[^;}]*?(\d+(?:\.\d+)?)s", css) if "infinite" in css]
+                  assert all(duration >= 1 for duration in durations), f"Unexpectedly rapid animation: {path}"
 
-          assert "href=\"#selected-work\"" in readme
-          assert "href=\"#toolkit\"" in readme
-          assert "href=\"#engineering-approach\"" in readme
-          print(f"PASS: {len(refs)} local asset references, both SVGs parse, and navigation targets are present.")
+          print(f"PASS: {len(refs)} local asset references, {len(internal_links)} internal anchors, {len(expected_repositories)} curated repository links, and {len(animated_assets)} valid accessible SVGs.")
           PY
