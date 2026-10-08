@@ -197,18 +197,22 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 <details>
 <summary><strong>Project-by-project stack map</strong></summary>
 
-| Project | Technologies / concepts |
+| Project | Verified technologies / concepts |
 |:--|:--|
-| [GitGlobe](https://github.com/kaustubhdua/GitGlobe) | Python, Three.js, WebGL, embeddings, LLM-assisted repository discovery |
-| [NIRDHOOM](https://github.com/kaustubhdua/nihdhoom) | TypeScript, React, Supabase, PostgreSQL, OR-Tools, geospatial workflows |
-| [Saathi](https://github.com/kaustubhdua/Saathi) | Python, Next.js, FastAPI, speech interfaces, multilingual assistance |
-| [SATARK](https://github.com/kaustubhdua/Satark) | Python, Streamlit, security awareness, suspicious-link and file triage |
-| [Adapt AI](https://github.com/kaustubhdua/adapt-ai) | JavaScript, local LLMs, Ollama, hardware-aware model selection, Python execution |
-| [JIIT Youth Club Website](https://github.com/kaustubhdua/JYC-Website) | React, Vite, frontend development, Playwright, CI |
-| [Smart Waste Collection](https://github.com/kaustubhdua/smart_waste_project) | Python, Streamlit, machine learning, fuzzy logic, IoT-style data, OR-Tools |
-| [AkashChalak](https://github.com/kaustubhdua/AkashChalak) | Python, air-quality analysis, hotspot mapping, geospatial decision support |
-| [Smart Bike Taxi Platform](https://github.com/kaustubhdua/Smart_bike_taxi_platform) | C++, platform workflows |
-| [Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix) | Web styling and weather-focused interface |
+| [GitGlobe](https://github.com/kaustubhdua/GitGlobe) | React 19, TypeScript, Vite, Zustand, TanStack Query, Three.js, React Three Fiber, WebGL, FastAPI, Pydantic, Qdrant, PostgreSQL/asyncpg, Vertex AI embeddings, NVIDIA NIM embeddings, UMAP, Prefect |
+| [NIRDHOOM](https://github.com/kaustubhdua/nihdhoom) | React 19, Vite, JavaScript/JSX, TypeScript, CSS, Tailwind, Leaflet, OpenStreetMap, Supabase, PostgreSQL, PostGIS, Row Level Security, Node-compatible API routes, Python, OR-Tools, PWA/service worker |
+| [Saathi](https://github.com/kaustubhdua/Saathi) | Next.js, React, Python, FastAPI, Streamlit, voice-first interfaces, Hindi/Hinglish intent routing, speech-to-text/text-to-speech adapters, Sarvam, Exotel AgentStream, Open-Meteo, government OGD/AGMARKNET adapters, pytest |
+| [SATARK](https://github.com/kaustubhdua/Satark) | Python, Streamlit, CSS, Groq APIs, LLM/vision workflows, pypdf, Pillow, ReportLab, OpenCV, FFmpeg, PDF reporting, suspicious URL/image/QR/PDF/video analysis |
+| [Adapt AI](https://github.com/kaustubhdua/adapt-ai) | Python, FastAPI, vanilla JavaScript, Tailwind CSS, Chart.js, Ollama, local LLM inference, hardware profiling, psutil, GPUtil, NVIDIA tooling, in-browser Python execution |
+| [JIIT Youth Club Website](https://github.com/kaustubhdua/JYC-Website) | React 19, Vite, React Router, Supabase, CSS, PWA/service workers, Playwright, GitHub Actions, browser QA |
+| [JIIT Toppers](https://github.com/kaustubhdua/Jiit-toppers-) | Next.js App Router, React, TypeScript, CSS, Prisma, PostgreSQL schema, ESLint, GitHub Actions |
+| [Smart Waste Collection](https://github.com/kaustubhdua/smart_waste_project) | Python, pandas/data processing, scikit-learn Random Forest, fuzzy logic, time-series feature engineering, synthetic IoT-style data, Streamlit, Folium, Google OR-Tools/CVRP |
+| [AkashChalak](https://github.com/kaustubhdua/AkashChalak) · [alternate repository](https://github.com/kaustubhdua/Akash-Chalak) | Python, FastAPI, React, Leaflet, scikit-learn DBSCAN, CPCB/FIRMS/TROPOMI data adapters, geospatial interpolation/IDW, wind vectors, optional PostgreSQL/TimescaleDB and Docker Compose |
+| [Smart Bike Taxi Platform](https://github.com/kaustubhdua/Smart_bike_taxi_platform) | C++17, CMake, graph algorithms, Dijkstra, adjacency lists, hash tables, queues, heaps/priority queues, persistence, CTest, GCC/Clang CI, sanitizers |
+| [Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix) | HTML, CSS, vanilla JavaScript, browser fetch/API integration, responsive UI |
+| [Nord Studio Task Manager](https://github.com/kaustubhdua/nord-studio-task-manager) | HTML, CSS, vanilla JavaScript, task state, priority handling, filtering, DOM interaction |
+| [GitHub Skills Exercise](https://github.com/kaustubhdua/skills-introduction-to-github) | Git, branches, commits, pull requests, GitHub Actions learning workflows |
+| [Portfolio repository](https://github.com/kaustubhdua/Portfolio-) | Empty repository at the time of audit; no stack inferred |
 
 </details>
 
