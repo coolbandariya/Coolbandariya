@@ -2,17 +2,17 @@
 
 # 🔥 KAUSTUBH DUA
 
-### <code>ECM Student · Software Builder · AI Explorer · Product Tinkerer</code>
+### `ECM STUDENT · SOFTWARE BUILDER · AI EXPLORER`
 
-<img src="./assets/profile-banner.svg" alt="Animated original pixel-art inspired Nether portfolio scene for Kaustubh Dua" width="100%" />
+<img src="./assets/profile-banner.svg" alt="Original animated Nether-inspired pixel-art portfolio banner for Kaustubh Dua" width="100%" />
 
 <p>
-  <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/⛏️_EXPLORE_BUILDS-ff6a24?style=for-the-badge&labelColor=16070a&color=8f1d28" alt="Explore builds"/></a>
-  <a href="https://github.com/kaustubhdua?tab=stars"><img src="https://img.shields.io/badge/⭐_STARRED_WORK-ffb347?style=for-the-badge&labelColor=16070a&color=9e3a25" alt="Starred work"/></a>
-  <a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge/🧭_ENTER_WORLD-cb3147?style=for-the-badge&labelColor=16070a&color=721528" alt="Enter profile"/></a>
+  <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/⛏_EXPLORE_BUILDS-ff6a24?style=for-the-badge&labelColor=12070a&color=8f1d2d" alt="Explore builds"/></a>
+  <a href="https://github.com/kaustubhdua?tab=followers"><img src="https://img.shields.io/badge/👥_JOIN_THE_WORLD-ffb347?style=for-the-badge&labelColor=12070a&color=7b2530" alt="Join the world"/></a>
+  <a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge/🧭_PROFILE-ffd08a?style=for-the-badge&labelColor=12070a&color=5b1825" alt="GitHub profile"/></a>
 </p>
 
-<sub>🌋 Nether-inspired · 🧱 original pixel-art SVG · ✨ animated without JavaScript · 🎮 portfolio-first</sub>
+<sub>🌋 ORIGINAL NETHER-INSPIRED ART · 🧱 PIXEL GEOMETRY · ✨ SVG ANIMATION · 🎮 PORTFOLIO MODE</sub>
 
 </div>
 
@@ -22,17 +22,17 @@
 
 ## 🎮 PLAYER CARD
 
-| 🧑‍💻 PLAYER | 🎓 CLASS | 🌍 SPAWN POINT | ⚔️ QUEST |
+| 🧑‍💻 PLAYER | 🎓 CLASS | 🌍 SPAWN | ⚔️ PLAYSTYLE |
 |:---:|:---:|:---:|:---:|
 | **Kaustubh Dua** | **ECM Student** | **JIIT · Noida** | **Build → Debug → Ship** |
 
-<br/>
+<br>
 
-> **I turn rough ideas into software that is useful, understandable and reliable.**
+> **I build software that is useful, understandable and worth shipping.**
 
-I'm an **Electronics & Computer Engineering (ECM) student at JIIT, Noida** exploring the intersection of **software engineering, applied AI, data, maps, optimisation, automation and UX**.
+I'm an **Electronics & Computer Engineering (ECM) student at JIIT, Noida**, exploring **software engineering, applied AI, data, maps, optimisation, automation and UX**.
 
-I care about what happens **behind the button** just as much as what happens on screen.
+I like building from the whole stack: **idea → interface → logic → data → testing → deployment**.
 
 </div>
 
@@ -40,23 +40,28 @@ I care about what happens **behind the button** just as much as what happens on 
 
 <div align="center">
 
-## 🌋 QUEST BOARD
+## 🌋 ACTIVE QUESTS
 
-| QUEST | WHAT I BUILT | REAL-WORLD THEME | STATUS |
-|:---:|:---|:---|:---:|
-| 🌾 **[NIRDHOOM](https://github.com/kaustubhdua/nihdhoom)** | Field → service → evidence → residue → buyer coordination | Agriculture · logistics · verification | 🟢 Active |
-| 🌐 **[GitGlobe](https://github.com/kaustubhdua/GitGlobe)** | Visual exploration of the open-source world | Discovery · graphs · UX | 🟢 Active |
-| 🧠 **[Adapt AI](https://github.com/kaustubhdua/adapt-ai)** | Practical AI assistants and workflows | Local AI · automation · privacy | 🟢 Exploring |
-| 🛡️ **[Satark](https://github.com/kaustubhdua/Satark)** | Explainable security-analysis tooling | Security · analysis · evidence | 🟢 Hardened |
-| 🛰️ **[AkashChalak](https://github.com/kaustubhdua/AkashChalak)** | Maps, air quality and spatial decision support | Geo · environment · data | 🟢 Building |
-| ♻️ **[Smart Waste](https://github.com/kaustubhdua/smart_waste_project)** | Prediction, prioritisation and route optimisation | Data · optimisation · sustainability | 🟢 Building |
+| 🧱 BUILD | 🎯 WHAT IT DOES | 🌍 DOMAIN |
+|:---:|:---|:---:|
+| 🌾 **[NIRDHOOM](https://github.com/kaustubhdua/nihdhoom)** | Field → service → evidence → residue → buyer coordination | Agriculture · logistics |
+| 🌐 **[GitGlobe](https://github.com/kaustubhdua/GitGlobe)** | Visual exploration of the open-source world | Discovery · graphs · UX |
+| 🧠 **[Adapt AI](https://github.com/kaustubhdua/adapt-ai)** | Practical AI assistants and workflows | AI · automation · privacy |
+| 🛡️ **[Satark](https://github.com/kaustubhdua/Satark)** | Explainable security-analysis tooling | Security · analysis |
+| 🛰️ **[AkashChalak](https://github.com/kaustubhdua/AkashChalak)** | Maps, air quality and spatial decision support | Geo · environment |
+| ♻️ **[Smart Waste](https://github.com/kaustubhdua/smart_waste_project)** | Prediction, prioritisation and route optimisation | Data · sustainability |
 
 </div>
 
-<details>
-<summary><strong>📦 OPEN THE NETHER CHEST · MORE BUILDS</strong></summary>
+<p align="center"><img src="./assets/signal-divider.svg" width="92%" alt="" /></p>
 
 <div align="center">
+
+## 📦 NETHER CHEST
+
+<details>
+<summary><strong>OPEN THE CHEST · MORE BUILDS</strong></summary>
+<br>
 
 | 🧱 BUILD | 🎯 PURPOSE |
 |:---:|:---|
@@ -68,8 +73,9 @@ I care about what happens **behind the button** just as much as what happens on 
 | 🌦️ **[Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix)** | Browser weather dashboard |
 | 🎓 **[Skills Introduction to GitHub](https://github.com/kaustubhdua/skills-introduction-to-github)** | GitHub learning project |
 
-</div>
 </details>
+
+</div>
 
 <p align="center"><img src="./assets/signal-divider.svg" width="92%" alt="" /></p>
 
@@ -77,7 +83,7 @@ I care about what happens **behind the button** just as much as what happens on 
 
 ## ⚔️ INVENTORY
 
-| CATEGORY | STACK |
+| SLOT | LOADOUT |
 |:---:|:---|
 | 💻 **LANGUAGES** | C++ · Python · TypeScript · JavaScript · SQL · HTML/CSS |
 | ⚛️ **FRONTEND** | React · Next.js · Vite · Three.js · Leaflet · Motion |
@@ -93,22 +99,21 @@ I care about what happens **behind the button** just as much as what happens on 
 
 <div align="center">
 
-## 🧭 HOW I BUILD
+## 🧭 BUILD LOOP
 
-| 🧱 PHASE | WHAT IT MEANS |
-|:---:|:---|
-| 💡 **IDEA** | Find the actual problem |
-| 🛠️ **PROTOTYPE** | Make the smallest useful version |
-| 🧪 **TEST** | Try to break it before users do |
-| 🐛 **DEBUG** | Make failures reproducible |
-| 🎨 **POLISH** | Fix the rough edges |
-| ⚡ **OPTIMISE** | Remove unnecessary work |
-| 🚀 **SHIP** | Put the useful thing in people's hands |
-| 📚 **LEARN** | Keep the next build better |
+**IDEA** → **PROTOTYPE** → **TEST** → **DEBUG** → **POLISH** → **OPTIMISE** → **SHIP** → **LEARN** → 🔁
 
-<br/>
+<br>
 
-<code>IDEA → PROTOTYPE → TEST → DEBUG → POLISH → OPTIMISE → SHIP → LEARN → 🔁</code>
+<table>
+<tr>
+<td align="center">💡<br><strong>FIND</strong><br><sub>the real problem</sub></td>
+<td align="center">🛠️<br><strong>BUILD</strong><br><sub>the smallest useful version</sub></td>
+<td align="center">🧪<br><strong>BREAK</strong><br><sub>find the weak spots</sub></td>
+<td align="center">🎨<br><strong>POLISH</strong><br><sub>remove rough edges</sub></td>
+<td align="center">🚀<br><strong>SHIP</strong><br><sub>make it useful</sub></td>
+</tr>
+</table>
 
 </div>
 
@@ -118,11 +123,12 @@ I care about what happens **behind the button** just as much as what happens on 
 
 ## 🔥 CURRENTLY EXPLORING
 
-**AI × DATA × MAPS × OPTIMISATION × AUTOMATION × HUMAN-FRIENDLY UX**
+### AI × DATA × MAPS × OPTIMISATION × AUTOMATION × HUMAN-FRIENDLY UX
 
-I'm especially interested in software that **leaves the screen and helps solve a real problem**.
+I’m most interested in software that **leaves the screen and solves something in the real world**.
 
-The goal isn't to collect every shiny tool. It's to find the **simplest reliable combination of tools for the problem at hand**.
+The goal is not to collect every shiny tool.  
+The goal is to find the **simplest reliable combination of tools for the problem**.
 
 ### 🏆 ACHIEVEMENTS
 
@@ -147,6 +153,8 @@ The goal isn't to collect every shiny tool. It's to find the **simplest reliable
 | 🛡️ **SECURITY** | Protect inputs, secrets and users |
 | 📖 **DOCUMENTATION** | Leave the path clearer than you found it |
 
+<br>
+
 > **If it works → make it understandable.**  
 > **If it breaks → make it reproducible.**  
 > **If it repeats → automate it.**  
@@ -160,13 +168,15 @@ The goal isn't to collect every shiny tool. It's to find the **simplest reliable
 
 ## 🤝 MULTIPLAYER MODE
 
-If you're building something useful, **open a discussion, issue or pull request**.
+Building something useful?
 
-<br/>
+**Open a discussion, issue or pull request.**
 
-<a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge/🧭_ENTER_MY_WORLD-ff6a24?style=for-the-badge&labelColor=16070a&color=8f1d28" alt="Visit Kaustubh Dua on GitHub"/></a>
+<br>
 
-<br/><br/>
+<a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge/🧭_ENTER_MY_WORLD-ff6a24?style=for-the-badge&labelColor=12070a&color=8f1d2d" alt="Visit Kaustubh Dua on GitHub"/></a>
+
+<br><br>
 
 ### 🌋 SPAWN → BUILD → DEBUG → POLISH → SHIP → LEARN → REPEAT
 
