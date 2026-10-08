@@ -44,6 +44,10 @@ jobs:
           assert readme.count("I build software where") == 1
           assert "GirlScript Summer of Code" not in readme
           assert "https://github.com/coolbandariya" not in readme
+          assert "GirlScript Summer of Code" not in readme
+          assert "animation:x 3s" not in readme
+          assert "<circle class="dot"" not in Path("assets/project-bento.svg").read_text(encoding="utf-8")
+          assert "<circle class="pulse"" not in Path("assets/capability-wall.svg").read_text(encoding="utf-8")
           assert banner.exists() and divider.exists()
 
           for path in (banner, divider, ecosystem, circuit, terminal, stack):
