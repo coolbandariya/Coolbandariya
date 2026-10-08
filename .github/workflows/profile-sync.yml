@@ -67,17 +67,12 @@ jobs:
           forks = sum(r.get("forks_count", 0) for r in repos)
 
           excluded = {owner}
-          featured = {
-              "GitGlobe": "3D open-source discovery",
-              "nihdhoom": "Field operations and dispatch",
-              "Saathi": "Voice-first AI assistance",
-              "JYC-Website": "Product engineering and accessibility",
-          }
-
           def repo_row(r):
               name = r["name"]
               desc = (r.get("description") or "No description yet.").replace("|", "\\|")
-              return f'| [{name}](https://github.com/{owner}/{name}) | {desc} | {r.get("stargazers_count", 0)} | {r.get("language") or "—"} |'
+              topics = ", ".join(r.get("topics") or [])[:90] or "—"
+              updated = (r.get("updated_at") or "")[:10] or "—"
+              return f'| [{name}](https://github.com/{owner}/{name}) | {desc} | {r.get("stargazers_count", 0)} | {r.get("language") or "—"} | {topics} | {updated} |'
 
           latest = []
           for r in repos:
@@ -102,8 +97,8 @@ jobs:
 
           **Latest repository activity**
 
-          | Repository | What it is | Stars | Primary language |
-          |---|---|---:|---|
+          | Repository | What it is | Stars | Primary language | Topics | Updated |
+          |---|---|---:|---|---|---|
           {chr(10).join(repo_row(r) for r in latest)}
 
           <sub>Automatically refreshed {refreshed}. Featured projects above remain curated; this section reflects the current public GitHub portfolio.</sub>
