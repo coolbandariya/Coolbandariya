@@ -35,6 +35,7 @@ jobs:
           assert "Animated engineering capability wall" not in readme
           assert "ECE student" not in readme
           assert "coolbandariya" not in readme.lower()
+assert "GitGlobe" not in readme
           assert "orbital" not in readme.lower()
           assert "constellation" not in readme.lower()
           assert "project-ecosystem.svg" not in readme
