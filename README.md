@@ -192,23 +192,23 @@ I’m especially interested in problems where the clean diagram ends and reality
 
 | Project | Stars | Forks | Detected technology | Updated |
 |---|---:|---:|---|---|
-| [Nirdhoom](https://github.com/kaustubhdua/nihdhoom) | 0 | 3 | TypeScript, CSS, PLpgSQL, JavaScript, Python, HTML | 2026-10-08 |
+| [nihdhoom](https://github.com/kaustubhdua/nihdhoom) | 0 | 3 | TypeScript, CSS, PLpgSQL, JavaScript, Python | 2026-10-08 |
 | [Saathi](https://github.com/kaustubhdua/Saathi) | 0 | 0 | Python, TypeScript, JavaScript, Dockerfile | 2026-10-07 |
-| [JYC-Website](https://github.com/kaustubhdua/JYC-Website) | 0 | 0 | CSS, JavaScript, PLpgSQL, TypeScript, HTML, PowerShell | 2026-10-08 |
-| [Smart Waste](https://github.com/kaustubhdua/smart_waste_project) | 0 | 0 | Python | 2026-10-05 |
+| [JYC-Website](https://github.com/kaustubhdua/JYC-Website) | 0 | 0 | CSS, JavaScript, PLpgSQL, TypeScript, HTML | 2026-10-08 |
+| [smart_waste_project](https://github.com/kaustubhdua/smart_waste_project) | 0 | 0 | Python · folium, fuzzy-logic, machine-learning, or-tools, python | 2026-10-05 |
 
 **Latest repository activity**
 
 | Repository | What it is | Stars | Primary language | Topics | Updated |
 |---|---|---:|---|---|---|
-| [JYC-Website](https://github.com/kaustubhdua/JYC-Website) | Public JIIT Youth Club website | 0 | CSS | — | 2026-10-08 |
-| [nihdhoom](https://github.com/kaustubhdua/nihdhoom) | Field-first crop-residue coordination platform | 0 | TypeScript | — | 2026-10-08 |
-| [Saathi](https://github.com/kaustubhdua/Saathi) | Voice-first multilingual assistance platform | 0 | Python | — | 2026-10-07 |
-| [smart_waste_project](https://github.com/kaustubhdua/smart_waste_project) | AI-powered IoT waste monitoring, priority scoring, and route optimisation | 0 | Python | machine-learning · or-tools · route-optimization | 2026-10-05 |
-| [nord-studio-task-manager](https://github.com/kaustubhdua/nord-studio-task-manager) | Browser task manager | 0 | CSS | — | 2026-10-05 |
-| [weather-core-matrix](https://github.com/kaustubhdua/weather-core-matrix) | Browser weather dashboard | 0 | CSS | — | 2026-10-05 |
+| [JYC-Website](https://github.com/kaustubhdua/JYC-Website) | No description yet. | 0 | CSS | — | 2026-10-08 |
+| [nihdhoom](https://github.com/kaustubhdua/nihdhoom) | No description yet. | 0 | TypeScript | — | 2026-10-08 |
+| [Saathi](https://github.com/kaustubhdua/Saathi) | No description yet. | 0 | Python | — | 2026-10-07 |
+| [smart_waste_project](https://github.com/kaustubhdua/smart_waste_project) | AI-powered IoT waste monitoring, priority scoring, and OR-Tools route optimization dashboard. | 0 | Python | folium, fuzzy-logic, machine-learning, or-tools, python, route-optimization, streamlit | 2026-10-05 |
+| [nord-studio-task-manager](https://github.com/kaustubhdua/nord-studio-task-manager) | No description yet. | 0 | CSS | — | 2026-10-05 |
+| [weather-core-matrix](https://github.com/kaustubhdua/weather-core-matrix) | No description yet. | 0 | CSS | — | 2026-10-05 |
 
-<sub>Automatically refreshed from GitHub; featured projects are curated and protected from forks.</sub>
+<sub>Automatically refreshed 2026-10-08 13:20 UTC. Featured projects above remain curated; this section reflects the current public GitHub portfolio.</sub>
 <!-- PROFILE_SYNC_END -->
 ## Contributions & collaboration
 
