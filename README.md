@@ -16,11 +16,11 @@
 
 ## Electronics & Computer Engineering student building useful systems
 
-**JIIT Noida · AI · Data · Systems · Product · Open Source**
+**JIIT Noida · Electronics & Computer Engineering · AI · Data · Systems · Product**
 
 I build software where **AI, data, systems and real-world constraints** meet. My strongest work sits at the boundary between a technical idea and the messy conditions needed to make it useful.
 
-My projects span open-source discovery, field operations, voice-first assistance, geospatial intelligence, security analysis and optimisation. I enjoy the whole engineering loop: **understand the problem → design the system → build it → test what can fail → ship what is actually true.**
+I work at the boundary between technical ideas and messy real-world constraints. I care about **useful systems, inspectable decisions and software that can survive contact with reality.**
 
 ---
 
