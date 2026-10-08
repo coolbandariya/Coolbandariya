@@ -1,51 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-<title id="title">Kaustubh Dua — Electronics and Computer Engineering</title>
-<desc id="desc">Minimal luxury editorial portfolio banner with oversized ivory typography, cobalt accent, kinetic underline and a moving engineering ticker. No orbital illustration.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<title id="title">Kaustubh Dua — AI, Data and Software Engineering</title>
+<desc id="desc">A dark systems-inspired engineering portfolio banner with a faceted three-dimensional glass compute core, flowing data traces, and clear oversized typography.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090a0d"/><stop offset=".58" stop-color="#111318"/><stop offset="1" stop-color="#08090c"/></linearGradient>
-  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#a3e635"/><stop offset="1" stop-color="#d9f99d"/></linearGradient>
-  <pattern id="grain" width="140" height="140" patternUnits="userSpaceOnUse"><circle cx="8" cy="8" r=".7" fill="#fff" opacity=".12"/><circle cx="90" cy="43" r=".55" fill="#fff" opacity=".08"/><circle cx="42" cy="108" r=".6" fill="#fff" opacity=".07"/></pattern>
-  <clipPath id="reveal"><rect x="52" y="95" width="1096" height="185" rx="2"><animate attributeName="width" from="0" to="1096" dur="1.05s" fill="freeze"/></rect></clipPath>
-  <clipPath id="ticker"><rect x="0" y="340" width="1200" height="80"/></clipPath>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050912"/><stop offset=".52" stop-color="#0a1424"/><stop offset="1" stop-color="#0c1020"/></linearGradient>
+  <linearGradient id="type" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ffffff"/><stop offset=".75" stop-color="#dbeafe"/><stop offset="1" stop-color="#a5f3fc"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#67e8f9"/><stop offset=".5" stop-color="#38bdf8"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#67e8f9" stop-opacity=".24"/><stop offset=".52" stop-color="#2563eb" stop-opacity=".08"/><stop offset="1" stop-color="#c4b5fd" stop-opacity=".2"/></linearGradient>
+  <radialGradient id="bloom"><stop stop-color="#0ea5e9" stop-opacity=".24"/><stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#94a3b8" stroke-opacity=".06" stroke-width=".8"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <style>
-    .sans{font-family:Inter,Arial,Helvetica,sans-serif}
-    .mono{font-family:"SFMono-Regular",Consolas,monospace}
-    .eyebrow{animation:fade .7s ease-out both}
-    .sub{animation:fade .8s .55s ease-out both}
-    .line{stroke-dasharray:1100;stroke-dashoffset:1100;animation:draw 1.2s .45s cubic-bezier(.2,.7,.2,1) forwards}
-    .word{animation:rise .8s cubic-bezier(.2,.8,.2,1) both}
-    .ticker{animation:marquee 26s linear infinite}
-    .dot{animation:blink 2.4s ease-in-out infinite}
-    @keyframes fade{from{opacity:0}to{opacity:1}}
-    @keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
-    @keyframes draw{to{stroke-dashoffset:0}}
-    @keyframes marquee{to{transform:translateX(-50%)}}
-    @keyframes blink{0%,100%{opacity:.45}50%{opacity:1}}
-    @media(prefers-reduced-motion:reduce){.eyebrow,.sub,.line,.word,.ticker,.dot{animation:none!important} .line{stroke-dashoffset:0}}
+    .sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .enter{animation:enter .8s cubic-bezier(.2,.8,.2,1) both}
+    .enter2{animation:enter .95s .12s cubic-bezier(.2,.8,.2,1) both}
+    .core{transform-origin:900px 205px;animation:coreFloat 7s ease-in-out infinite}
+    .mesh{animation:mesh 12s ease-in-out infinite}
+    .signal{stroke-dasharray:8 12;animation:signal 15s linear infinite}
+    .pulse{animation:pulse 3.2s ease-in-out infinite}
+    .bars{transform-origin:1080px 315px;animation:bars 4.8s ease-in-out infinite}
+    @keyframes enter{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes coreFloat{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-7px) rotate(1deg)}}
+    @keyframes mesh{0%,100%{opacity:.5}50%{opacity:1}}
+    @keyframes signal{to{stroke-dashoffset:-200}}
+    @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+    @keyframes bars{0%,100%{transform:scaleY(.86)}50%{transform:scaleY(1.08)}}
+    @media(prefers-reduced-motion:reduce){.enter,.enter2,.core,.mesh,.signal,.pulse,.bars{animation:none!important}}
   </style>
 </defs>
-<rect width="1200" height="420" rx="22" fill="url(#bg)"/>
-<rect width="1200" height="420" rx="22" fill="url(#grain)"/>
-<path d="M28 28H1172V392H28Z" fill="none" stroke="#ffffff" stroke-opacity=".13"/>
-<path d="M28 28H180M1020 392H1172" stroke="#a3e635" stroke-width="2"/>
-<g class="eyebrow">
-  <circle class="dot" cx="66" cy="66" r="4" fill="#a3e635"/>
-  <text x="82" y="70" class="mono" font-size="11" letter-spacing="2.6" fill="#c4c7cf">JIIT NOIDA <tspan fill="#555a65">/</tspan> ELECTRONICS &amp; COMPUTER ENGINEERING</text>
-  <text x="1135" y="70" text-anchor="end" class="mono" font-size="10" letter-spacing="2" fill="#777d89">PORTFOLIO · 2026</text>
+<rect width="1200" height="440" rx="26" fill="url(#bg)"/>
+<rect width="1200" height="440" rx="26" fill="url(#grid)"/>
+<ellipse cx="920" cy="210" rx="310" ry="255" fill="url(#bloom)" filter="url(#blur)"/>
+<path d="M22 34H1178V406H22Z" fill="none" stroke="#64748b" stroke-opacity=".28"/>
+<path d="M22 34H172M1025 406H1178" stroke="#67e8f9" stroke-opacity=".7" stroke-width="1.5"/>
+<g class="enter">
+  <text x="62" y="76" class="mono" font-size="11" letter-spacing="2.5" fill="#67e8f9">JIIT NOIDA <tspan fill="#475569">/</tspan> ELECTRONICS &amp; COMPUTER ENGINEERING</text>
+  <text x="58" y="177" class="sans" font-size="82" font-weight="850" letter-spacing="-4.7" fill="url(#type)">KAUSTUBH</text>
+  <text x="62" y="251" class="sans" font-size="76" font-weight="800" letter-spacing="-3" fill="#f8fafc">DUA<tspan fill="#67e8f9">.</tspan></text>
 </g>
-<g clip-path="url(#reveal)">
-  <text x="48" y="190" class="sans word" font-size="112" font-weight="850" letter-spacing="-7" fill="#f5f2e9">KAUSTUBH</text>
-  <text x="52" y="278" class="sans word" font-size="86" font-weight="750" letter-spacing="-4" fill="#f5f2e9">DUA<tspan fill="#a3e635">.</tspan></text>
+<g class="enter2">
+  <rect x="64" y="279" width="36" height="3" rx="1.5" fill="#67e8f9"/>
+  <text x="64" y="312" class="sans" font-size="17" font-weight="600" fill="#dbeafe">AI systems · Data · Product engineering</text>
+  <text x="64" y="340" class="sans" font-size="14" fill="#94a3b8">Practical software. Real-world constraints.</text>
+  <text x="64" y="379" class="mono" font-size="10" letter-spacing="2" fill="#64748b">BUILD  /  MEASURE  /  VERIFY  /  SHIP</text>
 </g>
-<text x="704" y="230" class="sans sub" font-size="18" font-weight="550" fill="#d4d6dc">I build practical software</text>
-<text x="704" y="258" class="sans sub" font-size="18" font-weight="550" fill="#d4d6dc">for real-world problems.</text>
-<text x="704" y="294" class="mono sub" font-size="11" letter-spacing="1.5" fill="#9297a2">AI SYSTEMS  /  DATA  /  PRODUCT ENGINEERING</text>
-<path class="line" d="M54 313H1145" fill="none" stroke="url(#accent)" stroke-width="2"/>
-<g clip-path="url(#ticker)">
-  <g class="ticker">
-    <text x="54" y="365" class="mono" font-size="12" letter-spacing="2.2" fill="#f5f2e9">BUILD WITH INTENT <tspan fill="#a3e635">✳</tspan> ENGINEER WITH CLARITY <tspan fill="#a3e635">✳</tspan> VERIFY THE DETAILS <tspan fill="#a3e635">✳</tspan> SHIP USEFUL THINGS <tspan fill="#a3e635">✳</tspan> AI · DATA · SYSTEMS <tspan fill="#a3e635">✳</tspan> </text>
-    <text x="654" y="365" class="mono" font-size="12" letter-spacing="2.2" fill="#f5f2e9">BUILD WITH INTENT <tspan fill="#a3e635">✳</tspan> ENGINEER WITH CLARITY <tspan fill="#a3e635">✳</tspan> VERIFY THE DETAILS <tspan fill="#a3e635">✳</tspan> SHIP USEFUL THINGS <tspan fill="#a3e635">✳</tspan> AI · DATA · SYSTEMS <tspan fill="#a3e635">✳</tspan> </text>
+<!-- Data system: routed signals, not decorative orbital rings -->
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path class="signal" d="M690 145H772L807 180H842" stroke="#38bdf8" stroke-opacity=".65" stroke-width="1.5"/>
+  <path class="signal" d="M694 274H777L817 235H847" stroke="#a78bfa" stroke-opacity=".65" stroke-width="1.5"/>
+  <path class="signal" d="M926 118H1003L1037 150H1106" stroke="#67e8f9" stroke-opacity=".5" stroke-width="1.4"/>
+  <path class="signal" d="M929 291H1004L1038 265H1112" stroke="#818cf8" stroke-opacity=".6" stroke-width="1.4"/>
+  <path d="M838 204H802V218H770" stroke="#64748b" stroke-opacity=".45"/>
+  <path d="M961 204H990V193H1020" stroke="#64748b" stroke-opacity=".45"/>
+</g>
+<g fill="#67e8f9" class="pulse"><circle cx="690" cy="145" r="3"/><circle cx="770" cy="218" r="2.5"/><circle cx="1106" cy="150" r="3"/><circle cx="1112" cy="265" r="2.5"/></g>
+<!-- Faceted glass compute core -->
+<g class="core">
+  <path d="M900 98 977 143 977 234 900 279 823 234 823 143Z" fill="url(#glass)" stroke="url(#cyan)" stroke-opacity=".8" stroke-width="1.5"/>
+  <path d="M900 98 900 188 823 143Z" fill="#67e8f9" fill-opacity=".12" stroke="#67e8f9" stroke-opacity=".55"/>
+  <path d="M900 98 977 143 900 188Z" fill="#60a5fa" fill-opacity=".13" stroke="#67e8f9" stroke-opacity=".5"/>
+  <path d="M823 143 900 188 823 234Z" fill="#2563eb" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".45"/>
+  <path d="M977 143 900 188 977 234Z" fill="#818cf8" fill-opacity=".14" stroke="#a5b4fc" stroke-opacity=".55"/>
+  <path d="M823 234 900 188 900 279Z" fill="#0ea5e9" fill-opacity=".1" stroke="#38bdf8" stroke-opacity=".5"/>
+  <path d="M977 234 900 188 900 279Z" fill="#8b5cf6" fill-opacity=".12" stroke="#a78bfa" stroke-opacity=".55"/>
+  <path d="M900 98V188M823 143 900 234 977 143M823 234 900 188 977 234" fill="none" stroke="#dbeafe" stroke-opacity=".55" stroke-width="1"/>
+  <circle cx="900" cy="188" r="13" fill="#67e8f9" fill-opacity=".16" stroke="#67e8f9" stroke-opacity=".8"/>
+  <circle cx="900" cy="188" r="4.5" fill="#a5f3fc" filter="url(#glow)"/>
+  <circle cx="900" cy="98" r="3" fill="#67e8f9"/><circle cx="977" cy="143" r="3" fill="#a78bfa"/><circle cx="823" cy="234" r="3" fill="#67e8f9"/>
+</g>
+<!-- Compact signal panel -->
+<g class="mesh">
+  <rect x="1018" y="294" width="145" height="64" rx="8" fill="#0b1220" fill-opacity=".8" stroke="#334155" stroke-opacity=".8"/>
+  <text x="1030" y="309" class="mono" font-size="7.5" letter-spacing="1.1" fill="#94a3b8">SYSTEM SIGNAL</text>
+  <path d="M1030 337H1150" stroke="#334155" stroke-width="1"/>
+  <g class="bars" fill="url(#cyan)">
+    <rect x="1032" y="324" width="5" height="13" rx="1"/><rect x="1042" y="319" width="5" height="18" rx="1"/><rect x="1052" y="327" width="5" height="10" rx="1"/><rect x="1062" y="315" width="5" height="22" rx="1"/><rect x="1072" y="321" width="5" height="16" rx="1"/><rect x="1082" y="312" width="5" height="25" rx="1"/><rect x="1092" y="324" width="5" height="13" rx="1"/><rect x="1102" y="317" width="5" height="20" rx="1"/><rect x="1112" y="320" width="5" height="17" rx="1"/><rect x="1122" y="313" width="5" height="24" rx="1"/><rect x="1132" y="326" width="5" height="11" rx="1"/><rect x="1142" y="319" width="5" height="18" rx="1"/>
   </g>
 </g>
-<text x="1138" y="377" text-anchor="end" class="mono" font-size="9" letter-spacing="1.5" fill="#646a75">SCROLL FOR SELECTED WORK ↓</text>
+<text x="1138" y="64" text-anchor="end" class="mono" font-size="9" letter-spacing="2" fill="#64748b">ENGINEERING / 01</text>
 </svg>
