@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Validate profile assets and copy
+      - name: Validate README structure and local SVG assets
         shell: python
         run: |
           from pathlib import Path
@@ -22,111 +22,60 @@ jobs:
           import xml.etree.ElementTree as ET
 
           readme = Path("README.md").read_text(encoding="utf-8")
-          banner = Path("assets/profile-banner.svg")
-          divider = Path("assets/signal-divider.svg")
-          ecosystem = Path("assets/project-bento.svg")
-          circuit = Path("assets/capability-wall.svg")
-          terminal = Path("assets/workshop-command.svg")
-          stack = Path("assets/stack-stream.svg")
-
           assert "Electronics & Computer Engineering" in readme
-          assert "AI · Data · Systems" in readme
-          assert "Animated engineering signal" not in readme
-          assert "Animated engineering capability wall" not in readme
+          assert "d2ol7oe51mr4n9.cloudfront.net/user_3JuNbn6G1fWehaUubucloQMU8cb/e0930052-b661-4682-a281-67b390d8146e.png" in readme
+          assert "GitGlobe" in readme and "SATARK" in readme
+          assert "assets/profile-motion.svg" in readme
+          assert "assets/profile-footer.svg" in readme
+          assert "github-contribution-grid-snake-dark.svg" in readme
+          assert "github-contribution-grid-snake.svg" in readme
           assert "ECE student" not in readme
-          assert "coolbandariya" not in readme.lower()
-assert "GitGlobe" not in readme
-          assert "PROFILE VIEWS" not in readme
-          assert "No description yet." not in readme
-          assert "Animated GitHub contribution activity" not in readme
-          assert "orbital" not in readme.lower()
-          assert "constellation" not in readme.lower()
-          assert "project-ecosystem.svg" not in readme
-          assert "engineering-circuit.svg" not in readme
-          assert "terminal-galaxy.svg" not in readme
-          assert "assets/project-bento.svg" in readme
-          assert "assets/capability-wall.svg" in readme
-          assert "assets/workshop-command.svg" in readme
-          assert "assets/stack-stream.svg" in readme
-          assert "<!-- PROFILE_SYNC_START -->" in readme or "## Live engineering snapshot" in readme
-          assert "## Engineering toolkit" in readme
-          banner_text = banner.read_text(encoding="utf-8")
-          assert "electronics &amp; computer engineering" not in banner_text.lower()
-          assert "ENGINEERING PROFILE / 01" in banner_text
-          assert "AI · DATA · SYSTEMS · PRODUCT ENGINEERING" in banner_text
-          assert 'width="1200" height="440"' in banner_text
-          assert readme.count("I build software where") == 1
-          assert "GirlScript Summer of Code" not in readme
-          assert "https://github.com/coolbandariya" not in readme
-          assert "animation:x 3s" not in readme
-          assert 'class="dot"' not in Path("assets/project-bento.svg").read_text(encoding="utf-8")
-          assert 'class="pulse"' not in Path("assets/capability-wall.svg").read_text(encoding="utf-8")
-          assert 'class="p"' not in Path("assets/workshop-command.svg").read_text(encoding="utf-8")
-          assert 'class="pulse"' not in Path("assets/stack-stream.svg").read_text(encoding="utf-8")
-          assert "stroke-dasharray" not in Path("assets/project-bento.svg").read_text(encoding="utf-8")
-          assert "stroke-dasharray" not in Path("assets/profile-banner.svg").read_text(encoding="utf-8")
-          assert "translateX(1200px)" not in Path("assets/project-bento.svg").read_text(encoding="utf-8")
-          stack_text = Path("assets/stack-stream.svg").read_text(encoding="utf-8")
-          assert stack_text.count("GitHub Actions") == 2
-          assert "clipPath id=\"viewport\"" in stack_text
-          assert "translateX(-1362px)" in stack_text
-          assert "translateX(-1344px)" not in stack_text
-          assert "translateX(-720px)" not in stack_text
-          assert banner.exists() and divider.exists()
-
-          for path in (banner, divider, ecosystem, circuit, terminal, stack):
-              ET.parse(path)
-              text = path.read_text(encoding="utf-8")
-              assert "<script" not in text.lower()
-              assert "prefers-reduced-motion" in text
-              assert 'role="img"' in text
-              style = re.search(r"<style>(.*?)</style>", text, flags=re.S)
-              if style:
-                  assert style.group(1).count("{") == style.group(1).count("}"), f"Unbalanced CSS braces: {path}"
+          assert "Minecraft" not in readme
+          assert "Nether" not in readme
 
           local_refs = re.findall(r'(?:src|href)="(\./assets/[^"]+)"', readme)
           for ref in local_refs:
-              assert Path(ref).exists(), f"Missing local asset: {ref}"
+              path = Path(ref.split("?", 1)[0])
+              assert path.is_file(), f"Missing local asset: {path}"
 
-          # Validate every internal README navigation target against GitHub's
-          # heading-slug convention so the visual navigation never points nowhere.
+          assets = [
+              Path("assets/profile-motion.svg"),
+              Path("assets/profile-footer.svg"),
+          ]
+          for path in assets:
+              ET.parse(path)
+              source = path.read_text(encoding="utf-8")
+              assert "<script" not in source.lower(), f"Script is not allowed in {path}"
+              assert 'role="img"' in source, f"Missing accessible image role in {path}"
+              assert "prefers-reduced-motion" in source, f"Missing reduced-motion fallback in {path}"
+              style = re.search(r"<style>(.*?)</style>", source, flags=re.S)
+              if style:
+                  css = style.group(1)
+                  assert css.count("{") == css.count("}"), f"Unbalanced CSS braces in {path}"
+
           headings = re.findall(r"^#{1,6}\s+(.+?)\s*$", readme, flags=re.M)
           def slugify(value):
-              value = re.sub(r"<[^>]+>", "", value)
-              value = re.sub(r"[^\x00-\x7F]", "", value)
-              value = value.lower()
+              value = re.sub(r"<[^>]+>", "", value).lower()
               value = re.sub(r"[^a-z0-9 -]", "", value)
-              value = re.sub(r"\s+", "-", value.strip())
-              return value
+              return re.sub(r"\s+", "-", value.strip())
           anchors = {slugify(h) for h in headings}
           internal_links = re.findall(r'href="#([^"]+)"', readme)
           for anchor in internal_links:
-              assert anchor in anchors, f"Broken internal anchor: #{anchor}"
+              assert anchor in anchors, f"Broken internal navigation anchor: #{anchor}"
 
-          # Keep curated project links explicit and typo-resistant. Live
-          # repository availability is reviewed against GitHub separately; CI
-          # stays deterministic and does not depend on network/rate limits.
-          expected_repositories = [
-              "nihdhoom",
-              "Saathi",
-              "JYC-Website",
-              "Satark",
-              "AkashChalak",
-              "smart_waste_project",
+          required_links = [
+              "https://github.com/kaustubhdua/GitGlobe",
+              "https://github.com/kaustubhdua/nihdhoom",
+              "https://github.com/kaustubhdua/Saathi",
+              "https://github.com/kaustubhdua/Satark",
+              "https://github.com/kaustubhdua/adapt-ai",
+              "https://github.com/kaustubhdua/JYC-Website",
           ]
-          for name in expected_repositories:
-              assert f"https://github.com/kaustubhdua/{name}" in readme, f"Missing project link: {name}"
+          for url in required_links:
+              assert url in readme, f"Missing featured repository link: {url}"
 
-          asset_text = [p.read_text(encoding="utf-8") for p in (banner, divider, ecosystem, circuit, terminal, stack)]
-          assert sum(text.count("@keyframes") for text in asset_text) >= 8, "Expected richer animation system"
-          # Keep decorative motion deliberately slow: no profile asset should introduce a sub-5s loop.
-          animation_specs = re.findall(r"animation:([^;}]+)", "\n".join(asset_text))
-          loop_durations = []
-          for spec in animation_specs:
-              if "infinite" not in spec:
-                  continue
-              match = re.search(r"(\d+(?:\.\d+)?)s", spec)
-              if match:
-                  loop_durations.append(float(match.group(1)))
-          assert all(d >= 5 for d in loop_durations), f"Animation loop is too fast: {loop_durations}"
-          print(f"Profile QA passed: {len(local_refs)} local assets, {len(internal_links)} internal anchors, {len(expected_repositories)} curated project links.")
+          for path in assets:
+              source = path.read_text(encoding="utf-8")
+              assert "@keyframes" in source, f"Expected animation in {path}"
+
+          print(f"Profile QA passed: {len(local_refs)} local asset references, {len(internal_links)} internal anchors, {len(required_links)} featured repository links.")
