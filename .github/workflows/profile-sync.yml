@@ -74,11 +74,13 @@ jobs:
               updated = (r.get("updated_at") or "")[:10] or "—"
               return f'| [{name}](https://github.com/{owner}/{name}) | {desc} | {r.get("stargazers_count", 0)} | {r.get("language") or "—"} | {topics} | {updated} |'
 
-          featured_names = ["GitGlobe", "nihdhoom", "Saathi", "JYC-Website"]
+          featured_names = ["nihdhoom", "Saathi", "JYC-Website", "smart_waste_project"]
           featured_rows = []
           for name in featured_names:
               try:
                   meta = api(f"/repos/{owner}/{name}")
+                  if meta.get("fork") or meta.get("archived"):
+                      raise RuntimeError(f"Featured repository must be an owned, active source repository: {name}")
                   langs = api(f"/repos/{owner}/{name}/languages")
                   tech = ", ".join(list(langs.keys())[:6]) or meta.get("language") or "—"
                   featured_rows.append(
