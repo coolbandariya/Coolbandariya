@@ -82,7 +82,9 @@ jobs:
                   if meta.get("fork") or meta.get("archived"):
                       raise RuntimeError(f"Featured repository must be an owned, active source repository: {name}")
                   langs = api(f"/repos/{owner}/{name}/languages")
-                  tech = ", ".join(list(langs.keys())[:6]) or meta.get("language") or "—"
+                  languages = ", ".join(list(langs.keys())[:5]) or meta.get("language") or "—"
+                  topics = ", ".join((meta.get("topics") or [])[:5])
+                  tech = languages + (f" · {topics}" if topics else "")
                   featured_rows.append(
                       f'| [{name}](https://github.com/{owner}/{name}) | {meta.get("stargazers_count", 0)} | {meta.get("forks_count", 0)} | {tech} | {(meta.get("updated_at") or "")[:10]} |'
                   )
