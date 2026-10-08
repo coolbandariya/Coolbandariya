@@ -1,198 +1,197 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg" alt="Minecraft-inspired pixel-art banner for Kaustubh Dua" width="100%" />
+# 🔥 KAUSTUBH DUA
 
-### ⛏️ Electronics & Computer Engineering student · JIIT Noida · Software builder
+### <code>ECM Student · Software Builder · AI Explorer · Product Tinkerer</code>
 
-<p>
-  <a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge/GitHub-kaustubhdua-182018?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/Repos-explore-3f7d32?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
-  <a href="https://github.com/kaustubhdua?tab=stars"><img src="https://img.shields.io/badge/Stars-see%20projects-a65b36?style=for-the-badge&logo=github&logoColor=white" alt="Starred projects" /></a>
-</p>
+<img src="./assets/profile-banner.svg" alt="Minecraft-inspired Nether-themed animated profile banner for Kaustubh Dua" width="100%" />
 
-<sub>🟩 Local SVG animation · no JavaScript · no third-party runtime</sub>
+<a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/⛏️_EXPLORE_PROJECTS-8b1e24?style=for-the-badge&labelColor=18070a&color=9e2f24" alt="Explore projects"/></a>
+<a href="https://github.com/kaustubhdua?tab=stars"><img src="https://img.shields.io/badge/⭐_STARRED_BUILDS-ff8a2b?style=for-the-badge&labelColor=18070a&color=b84a20" alt="Starred projects"/></a>
+<a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge/🧭_ENTER_WORLD-5b1018?style=for-the-badge&labelColor=100609&color=8f2630" alt="GitHub profile"/></a>
+
+<br/><sub>🟥 Minecraft-inspired · Nether-themed · animated SVG · no JavaScript · no fake activity stats</sub>
 
 </div>
 
-<p align="center"><img src="./assets/signal-divider.svg" width="100%" alt="" /></p>
-
-## 🧑‍🌾 Player profile
-
-Hi, I'm **Kaustubh Dua**, an **Electronics & Computer Engineering (ECM) student at JIIT, Noida**.
-
-I enjoy turning rough ideas into working products — especially where **software, applied AI, data, maps, optimisation, automation and thoughtful UX** meet.
-
-I care about the part after the demo too: **clean architecture, reliable behaviour, responsive interfaces, tests, security, performance and documentation**.
+<p align="center"><img src="./assets/signal-divider.svg" width="92%" alt="" /></p>
 
 <div align="center">
 
-**🎮 Current mode**
+## 🔥 PLAYER PROFILE
 
-🧱 Build &nbsp;·&nbsp; 🤖 Explore AI &nbsp;·&nbsp; 🧭 Design UX &nbsp;·&nbsp; 🧪 Harden systems &nbsp;·&nbsp; 🌱 Learn in public
+**Hi, I'm Kaustubh.**
+
+I'm an **Electronics & Computer Engineering (ECM) student at JIIT, Noida** who likes turning rough ideas into useful software.
+
+My favourite territory sits between **software engineering, applied AI, data, maps, optimisation, automation and UX**.
+
+**I don't just want the prototype to look impressive. I want the thing behind the button to work.**
+
+<br/>
+
+| 🎮 PLAYER | 📍 WORLD | ⚔️ CURRENT QUEST |
+|:---:|:---:|:---:|
+| **Kaustubh Dua** | **JIIT · Noida** | **Build → Debug → Polish → Ship** |
+| ECM Student | India | Software + AI + real-world problems |
+
+### 🧱 MY BUILD LOOP
+
+<code>IDEA</code> → <code>PROTOTYPE</code> → <code>TEST</code> → <code>DEBUG</code> → <code>POLISH</code> → <code>SHIP</code> → <code>LEARN</code> → 🔁
+
+> **A good build isn't finished when it runs.**<br/>
+> **It's finished when it is understandable, reliable and pleasant to use.**
+
+</div>
+
+<p align="center"><img src="./assets/signal-divider.svg" width="92%" alt="" /></p>
+
+<div align="center">
+
+## 🗺️ QUEST LOG
+
+### 🌾 NIRDHOOM
+**Field → service → evidence → residue → buyer**
+
+A field-first crop-residue coordination platform connecting farmers, operators, evidence and buyers.
+
+<br/><a href="https://github.com/kaustubhdua/nihdhoom"><img src="https://img.shields.io/badge/OPEN_QUEST-7b211f?style=for-the-badge&labelColor=120609&logo=github&logoColor=white" alt="Open NIRDHOOM"/></a>
+
+### 🌐 GITGLOBE
+**Explore the open-source world visually.**
+
+A visual / semantic exploration project for discovering and understanding repositories.
+
+<br/><a href="https://github.com/kaustubhdua/GitGlobe"><img src="https://img.shields.io/badge/OPEN_QUEST-7b211f?style=for-the-badge&labelColor=120609&logo=github&logoColor=white" alt="Open GitGlobe"/></a>
+
+### 🧠 ADAPT AI
+**Local AI · useful workflows · hardware-aware thinking**
+
+An exploration of practical AI assistants and privacy-conscious workflows.
+
+<br/><a href="https://github.com/kaustubhdua/adapt-ai"><img src="https://img.shields.io/badge/OPEN_QUEST-7b211f?style=for-the-badge&labelColor=120609&logo=github&logoColor=white" alt="Open Adapt AI"/></a>
+
+### 🛡️ SATARK
+**Security awareness · analysis · evidence**
+
+Security-analysis tooling focused on useful, explainable results.
+
+<br/><a href="https://github.com/kaustubhdua/Satark"><img src="https://img.shields.io/badge/OPEN_QUEST-7b211f?style=for-the-badge&labelColor=120609&logo=github&logoColor=white" alt="Open Satark"/></a>
+
+### 🛰️ AKASHCHALAK
+**Maps · air quality · spatial decision support**
+
+Experiments around geographic data, visualisation and environmental decision support.
+
+<br/><a href="https://github.com/kaustubhdua/AkashChalak"><img src="https://img.shields.io/badge/OPEN_QUEST-7b211f?style=for-the-badge&labelColor=120609&logo=github&logoColor=white" alt="Open AkashChalak"/></a>
+
+### ♻️ SMART WASTE
+**Prediction · prioritisation · route optimisation**
+
+An applied data / optimisation project aimed at smarter collection workflows.
+
+<br/><a href="https://github.com/kaustubhdua/smart_waste_project"><img src="https://img.shields.io/badge/OPEN_QUEST-7b211f?style=for-the-badge&labelColor=120609&logo=github&logoColor=white" alt="Open Smart Waste"/></a>
 
 </div>
 
 <details>
-<summary><strong>📜 Character sheet</strong></summary>
+<summary><strong>📦 OPEN THE NETHER CHEST — MORE BUILDS</strong></summary>
 
-| Attribute | Current state |
-| --- | --- |
-| 🎓 Class | **ECM @ JIIT Noida** |
-| 🧭 Focus | Software engineering + applied AI |
-| 🛠️ Favourite challenge | Turning an idea into a dependable product |
-| 🧪 Engineering loop | Test → debug → simplify → ship |
-| 🌎 Open source | Learning, contributing & collaborating |
-| 🎯 Long game | Build useful technology and keep improving |
+<div align="center">
 
+🏫 **[JIIT Youth Club](https://github.com/kaustubhdua/JYC-Website)** · official student-organisation website  
+📚 **[JIIT Toppers](https://github.com/kaustubhdua/Jiit-toppers-)** · student-first academic workspace  
+🗣️ **[Saathi](https://github.com/kaustubhdua/Saathi)** · multilingual voice-first assistance  
+🏍️ **[Smart Bike Taxi](https://github.com/kaustubhdua/Smart_bike_taxi_platform)** · routing and ride-booking simulation  
+✅ **[Nord Studio](https://github.com/kaustubhdua/nord-studio-task-manager)** · task-management experiment  
+🌦️ **[Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix)** · browser weather dashboard  
+🎓 **[Skills Introduction to GitHub](https://github.com/kaustubhdua/skills-introduction-to-github)** · GitHub learning project
+
+</div>
 </details>
 
----
-
-## 🗺️ Quest board
-
-**Flagship builds** — the projects that best represent what I like to make.
-
-| Quest | Mission |
-| --- | --- |
-| 🌾 **[NIRDHOOM](https://github.com/kaustubhdua/nihdhoom)** | Field-first crop-residue coordination connecting farmers, services, evidence, operations and buyers. |
-| 🌐 **[GitGlobe](https://github.com/kaustubhdua/GitGlobe)** | Visual and semantic exploration of open-source repositories. |
-| 🧠 **[Adapt AI](https://github.com/kaustubhdua/adapt-ai)** | Hardware-aware local AI assistant for useful, privacy-conscious workflows. |
-| 🛡️ **[SATARK](https://github.com/kaustubhdua/Satark)** | Security-awareness and threat-analysis tooling with evidence-oriented results. |
-| 🛰️ **[AkashChalak](https://github.com/kaustubhdua/AkashChalak)** | Spatial air-quality and hotspot decision-support experiments. |
-| ♻️ **[Smart Waste](https://github.com/kaustubhdua/smart_waste_project)** | Waste prediction, prioritisation and route-optimisation experiments. |
-
-<details>
-<summary><strong>📦 Open the storage chest — more builds</strong></summary>
-
-- 🏫 **[JIIT Youth Club Website](https://github.com/kaustubhdua/JYC-Website)** — official student-organisation website.
-- 📚 **[JIIT Toppers](https://github.com/kaustubhdua/Jiit-toppers-)** — student-first academic workspace prototype.
-- 🗣️ **[Saathi](https://github.com/kaustubhdua/Saathi)** — multilingual, voice-first assistance platform.
-- 🏍️ **[Smart Bike Taxi Platform](https://github.com/kaustubhdua/Smart_bike_taxi_platform)** — C++ routing and ride-booking simulation.
-- ✅ **[Nord Studio Task Manager](https://github.com/kaustubhdua/nord-studio-task-manager)** — lightweight task-management experiment.
-- 🌦️ **[Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix)** — browser weather dashboard.
-
-</details>
-
-<sub>Project descriptions are intentionally short; each repository README is the source of truth for its current implementation and status.</sub>
-
----
-
-## 🎒 Inventory
+<p align="center"><img src="./assets/signal-divider.svg" width="92%" alt="" /></p>
 
 <div align="center">
 
-### 💻 Languages
+## 🎒 INVENTORY
 
-`C++17` · `Python` · `TypeScript` · `JavaScript` · `SQL` · `HTML/CSS`
+### 💻 LANGUAGES
+<code>C++</code> · <code>Python</code> · <code>TypeScript</code> · <code>JavaScript</code> · <code>SQL</code> · <code>HTML/CSS</code>
 
-### 🖥️ Frontend
+### ⚔️ FRONTEND
+<code>React</code> · <code>Next.js</code> · <code>Vite</code> · <code>Three.js</code> · <code>Leaflet</code> · <code>Motion</code>
 
-`React` · `Vite` · `Next.js` · `Three.js` · `Leaflet` · `Motion`
+### ⚙️ BACKEND / DATA
+<code>FastAPI</code> · <code>Supabase</code> · <code>PostgreSQL</code> · <code>Redis</code> · <code>Docker</code>
 
-### ⚙️ Backend · Data · DevOps
+### 🤖 AI / COMPUTING
+<code>PyTorch</code> · <code>TensorFlow</code> · <code>NumPy</code> · <code>Pandas</code> · <code>GeoPandas</code> · <code>OR-Tools</code>
 
-`FastAPI` · `Supabase` · `PostgreSQL` · `Redis` · `Docker` · `GitHub Actions` · `Vercel`
+### 🚀 SHIPPING
+<code>Git</code> · <code>GitHub Actions</code> · <code>Vercel</code> · <code>Testing</code> · <code>Security</code>
 
-### 🤖 AI · Data · Maps
-
-`TensorFlow` · `PyTorch` · `NumPy` · `Pandas` · `GeoPandas` · `OR-Tools`
+<sub>Technologies used across my projects — not a claim of expert-level proficiency in every item.</sub>
 
 </div>
 
-<sub>Technologies represented across my projects — not a claim of expert-level proficiency in every item.</sub>
-
----
-
-## 🛠️ Crafting philosophy
-
-> **A good build is more than a working demo.**
-
-| Material | How I use it |
-| --- | --- |
-| 🧱 Architecture | Split complexity into understandable, testable pieces. |
-| 🧪 Testing | Catch regressions before users do. |
-| 🎨 UX | Make interfaces obvious, responsive and accessible. |
-| ⚡ Performance | Keep bundles, images and interactions intentional. |
-| 🛡️ Security | Treat inputs, dependencies and secrets as first-class concerns. |
-| 📚 Documentation | Make the next person's first hour easier. |
+<p align="center"><img src="./assets/signal-divider.svg" width="92%" alt="" /></p>
 
 <div align="center">
 
-```text
-        ┌──────────┐
-        │   IDEA   │
-        └────┬─────┘
-             ↓
-       ┌────────────┐
-       │  PROTOTYPE │
-       └─────┬──────┘
-             ↓
-       ┌────────────┐
-       │ TEST + FIX │
-       └─────┬──────┘
-             ↓
-        ┌──────────┐
-        │  POLISH  │
-        └────┬─────┘
-             ↓
-        ┌──────────┐
-        │   SHIP   │
-        └────┬─────┘
-             ↓
-        ┌──────────┐
-        │  LEARN   │
-        └────┬─────┘
-             └──────────→ 🔁
-```
+## 🧪 ENGINEERING PHILOSOPHY
+
+| 🧱 | **ARCHITECTURE** — make complexity understandable |
+|:---:|:---|
+| 🧪 | **TESTING** — catch regressions before users do |
+| 🎨 | **UX** — make the next action obvious |
+| ⚡ | **PERFORMANCE** — ship only what earns its place |
+| 🛡️ | **SECURITY** — protect inputs, secrets and users |
+| 📚 | **DOCUMENTATION** — leave the path clearer than you found it |
+
+**If it works → make it understandable.**  
+**If it breaks → make it reproducible.**  
+**If it repeats → automate it.**  
+**If it matters → document it.**
 
 </div>
 
-**If it works:** make it understandable.  
-**If it breaks:** make it reproducible.  
-**If it repeats:** automate it.  
-**If it matters:** document it.
-
----
-
-## 🌱 Currently exploring
+<p align="center"><img src="./assets/signal-divider.svg" width="92%" alt="" /></p>
 
 <div align="center">
 
-**AI × Data × Maps × Optimisation × Automation × Human-friendly UX**
+## 🌋 CURRENTLY EXPLORING
+
+**AI × DATA × MAPS × OPTIMISATION × AUTOMATION × HUMAN-FRIENDLY UX**
+
+I'm especially interested in software that **leaves the screen and helps solve a real problem**.
+
+The goal is not to collect every shiny tool — it is to find the **simplest reliable combination of tools for the problem at hand**.
+
+## 🏆 ACHIEVEMENTS
+
+🎓 **Electronics & Computer Engineering — JIIT Noida**  
+🌱 **GirlScript Summer of Code (GSSoC) 2026**  
+🤝 **Student-led open source · collaboration · constructive code review**
 
 </div>
 
-I'm especially interested in software that leaves the screen and helps solve a real problem.
-
-The goal isn't to collect every shiny tool.  
-The goal is to find the **simplest reliable combination of tools for the problem at hand**.
-
----
-
-## 🏆 Milestones
-
-- 🎓 Electronics & Computer Engineering student at **JIIT Noida**
-- 🌱 Contributor to **GirlScript Summer of Code (GSSoC) 2026**
-- 🤝 Interested in student-led open source, constructive code review and collaborative building
-
----
-
-## 🤝 Multiplayer?
-
-If you're building something useful and want another pair of eyes, feel free to explore the projects above or open an issue/discussion in a repository.
+<p align="center"><img src="./assets/signal-divider.svg" width="92%" alt="" /></p>
 
 <div align="center">
 
-<a href="https://github.com/kaustubhdua">
-  <img src="https://img.shields.io/badge/🧭_ENTER_MY_WORLD-GitHub-182018?style=for-the-badge" alt="Visit my GitHub" />
-</a>
+## 🤝 MULTIPLAYER?
 
-<br /><br />
+If you're building something useful, **open a discussion, issue or pull request**.
 
-<img src="./assets/signal-divider.svg" width="78%" alt="" />
+<br/><br/>
 
-### 🟩 Spawn → Build → Test → Polish → Ship → Learn → Repeat
+<a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge/🧭_ENTER_MY_WORLD-ff6a24?style=for-the-badge&labelColor=17070a&color=8f1d28" alt="Visit Kaustubh Dua on GitHub"/></a>
 
-<sub>🎮 Minecraft-inspired · 🧱 real projects · 🧪 no fake stats · ⚒️ always crafting</sub>
+<br/><br/>
+
+### 🔥 SPAWN → BUILD → DEBUG → POLISH → SHIP → LEARN → REPEAT
+
+<sub>🎮 Minecraft-inspired · 🌋 Nether-themed · 🧱 real projects · 🧪 no fake stats · ⚒️ always crafting</sub>
 
 </div>
