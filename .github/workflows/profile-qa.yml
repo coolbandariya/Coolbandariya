@@ -31,7 +31,7 @@ jobs:
               "animated system map": "assets/system-map.svg" in readme,
               "animated footer": "assets/profile-footer.svg" in readme,
               "animated guitar section": "assets/guitar-studio.svg" in readme,
-              "lazy-loaded below-the-fold images": all((("d2ol7oe51mr4n9.cloudfront.net" in tag) or ('loading="lazy"' in tag.lower())) for tag in re.findall(r"<img\\b[^>]*>", readme, flags=re.I)),
+              "lazy-loaded below-the-fold images": all((("d2ol7oe51mr4n9.cloudfront.net" in tag) or ('loading="lazy"' in tag.lower())) for tag in re.findall(r"<img[^>]*>", readme, flags=re.I)),
               "removed engineering approach": "## Engineering approach" not in readme,
               "contribution snake": "github-contribution-grid-snake.svg" in readme,
               "no obsolete Minecraft theme": not any(word in readme.lower() for word in ("minecraft", "nether")),
@@ -42,7 +42,7 @@ jobs:
           assert all(checks.values()), "README content validation failed"
 
           # Keep the supplied hero banner eager; defer every other README image.
-          images = re.findall(r"<img\\b[^>]*>", readme, flags=re.I)
+          images = re.findall(r"<img[^>]*>", readme, flags=re.I)
           assert images, "No README images found"
           hero_images = [tag for tag in images if "d2ol7oe51mr4n9.cloudfront.net" in tag]
           assert len(hero_images) == 1, "The exact original banner must appear once"
