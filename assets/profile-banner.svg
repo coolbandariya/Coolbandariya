@@ -1,10 +1,123 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" role="img" aria-labelledby="t d">
-<title id="t">Kaustubh Dua — Electronics and Computer Engineering</title>
-<desc id="d">Dark animated engineering interface with a grid, signal paths, active nodes and technical typography.</desc>
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset=".52" stop-color="#0b1728"/><stop offset="1" stop-color="#06101b"/></linearGradient><linearGradient id="glow"><stop stop-color="#22c55e" stop-opacity="0"/><stop offset=".45" stop-color="#22c55e"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></linearGradient><radialGradient id="a"><stop stop-color="#0ea5e9" stop-opacity=".25"/><stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/></radialGradient><filter id="blur"><feGaussianBlur stdDeviation="26"/></filter><pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#94a3b8" stroke-opacity=".075"/></pattern><style>.flow{stroke-dasharray:10 18;animation:dash 4s linear infinite}.pulse{animation:pulse 2.8s ease-in-out infinite}.pulse2{animation:pulse 2.8s ease-in-out 1.2s infinite}@keyframes dash{to{stroke-dashoffset:-112}}@keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}@media(prefers-reduced-motion:reduce){.flow,.pulse,.pulse2{animation:none}}</style></defs>
-<rect width="1600" height="560" rx="28" fill="url(#bg)"/><rect width="1600" height="560" rx="28" fill="url(#grid)"/><ellipse cx="1240" cy="100" rx="420" ry="260" fill="url(#a)" filter="url(#blur)"/><ellipse cx="260" cy="480" rx="360" ry="190" fill="#22c55e" opacity=".06" filter="url(#blur)"/>
-<g fill="none" stroke-linecap="round"><path d="M-20 420H250L330 340H560L640 260H820" stroke="#334155" stroke-width="2"/><path d="M178 560V430L310 298H520L620 198H930" stroke="#334155" stroke-width="2"/><path d="M840 560V450L970 320H1180L1280 220H1620" stroke="#334155" stroke-width="2"/><path class="flow" d="M-20 420H250L330 340H560L640 260H820" stroke="url(#glow)" stroke-width="3"/><path class="flow" d="M178 560V430L310 298H520L620 198H930" stroke="#38bdf8" stroke-opacity=".75" stroke-width="2"/><path class="flow" d="M840 560V450L970 320H1180L1280 220H1620" stroke="#22c55e" stroke-opacity=".7" stroke-width="2"/></g>
-<g fill="#0b1728" stroke="#38bdf8" stroke-width="2"><circle class="pulse" cx="250" cy="420" r="5"/><circle class="pulse2" cx="330" cy="340" r="5"/><circle class="pulse" cx="560" cy="260" r="5"/><circle class="pulse2" cx="620" cy="198" r="5"/><circle class="pulse" cx="970" cy="320" r="5"/><circle class="pulse2" cx="1180" cy="320" r="5"/></g>
-<g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#94a3b8" font-size="13" letter-spacing="2"><text x="90" y="92">ENGINEERING / AI / DATA / SYSTEMS</text><text x="90" y="480">JIIT NOIDA · ELECTRONICS &amp; COMPUTER ENGINEERING</text><text x="90" y="510" fill="#64748b">BUILDING SOFTWARE FOR PROBLEMS THAT DON’T FIT IN A TEXT BOX.</text></g>
-<g font-family="Inter,ui-sans-serif,system-ui,sans-serif" fill="#f8fafc"><text x="90" y="190" font-size="78" font-weight="750" letter-spacing="-3">KAUSTUBH DUA</text><text x="94" y="238" font-size="25" fill="#cbd5e1">student engineer · builder · open-source learner</text></g>
-<g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" fill="#cbd5e1"><text x="1010" y="110">01 / BUILD</text><text x="1010" y="145" fill="#22c55e">AI + DATA</text><text x="1010" y="185">02 / CONNECT</text><text x="1010" y="220" fill="#38bdf8">SYSTEMS</text><text x="1010" y="260">03 / SHIP</text><text x="1010" y="295" fill="#22c55e">PRODUCT</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+<title id="title">Kaustubh Dua — engineering profile</title>
+<desc id="desc">Cinematic animated engineering banner showing a dark technical grid, flowing data lines, orbiting nodes, telemetry panels and Kaustubh Dua's engineering identity.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030712"/><stop offset=".42" stop-color="#081525"/><stop offset="1" stop-color="#06101c"/></linearGradient>
+  <radialGradient id="cyan"><stop stop-color="#38bdf8" stop-opacity=".20"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+  <radialGradient id="green"><stop stop-color="#22c55e" stop-opacity=".15"/><stop offset="1" stop-color="#22c55e" stop-opacity="0"/></radialGradient>
+  <linearGradient id="signal"><stop stop-color="#22c55e" stop-opacity="0"/><stop offset=".35" stop-color="#22c55e"/><stop offset=".72" stop-color="#38bdf8"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></linearGradient>
+  <linearGradient id="metal" x2="1"><stop stop-color="#94a3b8" stop-opacity=".35"/><stop offset=".5" stop-color="#e2e8f0" stop-opacity=".08"/><stop offset="1" stop-color="#94a3b8" stop-opacity=".35"/></linearGradient>
+  <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#94a3b8" stroke-opacity=".065"/></pattern>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".8" fill="#38bdf8" opacity=".12"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="30"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+  <clipPath id="clip"><rect x="0" y="0" width="1600" height="620" rx="30"/></clipPath>
+  <style>
+    .flow{stroke-dasharray:8 20;animation:flow 3.8s linear infinite}
+    .flow2{stroke-dasharray:2 15;animation:flow 2.2s linear infinite}
+    .orbit{transform-origin:1210px 290px;animation:orbit 18s linear infinite}
+    .orbit2{transform-origin:1210px 290px;animation:orbit 11s linear infinite reverse}
+    .pulse{animation:pulse 2.4s ease-in-out infinite}
+    .pulse2{animation:pulse 2.4s ease-in-out .8s infinite}
+    .blink{animation:blink 1.8s steps(1,end) infinite}
+    .reveal{animation:reveal 1.2s ease-out both}
+    .reveal2{animation:reveal 1.2s .25s ease-out both}
+    .reveal3{animation:reveal 1.2s .5s ease-out both}
+    .scan{animation:scan 6s ease-in-out infinite}
+    .bars{animation:bars 3s ease-in-out infinite}
+    @keyframes flow{to{stroke-dashoffset:-112}}
+    @keyframes orbit{to{transform:rotate(360deg)}}
+    @keyframes pulse{0%,100%{opacity:.25;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)}}
+    @keyframes blink{0%,35%,100%{opacity:1}36%,70%{opacity:.28}}
+    @keyframes reveal{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes scan{0%,100%{transform:translateX(-30px);opacity:0}15%,80%{opacity:.8}50%{transform:translateX(860px)}}
+    @keyframes bars{0%,100%{transform:scaleY(.65)}50%{transform:scaleY(1)}}
+    @media(prefers-reduced-motion:reduce){.flow,.flow2,.orbit,.orbit2,.pulse,.pulse2,.blink,.reveal,.reveal2,.reveal3,.scan,.bars{animation:none}}
+  </style>
+</defs>
+
+<g clip-path="url(#clip)">
+<rect width="1600" height="620" fill="url(#bg)"/>
+<rect width="1600" height="620" fill="url(#grid)"/>
+<rect width="1600" height="620" fill="url(#dots)" opacity=".55"/>
+<ellipse cx="1290" cy="160" rx="450" ry="360" fill="url(#cyan)" filter="url(#blur)"/>
+<ellipse cx="220" cy="520" rx="390" ry="240" fill="url(#green)" filter="url(#blur)"/>
+
+<!-- cinematic frame -->
+<rect x="24" y="24" width="1552" height="572" rx="24" fill="none" stroke="url(#metal)" stroke-width="1"/>
+<path d="M58 96H380M1220 96H1542M58 548H460M1140 548H1542" stroke="#64748b" stroke-opacity=".25"/>
+<path d="M58 86V106M1542 86V106M58 538V558M1542 538V558" stroke="#94a3b8" stroke-opacity=".35"/>
+
+<!-- left signal network -->
+<g fill="none" stroke-linecap="round">
+ <path d="M-40 462H205L300 367H478L548 297H710" stroke="#334155" stroke-width="2"/>
+ <path class="flow" d="M-40 462H205L300 367H478L548 297H710" stroke="url(#signal)" stroke-width="3"/>
+ <path d="M110 620V510L245 375H410L500 285H620" stroke="#334155" stroke-width="2"/>
+ <path class="flow2" d="M110 620V510L245 375H410L500 285H620" stroke="#38bdf8" stroke-opacity=".8" stroke-width="2"/>
+ <path d="M0 190H150L220 120H420" stroke="#334155" stroke-width="2"/>
+ <path class="flow2" d="M0 190H150L220 120H420" stroke="#22c55e" stroke-opacity=".65" stroke-width="2"/>
+</g>
+<g fill="#06101c" stroke="#38bdf8" stroke-width="2">
+ <circle class="pulse" cx="205" cy="462" r="6"/><circle class="pulse2" cx="300" cy="367" r="5"/>
+ <circle class="pulse" cx="478" cy="367" r="5"/><circle class="pulse2" cx="548" cy="297" r="5"/>
+ <circle class="pulse" cx="245" cy="375" r="5"/><circle class="pulse2" cx="500" cy="285" r="5"/>
+</g>
+
+<!-- right technical globe / system core -->
+<g class="orbit" fill="none" stroke="#38bdf8" stroke-opacity=".23" stroke-width="1.5">
+ <ellipse cx="1210" cy="290" rx="230" ry="92" transform="rotate(-18 1210 290)"/>
+ <ellipse cx="1210" cy="290" rx="230" ry="92" transform="rotate(42 1210 290)"/>
+</g>
+<g class="orbit2" fill="none" stroke="#22c55e" stroke-opacity=".22" stroke-width="1.2">
+ <ellipse cx="1210" cy="290" rx="185" ry="70" transform="rotate(78 1210 290)"/>
+</g>
+<circle cx="1210" cy="290" r="112" fill="#071523" stroke="#334155" stroke-width="1.5"/>
+<circle cx="1210" cy="290" r="92" fill="none" stroke="#38bdf8" stroke-opacity=".14"/>
+<circle cx="1210" cy="290" r="67" fill="none" stroke="#22c55e" stroke-opacity=".16"/>
+<path d="M1210 188V392M1108 290H1312M1140 230L1280 350M1280 230L1140 350" stroke="#64748b" stroke-opacity=".12"/>
+<circle class="pulse" cx="1210" cy="290" r="14" fill="#22c55e" opacity=".75"/>
+<circle cx="1210" cy="290" r="5" fill="#f8fafc"/>
+<g class="orbit"><circle cx="1440" cy="290" r="6" fill="#38bdf8"/><circle cx="980" cy="290" r="5" fill="#22c55e"/></g>
+
+<!-- scan light -->
+<g class="scan"><rect x="690" y="108" width="3" height="360" fill="#38bdf8" filter="url(#glow)"/></g>
+
+<!-- identity -->
+<g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#94a3b8">
+ <text x="82" y="83" font-size="12" letter-spacing="3">SYSTEM / PROFILE_01</text>
+ <text x="82" y="526" font-size="12" letter-spacing="2">JIIT NOIDA · ELECTRONICS &amp; COMPUTER ENGINEERING</text>
+ <text x="82" y="550" font-size="11" fill="#64748b" letter-spacing="1.4">AI · DATA · SYSTEMS · PRODUCT · OPEN SOURCE</text>
+</g>
+<g class="reveal" font-family="Inter,ui-sans-serif,system-ui,sans-serif">
+ <text x="82" y="225" fill="#f8fafc" font-size="76" font-weight="800" letter-spacing="-3">KAUSTUBH DUA</text>
+ <text x="86" y="265" fill="#cbd5e1" font-size="23">student engineer building useful systems</text>
+</g>
+
+<!-- live telemetry -->
+<g class="reveal2" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+ <rect x="82" y="318" width="510" height="116" rx="16" fill="#07111f" fill-opacity=".8" stroke="#334155"/>
+ <circle cx="110" cy="348" r="5" fill="#22c55e" class="blink"/>
+ <text x="126" y="353" fill="#e2e8f0" font-size="12" letter-spacing="1.5">CURRENT SIGNAL</text>
+ <text x="110" y="383" fill="#22c55e" font-size="17">BUILDING</text>
+ <text x="222" y="383" fill="#cbd5e1" font-size="14">AI + DATA + REAL-WORLD WORKFLOWS</text>
+ <g transform="translate(110 412)" fill="#38bdf8" opacity=".7">
+   <rect width="4" height="14" class="bars" transform-origin="2 14"/><rect x="12" width="4" height="21" class="bars" transform-origin="14 21"/><rect x="24" width="4" height="10" class="bars" transform-origin="26 10"/><rect x="36" width="4" height="18" class="bars" transform-origin="38 18"/><rect x="48" width="4" height="12" class="bars" transform-origin="50 12"/><rect x="60" width="4" height="23" class="bars" transform-origin="62 23"/>
+ </g>
+ <text x="205" y="424" fill="#64748b" font-size="10">SIGNAL STABLE · MOTION ENABLED</text>
+</g>
+
+<!-- right telemetry labels -->
+<g class="reveal3" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11">
+ <text x="1370" y="130" fill="#64748b">CORE</text><text x="1370" y="151" fill="#22c55e">ONLINE</text>
+ <text x="1370" y="196" fill="#64748b">FOCUS</text><text x="1370" y="217" fill="#cbd5e1">SYSTEMS</text>
+ <text x="1370" y="262" fill="#64748b">MODE</text><text x="1370" y="283" fill="#38bdf8">BUILD / SHIP</text>
+ <text x="1370" y="328" fill="#64748b">OPEN SOURCE</text><text x="1370" y="349" fill="#cbd5e1">ACTIVE</text>
+</g>
+
+<!-- small status ticks -->
+<g fill="#64748b" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="9">
+ <text x="1010" y="440">X 01</text><text x="1160" y="440">X 02</text><text x="1310" y="440">X 03</text>
+</g>
+<g stroke="#64748b" stroke-opacity=".3"><path d="M1010 452H1060M1160 452H1210M1310 452H1360"/></g>
+</g>
+</svg>
