@@ -26,20 +26,21 @@ jobs:
           divider = Path("assets/signal-divider.svg")
           ecosystem = Path("assets/project-ecosystem.svg")
           circuit = Path("assets/engineering-circuit.svg")
+          terminal = Path("assets/terminal-galaxy.svg")
 
           assert "Electronics & Computer Engineering" in readme
           assert "ECE student" not in readme
           assert "coolbandariya" not in readme.lower()
           assert banner.exists() and divider.exists()
 
-          for path in (banner, divider, ecosystem, circuit):
+          for path in (banner, divider, ecosystem, circuit, terminal):
               ET.parse(path)
               text = path.read_text(encoding="utf-8")
               assert "<script" not in text.lower()
               assert "prefers-reduced-motion" in text
               assert 'role="img"' in text
 
-          local_refs = re.findall(r'(?:src|href)="(\\./assets/[^"]+)"', readme)
+          local_refs = re.findall(r'(?:src|href)="(\./assets/[^"]+)"', readme)
           for ref in local_refs:
               assert Path(ref).exists(), f"Missing local asset: {ref}"
 
