@@ -1,82 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
-<title id="title">Kaustubh Dua — AI, Data and Software Engineering</title>
-<desc id="desc">A dark systems-inspired engineering portfolio banner with a faceted three-dimensional glass compute core, flowing data traces, and clear oversized typography.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+<title id="title">Kaustubh Dua — Electronics and Computer Engineering</title>
+<desc id="desc">A high-contrast, dither-inspired profile banner. Large readable name and engineering focus sit beside a textured monochrome digital field with subtle animated signal accents.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050912"/><stop offset=".52" stop-color="#0a1424"/><stop offset="1" stop-color="#0c1020"/></linearGradient>
-  <linearGradient id="type" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ffffff"/><stop offset=".75" stop-color="#dbeafe"/><stop offset="1" stop-color="#a5f3fc"/></linearGradient>
-  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#67e8f9"/><stop offset=".5" stop-color="#38bdf8"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
-  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#67e8f9" stop-opacity=".24"/><stop offset=".52" stop-color="#2563eb" stop-opacity=".08"/><stop offset="1" stop-color="#c4b5fd" stop-opacity=".2"/></linearGradient>
-  <radialGradient id="bloom"><stop stop-color="#0ea5e9" stop-opacity=".24"/><stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/></radialGradient>
-  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#94a3b8" stroke-opacity=".06" stroke-width=".8"/></pattern>
-  <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
-  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111016"/><stop offset=".6" stop-color="#191720"/><stop offset="1" stop-color="#0e0d13"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#bef264"/><stop offset="1" stop-color="#67e8f9"/></linearGradient>
+  <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.35" fill="#f4f1ea" opacity=".78"/>
+    <circle cx="7" cy="7" r=".7" fill="#f4f1ea" opacity=".35"/>
+  </pattern>
+  <pattern id="fine" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#f4f1ea" stroke-opacity=".08"/></pattern>
+  <radialGradient id="field"><stop stop-color="#f4f1ea" stop-opacity=".92"/><stop offset=".42" stop-color="#a1a1aa" stop-opacity=".5"/><stop offset="1" stop-color="#27232e" stop-opacity="0"/></radialGradient>
+  <clipPath id="visual"><path d="M770 56H1138V352H770Z"/></clipPath>
+  <mask id="ditherMask">
+    <rect x="750" y="36" width="410" height="336" fill="url(#field)"/>
+  </mask>
   <style>
     .sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
     .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-    .enter{animation:enter .8s cubic-bezier(.2,.8,.2,1) both}
-    .enter2{animation:enter .95s .12s cubic-bezier(.2,.8,.2,1) both}
-    .core{transform-origin:900px 205px;animation:coreFloat 7s ease-in-out infinite}
-    .mesh{animation:mesh 12s ease-in-out infinite}
-    .signal{stroke-dasharray:8 12;animation:signal 15s linear infinite}
-    .pulse{animation:pulse 3.2s ease-in-out infinite}
-    .bars{transform-origin:1080px 315px;animation:bars 4.8s ease-in-out infinite}
-    @keyframes enter{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-    @keyframes coreFloat{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-7px) rotate(1deg)}}
-    @keyframes mesh{0%,100%{opacity:.5}50%{opacity:1}}
-    @keyframes signal{to{stroke-dashoffset:-200}}
+    .intro{animation:rise .8s cubic-bezier(.2,.8,.2,1) both}
+    .intro2{animation:rise .9s .16s cubic-bezier(.2,.8,.2,1) both}
+    .texture{animation:drift 18s linear infinite}
+    .scan{animation:scan 7s ease-in-out infinite}
+    .signal{animation:pulse 3s ease-in-out infinite}
+    @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes drift{from{transform:translateX(0)}to{transform:translateX(-24px)}}
+    @keyframes scan{0%,100%{transform:translateY(0);opacity:.12}50%{transform:translateY(250px);opacity:.55}}
     @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
-    @keyframes bars{0%,100%{transform:scaleY(.86)}50%{transform:scaleY(1.08)}}
-    @media(prefers-reduced-motion:reduce){.enter,.enter2,.core,.mesh,.signal,.pulse,.bars{animation:none!important}}
+    @media(prefers-reduced-motion:reduce){.intro,.intro2,.texture,.scan,.signal{animation:none!important}}
   </style>
 </defs>
-<rect width="1200" height="440" rx="26" fill="url(#bg)"/>
-<rect width="1200" height="440" rx="26" fill="url(#grid)"/>
-<ellipse cx="920" cy="210" rx="310" ry="255" fill="url(#bloom)" filter="url(#blur)"/>
-<path d="M22 34H1178V406H22Z" fill="none" stroke="#64748b" stroke-opacity=".28"/>
-<path d="M22 34H172M1025 406H1178" stroke="#67e8f9" stroke-opacity=".7" stroke-width="1.5"/>
-<g class="enter">
-  <text x="62" y="76" class="mono" font-size="11" letter-spacing="2.5" fill="#67e8f9">JIIT NOIDA <tspan fill="#475569">/</tspan> ELECTRONICS &amp; COMPUTER ENGINEERING</text>
-  <text x="58" y="177" class="sans" font-size="82" font-weight="850" letter-spacing="-4.7" fill="url(#type)">KAUSTUBH</text>
-  <text x="62" y="251" class="sans" font-size="76" font-weight="800" letter-spacing="-3" fill="#f8fafc">DUA<tspan fill="#67e8f9">.</tspan></text>
+<rect width="1200" height="430" rx="24" fill="url(#bg)"/>
+<rect width="1200" height="430" rx="24" fill="url(#fine)"/>
+<rect x="22" y="22" width="1156" height="386" rx="17" fill="none" stroke="#f4f1ea" stroke-opacity=".17"/>
+<path d="M22 22H174M1020 408H1178" stroke="#bef264" stroke-width="2"/>
+<g class="intro">
+  <text x="62" y="69" class="mono" font-size="11" letter-spacing="2.1" fill="#bef264">JIIT NOIDA <tspan fill="#6b6875">/</tspan> ECM</text>
+  <text x="58" y="174" class="sans" font-size="82" font-weight="850" letter-spacing="-4.6" fill="#f4f1ea">KAUSTUBH</text>
+  <text x="62" y="248" class="sans" font-size="78" font-weight="800" letter-spacing="-3.4" fill="#f4f1ea">DUA<tspan fill="#bef264">.</tspan></text>
 </g>
-<g class="enter2">
-  <rect x="64" y="279" width="36" height="3" rx="1.5" fill="#67e8f9"/>
-  <text x="64" y="312" class="sans" font-size="17" font-weight="600" fill="#dbeafe">AI systems · Data · Product engineering</text>
-  <text x="64" y="340" class="sans" font-size="14" fill="#94a3b8">Practical software. Real-world constraints.</text>
-  <text x="64" y="379" class="mono" font-size="10" letter-spacing="2" fill="#64748b">BUILD  /  MEASURE  /  VERIFY  /  SHIP</text>
+<g class="intro2">
+  <rect x="64" y="278" width="35" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="64" y="310" class="sans" font-size="17" font-weight="600" fill="#e7e5e4">AI systems · Data · Product engineering</text>
+  <text x="64" y="340" class="sans" font-size="14" fill="#a8a5b1">Building useful software for real-world problems.</text>
+  <text x="64" y="378" class="mono" font-size="10" letter-spacing="1.7" fill="#85818e">BUILD / TEST / VERIFY / SHIP</text>
 </g>
-<!-- Data system: routed signals, not decorative orbital rings -->
-<g fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path class="signal" d="M690 145H772L807 180H842" stroke="#38bdf8" stroke-opacity=".65" stroke-width="1.5"/>
-  <path class="signal" d="M694 274H777L817 235H847" stroke="#a78bfa" stroke-opacity=".65" stroke-width="1.5"/>
-  <path class="signal" d="M926 118H1003L1037 150H1106" stroke="#67e8f9" stroke-opacity=".5" stroke-width="1.4"/>
-  <path class="signal" d="M929 291H1004L1038 265H1112" stroke="#818cf8" stroke-opacity=".6" stroke-width="1.4"/>
-  <path d="M838 204H802V218H770" stroke="#64748b" stroke-opacity=".45"/>
-  <path d="M961 204H990V193H1020" stroke="#64748b" stroke-opacity=".45"/>
-</g>
-<g fill="#67e8f9" class="pulse"><circle cx="690" cy="145" r="3"/><circle cx="770" cy="218" r="2.5"/><circle cx="1106" cy="150" r="3"/><circle cx="1112" cy="265" r="2.5"/></g>
-<!-- Faceted glass compute core -->
-<g class="core">
-  <path d="M900 98 977 143 977 234 900 279 823 234 823 143Z" fill="url(#glass)" stroke="url(#cyan)" stroke-opacity=".8" stroke-width="1.5"/>
-  <path d="M900 98 900 188 823 143Z" fill="#67e8f9" fill-opacity=".12" stroke="#67e8f9" stroke-opacity=".55"/>
-  <path d="M900 98 977 143 900 188Z" fill="#60a5fa" fill-opacity=".13" stroke="#67e8f9" stroke-opacity=".5"/>
-  <path d="M823 143 900 188 823 234Z" fill="#2563eb" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".45"/>
-  <path d="M977 143 900 188 977 234Z" fill="#818cf8" fill-opacity=".14" stroke="#a5b4fc" stroke-opacity=".55"/>
-  <path d="M823 234 900 188 900 279Z" fill="#0ea5e9" fill-opacity=".1" stroke="#38bdf8" stroke-opacity=".5"/>
-  <path d="M977 234 900 188 900 279Z" fill="#8b5cf6" fill-opacity=".12" stroke="#a78bfa" stroke-opacity=".55"/>
-  <path d="M900 98V188M823 143 900 234 977 143M823 234 900 188 977 234" fill="none" stroke="#dbeafe" stroke-opacity=".55" stroke-width="1"/>
-  <circle cx="900" cy="188" r="13" fill="#67e8f9" fill-opacity=".16" stroke="#67e8f9" stroke-opacity=".8"/>
-  <circle cx="900" cy="188" r="4.5" fill="#a5f3fc" filter="url(#glow)"/>
-  <circle cx="900" cy="98" r="3" fill="#67e8f9"/><circle cx="977" cy="143" r="3" fill="#a78bfa"/><circle cx="823" cy="234" r="3" fill="#67e8f9"/>
-</g>
-<!-- Compact signal panel -->
-<g class="mesh">
-  <rect x="1018" y="294" width="145" height="64" rx="8" fill="#0b1220" fill-opacity=".8" stroke="#334155" stroke-opacity=".8"/>
-  <text x="1030" y="309" class="mono" font-size="7.5" letter-spacing="1.1" fill="#94a3b8">SYSTEM SIGNAL</text>
-  <path d="M1030 337H1150" stroke="#334155" stroke-width="1"/>
-  <g class="bars" fill="url(#cyan)">
-    <rect x="1032" y="324" width="5" height="13" rx="1"/><rect x="1042" y="319" width="5" height="18" rx="1"/><rect x="1052" y="327" width="5" height="10" rx="1"/><rect x="1062" y="315" width="5" height="22" rx="1"/><rect x="1072" y="321" width="5" height="16" rx="1"/><rect x="1082" y="312" width="5" height="25" rx="1"/><rect x="1092" y="324" width="5" height="13" rx="1"/><rect x="1102" y="317" width="5" height="20" rx="1"/><rect x="1112" y="320" width="5" height="17" rx="1"/><rect x="1122" y="313" width="5" height="24" rx="1"/><rect x="1132" y="326" width="5" height="11" rx="1"/><rect x="1142" y="319" width="5" height="18" rx="1"/>
+<g clip-path="url(#visual)">
+  <rect x="770" y="56" width="368" height="296" rx="8" fill="#211f28" stroke="#f4f1ea" stroke-opacity=".18"/>
+  <g class="texture">
+    <rect x="770" y="56" width="410" height="296" fill="url(#dots)" mask="url(#ditherMask)"/>
+    <rect x="770" y="56" width="410" height="296" fill="url(#field)" opacity=".65"/>
+    <path d="M782 292C830 210 854 240 901 162S1000 94 1126 119" fill="none" stroke="#f4f1ea" stroke-opacity=".65" stroke-width="1.5"/>
+    <path d="M782 318C844 238 866 265 922 188S1035 120 1136 143" fill="none" stroke="#bef264" stroke-opacity=".8" stroke-width="1.2"/>
   </g>
+  <path class="scan" d="M770 94H1138" stroke="#bef264" stroke-width="1.5" stroke-opacity=".8"/>
+  <path d="M794 76V96M794 76H814M1116 332V312M1116 332H1096" stroke="#f4f1ea" stroke-opacity=".7" fill="none"/>
+  <text x="794" y="330" class="mono" font-size="9" letter-spacing="1.5" fill="#f4f1ea">SIGNAL / PATTERN / SYSTEM</text>
 </g>
-<text x="1138" y="64" text-anchor="end" class="mono" font-size="9" letter-spacing="2" fill="#64748b">ENGINEERING / 01</text>
+<g class="signal">
+  <circle cx="1114" cy="78" r="3" fill="#bef264"/>
+  <circle cx="793" cy="329" r="2.5" fill="#67e8f9"/>
+</g>
+<text x="1138" y="383" text-anchor="end" class="mono" font-size="9" letter-spacing="1.4" fill="#85818e">ENGINEERING PORTFOLIO / 01</text>
 </svg>
