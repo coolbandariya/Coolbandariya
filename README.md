@@ -7,10 +7,10 @@
 <img src="./assets/system-map.svg?v=20261009" width="100%" alt="Animated map connecting product design, intelligence and reliability" loading="lazy"/>
 
 <p>
-  <a href="#setlist">SETLIST</a> &nbsp;·&nbsp;
-  <a href="#rig-signal-chain">RIG & SIGNAL CHAIN</a> &nbsp;·&nbsp;
-  <a href="#on-the-turntable">ON THE TURNTABLE</a> &nbsp;·&nbsp;
-  <a href="https://github.com/kaustubhdua?tab=repositories">ALL REPOSITORIES ↗</a>
+  <a href="#setlist"><img src="https://img.shields.io/badge/01-SETLIST-252525?style=flat-square&labelColor=111111&color=252525" alt="Setlist" loading="lazy"/></a>
+  <a href="#rig-signal-chain"><img src="https://img.shields.io/badge/02-RIG_%26_SIGNAL_CHAIN-252525?style=flat-square&labelColor=111111&color=252525" alt="Rig and signal chain" loading="lazy"/></a>
+  <a href="#on-the-turntable"><img src="https://img.shields.io/badge/03-ON_THE_TURNTABLE-252525?style=flat-square&labelColor=111111&color=252525" alt="On the turntable" loading="lazy"/></a>
+  <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-↗-252525?style=flat-square&labelColor=111111&color=252525" alt="All repositories" loading="lazy"/></a>
 </p>
 
 **ELECTRONICS & COMPUTER ENGINEERING · JIIT NOIDA**
@@ -26,13 +26,13 @@ I build practical software across **AI, data, systems and product engineering** 
 
 ---
 
-<h2 id="setlist"><img src="./assets/headings/setlist.svg" alt="Setlist" width="100%" loading="lazy"/></h2>
+<h2 id="setlist"><img src="./assets/headings/setlist.svg?v=20261010-mono" alt="Setlist" width="100%" loading="lazy"/></h2>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [01 / GitGlobe — Opening Track ↗](https://github.com/kaustubhdua/GitGlobe)
+<p><a href="https://github.com/kaustubhdua/GitGlobe"><img src="https://img.shields.io/badge/01-GITGLOBE-OPENING_TRACK-A0A0A0?style=flat-square&labelColor=202020&color=303030" alt="GitGlobe" loading="lazy"/></a></p>
 
 An interactive 3D map for exploring open-source repositories by capability — making software discovery feel spatial.
 
@@ -41,7 +41,7 @@ An interactive 3D map for exploring open-source repositories by capability — m
 </td>
 <td width="50%" valign="top">
 
-### [02 / NIRDHOOM — Earth Song ↗](https://github.com/kaustubhdua/nihdhoom)
+<p><a href="https://github.com/kaustubhdua/nihdhoom"><img src="https://img.shields.io/badge/02-NIRDHOOM-EARTH_SONG-A0A0A0?style=flat-square&labelColor=202020&color=303030" alt="NIRDHOOM" loading="lazy"/></a></p>
 
 A crop-residue coordination system connecting field requests, service workflows, operational evidence and buyer pathways.
 
@@ -52,7 +52,7 @@ A crop-residue coordination system connecting field requests, service workflows,
 <tr>
 <td width="50%" valign="top">
 
-### [03 / Saathi — Voice & Verse ↗](https://github.com/kaustubhdua/Saathi)
+<p><a href="https://github.com/kaustubhdua/Saathi"><img src="https://img.shields.io/badge/03-SAATHI-VOICE_%26_VERSE-A0A0A0?style=flat-square&labelColor=202020&color=303030" alt="Saathi" loading="lazy"/></a></p>
 
 A voice-first, multilingual assistance platform built around source-aware answers, consent-based workflows and human escalation.
 
@@ -61,7 +61,7 @@ A voice-first, multilingual assistance platform built around source-aware answer
 </td>
 <td width="50%" valign="top">
 
-### [04 / SATARK — Feedback Loop ↗](https://github.com/kaustubhdua/Satark)
+<p><a href="https://github.com/kaustubhdua/Satark"><img src="https://img.shields.io/badge/04-SATARK-FEEDBACK_LOOP-A0A0A0?style=flat-square&labelColor=202020&color=303030" alt="SATARK" loading="lazy"/></a></p>
 
 An AI-assisted security-awareness workspace for triaging suspicious messages, links, images, QR codes, PDFs and supported videos.
 
@@ -72,7 +72,7 @@ An AI-assisted security-awareness workspace for triaging suspicious messages, li
 <tr>
 <td width="50%" valign="top">
 
-### [05 / Adapt AI — Side B ↗](https://github.com/kaustubhdua/adapt-ai)
+<p><a href="https://github.com/kaustubhdua/adapt-ai"><img src="https://img.shields.io/badge/05-ADAPT_AI-SIDE_B-A0A0A0?style=flat-square&labelColor=202020&color=303030" alt="Adapt AI" loading="lazy"/></a></p>
 
 A team-built local AI assistant that checks available hardware and recommends a suitable model for on-device chat, file and Python workflows.
 
@@ -81,7 +81,7 @@ A team-built local AI assistant that checks available hardware and recommends a 
 </td>
 <td width="50%" valign="top">
 
-### [06 / JIIT Youth Club Website — Live Stage ↗](https://github.com/kaustubhdua/JYC-Website)
+<p><a href="https://github.com/kaustubhdua/JYC-Website"><img src="https://img.shields.io/badge/06-JIIT_YOUTH_CLUB-LIVE_STAGE-A0A0A0?style=flat-square&labelColor=202020&color=303030" alt="JIIT Youth Club Website" loading="lazy"/></a></p>
 
 The public website for JIIT Youth Club 128, covering its organisation, clubs, events, history, gallery and recruitment journey.
 
@@ -105,7 +105,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
-<h2 id="rig-signal-chain"><img src="./assets/headings/rig-signal-chain.svg" alt="Rig & Signal Chain" width="100%" loading="lazy"/></h2>
+<h2 id="rig-signal-chain"><img src="./assets/headings/rig-signal-chain.svg?v=20261010-mono" alt="Rig & Signal Chain" width="100%" loading="lazy"/></h2>
 
 <sub>The instruments, pedals and signal paths behind the projects. Each stack varies by repository.</sub>
 
@@ -244,7 +244,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
-<h2 id="on-the-turntable"><img src="./assets/headings/on-the-turntable.svg" alt="On the Turntable" width="100%" loading="lazy"/></h2>
+<h2 id="on-the-turntable"><img src="./assets/headings/on-the-turntable.svg?v=20261010-mono" alt="On the Turntable" width="100%" loading="lazy"/></h2>
 
 <div align="center">
 
@@ -262,7 +262,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 </div>
 
 ---
-<h2 id="the-encore"><img src="./assets/headings/the-encore.svg" alt="The Encore" width="100%" loading="lazy"/></h2>
+<h2 id="the-encore"><img src="./assets/headings/the-encore.svg?v=20261010-mono" alt="The Encore" width="100%" loading="lazy"/></h2>
 
 <div align="center">
 
@@ -280,7 +280,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
  
-<h2 id="backstage-pass"><img src="./assets/headings/backstage-pass.svg" alt="Backstage Pass" width="100%" loading="lazy"/></h2>
+<h2 id="backstage-pass"><img src="./assets/headings/backstage-pass.svg?v=20261010-mono" alt="Backstage Pass" width="100%" loading="lazy"/></h2>
 
 <div align="center">
 
@@ -293,7 +293,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 <div align="center">
 
 <a href="https://github.com/kaustubhdua">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=kaustubhdua&show_icons=true&hide_border=true&bg_color=0D1117&title_color=B8B2C8&text_color=C9C6D0&icon_color=B8B2C8&rank_icon=github&include_all_commits=true" height="170" alt="Live GitHub statistics for kaustubhdua" loading="lazy"/>
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=kaustubhdua&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A0A0A0&text_color=C9C9C9&icon_color=E5E5E5&rank_icon=github&include_all_commits=true" height="170" alt="Live GitHub statistics for kaustubhdua" loading="lazy"/>
 </a>
 <a href="https://github.com/kaustubhdua?tab=repositories">
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kaustubhdua&layout=compact&hide_border=true&bg_color=0D1117&title_color=B8B2C8&text_color=C9C6D0&langs_count=8" height="170" alt="Most-used languages across public repositories" loading="lazy"/>
@@ -304,7 +304,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 <div align="center">
 
 <a href="https://github.com/kaustubhdua">
-  <img src="https://streak-stats.demolab.com?user=kaustubhdua&hide_border=true&background=0D1117&ring=B8B2C8&fire=C9C6D0&currStreakLabel=B8B2C8&sideLabels=AAA7B0&dates=777777&currStreakNum=E8E6E1&sideNums=E8E6E1&date_format=M%20j%5B%2C%20Y%5D" width="80%" alt="GitHub contribution streak for kaustubhdua" loading="lazy"/>
+  <img src="https://streak-stats.demolab.com?user=kaustubhdua&hide_border=true&background=0D1117&ring=A0A0A0&fire=D0D0D0&currStreakLabel=A0A0A0&sideLabels=AAAAAA&dates=777777&currStreakNum=E8E8E8&sideNums=E8E8E8&date_format=M%20j%5B%2C%20Y%5D" width="80%" alt="GitHub contribution streak for kaustubhdua" loading="lazy"/>
 </a>
 
 </div>
