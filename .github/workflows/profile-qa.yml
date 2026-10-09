@@ -36,7 +36,7 @@ jobs:
               "removed engineering approach": "## Engineering approach" not in readme,
               "contribution snake": "github-contribution-grid-snake.svg" in readme,
               "generated activity chart": "activity-assets/activity-90d.svg" in readme,
-              "no duplicate snake in backstage": readme.count("github-contribution-grid-snake.svg") <= 2,
+              "single contribution snake section": readme.count('id="snake-eating-my-contribution-snake"') == 1,
               "original contribution snake palettes": "dist/github-contribution-grid-snake.svg" in Path(".github/workflows/snake.yml").read_text(encoding="utf-8") and "dist/github-contribution-grid-snake-dark.svg?palette=github-dark" in Path(".github/workflows/snake.yml").read_text(encoding="utf-8"),
               "themed GitHub stats cards": all(value in readme for value in ("bg_color=0D1117", "title_color=A0A0A0", "text_color=C9C9C9", "icon_color=E5E5E5", "ring=A0A0A0", "currStreakLabel=A0A0A0")),
               "no obsolete Minecraft theme": not any(word in readme.lower() for word in ("minecraft", "nether")),
