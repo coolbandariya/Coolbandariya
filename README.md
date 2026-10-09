@@ -248,7 +248,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <div align="center">
 
-<img src="./assets/guitar-studio.svg?v=20261010-studio-cinematic" width="100%" alt="Animated black-and-white studio scene with a detailed black double-cutaway electric guitar, six strings, fretboard, pickups, amplifier, Iris music player and animated equalizer" loading="lazy"/>
+<img src="./assets/guitar-studio.svg?v=20261011-studio-cinematic" width="100%" alt="Animated black-and-white studio scene with a detailed black double-cutaway electric guitar, six strings, fretboard, pickups, amplifier, Iris music player and animated equalizer" loading="lazy"/>
 
 **ON REPEAT / IRIS — GOO GOO DOLLS**
 
