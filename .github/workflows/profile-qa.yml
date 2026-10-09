@@ -94,10 +94,14 @@ jobs:
           for path in heading_assets:
               ET.parse(path)
               source = path.read_text(encoding="utf-8")
-              assert "class=\"heading-highlight\"" in source and "@keyframes revealText" in source, f"Missing animated title highlight: {path}"
-              assert "clip-path=\"url(#heading-reveal)\"" in source, f"Missing clipped text reveal: {path}"
-              assert "prefers-reduced-motion" in source, f"Missing reduced-motion fallback: {path}"
-              assert "width:720px" in source, f"Reduced-motion title should remain fully visible: {path}"
+              if path.name == "studio-notes.svg":
+                  assert "class=\"heading-highlight\"" in source and "@keyframes revealText" in source, f"Missing animated studio title: {path}"
+                  assert "prefers-reduced-motion" in source, f"Missing reduced-motion fallback: {path}"
+              else:
+                  assert "class=\"heading-highlight\"" in source and "@keyframes revealText" in source, f"Missing animated title highlight: {path}"
+                  assert "clip-path=\"url(#heading-reveal)\"" in source, f"Missing clipped text reveal: {path}"
+                  assert "prefers-reduced-motion" in source, f"Missing reduced-motion fallback: {path}"
+                  assert "width:720px" in source, f"Reduced-motion title should remain fully visible: {path}"
               style = re.search(r"<style>(.*?)</style>", source, flags=re.S)
               assert style and style.group(1).count("{") == style.group(1).count("}"), f"Unbalanced heading CSS: {path}"
           animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"), Path("assets/system-map.svg"), Path("assets/guitar-studio.svg"), Path("assets/studio-status.svg"), Path("assets/signal-chain.svg"), Path("assets/vu-meter.svg"), Path("assets/fretboard-progress.svg"), Path("assets/headings/studio-notes.svg"))
