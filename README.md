@@ -32,7 +32,7 @@ I build practical software across **AI, data, systems and product engineering** 
 <tr>
 <td width="50%" valign="top">
 
-<p><a href="https://github.com/kaustubhdua/GitGlobe"><img src="https://img.shields.io/badge/01-GITGLOBE-OPENING_TRACK-A0A0A0?style=flat-square&labelColor=202020&color=303030" alt="GitGlobe" loading="lazy"/></a></p>
+<p><a href="https://github.com/kaustubhdua/GitGlobe"><img src="https://img.shields.io/badge/01%20%2F%20GITGLOBE-OPENING%20TRACK-303030?style=flat-square&labelColor=202020" alt="GitGlobe" loading="lazy"/></a></p>
 
 An interactive 3D map for exploring open-source repositories by capability — making software discovery feel spatial.
 
@@ -41,7 +41,7 @@ An interactive 3D map for exploring open-source repositories by capability — m
 </td>
 <td width="50%" valign="top">
 
-<p><a href="https://github.com/kaustubhdua/nihdhoom"><img src="https://img.shields.io/badge/02-NIRDHOOM-EARTH_SONG-A0A0A0?style=flat-square&labelColor=202020&color=303030" alt="NIRDHOOM" loading="lazy"/></a></p>
+<p><a href="https://github.com/kaustubhdua/nihdhoom"><img src="https://img.shields.io/badge/02%20%2F%20NIRDHOOM-EARTH%20SONG-303030?style=flat-square&labelColor=202020" alt="NIRDHOOM" loading="lazy"/></a></p>
 
 A crop-residue coordination system connecting field requests, service workflows, operational evidence and buyer pathways.
 
@@ -52,7 +52,7 @@ A crop-residue coordination system connecting field requests, service workflows,
 <tr>
 <td width="50%" valign="top">
 
-<p><a href="https://github.com/kaustubhdua/Saathi"><img src="https://img.shields.io/badge/03-SAATHI-VOICE_%26_VERSE-A0A0A0?style=flat-square&labelColor=202020&color=303030" alt="Saathi" loading="lazy"/></a></p>
+<p><a href="https://github.com/kaustubhdua/Saathi"><img src="https://img.shields.io/badge/03%20%2F%20SAATHI-VOICE%20%26%20VERSE-303030?style=flat-square&labelColor=202020" alt="Saathi" loading="lazy"/></a></p>
 
 A voice-first, multilingual assistance platform built around source-aware answers, consent-based workflows and human escalation.
 
@@ -61,7 +61,7 @@ A voice-first, multilingual assistance platform built around source-aware answer
 </td>
 <td width="50%" valign="top">
 
-<p><a href="https://github.com/kaustubhdua/Satark"><img src="https://img.shields.io/badge/04-SATARK-FEEDBACK_LOOP-A0A0A0?style=flat-square&labelColor=202020&color=303030" alt="SATARK" loading="lazy"/></a></p>
+<p><a href="https://github.com/kaustubhdua/Satark"><img src="https://img.shields.io/badge/04%20%2F%20SATARK-FEEDBACK%20LOOP-303030?style=flat-square&labelColor=202020" alt="SATARK" loading="lazy"/></a></p>
 
 An AI-assisted security-awareness workspace for triaging suspicious messages, links, images, QR codes, PDFs and supported videos.
 
@@ -72,7 +72,7 @@ An AI-assisted security-awareness workspace for triaging suspicious messages, li
 <tr>
 <td width="50%" valign="top">
 
-<p><a href="https://github.com/kaustubhdua/adapt-ai"><img src="https://img.shields.io/badge/05-ADAPT_AI-SIDE_B-A0A0A0?style=flat-square&labelColor=202020&color=303030" alt="Adapt AI" loading="lazy"/></a></p>
+<p><a href="https://github.com/kaustubhdua/adapt-ai"><img src="https://img.shields.io/badge/05%20%2F%20ADAPT%20AI-SIDE%20B-303030?style=flat-square&labelColor=202020" alt="Adapt AI" loading="lazy"/></a></p>
 
 A team-built local AI assistant that checks available hardware and recommends a suitable model for on-device chat, file and Python workflows.
 
@@ -81,7 +81,7 @@ A team-built local AI assistant that checks available hardware and recommends a 
 </td>
 <td width="50%" valign="top">
 
-<p><a href="https://github.com/kaustubhdua/JYC-Website"><img src="https://img.shields.io/badge/06-JIIT_YOUTH_CLUB-LIVE_STAGE-A0A0A0?style=flat-square&labelColor=202020&color=303030" alt="JIIT Youth Club Website" loading="lazy"/></a></p>
+<p><a href="https://github.com/kaustubhdua/JYC-Website"><img src="https://img.shields.io/badge/06%20%2F%20JIIT%20YOUTH%20CLUB-LIVE%20STAGE-303030?style=flat-square&labelColor=202020" alt="JIIT Youth Club Website" loading="lazy"/></a></p>
 
 The public website for JIIT Youth Club 128, covering its organisation, clubs, events, history, gallery and recruitment journey.
 
