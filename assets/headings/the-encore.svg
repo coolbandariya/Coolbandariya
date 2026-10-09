@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="58" viewBox="0 0 720 58" role="img" aria-labelledby="title desc"><title id="title">The Encore</title><desc id="desc">Muted gray section heading in a monochrome theme. Animated underline and traveling signal accent, with reduced-motion support.</desc><text class="heading-text" x="50%" y="39" text-anchor="middle" fill="#a0a0a0" font-family="-apple-system,BlinkMacSystemFont,Segoe UI, sans-serif" font-size="31" font-weight="650" letter-spacing="0.2">The Encore</text><path d="M0 55 H720" stroke="#343434" stroke-width="1.5"/>
 <style>
-.heading-text{fill:#A0A0A0;transform-box:fill-box;transform-origin:center;animation:textPulse 5.8s ease-in-out infinite alternate;}
-.wave{fill:none;stroke:#777777;stroke-width:1.4;stroke-linecap:round;stroke-dasharray:2 8;animation:wave 10s linear infinite}
-.glint{stroke:#E5E5E5;stroke-width:2;stroke-linecap:round;stroke-dasharray:24 696;animation:glint 8s linear infinite}
-@keyframes textPulse{0%{opacity:.68;fill:#888888;letter-spacing:.2px}50%{opacity:.88;fill:#C8C8C8;letter-spacing:.2px}100%{opacity:1;fill:#FFFFFF;letter-spacing:1.2px}}
+.heading-text{fill:#A0A0A0;animation:titleReveal 6s cubic-bezier(.45,0,.25,1) infinite;animation-delay:.36s;}
+.wave{fill:none;stroke:#777777;stroke-width:1.4;stroke-linecap:round;stroke-dasharray:2 8;animation:wave 9s linear infinite}
+.glint{stroke:#E5E5E5;stroke-width:2;stroke-linecap:round;stroke-dasharray:26 694;animation:glint 7s linear infinite}
+@keyframes titleReveal{0%,8%{fill:#8A8A8A;opacity:.78;filter:none}18%{fill:#FFFFFF;opacity:1;filter:drop-shadow(0 0 5px #BDBDBD)}32%{fill:#E4E4E4;opacity:1;filter:drop-shadow(0 0 2px #777777)}48%,100%{fill:#B0B0B0;opacity:.92;filter:none}}
 @keyframes wave{to{stroke-dashoffset:-120}}
 @keyframes glint{from{stroke-dashoffset:720}to{stroke-dashoffset:0}}
-@media(prefers-reduced-motion:reduce){.heading-text,.wave,.glint{animation:none!important}.heading-text{fill:#A0A0A0;letter-spacing:.2px}}
+@media(prefers-reduced-motion:reduce){.heading-text,.wave,.glint{animation:none!important;filter:none!important}.heading-text{fill:#D0D0D0;opacity:1}}
 </style>
 <path class="wave" d="M0 55 H720"/>
 <path class="glint" d="M0 55 H720"/>
