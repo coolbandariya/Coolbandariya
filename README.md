@@ -246,7 +246,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <div align="center">
 
-<img src="./assets/studio-status.svg?v=20261009-mono" width="100%" alt="Monochrome studio panel with current mode, system status bars and Iris by Goo Goo Dolls playing" loading="lazy"/>
+<img src="./assets/studio-status.svg?v=20261010-motion" width="100%" alt="Monochrome studio panel with current mode, system status bars and Iris by Goo Goo Dolls playing" loading="lazy"/>
 
 </div>
 
