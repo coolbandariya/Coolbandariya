@@ -71,6 +71,7 @@ jobs:
               value = re.sub(r"[^a-z0-9 -]", "", value)
               return re.sub(r"\s+", "-", value.strip())
           anchors = {slugify(heading) for heading in headings}
+          anchors.update(re.findall(r'id="([^"]+)"', readme))
           internal_links = re.findall(r'href="#([^"]+)"', readme)
           for anchor in internal_links:
               assert anchor in anchors, f"Broken internal anchor: #{anchor}"
