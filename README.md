@@ -2,9 +2,9 @@
 
 <img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3JuNbn6G1fWehaUubucloQMU8cb/e0930052-b661-4682-a281-67b390d8146e.png" width="100%" alt="Kaustubh Dua — Electronics and Computer Engineering at JIIT Noida, building practical software"/>
 
-<img src="./assets/profile-motion.svg?v=20261009-equalizer" width="100%" alt="Animated monochrome engineering build log" loading="lazy"/>
+<img src="./assets/profile-motion.svg?v=20261010-audio-ticker" width="100%" alt="Animated monochrome engineering build log" loading="lazy"/>
 
-<img src="./assets/system-map.svg?v=20261009-signal-beam" width="100%" alt="Animated map connecting product design, intelligence and reliability" loading="lazy"/>
+<img src="./assets/system-map.svg?v=20261010-pipeline-beam" width="100%" alt="Animated map connecting product design, intelligence and reliability" loading="lazy"/>
 
 <p>
   <a href="#setlist"><img src="https://img.shields.io/badge/01-SETLIST-252525?style=flat-square&labelColor=111111&color=252525" alt="Setlist" loading="lazy"/></a>
@@ -16,11 +16,6 @@
 **ELECTRONICS & COMPUTER ENGINEERING · JIIT NOIDA**
 
 I build practical software across **AI, data, systems and product engineering** — with a focus on turning complex problems into useful, testable tools.
-
-<p>
-  <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-252525?style=flat-square&logo=github&logoColor=white" alt="Explore repositories" loading="lazy"/></a>
-  <a href="https://github.com/kaustubhdua?tab=stars"><img src="https://img.shields.io/badge/OPEN-STARRED%20WORK-252525?style=flat-square&logo=github&logoColor=white" alt="Starred repositories" loading="lazy"/></a>
-</p>
 
 </div>
 
@@ -242,11 +237,11 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
-<h2 id="studio-status" align="center">STUDIO STATUS</h2>
+<h2 id="studio-status" align="center">STUDIO NOTES</h2>
 
 <div align="center">
 
-<img src="./assets/studio-status.svg?v=20261010-motion" width="100%" alt="Monochrome studio panel with current mode, system status bars and Iris by Goo Goo Dolls playing" loading="lazy"/>
+<img src="./assets/studio-status.svg?v=20261010-studio-notes" width="100%" alt="Illustrative monochrome studio notes panel with visual signal bars and a featured Iris by Goo Goo Dolls track" loading="lazy"/>
 
 </div>
 
@@ -305,7 +300,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <a href="https://github.com/kaustubhdua/kaustubhdua/tree/activity-assets"><img src="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/activity-assets/activity-90d.svg?v=20261009-mono-v2" width="100%" alt="GitHub contribution activity over the last 90 days" loading="lazy"/></a>
 
-<p><sub>Generated automatically by GitHub Actions · <a href="https://github.com/kaustubhdua/kaustubhdua/tree/activity-assets">30-day, 90-day and 365-day charts</a></sub></p>
+<p><sub>Generated automatically by GitHub Actions · <a href="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/activity-assets/activity-30d.svg">30 days</a> · <a href="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/activity-assets/activity-90d.svg">90 days</a> · <a href="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/activity-assets/activity-365d.svg">365 days</a></sub></p>
 
 </div>
 
@@ -332,7 +327,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <div align="center">
 
-<img src="./assets/profile-footer.svg?v=20261009-signal-spark" width="100%" alt="Animated monochrome footer: build thoughtfully, verify everything" loading="lazy"/>
+<img src="./assets/profile-footer.svg?v=20261010-signal-spark" width="100%" alt="Animated monochrome footer: build thoughtfully, verify everything" loading="lazy"/>
 
 <a href="https://github.com/kaustubhdua?tab=repositories">EXPLORE ALL REPOSITORIES ↗</a>
 
