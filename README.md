@@ -163,41 +163,62 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
-<h2 id="studio-status" align="center"><img src="./assets/headings/studio-notes.svg?v=20261010-studio-notes-v3" alt="Studio Notes — animated signal-wave heading" width="100%" loading="lazy"/></h2>
-
-<table>
-  <tr>
-    <td align="center" valign="top" width="46%">
-      <sub>◈ THE WORKBENCH · BETWEEN TAKES</sub>
-      <br/><br/>
-      <img src="./assets/studio-status.svg?v=20261010-session-log-v4" width="100%" alt="Animated monochrome studio workbench with signal waveform, guitar pick and rotating vinyl; illustrative, not live telemetry" loading="lazy"/>
-      <br/>
-      <sub>IDEA → PROTOTYPE → TEST → SHIP</sub>
-    </td>
-    <td align="left" valign="top" width="54%">
-      <sub>◈ THE SESSION STATUS</sub>
-      <br/><br/>
-      <img src="./assets/vu-meter.svg?v=20261010-vu-meter-v1" width="100%" alt="Decorative animated monochrome VU meter with moving needle and level bars; not live telemetry" loading="lazy"/>
-      <br/><br/>
-      <sub>◈ THE SIX-STRING CHECKLIST</sub>
-      <br/><br/>
-      <img src="./assets/fretboard-progress.svg?v=20261010-fretboard-v1" width="100%" alt="Animated six-string fretboard for design, build, data, test, documentation and shipping" loading="lazy"/>
-    </td>
-  </tr>
-</table>
-
-**THE SESSION LOG**
-
-| Studio note | In practice |
-|:--|:--|
-| **01 · Write the riff** | Start with the smallest useful slice; keep scope clear and shippable. |
-| **02 · Listen closely** | Reproduce the issue, inspect evidence, and test assumptions before changing code. |
-| **03 · Find the groove** | Make the next step obvious; remove confusing UI and needless workflow friction. |
-| **04 · Tune the signal** | Run checks, cover edge cases, document limitations, and verify before shipping. |
+<h2 id="studio-status" align="center"><img src="./assets/headings/studio-notes.svg?v=20261010-studio-notes-v4" alt="Studio Notes — animated signal-wave heading" width="100%" loading="lazy"/></h2>
 
 <div align="center">
 
-<sub>LESS NOISE · CLEARER SIGNAL · ONE MORE TAKE. Music is the metaphor; useful features, clear UX, and verified changes are the proof.</sub>
+<table>
+<tr>
+<td align="center" valign="top" width="50%">
+<sub>◈ THE WORKBENCH / 02:17 AM</sub>
+<br/><br/>
+<img src="./assets/studio-status.svg?v=20261010-session-log-v5" width="100%" alt="Animated monochrome late-night coding workbench with monitor glow, signal strings, guitar pick and rotating vinyl; a studio illustration, not live telemetry" loading="lazy"/>
+<br/>
+<sub>BUILD SOMETHING. LISTEN CLOSELY. REPEAT.</sub>
+</td>
+<td align="center" valign="top" width="50%">
+<sub>◈ CURRENT ROTATION</sub>
+<br/><br/>
+<img src="./assets/vu-meter.svg?v=20261010-vu-meter-v2" width="100%" alt="Animated monochrome analog VU meter and signal bars, decorative studio motion rather than live audio data" loading="lazy"/>
+<br/><br/>
+<sub>◈ THE SIX-STRING CHECK</sub>
+<br/><br/>
+<img src="./assets/fretboard-progress.svg?v=20261010-fretboard-v2" width="100%" alt="Six animated guitar strings representing design, build, data, test, documentation and ship" loading="lazy"/>
+</td>
+</tr>
+</table>
+
+</div>
+
+### Notes from the workbench
+
+<sub>01 — THE RIFF</sub>
+
+**Start small. Make it real.**
+
+Turn a vague idea into one useful slice that can be tried, reviewed, and improved.
+
+<sub>02 — THE LISTEN</sub>
+
+**Find the actual problem.**
+
+Reproduce the bug, check the evidence, and test the assumption before reaching for another feature.
+
+<sub>03 — THE ARRANGEMENT</sub>
+
+**Make the next step obvious.**
+
+Keep the interface quiet and the workflow clear. Remove friction instead of adding decoration.
+
+<sub>04 — THE SOUND CHECK</sub>
+
+**Earn the ship.**
+
+Run the relevant tests, check awkward inputs, explain known limits, and verify the final change.
+
+<div align="center">
+
+<sub>LESS NOISE · CLEARER SIGNAL · ONE MORE TAKE</sub>
 
 </div>
 ---
