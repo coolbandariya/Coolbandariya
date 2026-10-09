@@ -2,9 +2,9 @@
 
 <img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3JuNbn6G1fWehaUubucloQMU8cb/e0930052-b661-4682-a281-67b390d8146e.png" width="100%" alt="Kaustubh Dua — Electronics and Computer Engineering at JIIT Noida, building practical software"/>
 
-<img src="./assets/profile-motion.svg?v=20261009" width="100%" alt="Animated monochrome engineering build log" loading="lazy"/>
+<img src="./assets/profile-motion.svg?v=20261009-equalizer" width="100%" alt="Animated monochrome engineering build log" loading="lazy"/>
 
-<img src="./assets/system-map.svg?v=20261009" width="100%" alt="Animated map connecting product design, intelligence and reliability" loading="lazy"/>
+<img src="./assets/system-map.svg?v=20261009-signal-beam" width="100%" alt="Animated map connecting product design, intelligence and reliability" loading="lazy"/>
 
 <p>
   <a href="#setlist"><img src="https://img.shields.io/badge/01-SETLIST-252525?style=flat-square&labelColor=111111&color=252525" alt="Setlist" loading="lazy"/></a>
@@ -332,7 +332,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <div align="center">
 
-<img src="./assets/profile-footer.svg?v=20261009" width="100%" alt="Animated monochrome footer: build thoughtfully, verify everything" loading="lazy"/>
+<img src="./assets/profile-footer.svg?v=20261009-signal-spark" width="100%" alt="Animated monochrome footer: build thoughtfully, verify everything" loading="lazy"/>
 
 <a href="https://github.com/kaustubhdua?tab=repositories">EXPLORE ALL REPOSITORIES ↗</a>
 
