@@ -303,8 +303,6 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <div align="center">
 
-<div align="center">
-
 <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-303030?style=for-the-badge&labelColor=202020&logo=github&logoColor=E5E5E5" alt="Explore repositories" loading="lazy"/></a>
 <a href="https://github.com/kaustubhdua?tab=stars"><img src="https://img.shields.io/badge/STARRED-WORK-303030?style=for-the-badge&labelColor=202020&logo=github&logoColor=E5E5E5" alt="Starred work" loading="lazy"/></a>
 <a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge-FOLLOW-GITHUB-303030?style=for-the-badge&labelColor=202020&logo=github&logoColor=E5E5E5" alt="Follow on GitHub" loading="lazy"/></a>
@@ -314,21 +312,21 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 <div align="center">
 
 <a href="https://github.com/kaustubhdua">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaustubhdua&bg_color=0D1117&color=C9C9C9&line=A0A0A0&point=E5E5E5&area=true&hide_border=true&custom_title=CONTRIBUTION%20SIGNAL" width="100%" alt="GitHub contribution activity graph in monochrome" loading="lazy"/>
-</a>
-
-</div>
-
-<a href="https://github.com/kaustubhdua">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=kaustubhdua&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A0A0A0&text_color=C9C9C9&icon_color=E5E5E5&rank_icon=github&include_all_commits=true" height="170" alt="Live GitHub statistics for kaustubhdua" loading="lazy"/>
-</a>
-<a href="https://github.com/kaustubhdua?tab=repositories">
-  <img src="./assets/most-used-languages.svg?v=20261009-mono" height="170" alt="Monochrome most-used languages card: CSS 46.89%, JavaScript 24.55%, TypeScript 15.03%, PLpgSQL 7.18%, Python 5.32%, C++ 0.76%, HTML 0.22%, PowerShell 0.04%" loading="lazy"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaustubhdua&bg_color=0D1117&color=C9C9C9&line=A0A0A0&point=E5E5E5&area_color=303030&area=true&hide_border=true&custom_title=CONTRIBUTION%20SIGNAL" width="100%" alt="GitHub contribution activity graph in monochrome" loading="lazy"/>
 </a>
 
 </div>
 
 <div align="center">
+
+<a href="https://github.com/kaustubhdua">
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=kaustubhdua&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A0A0A0&text_color=C9C9C9&icon_color=E5E5E5&rank_icon=github&include_all_commits=true" height="170" alt="Live GitHub statistics for kaustubhdua" loading="lazy"/>
+</a>
+<a href="https://github.com/kaustubhdua?tab=repositories">
+  <img src="./assets/most-used-languages.svg?v=20261009-mono" height="170" alt="Monochrome most-used languages card" loading="lazy"/>
+</a>
+
+</div>
 
 <a href="https://github.com/kaustubhdua">
   <img src="https://streak-stats.demolab.com?user=kaustubhdua&hide_border=true&background=0D1117&ring=A0A0A0&fire=D0D0D0&currStreakLabel=A0A0A0&sideLabels=AAAAAA&dates=777777&currStreakNum=E8E8E8&sideNums=E8E8E8&date_format=M%20j%5B%2C%20Y%5D" width="80%" alt="GitHub contribution streak for kaustubhdua" loading="lazy"/>
