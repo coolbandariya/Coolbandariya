@@ -248,11 +248,16 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <div align="center">
 
-<img src="./assets/guitar-studio.svg?v=20261010-stratocaster" width="100%" alt="Animated graphite electric guitar with six strings, fretboard, pickups, bridge, tuning pegs and an audio visualizer" loading="lazy"/>
+<img src="./assets/guitar-studio.svg?v=20261010-stratocaster" width="100%" alt="Animated black-and-white electric guitar studio scene with fretboard, strings, pickups, amplifier-inspired details and a music visualizer" loading="lazy"/>
 
-**GUITAR · MUSIC · CREATIVE RESET**
+**NOW PLAYING / IRIS — GOO GOO DOLLS**
 
-*Same six strings. Different worlds. Infinite ideas.*
+*“And I'd give up forever to touch you…”*
+
+<a href="https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"><img src="https://img.shields.io/badge/SPOTIFY-LISTEN-252525?style=for-the-badge&logo=spotify&logoColor=white" alt="Listen to Iris by Goo Goo Dolls on Spotify" loading="lazy"/></a>
+<a href="https://www.youtube.com/results?search_query=Goo+Goo+Dolls+Iris+official"><img src="https://img.shields.io/badge/YOUTUBE-PLAY-252525?style=for-the-badge&logo=youtube&logoColor=white" alt="Find the official Iris music video on YouTube" loading="lazy"/></a>
+
+<sub>GUITAR · MUSIC · CREATIVE RESET — same six strings, different worlds.</sub>
 
 </div>
 
