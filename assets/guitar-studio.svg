@@ -33,8 +33,8 @@
 <g transform="translate(70 -6) rotate(-14 585 190)">
  <!-- one coherent six-in-line electric guitar: headstock, neck, body and hardware -->
  <!-- maple neck and dark fretboard -->
- <path d="M398 170L878 140L900 159L410 193Z" fill="url(#neck)" stroke="#aaa" stroke-width="1.2"/>
- <path d="M405 172L878 143L892 157L411 187Z" fill="#101010" stroke="#777" stroke-width="1"/>
+ <path d="M398 238L878 122L900 143L410 269Z" fill="url(#neck)" stroke="#aaa" stroke-width="1.2"/>
+ <path d="M404 242L879 126L892 143L411 264Z" fill="#101010" stroke="#777" stroke-width="1"/>
  <path d="M877 141L906 120Q922 114 938 125L946 141L931 158L897 166Z" fill="url(#metal)" stroke="#ddd" stroke-width="1.5"/>
  <path d="M884 146L907 127L931 130L938 141L927 151L899 158Z" fill="#111" stroke="#777" stroke-width="1"/>
  <!-- six individual inline tuner posts and keys -->
@@ -48,10 +48,10 @@
  </g>
  <!-- fret wires follow the slight taper of the fretboard -->
  <g stroke="#bcbcbc" stroke-width="1" opacity=".92">
-  <path d="M438 170L441 187M463 168L466 185M489 166L492 183M516 164L519 181M544 162L547 179M573 160L576 177M603 158L606 175M634 156L637 173M666 154L669 171M699 152L702 169M733 150L736 167M768 148L771 165M804 146L807 163M841 144L844 161M866 143L869 160"/>
+  <path d="M438 234L444 251M463 228L469 245M489 222L495 239M516 216L522 233M544 209L550 226M573 202L579 219M603 195L609 212M634 187L640 204M666 179L672 196M699 171L705 188M733 163L739 180M768 155L774 172M804 146L810 163M841 138L847 155M866 132L872 149"/>
  </g>
  <g fill="#ddd">
-  <circle cx="480" cy="176" r="1.8"/><circle cx="537" cy="172" r="1.8"/><circle cx="597" cy="168" r="1.8"/><circle cx="659" cy="164" r="1.8"/><circle cx="725" cy="160" r="1.8"/><circle cx="793" cy="156" r="1.8"/>
+  <circle cx="480" cy="232" r="1.8"/><circle cx="537" cy="218" r="1.8"/><circle cx="597" cy="204" r="1.8"/><circle cx="659" cy="189" r="1.8"/><circle cx="725" cy="173" r="1.8"/><circle cx="793" cy="157" r="1.8"/>
  </g>
  <!-- recognisable Strat-style double-cutaway body -->
  <path d="M397 174
