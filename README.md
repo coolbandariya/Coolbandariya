@@ -163,27 +163,32 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
-<h2 id="studio-status" align="center"><img src="./assets/headings/studio-notes.svg?v=20261010-studio-notes-v2" alt="Studio Notes — animated session log heading" width="100%" loading="lazy"/></h2>
+<h2 id="studio-status" align="center"><img src="./assets/headings/studio-notes.svg?v=20261010-studio-notes-v3" alt="Studio Notes — animated signal-wave heading" width="100%" loading="lazy"/></h2>
 
 <div align="center">
 
-<img src="./assets/studio-status.svg?v=20261010-session-log-v3" width="100%" alt="Animated monochrome guitar studio session board with a moving signal trace, guitar strings, a glowing pick, four build principles and a spinning vinyl record for Iris by Goo Goo Dolls. These are editorial notes, not live telemetry." loading="lazy"/>
-
-<img src="./assets/vu-meter.svg?v=20261010-vu-meter-v1" width="100%" alt="Decorative animated monochrome studio VU meter with a moving needle and level bars; not live telemetry" loading="lazy"/>
-
-<img src="./assets/fretboard-progress.svg?v=20261010-fretboard-v1" width="100%" alt="Animated six-string guitar fretboard representing design, build, data, test, documentation and shipping" loading="lazy"/>
-
-**THE SESSION LOG**
-
-*Write the riff* — turn a fuzzy idea into a small, useful first version.  
-*Listen closely* — test assumptions before adding another feature.  
-*Find the groove* — make the interface and workflow feel obvious.  
-*Tune the signal* — debug, document, and verify the details before shipping.
-
-<sub>LESS NOISE · CLEARER SIGNAL · ONE MORE TAKE. Music is the metaphor; the projects and checks are the proof.</sub>
+<img src="./assets/studio-status.svg?v=20261010-session-log-v4" width="100%" alt="Animated monochrome studio workbench and four engineering habits: start small, test assumptions, simplify workflows, and verify before shipping; decorative illustration, not live telemetry" loading="lazy"/>
 
 </div>
 
+### The session log
+
+| Studio note | What it means in practice |
+|:--|:--|
+| **Write the riff** | Ship the smallest useful slice first. Keep scope clear and make progress easy to review. |
+| **Listen closely** | Reproduce the issue, inspect the evidence, and test assumptions before changing code. |
+| **Find the groove** | Make the next action obvious. Remove needless steps, confusing copy, and visual noise. |
+| **Tune the signal** | Run relevant checks, handle edge cases, document limitations, and verify the result before calling it done. |
+
+<div align="center">
+
+<img src="./assets/vu-meter.svg?v=20261010-vu-meter-v1" width="100%" alt="Decorative animated monochrome VU meter with moving needle and level bars; a visual rhythm metaphor, not live telemetry" loading="lazy"/>
+
+<img src="./assets/fretboard-progress.svg?v=20261010-fretboard-v1" width="100%" alt="Animated six-string fretboard linking design, build, data, test, documentation and shipping" loading="lazy"/>
+
+<sub>LESS NOISE · CLEARER SIGNAL · ONE MORE TAKE. Music is the metaphor; useful features, clear UX, and verified changes are the proof.</sub>
+
+</div>
 ---
 
 <h2 id="on-the-turntable"><img src="./assets/headings/on-the-turntable.svg?v=20261009-text-reveal-v2" alt="On the Turntable" width="100%" loading="lazy"/></h2>
