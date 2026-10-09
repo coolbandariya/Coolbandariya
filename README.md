@@ -295,7 +295,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-EXPLORE-303030?style=for-the-badge&labelColor=202020&logo=github&logoColor=E5E5E5" alt="Explore repositories" loading="lazy"/></a>
 <a href="https://github.com/kaustubhdua?tab=stars"><img src="https://img.shields.io/badge/STARRED-WORK-303030?style=for-the-badge&labelColor=202020&logo=github&logoColor=E5E5E5" alt="Starred repositories" loading="lazy"/></a>
-<a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge-GITHUB-FOLLOW-303030?style=for-the-badge&labelColor=202020&logo=github&logoColor=E5E5E5" alt="Follow on GitHub" loading="lazy"/></a>
+<a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge/GITHUB-FOLLOW-303030?style=for-the-badge&labelColor=202020&logo=github&logoColor=E5E5E5" alt="Follow on GitHub" loading="lazy"/></a>
 
 </div>
 
