@@ -193,7 +193,6 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
   </picture>
 </p>
 
-<p align="center"><sub>MONOCHROME CONTRIBUTIONS · daily animation · no purple, no green</sub></p>
 
 </div>
 
@@ -229,7 +228,6 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 </div>
 
-<sub>Statistics and language breakdowns are generated automatically; third-party services may occasionally be unavailable.</sub>
 
 ---
 
