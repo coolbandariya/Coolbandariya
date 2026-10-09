@@ -4,8 +4,6 @@
 
 <img src="./assets/profile-motion.svg?v=20261010-audio-ticker" width="100%" alt="Animated monochrome engineering build log" loading="lazy"/>
 
-<img src="./assets/system-map.svg?v=20261010-pipeline-beam-v2" width="100%" alt="Animated map connecting product design, intelligence and reliability" loading="lazy"/>
-
 <p>
   <a href="#setlist"><img src="https://img.shields.io/badge/01-SETLIST-252525?style=flat-square&labelColor=111111&color=252525" alt="Setlist" loading="lazy"/></a>
   <a href="#rig-signal-chain"><img src="https://img.shields.io/badge/02-RIG_%26_SIGNAL_CHAIN-252525?style=flat-square&labelColor=111111&color=252525" alt="Rig and signal chain" loading="lazy"/></a>
@@ -98,120 +96,46 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 </details>
 
+<div align="center">
+
+<img src="./assets/system-map.svg?v=20261010-pipeline-beam-v2" width="100%" alt="Animated map connecting product design, intelligence and reliability" loading="lazy"/>
+
+</div>
+
 ---
 
 <h2 id="rig-signal-chain"><img src="./assets/headings/rig-signal-chain.svg?v=20261009-text-reveal-v2" alt="Rig & Signal Chain" width="100%" loading="lazy"/></h2>
 
 <sub>The instruments, pedals and signal paths behind the projects. Each stack varies by repository; tools listed here should reflect active project use.</sub>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**01 / Strings & fundamentals**
-
+**Languages**  
 ![Python](https://img.shields.io/badge/Python-252525?style=flat-square&logo=python&logoColor=F4EFE5)
-![JavaScript](https://img.shields.io/badge/JavaScript-252525?style=flat-square&logo=javascript&logoColor=F4EFE5)
 ![TypeScript](https://img.shields.io/badge/TypeScript-252525?style=flat-square&logo=typescript&logoColor=F4EFE5)
-![C](https://img.shields.io/badge/C-252525?style=flat-square&logo=c&logoColor=F4EFE5)
+![JavaScript](https://img.shields.io/badge/JavaScript-252525?style=flat-square&logo=javascript&logoColor=F4EFE5)
 ![C++](https://img.shields.io/badge/C%2B%2B-252525?style=flat-square&logo=cplusplus&logoColor=F4EFE5)
 ![SQL](https://img.shields.io/badge/SQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
-![HTML5](https://img.shields.io/badge/HTML5-252525?style=flat-square&logo=html5&logoColor=F4EFE5)
-![CSS3](https://img.shields.io/badge/CSS3-252525?style=flat-square&logo=css3&logoColor=F4EFE5)
 
-</td>
-<td width="50%" valign="top">
-
-**02 / Stage & visual effects**
-
+**Application development**  
 ![React](https://img.shields.io/badge/React-252525?style=flat-square&logo=react&logoColor=F4EFE5)
 ![Next.js](https://img.shields.io/badge/Next.js-252525?style=flat-square&logo=nextdotjs&logoColor=F4EFE5)
-![Vite](https://img.shields.io/badge/Vite-252525?style=flat-square&logo=vite&logoColor=F4EFE5)
-![React Router](https://img.shields.io/badge/React_Router-252525?style=flat-square&logo=reactrouter&logoColor=F4EFE5)
-![Zustand](https://img.shields.io/badge/Zustand-252525?style=flat-square)
-![TanStack Query](https://img.shields.io/badge/TanStack_Query-252525?style=flat-square&logo=reactquery&logoColor=F4EFE5)
-![Chart.js](https://img.shields.io/badge/Chart.js-252525?style=flat-square&logo=chartdotjs&logoColor=F4EFE5)
-![Three.js](https://img.shields.io/badge/Three.js-252525?style=flat-square&logo=threedotjs&logoColor=F4EFE5)
-![WebGL](https://img.shields.io/badge/WebGL-252525?style=flat-square&logo=webgl&logoColor=F4EFE5)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-252525?style=flat-square&logo=tailwindcss&logoColor=F4EFE5)
-![Streamlit](https://img.shields.io/badge/Streamlit-252525?style=flat-square&logo=streamlit&logoColor=F4EFE5)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**03 / Amps & signal routing**
-
 ![FastAPI](https://img.shields.io/badge/FastAPI-252525?style=flat-square&logo=fastapi&logoColor=F4EFE5)
-![Node.js](https://img.shields.io/badge/Node.js-252525?style=flat-square&logo=nodedotjs&logoColor=F4EFE5)
-![REST APIs](https://img.shields.io/badge/REST_APIs-252525?style=flat-square)
-![Python services](https://img.shields.io/badge/Python_services-252525?style=flat-square)
-![Speech APIs](https://img.shields.io/badge/Speech_APIs-252525?style=flat-square)
-![Pydantic](https://img.shields.io/badge/Pydantic-252525?style=flat-square&logo=pydantic&logoColor=F4EFE5)
-![Prisma](https://img.shields.io/badge/Prisma-252525?style=flat-square&logo=prisma&logoColor=F4EFE5)
+![Streamlit](https://img.shields.io/badge/Streamlit-252525?style=flat-square&logo=streamlit&logoColor=F4EFE5)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-252525?style=flat-square&logo=tailwindcss&logoColor=F4EFE5)
 
-</td>
-<td valign="top">
-
-**04 / Sound design & signal processing**
-
-![Pandas](https://img.shields.io/badge/Pandas-252525?style=flat-square&logo=pandas&logoColor=F4EFE5)
-![NumPy](https://img.shields.io/badge/NumPy-252525?style=flat-square&logo=numpy&logoColor=F4EFE5)
+**Data, AI & optimisation**  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
+![Supabase](https://img.shields.io/badge/Supabase-252525?style=flat-square&logo=supabase&logoColor=F4EFE5)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-252525?style=flat-square&logo=scikitlearn&logoColor=F4EFE5)
 ![Ollama](https://img.shields.io/badge/Ollama-252525?style=flat-square&logo=ollama&logoColor=F4EFE5)
-![Embeddings](https://img.shields.io/badge/Embeddings-252525?style=flat-square)
-![LLM workflows](https://img.shields.io/badge/LLM_workflows-252525?style=flat-square)
-![OR--Tools](https://img.shields.io/badge/OR--Tools-252525?style=flat-square&logo=google&logoColor=F4EFE5)
-![Fuzzy logic](https://img.shields.io/badge/Fuzzy_logic-252525?style=flat-square)
-![Geospatial mapping](https://img.shields.io/badge/Geospatial_mapping-252525?style=flat-square)
-![Folium](https://img.shields.io/badge/Folium-252525?style=flat-square)
-![Qdrant](https://img.shields.io/badge/Qdrant-252525?style=flat-square)
-![Vertex AI](https://img.shields.io/badge/Vertex_AI-252525?style=flat-square&logo=googlecloud&logoColor=F4EFE5)
-![NVIDIA NIM](https://img.shields.io/badge/NVIDIA_NIM-252525?style=flat-square&logo=nvidia&logoColor=F4EFE5)
-![Prefect](https://img.shields.io/badge/Prefect-252525?style=flat-square)
-![Pillow](https://img.shields.io/badge/Pillow-252525?style=flat-square)
-![OpenCV](https://img.shields.io/badge/OpenCV-252525?style=flat-square&logo=opencv&logoColor=F4EFE5)
-![ReportLab](https://img.shields.io/badge/ReportLab-252525?style=flat-square)
-![pypdf](https://img.shields.io/badge/pypdf-252525?style=flat-square)
+![OR-Tools](https://img.shields.io/badge/OR--Tools-252525?style=flat-square&logo=google&logoColor=F4EFE5)
+![Three.js](https://img.shields.io/badge/Three.js-252525?style=flat-square&logo=threedotjs&logoColor=F4EFE5)
 
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**05 / Recording room & connections**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
-![PostGIS](https://img.shields.io/badge/PostGIS-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
-![TimescaleDB](https://img.shields.io/badge/TimescaleDB-252525?style=flat-square)
-![Qdrant](https://img.shields.io/badge/Qdrant-252525?style=flat-square)
-![Prisma](https://img.shields.io/badge/Prisma-252525?style=flat-square&logo=prisma&logoColor=F4EFE5)
-![Supabase](https://img.shields.io/badge/Supabase-252525?style=flat-square&logo=supabase&logoColor=F4EFE5)
-![SQLite](https://img.shields.io/badge/SQLite-252525?style=flat-square&logo=sqlite&logoColor=F4EFE5)
-![Ollama](https://img.shields.io/badge/Local_inference-252525?style=flat-square&logo=ollama&logoColor=F4EFE5)
-![IoT-style data](https://img.shields.io/badge/IoT--style_data-252525?style=flat-square)
-
-</td>
-<td valign="top">
-
-**06 / Soundcheck & release**
-
+**Engineering & quality**  
 ![Git](https://img.shields.io/badge/Git-252525?style=flat-square&logo=git&logoColor=F4EFE5)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-252525?style=flat-square&logo=githubactions&logoColor=F4EFE5)
 ![Pytest](https://img.shields.io/badge/Pytest-252525?style=flat-square&logo=pytest&logoColor=F4EFE5)
 ![Playwright](https://img.shields.io/badge/Playwright-252525?style=flat-square&logo=playwright&logoColor=F4EFE5)
-![CMake](https://img.shields.io/badge/CMake-252525?style=flat-square&logo=cmake&logoColor=F4EFE5)
 ![Docker](https://img.shields.io/badge/Docker-252525?style=flat-square&logo=docker&logoColor=F4EFE5)
-![CTest](https://img.shields.io/badge/CTest-252525?style=flat-square)
-![ESLint](https://img.shields.io/badge/ESLint-252525?style=flat-square&logo=eslint&logoColor=F4EFE5)
-![CodeQL](https://img.shields.io/badge/CodeQL-252525?style=flat-square&logo=github&logoColor=F4EFE5)
-![CI workflows](https://img.shields.io/badge/CI_workflows-252525?style=flat-square)
-![Threat triage](https://img.shields.io/badge/Threat_triage-252525?style=flat-square)
-
-</td>
-</tr>
-</table>
 
 <details>
 <summary><strong>Track-by-track rig notes</strong></summary>
@@ -255,7 +179,6 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 **ON REPEAT / IRIS — GOO GOO DOLLS**
 
-
 <a href="https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"><img src="https://img.shields.io/badge/SPOTIFY-LISTEN-252525?style=for-the-badge&logo=spotify&logoColor=white" alt="Listen to Iris by Goo Goo Dolls on Spotify" loading="lazy"/></a>
 <a href="https://www.youtube.com/results?search_query=Goo+Goo+Dolls+Iris+official"><img src="https://img.shields.io/badge/YOUTUBE-PLAY-252525?style=for-the-badge&logo=youtube&logoColor=white" alt="Find the official Iris music video on YouTube" loading="lazy"/></a>
 
@@ -294,15 +217,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 </div>
 
-<div align="center">
 
-<p><sub>CONTRIBUTION ACTIVITY · LAST 90 DAYS</sub></p>
-
-<a href="https://github.com/kaustubhdua/kaustubhdua/tree/activity-assets"><img src="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/activity-assets/activity-90d.svg?v=20261009-mono-v2" width="100%" alt="GitHub contribution activity over the last 90 days" loading="lazy"/></a>
-
-<p><sub>Generated automatically by GitHub Actions · <a href="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/activity-assets/activity-30d.svg">30 days</a> · <a href="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/activity-assets/activity-90d.svg">90 days</a> · <a href="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/activity-assets/activity-365d.svg">365 days</a></sub></p>
-
-</div>
 
 <div align="center">
 
@@ -315,13 +230,11 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 </div>
 
-<a href="https://github.com/kaustubhdua">
-  <img src="https://streak-stats.demolab.com?user=kaustubhdua&hide_border=true&background=0D1117&ring=A0A0A0&fire=D0D0D0&currStreakLabel=A0A0A0&sideLabels=AAAAAA&dates=777777&currStreakNum=E8E8E8&sideNums=E8E8E8&date_format=M%20j%5B%2C%20Y%5D" width="80%" alt="GitHub contribution streak for kaustubhdua" loading="lazy"/>
-</a>
+
 
 </div>
 
-<sub>These cards are generated from GitHub activity by third-party services; availability and refresh timing depend on those services. No contribution totals are hard-coded.</sub>
+<sub>Statistics and language breakdowns are generated automatically; third-party services may occasionally be unavailable.</sub>
 
 ---
 
