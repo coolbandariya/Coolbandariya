@@ -26,7 +26,7 @@ I build practical software across **AI, data, systems and product engineering** 
 
 ---
 
-## Setlist
+<h2 id="setlist"><img src="./assets/headings/setlist.svg" alt="Setlist" width="100%" loading="lazy"/></h2>
 
 <table>
 <tr>
@@ -105,7 +105,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
-## Rig & Signal Chain
+<h2 id="rig-signal-chain"><img src="./assets/headings/rig-signal-chain.svg" alt="Rig & Signal Chain" width="100%" loading="lazy"/></h2>
 
 <sub>The instruments, pedals and signal paths behind the projects. Each stack varies by repository.</sub>
 
@@ -244,7 +244,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
-## On the Turntable
+<h2 id="on-the-turntable"><img src="./assets/headings/on-the-turntable.svg" alt="On the Turntable" width="100%" loading="lazy"/></h2>
 
 <div align="center">
 
@@ -262,7 +262,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 </div>
 
 ---
-## The Encore
+<h2 id="the-encore"><img src="./assets/headings/the-encore.svg" alt="The Encore" width="100%" loading="lazy"/></h2>
 
 <div align="center">
 
@@ -280,7 +280,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
  
-## Backstage Pass
+<h2 id="backstage-pass"><img src="./assets/headings/backstage-pass.svg" alt="Backstage Pass" width="100%" loading="lazy"/></h2>
 
 <div align="center">
 
