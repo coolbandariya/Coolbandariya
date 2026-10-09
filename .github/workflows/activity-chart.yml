@@ -42,6 +42,14 @@ jobs:
           set -euo pipefail
           temp_dir="$(mktemp -d)"
           cp -a activity-dist/. "$temp_dir/"
+          # Enforce the profile-wide grayscale palette on generated SVG charts.
+          find "$temp_dir" -type f -name "*.svg" -exec sed -i \
+            -e "s/#39d353/#A0A0A0/Ig" \
+            -e "s/#238636/#777777/Ig" \
+            -e "s/#2ea043/#969696/Ig" \
+            -e "s/#3fb950/#BDBDBD/Ig" \
+            -e "s/#f0f6fc/#E5E5E5/Ig" \
+            -e "s/#8b949e/#A0A0A0/Ig" {} +
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git switch --orphan "$TARGET_BRANCH"
