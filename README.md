@@ -288,10 +288,10 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 <div align="center">
 
 <a href="https://github.com/kaustubhdua">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=kaustubhdua&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&include_all_commits=true" height="170" alt="Live GitHub statistics for kaustubhdua" loading="lazy"/>
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=kaustubhdua&show_icons=true&hide_border=true&bg_color=0D1117&title_color=B8B2C8&text_color=C9C6D0&icon_color=B8B2C8&rank_icon=github&include_all_commits=true" height="170" alt="Live GitHub statistics for kaustubhdua" loading="lazy"/>
 </a>
 <a href="https://github.com/kaustubhdua?tab=repositories">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kaustubhdua&layout=compact&hide_border=true&theme=transparent&langs_count=8" height="170" alt="Most-used languages across public repositories" loading="lazy"/>
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kaustubhdua&layout=compact&hide_border=true&bg_color=0D1117&title_color=B8B2C8&text_color=C9C6D0&langs_count=8" height="170" alt="Most-used languages across public repositories" loading="lazy"/>
 </a>
 
 </div>
@@ -299,7 +299,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 <div align="center">
 
 <a href="https://github.com/kaustubhdua">
-  <img src="https://streak-stats.demolab.com?user=kaustubhdua&hide_border=true&theme=transparent&date_format=M%20j%5B%2C%20Y%5D" width="80%" alt="GitHub contribution streak for kaustubhdua" loading="lazy"/>
+  <img src="https://streak-stats.demolab.com?user=kaustubhdua&hide_border=true&background=0D1117&ring=B8B2C8&fire=C9C6D0&currStreakLabel=B8B2C8&sideLabels=AAA7B0&dates=777777&currStreakNum=E8E6E1&sideNums=E8E6E1&date_format=M%20j%5B%2C%20Y%5D" width="80%" alt="GitHub contribution streak for kaustubhdua" loading="lazy"/>
 </a>
 
 </div>
