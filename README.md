@@ -21,7 +21,7 @@ I build practical software across **AI, data, systems and product engineering** 
 
 ---
 
-<h2 id="setlist"><img src="./assets/headings/setlist.svg?v=20261011-signal" alt="Setlist" width="100%" loading="lazy"/></h2>
+<h2 id="setlist"><img src="./assets/headings/setlist.svg?v=20261011-title-glow" alt="Setlist" width="100%" loading="lazy"/></h2>
 
 <table>
 <tr>
@@ -100,7 +100,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
-<h2 id="rig-signal-chain"><img src="./assets/headings/rig-signal-chain.svg?v=20261011-signal" alt="Rig & Signal Chain" width="100%" loading="lazy"/></h2>
+<h2 id="rig-signal-chain"><img src="./assets/headings/rig-signal-chain.svg?v=20261011-title-glow" alt="Rig & Signal Chain" width="100%" loading="lazy"/></h2>
 
 <sub>The instruments, pedals and signal paths behind the projects. Each stack varies by repository; tools listed here should reflect active project use.</sub>
 
@@ -247,7 +247,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
-<h2 id="on-the-turntable"><img src="./assets/headings/on-the-turntable.svg?v=20261011-signal" alt="On the Turntable" width="100%" loading="lazy"/></h2>
+<h2 id="on-the-turntable"><img src="./assets/headings/on-the-turntable.svg?v=20261011-title-glow" alt="On the Turntable" width="100%" loading="lazy"/></h2>
 
 <div align="center">
 
@@ -264,11 +264,11 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 </div>
 
 ---
-<h2 id="the-encore"><img src="./assets/headings/the-encore.svg?v=20261011-signal" alt="The Encore" width="100%" loading="lazy"/></h2>
+<h2 id="the-encore"><img src="./assets/headings/the-encore.svg?v=20261011-title-glow" alt="The Encore" width="100%" loading="lazy"/></h2>
 
 <div align="center">
 
-<h3 id="snake-eating-my-contribution-snake"><img src="./assets/headings/snake-contributions.svg?v=20261011-signal" alt="Snake Eating My Contribution Snake" width="100%" loading="lazy"/></h3>
+<h3 id="snake-eating-my-contribution-snake"><img src="./assets/headings/snake-contributions.svg?v=20261011-title-glow" alt="Snake Eating My Contribution Snake" width="100%" loading="lazy"/></h3>
 
 <p align="center">
   <picture>
@@ -284,7 +284,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
  
-<h2 id="backstage-pass"><img src="./assets/headings/backstage-pass.svg?v=20261011-signal" alt="Backstage Pass" width="100%" loading="lazy"/></h2>
+<h2 id="backstage-pass"><img src="./assets/headings/backstage-pass.svg?v=20261011-title-glow" alt="Backstage Pass" width="100%" loading="lazy"/></h2>
 
 <div align="center">
 
