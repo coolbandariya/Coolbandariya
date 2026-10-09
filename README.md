@@ -100,6 +100,8 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <img src="./assets/system-map.svg?v=20261010-pipeline-beam-v2" width="100%" alt="Animated map connecting product design, intelligence and reliability" loading="lazy"/>
 
+<img src="./assets/signal-chain.svg?v=20261010-signal-chain-v1" width="100%" alt="Animated monochrome guitar signal chain connecting idea, prototype, test and ship" loading="lazy"/>
+
 </div>
 
 ---
@@ -161,11 +163,15 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
-<h2 id="studio-status" align="center">STUDIO NOTES · THE SESSION LOG</h2>
+<h2 id="studio-status" align="center"><img src="./assets/headings/studio-notes.svg?v=20261010-studio-notes-v2" alt="Studio Notes — animated session log heading" width="100%" loading="lazy"/></h2>
 
 <div align="center">
 
 <img src="./assets/studio-status.svg?v=20261010-session-log-v3" width="100%" alt="Animated monochrome guitar studio session board with a moving signal trace, guitar strings, a glowing pick, four build principles and a spinning vinyl record for Iris by Goo Goo Dolls. These are editorial notes, not live telemetry." loading="lazy"/>
+
+<img src="./assets/vu-meter.svg?v=20261010-vu-meter-v1" width="100%" alt="Decorative animated monochrome studio VU meter with a moving needle and level bars; not live telemetry" loading="lazy"/>
+
+<img src="./assets/fretboard-progress.svg?v=20261010-fretboard-v1" width="100%" alt="Animated six-string guitar fretboard representing design, build, data, test, documentation and shipping" loading="lazy"/>
 
 **THE SESSION LOG**
 
