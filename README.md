@@ -266,7 +266,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <div align="center">
 
-### 🐍 Snake Eating My Contribution Snake
+<h3 id="snake-eating-my-contribution-snake"><img src="./assets/headings/snake-contributions.svg?v=20261010-gray" alt="Snake Eating My Contribution Snake" width="100%" loading="lazy"/></h3>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake-dark.svg"/>
