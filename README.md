@@ -163,49 +163,6 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
-<div align="center">
-
-<a href="https://github.com/kaustubhdua/Portfolio-"><img src="https://img.shields.io/badge/▲_PORTFOLIO-VISIT-252525?style=for-the-badge&labelColor=454545&color=252525" alt="Visit portfolio repository" loading="lazy"/></a>
-<a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-EXPLORE-252525?style=for-the-badge&labelColor=454545&color=252525" alt="Explore repositories" loading="lazy"/></a>
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=kaustubhdua&style=for-the-badge&color=303030&label=PROFILE+VIEWS" alt="Profile views counter" loading="lazy"/>
-<a href="https://github.com/kaustubhdua?tab=followers"><img src="https://img.shields.io/github/followers/kaustubhdua?style=for-the-badge&label=FOLLOWERS&labelColor=303030&color=252525" alt="GitHub followers" loading="lazy"/></a>
-<a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/github/stars/kaustubhdua?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&label=STARS&labelColor=303030&color=252525" alt="GitHub stars across owned and collaborated repositories" loading="lazy"/></a>
-
-</div>
-
----
-
-<h2 id="tech-stack">Tech Stack</h2>
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-252525?style=for-the-badge&logo=python&logoColor=E5E5E5)
-![TypeScript](https://img.shields.io/badge/TypeScript-252525?style=for-the-badge&logo=typescript&logoColor=E5E5E5)
-![JavaScript](https://img.shields.io/badge/JavaScript-252525?style=for-the-badge&logo=javascript&logoColor=E5E5E5)
-![C++](https://img.shields.io/badge/C%2B%2B-252525?style=for-the-badge&logo=cplusplus&logoColor=E5E5E5)
-![SQL](https://img.shields.io/badge/SQL-252525?style=for-the-badge&logo=postgresql&logoColor=E5E5E5)
-
-**Application development**
-
-![React](https://img.shields.io/badge/React-252525?style=for-the-badge&logo=react&logoColor=E5E5E5)
-![Next.js](https://img.shields.io/badge/Next.js-252525?style=for-the-badge&logo=nextdotjs&logoColor=E5E5E5)
-![FastAPI](https://img.shields.io/badge/FastAPI-252525?style=for-the-badge&logo=fastapi&logoColor=E5E5E5)
-![Streamlit](https://img.shields.io/badge/Streamlit-252525?style=for-the-badge&logo=streamlit&logoColor=E5E5E5)
-
-**Data, AI & engineering**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-252525?style=for-the-badge&logo=postgresql&logoColor=E5E5E5)
-![Supabase](https://img.shields.io/badge/Supabase-252525?style=for-the-badge&logo=supabase&logoColor=E5E5E5)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-252525?style=for-the-badge&logo=githubactions&logoColor=E5E5E5)
-![Docker](https://img.shields.io/badge/Docker-252525?style=for-the-badge&logo=docker&logoColor=E5E5E5)
-
-<sub>Badges follow the monochrome studio palette; live counters are supplied by third-party services.</sub>
-
----
-
 <h2 id="on-the-turntable"><img src="./assets/headings/on-the-turntable.svg?v=20261009-text-reveal-v2" alt="On the Turntable" width="100%" loading="lazy"/></h2>
 
 <div align="center">
