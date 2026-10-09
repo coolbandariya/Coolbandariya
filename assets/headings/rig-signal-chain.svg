@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="82" viewBox="0 0 720 82" role="img" aria-labelledby="title desc">
 <title id="title">THE SIGNAL CHAIN</title>
 <desc id="desc">Editorial section heading with a one-pass text reveal and a precise signal-path accent.</desc>
-<text class="eyebrow" x="360" y="16" text-anchor="middle">02 / TOOLS & TECHNOLOGY</text>
+<text class="eyebrow" x="360" y="16" text-anchor="middle">02 / TOOLS &amp; TECHNOLOGY</text>
 <text class="heading-text" x="360" y="49" text-anchor="middle">THE SIGNAL CHAIN</text>
 <path class="rule" d="M0 66 H720"/>
 <path class="track" d="M0 66 H150 L164 66 L176 54 L188 66 H278 L290 60 L302 66 H420 L432 47 L444 66 H570 L582 59 L594 66 H720"/>
