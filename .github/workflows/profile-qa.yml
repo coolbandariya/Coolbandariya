@@ -31,9 +31,11 @@ jobs:
               "animated system map": "assets/system-map.svg" in readme,
               "animated footer": "assets/profile-footer.svg" in readme,
               "animated guitar section": "assets/guitar-studio.svg" in readme,
+              "electric guitar detail": all(token in Path("assets/guitar-studio.svg").read_text(encoding="utf-8") for token in ("six strings", "double cutaway", "pickup", "tuning")),
               "lazy-loaded below-the-fold images": all((("d2ol7oe51mr4n9.cloudfront.net" in tag) or ('loading="lazy"' in tag.lower())) for tag in re.findall(r"<img[^>]*>", readme, flags=re.I)),
               "removed engineering approach": "## Engineering approach" not in readme,
               "contribution snake": "github-contribution-grid-snake.svg" in readme,
+              "theme-matched contribution snake": "palette=github-dark-purple" in Path(".github/workflows/snake.yml").read_text(encoding="utf-8"),
               "no obsolete Minecraft theme": not any(word in readme.lower() for word in ("minecraft", "nether")),
               "no placeholder copy": not any(text in readme.lower() for text in ("no description yet", "todo:", "lorem ipsum")),
           }
