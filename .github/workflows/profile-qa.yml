@@ -101,5 +101,46 @@ jobs:
                   durations = [float(value) for value in re.findall(r"animation:[^;}]*?(\d+(?:\.\d+)?)s", css) if "infinite" in css]
                   assert all(duration >= 1 for duration in durations), f"Unexpectedly rapid animation: {path}"
 
-          print(f"PASS: {len(refs)} local asset references, {len(internal_links)} internal anchors, {len(expected_repositories)} curated repository links, and {len(animated_assets)} valid accessible SVGs.")
+          # Validate every local SVG, unique IDs, and internal fragment references.
+          svg_files = sorted(Path("assets").rglob("*.svg"))
+          for path in svg_files:
+              root = ET.parse(path).getroot()
+              ids = [node.attrib["id"] for node in root.iter() if "id" in node.attrib]
+              assert len(ids) == len(set(ids)), f"Duplicate SVG id in {path}"
+              known = set(ids)
+              source = path.read_text(encoding="utf-8")
+              fragments = re.findall(r\'(?:href|xlink:href)="?#([^" )]+)\', source)
+              for fragment in fragments:
+                  assert fragment in known, f"Broken SVG fragment #{fragment} in {path}"
+              for fragment in re.findall(r\'url\\(#([^\\)]+)\\)\', source):
+                  assert fragment in known, f"Broken SVG paint/reference #{fragment} in {path}"
+
+          # External image smoke test: permanent HTTP errors fail; transient outages warn.
+          import urllib.error
+          import urllib.request
+          remote_urls = set(re.findall(r\'<img[^>]+src="(https?://[^"]+)"\', readme, flags=re.I))
+          remote_urls.update(re.findall(r\'<source[^>]+srcset="(https?://[^"]+)"\', readme, flags=re.I))
+          failures, warnings = [], []
+          for url in sorted(remote_urls):
+              request = urllib.request.Request(url, headers={"User-Agent": "profile-readme-qa/1.0"})
+              try:
+                  with urllib.request.urlopen(request, timeout=12) as response:
+                      content_type = response.headers.get("Content-Type", "").lower()
+                      if response.status >= 400:
+                          failures.append(f"{response.status} {url}")
+                      elif "image/" not in content_type and "svg" not in content_type:
+                          warnings.append(f"unexpected content type {content_type!r}: {url}")
+              except urllib.error.HTTPError as exc:
+                  if exc.code in (429, 500, 502, 503, 504):
+                      warnings.append(f"temporary HTTP {exc.code}: {url}")
+                  else:
+                      failures.append(f"HTTP {exc.code}: {url}")
+              except Exception as exc:
+                  warnings.append(f"unreachable during smoke test ({exc}): {url}")
+          for item in warnings:
+              print("WARN: external image check:", item)
+          for item in failures:
+              print("FAIL: external image check:", item)
+          assert not failures, "One or more external image URLs returned a permanent HTTP error"
+          print(f"PASS: {len(refs)} local asset references, {len(internal_links)} internal anchors, {len(expected_repositories)} curated repository links, {len(svg_files)} SVG files, and {len(remote_urls)} remote image URLs checked.")
           PY
