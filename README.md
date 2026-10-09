@@ -296,7 +296,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
   <img src="https://github-readme-stats-fast.vercel.app/api?username=kaustubhdua&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A0A0A0&text_color=C9C9C9&icon_color=E5E5E5&rank_icon=github&include_all_commits=true" height="170" alt="Live GitHub statistics for kaustubhdua" loading="lazy"/>
 </a>
 <a href="https://github.com/kaustubhdua?tab=repositories">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kaustubhdua&layout=compact&hide_border=true&bg_color=0D1117&title_color=B8B2C8&text_color=C9C6D0&langs_count=8" height="170" alt="Most-used languages across public repositories" loading="lazy"/>
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kaustubhdua&layout=compact&hide_border=true&bg_color=0D1117&title_color=A0A0A0&text_color=C9C9C9&langs_count=8&border_color=303030" height="170" alt="Most-used languages across public repositories" loading="lazy"/>
 </a>
 
 </div>
