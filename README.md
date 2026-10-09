@@ -135,7 +135,6 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 ![React Router](https://img.shields.io/badge/React_Router-252525?style=flat-square&logo=reactrouter&logoColor=F4EFE5)
 ![Zustand](https://img.shields.io/badge/Zustand-252525?style=flat-square)
 ![TanStack Query](https://img.shields.io/badge/TanStack_Query-252525?style=flat-square&logo=reactquery&logoColor=F4EFE5)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-252525?style=flat-square&logo=tailwindcss&logoColor=F4EFE5)
 ![Chart.js](https://img.shields.io/badge/Chart.js-252525?style=flat-square&logo=chartdotjs&logoColor=F4EFE5)
 ![Three.js](https://img.shields.io/badge/Three.js-252525?style=flat-square&logo=threedotjs&logoColor=F4EFE5)
 ![WebGL](https://img.shields.io/badge/WebGL-252525?style=flat-square&logo=webgl&logoColor=F4EFE5)
@@ -156,7 +155,6 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 ![Speech APIs](https://img.shields.io/badge/Speech_APIs-252525?style=flat-square)
 ![Pydantic](https://img.shields.io/badge/Pydantic-252525?style=flat-square&logo=pydantic&logoColor=F4EFE5)
 ![Prisma](https://img.shields.io/badge/Prisma-252525?style=flat-square&logo=prisma&logoColor=F4EFE5)
-![Node.js](https://img.shields.io/badge/Node.js-252525?style=flat-square&logo=nodedotjs&logoColor=F4EFE5)
 
 </td>
 <td valign="top">
@@ -244,7 +242,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
-<h2 id="studio-status"><img src="./assets/headings/rig-signal-chain.svg?v=20261010-centered" alt="Rig & Signal Chain" width="100%" loading="lazy"/></h2>
+<h2 id="studio-status" align="center">STUDIO STATUS</h2>
 
 <div align="center">
 
@@ -303,13 +301,11 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <div align="center">
 
-<p><sub>CONTRIBUTION ACTIVITY</sub></p>
+<p><sub>CONTRIBUTION ACTIVITY · LAST 90 DAYS</sub></p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake.svg"/>
-  <img src="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake.svg" width="100%" alt="GitHub contribution activity animation" loading="lazy"/>
-</picture>
+<a href="https://github.com/kaustubhdua/kaustubhdua/tree/activity-assets"><img src="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/activity-assets/activity-90d.svg?v=20261009-mono" width="100%" alt="GitHub contribution activity over the last 90 days" loading="lazy"/></a>
+
+<p><sub>Generated automatically by GitHub Actions · <a href="https://github.com/kaustubhdua/kaustubhdua/tree/activity-assets">30-day, 90-day and 365-day charts</a></sub></p>
 
 </div>
 
