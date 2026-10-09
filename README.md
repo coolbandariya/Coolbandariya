@@ -26,7 +26,7 @@ I build practical software across **AI, data, systems and product engineering** 
 
 ---
 
-<h2 id="setlist"><img src="./assets/headings/setlist.svg?v=20261010-mono" alt="Setlist" width="100%" loading="lazy"/></h2>
+<h2 id="setlist"><img src="./assets/headings/setlist.svg?v=20261010-centered" alt="Setlist" width="100%" loading="lazy"/></h2>
 
 <table>
 <tr>
@@ -105,7 +105,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
-<h2 id="rig-signal-chain"><img src="./assets/headings/rig-signal-chain.svg?v=20261010-mono" alt="Rig & Signal Chain" width="100%" loading="lazy"/></h2>
+<h2 id="rig-signal-chain"><img src="./assets/headings/rig-signal-chain.svg?v=20261010-centered" alt="Rig & Signal Chain" width="100%" loading="lazy"/></h2>
 
 <sub>The instruments, pedals and signal paths behind the projects. Each stack varies by repository.</sub>
 
@@ -244,7 +244,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
-<h2 id="on-the-turntable"><img src="./assets/headings/on-the-turntable.svg?v=20261010-mono" alt="On the Turntable" width="100%" loading="lazy"/></h2>
+<h2 id="on-the-turntable"><img src="./assets/headings/on-the-turntable.svg?v=20261010-centered" alt="On the Turntable" width="100%" loading="lazy"/></h2>
 
 <div align="center">
 
@@ -262,11 +262,11 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 </div>
 
 ---
-<h2 id="the-encore"><img src="./assets/headings/the-encore.svg?v=20261010-mono" alt="The Encore" width="100%" loading="lazy"/></h2>
+<h2 id="the-encore"><img src="./assets/headings/the-encore.svg?v=20261010-centered" alt="The Encore" width="100%" loading="lazy"/></h2>
 
 <div align="center">
 
-<h3 id="snake-eating-my-contribution-snake"><img src="./assets/headings/snake-contributions.svg?v=20261010-gray" alt="Snake Eating My Contribution Snake" width="100%" loading="lazy"/></h3>
+<h3 id="snake-eating-my-contribution-snake"><img src="./assets/headings/snake-contributions.svg?v=20261010-centered" alt="Snake Eating My Contribution Snake" width="100%" loading="lazy"/></h3>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake-dark.svg"/>
@@ -280,7 +280,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
  
-<h2 id="backstage-pass"><img src="./assets/headings/backstage-pass.svg?v=20261010-mono" alt="Backstage Pass" width="100%" loading="lazy"/></h2>
+<h2 id="backstage-pass"><img src="./assets/headings/backstage-pass.svg?v=20261010-centered" alt="Backstage Pass" width="100%" loading="lazy"/></h2>
 
 <div align="center">
 
