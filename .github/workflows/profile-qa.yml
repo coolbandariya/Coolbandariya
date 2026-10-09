@@ -27,7 +27,7 @@ jobs:
               "ECM identity": "electronics & computer engineering" in readme.lower(),
               "exact original banner URL": "d2ol7oe51mr4n9.cloudfront.net/user_3JuNbn6G1fWehaUubucloQMU8cb/e0930052-b661-4682-a281-67b390d8146e.png" in readme,
               "featured projects": all(name in readme for name in ("GitGlobe", "NIRDHOOM", "Saathi", "SATARK", "Adapt AI")),
-              "all six redesigned headings referenced": all(f"assets/headings/{name}.svg?v=20261009-editorial-headings" in readme for name in ("setlist", "rig-signal-chain", "on-the-turntable", "the-encore", "backstage-pass", "snake-contributions")),
+              "all six redesigned headings referenced": all(f"assets/headings/{name}.svg?v=20261009-text-reveal-v2" in readme for name in ("setlist", "rig-signal-chain", "on-the-turntable", "the-encore", "backstage-pass", "snake-contributions")),
               "animated build log": "assets/profile-motion.svg" in readme,
               "animated system map": "assets/system-map.svg" in readme,
               "animated footer": "assets/profile-footer.svg" in readme,
@@ -93,8 +93,10 @@ jobs:
           for path in heading_assets:
               ET.parse(path)
               source = path.read_text(encoding="utf-8")
-              assert "class=\"heading-text\"" in source and "@keyframes titleDraw" in source, f"Missing animated title: {path}"
+              assert "class=\"heading-highlight\"" in source and "@keyframes revealText" in source, f"Missing animated title highlight: {path}"
+              assert "clip-path=\"url(#heading-reveal)\"" in source, f"Missing clipped text reveal: {path}"
               assert "prefers-reduced-motion" in source, f"Missing reduced-motion fallback: {path}"
+              assert "width:720px" in source, f"Reduced-motion title should remain fully visible: {path}"
               style = re.search(r"<style>(.*?)</style>", source, flags=re.S)
               assert style and style.group(1).count("{") == style.group(1).count("}"), f"Unbalanced heading CSS: {path}"
           animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"), Path("assets/system-map.svg"), Path("assets/guitar-studio.svg"))
