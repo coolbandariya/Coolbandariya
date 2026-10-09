@@ -161,17 +161,26 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
-<h2 id="studio-status" align="center">STUDIO NOTES · BETWEEN TAKES</h2>
+<h2 id="studio-status" align="center">STUDIO NOTES · THE SESSION LOG</h2>
 
 <div align="center">
 
-<img src="./assets/studio-status.svg?v=20261010-studio-notes" width="100%" alt="Animated monochrome guitar studio notes: build, learn, design, reset; a spinning vinyl record plays Iris by Goo Goo Dolls. Status is illustrative, not live telemetry." loading="lazy"/>
+<img src="./assets/studio-status.svg?v=20261010-session-log-v3" width="100%" alt="Animated monochrome guitar studio session board with a moving signal trace, guitar strings, a glowing pick, four build principles and a spinning vinyl record for Iris by Goo Goo Dolls. These are editorial notes, not live telemetry." loading="lazy"/>
+
+**THE SESSION LOG**
+
+*Write the riff* — turn a fuzzy idea into a small, useful first version.  
+*Listen closely* — test assumptions before adding another feature.  
+*Find the groove* — make the interface and workflow feel obvious.  
+*Tune the signal* — debug, document, and verify the details before shipping.
+
+<sub>LESS NOISE · CLEARER SIGNAL · ONE MORE TAKE. Music is the metaphor; the projects and checks are the proof.</sub>
 
 </div>
 
 ---
 
-<sub align="center">STRINGS IN TUNE · SIGNAL CLEAN · ONE MORE TAKE. The notes are a creative snapshot, not live system telemetry.</sub>\n\n<h2 id="on-the-turntable"><img src="./assets/headings/on-the-turntable.svg?v=20261009-text-reveal-v2" alt="On the Turntable" width="100%" loading="lazy"/></h2>
+<h2 id="on-the-turntable"><img src="./assets/headings/on-the-turntable.svg?v=20261009-text-reveal-v2" alt="On the Turntable" width="100%" loading="lazy"/></h2>
 
 <div align="center">
 
