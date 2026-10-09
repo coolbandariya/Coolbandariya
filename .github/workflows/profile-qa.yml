@@ -37,7 +37,7 @@ jobs:
               "lazy-loaded below-the-fold images": all((("d2ol7oe51mr4n9.cloudfront.net" in tag) or ('loading="lazy"' in tag.lower())) for tag in re.findall(r"<img[^>]*>", readme, flags=re.I)),
               "removed engineering approach": "## Engineering approach" not in readme,
               "contribution snake": "github-contribution-grid-snake.svg" in readme,
-              "no duplicate activity dashboard": "streak-stats.demolab.com" not in readme and "activity-assets/activity-90d.svg" not in readme,
+              "streak restored without duplicate activity chart": "streak-stats.demolab.com" in readme and "activity-assets/activity-90d.svg" not in readme,
               "single contribution snake section": readme.count('id="snake-eating-my-contribution-snake"') == 1,
               "original contribution snake palettes": "dist/github-contribution-grid-snake.svg" in Path(".github/workflows/snake.yml").read_text(encoding="utf-8") and "dist/github-contribution-grid-snake-dark.svg?palette=github-dark" in Path(".github/workflows/snake.yml").read_text(encoding="utf-8"),
               "themed GitHub stats card": all(value in readme for value in ("bg_color=0D1117", "title_color=A0A0A0", "text_color=C9C9C9", "icon_color=E5E5E5")),
@@ -90,7 +90,7 @@ jobs:
 
           # Parse SVGs as XML and check accessibility, safe markup and motion fallbacks.
           heading_assets = tuple(sorted(Path("assets/headings").glob("*.svg")))
-          assert len(heading_assets) == 6, f"Expected six custom headings, found {len(heading_assets)}"
+          assert len(heading_assets) == 7, f"Expected seven custom headings, found {len(heading_assets)}"
           for path in heading_assets:
               ET.parse(path)
               source = path.read_text(encoding="utf-8")
@@ -100,7 +100,7 @@ jobs:
               assert "width:720px" in source, f"Reduced-motion title should remain fully visible: {path}"
               style = re.search(r"<style>(.*?)</style>", source, flags=re.S)
               assert style and style.group(1).count("{") == style.group(1).count("}"), f"Unbalanced heading CSS: {path}"
-          animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"), Path("assets/system-map.svg"), Path("assets/guitar-studio.svg"))
+          animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"), Path("assets/system-map.svg"), Path("assets/guitar-studio.svg"), Path("assets/studio-status.svg"), Path("assets/signal-chain.svg"), Path("assets/vu-meter.svg"), Path("assets/fretboard-progress.svg"), Path("assets/headings/studio-notes.svg"))
           system_map = Path("assets/system-map.svg").read_text(encoding="utf-8")
           assert "<animate" not in system_map.lower(), "System map should use CSS motion so reduced-motion preferences can disable every moving element"
           assert "translateX(660px)" in system_map, "System map particle should traverse all three stages"
