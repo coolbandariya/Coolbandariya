@@ -4,7 +4,7 @@
 
 <img src="./assets/profile-motion.svg?v=20261010-audio-ticker" width="100%" alt="Animated monochrome engineering build log" loading="lazy"/>
 
-<img src="./assets/system-map.svg?v=20261010-pipeline-beam" width="100%" alt="Animated map connecting product design, intelligence and reliability" loading="lazy"/>
+<img src="./assets/system-map.svg?v=20261010-pipeline-beam-v2" width="100%" alt="Animated map connecting product design, intelligence and reliability" loading="lazy"/>
 
 <p>
   <a href="#setlist"><img src="https://img.shields.io/badge/01-SETLIST-252525?style=flat-square&labelColor=111111&color=252525" alt="Setlist" loading="lazy"/></a>
