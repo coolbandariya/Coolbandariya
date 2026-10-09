@@ -109,17 +109,17 @@ jobs:
               assert len(ids) == len(set(ids)), f"Duplicate SVG id in {path}"
               known = set(ids)
               source = path.read_text(encoding="utf-8")
-              fragments = re.findall(r\'(?:href|xlink:href)="?#([^" )]+)\', source)
+              fragments = re.findall(r'(?:href|xlink:href)="?#([^" )]+)', source)
               for fragment in fragments:
                   assert fragment in known, f"Broken SVG fragment #{fragment} in {path}"
-              for fragment in re.findall(r\'url\\(#([^\\)]+)\\)\', source):
+              for fragment in re.findall(r'url\\(#([^\\)]+)\\)', source):
                   assert fragment in known, f"Broken SVG paint/reference #{fragment} in {path}"
 
           # External image smoke test: permanent HTTP errors fail; transient outages warn.
           import urllib.error
           import urllib.request
-          remote_urls = set(re.findall(r\'<img[^>]+src="(https?://[^"]+)"\', readme, flags=re.I))
-          remote_urls.update(re.findall(r\'<source[^>]+srcset="(https?://[^"]+)"\', readme, flags=re.I))
+          remote_urls = set(re.findall(r'<img[^>]+src="(https?://[^"]+)"', readme, flags=re.I))
+          remote_urls.update(re.findall(r'<source[^>]+srcset="(https?://[^"]+)"', readme, flags=re.I))
           failures, warnings = [], []
           for url in sorted(remote_urls):
               request = urllib.request.Request(url, headers={"User-Agent": "profile-readme-qa/1.0"})
