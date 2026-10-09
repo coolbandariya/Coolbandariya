@@ -1,8 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="title desc">
 <title id="title">Studio status</title>
 <desc id="desc">Animated monochrome personal developer status panel with room notes, system status bars and the current featured track Iris by Goo Goo Dolls.</desc>
+<style>.status-scan{stroke:#E5E5E5;stroke-opacity:.22;stroke-width:1;stroke-dasharray:3 12;animation:scan 9s linear infinite}.status-pulse{animation:statusPulse 2.6s ease-in-out infinite}.cursor-blink{animation:blink 1.2s steps(2,end) infinite}@keyframes scan{to{stroke-dashoffset:-180}}@keyframes statusPulse{0%,100%{opacity:.45}50%{opacity:1}}@keyframes blink{50%{opacity:0}}@media(prefers-reduced-motion:reduce){.status-scan,.status-pulse,.cursor-blink{animation:none!important}.status-pulse{opacity:1}}</style>
 <rect x="1" y="1" width="998" height="428" rx="14" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
-<path d="M500 1V429" stroke="#30363D" stroke-width="2"/>
+<path d="M500 1V429" stroke="#30363D" stroke-width="2"/><path class="status-scan" d="M18 132H982M18 395H982" fill="none"/>
 <g font-family="Arial,Helvetica,sans-serif">
   <text x="38" y="45" fill="#A0A0A0" font-size="15" letter-spacing="3" font-weight="700">THE ROOM</text>
   <text x="38" y="82" fill="#E6EDF3" font-size="28" font-weight="600">Build. Learn. Repeat.</text>
