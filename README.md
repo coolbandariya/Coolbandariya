@@ -165,26 +165,37 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <h2 id="studio-status" align="center"><img src="./assets/headings/studio-notes.svg?v=20261010-studio-notes-v3" alt="Studio Notes — animated signal-wave heading" width="100%" loading="lazy"/></h2>
 
-<div align="center">
+<table>
+  <tr>
+    <td align="center" valign="top" width="46%">
+      <sub>◈ THE WORKBENCH · BETWEEN TAKES</sub>
+      <br/><br/>
+      <img src="./assets/studio-status.svg?v=20261010-session-log-v4" width="100%" alt="Animated monochrome studio workbench with signal waveform, guitar pick and rotating vinyl; illustrative, not live telemetry" loading="lazy"/>
+      <br/>
+      <sub>IDEA → PROTOTYPE → TEST → SHIP</sub>
+    </td>
+    <td align="left" valign="top" width="54%">
+      <sub>◈ THE SESSION STATUS</sub>
+      <br/><br/>
+      <img src="./assets/vu-meter.svg?v=20261010-vu-meter-v1" width="100%" alt="Decorative animated monochrome VU meter with moving needle and level bars; not live telemetry" loading="lazy"/>
+      <br/><br/>
+      <sub>◈ THE SIX-STRING CHECKLIST</sub>
+      <br/><br/>
+      <img src="./assets/fretboard-progress.svg?v=20261010-fretboard-v1" width="100%" alt="Animated six-string fretboard for design, build, data, test, documentation and shipping" loading="lazy"/>
+    </td>
+  </tr>
+</table>
 
-<img src="./assets/studio-status.svg?v=20261010-session-log-v4" width="100%" alt="Animated monochrome studio workbench and four engineering habits: start small, test assumptions, simplify workflows, and verify before shipping; decorative illustration, not live telemetry" loading="lazy"/>
+**THE SESSION LOG**
 
-</div>
-
-### The session log
-
-| Studio note | What it means in practice |
+| Studio note | In practice |
 |:--|:--|
-| **Write the riff** | Ship the smallest useful slice first. Keep scope clear and make progress easy to review. |
-| **Listen closely** | Reproduce the issue, inspect the evidence, and test assumptions before changing code. |
-| **Find the groove** | Make the next action obvious. Remove needless steps, confusing copy, and visual noise. |
-| **Tune the signal** | Run relevant checks, handle edge cases, document limitations, and verify the result before calling it done. |
+| **01 · Write the riff** | Start with the smallest useful slice; keep scope clear and shippable. |
+| **02 · Listen closely** | Reproduce the issue, inspect evidence, and test assumptions before changing code. |
+| **03 · Find the groove** | Make the next step obvious; remove confusing UI and needless workflow friction. |
+| **04 · Tune the signal** | Run checks, cover edge cases, document limitations, and verify before shipping. |
 
 <div align="center">
-
-<img src="./assets/vu-meter.svg?v=20261010-vu-meter-v1" width="100%" alt="Decorative animated monochrome VU meter with moving needle and level bars; a visual rhythm metaphor, not live telemetry" loading="lazy"/>
-
-<img src="./assets/fretboard-progress.svg?v=20261010-fretboard-v1" width="100%" alt="Animated six-string fretboard linking design, build, data, test, documentation and shipping" loading="lazy"/>
 
 <sub>LESS NOISE · CLEARER SIGNAL · ONE MORE TAKE. Music is the metaphor; useful features, clear UX, and verified changes are the proof.</sub>
 
