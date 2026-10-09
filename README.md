@@ -21,44 +21,6 @@ I build practical software across **AI, data, systems and product engineering** 
 
 ---
 
-<h2 align="center">THE QUICK MIX · START HERE</h2>
-
-<p align="center"><sub>Three projects to inspect first — product, implementation, and the decisions behind them.</sub></p>
-
-<table>
-<tr>
-<th align="left">PROJECT</th>
-<th align="left">WHY OPEN IT</th>
-<th align="center">LINKS</th>
-</tr>
-<tr>
-<td><strong>NIRDHOOM</strong><br/><sub>Product + optimisation</sub></td>
-<td>Field coordination, geospatial workflows and route/assignment optimisation for crop-residue operations.</td>
-<td align="center"><a href="https://github.com/kaustubhdua/nihdhoom">SOURCE</a><br/><a href="https://nihdhoom-9qiu.vercel.app/">LIVE DEMO</a></td>
-</tr>
-<tr>
-<td><strong>Saathi</strong><br/><sub>Voice + backend</sub></td>
-<td>Multilingual assistance workflows that bring together speech interfaces, data sources and human escalation.</td>
-<td align="center"><a href="https://github.com/kaustubhdua/Saathi">SOURCE</a><br/><a href="https://saathi-two-pi.vercel.app">LIVE DEMO</a></td>
-</tr>
-<tr>
-<td><strong>GitGlobe</strong><br/><sub>Discovery + visualisation</sub></td>
-<td>Spatial exploration of open-source repositories using a 3D interface and a retrieval pipeline.</td>
-<td align="center"><a href="https://github.com/kaustubhdua/GitGlobe">SOURCE</a><br/><a href="https://gitglobe-yd-mj.vercel.app">LIVE DEMO</a></td>
-</tr>
-</table>
-
-<p align="center"><sub>Recruiter tip: start with the source code and commit history, then try the demo. Live services can change or sleep.</sub></p>
-
-<h2 align="center">HOW TO EVALUATE MY WORK</h2>
-
-- **Implementation:** inspect the repository code, not just the screenshots or demo.
-- **Engineering process:** check the repository's tests, CI workflows, issues and commit history where available.
-- **Ownership:** some repositories are forks or team-built projects. For <a href="https://github.com/kaustubhdua/GitGlobe">GitGlobe</a> and <a href="https://github.com/kaustubhdua/Satark">Satark</a>, use my commits and authored pull requests to assess my contribution; I do not claim every line of a fork as original work. For collaborative projects, the repository history is the best way to understand scope.
-- **Honest scope:** project descriptions summarise the intended system; check each README for current setup, supported features and known limitations.
-
----
-
 <h2 id="setlist"><img src="./assets/headings/setlist.svg?v=20261009-text-reveal-v2" alt="Setlist" width="100%" loading="lazy"/></h2>
 
 <table>
