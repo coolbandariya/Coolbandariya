@@ -244,6 +244,16 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
+<h2 id="studio-status"><img src="./assets/headings/rig-signal-chain.svg?v=20261010-centered" alt="Rig & Signal Chain" width="100%" loading="lazy"/></h2>
+
+<div align="center">
+
+<img src="./assets/studio-status.svg?v=20261009-mono" width="100%" alt="Monochrome studio panel with current mode, system status bars and Iris by Goo Goo Dolls playing" loading="lazy"/>
+
+</div>
+
+---
+
 <h2 id="on-the-turntable"><img src="./assets/headings/on-the-turntable.svg?v=20261010-centered" alt="On the Turntable" width="100%" loading="lazy"/></h2>
 
 <div align="center">
@@ -292,6 +302,22 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 </div>
 
 <div align="center">
+
+<div align="center">
+
+<a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-303030?style=for-the-badge&labelColor=202020&logo=github&logoColor=E5E5E5" alt="Explore repositories" loading="lazy"/></a>
+<a href="https://github.com/kaustubhdua?tab=stars"><img src="https://img.shields.io/badge/STARRED-WORK-303030?style=for-the-badge&labelColor=202020&logo=github&logoColor=E5E5E5" alt="Starred work" loading="lazy"/></a>
+<a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge-FOLLOW-GITHUB-303030?style=for-the-badge&labelColor=202020&logo=github&logoColor=E5E5E5" alt="Follow on GitHub" loading="lazy"/></a>
+
+</div>
+
+<div align="center">
+
+<a href="https://github.com/kaustubhdua">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaustubhdua&bg_color=0D1117&color=C9C9C9&line=A0A0A0&point=E5E5E5&area=true&hide_border=true&custom_title=CONTRIBUTION%20SIGNAL" width="100%" alt="GitHub contribution activity graph in monochrome" loading="lazy"/>
+</a>
+
+</div>
 
 <a href="https://github.com/kaustubhdua">
   <img src="https://github-readme-stats-fast.vercel.app/api?username=kaustubhdua&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A0A0A0&text_color=C9C9C9&icon_color=E5E5E5&rank_icon=github&include_all_commits=true" height="170" alt="Live GitHub statistics for kaustubhdua" loading="lazy"/>
