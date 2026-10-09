@@ -29,32 +29,39 @@
 <g><rect x="365" y="8" width="510" height="340" rx="5" fill="#050505" stroke="#555"/><rect x="375" y="18" width="490" height="320" fill="url(#amp)" stroke="#888" stroke-opacity=".4"/><rect x="387" y="29" width="466" height="30" fill="#151515" stroke="#666"/><text x="620" y="50" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="19" fill="#aaa">Marshall</text><rect x="387" y="68" width="466" height="258" fill="url(#grill)" stroke="#333"/><path d="M395 78H845M395 315H845" stroke="#aaa" stroke-opacity=".18"/></g>
 <path d="M0 40L405 350H285L0 170ZM950 0L755 350H855L1060 0Z" fill="#fff" opacity=".025"/>
 <ellipse cx="625" cy="353" rx="360" ry="37" fill="#000" opacity=".85" filter="url(#shadow)"/>
-<!-- aligned electric guitar: neck, frets, strings, pickups and bridge share one axis -->
+<!-- shared geometric construction: centerline drives neck, strings and frets -->
 <g transform="translate(70 -6) rotate(-14 585 190)">
- <!-- six-in-line headstock -->
- <path d="M886 165L906 143L931 146L945 160L932 179L901 190Z" fill="url(#metal)" stroke="#ddd" stroke-width="1.5"/>
- <path d="M891 168L909 150L929 152L937 161L926 174L902 183Z" fill="#111" stroke="#777" stroke-width="1"/>
+ <defs>
+  <!-- local neck axis: nut at x=895, y=190; bridge end at x=405, y=255 -->
+  <path id="neck-axis" d="M405 255L895 190"/>
+  <path id="fret-axis" d="M0 -9L0 9"/>
+ </defs>
+ <!-- headstock aligned with the neck axis -->
+ <path d="M886 178L906 156L931 159L945 173L932 192L901 203Z" fill="url(#metal)" stroke="#ddd" stroke-width="1.5"/>
+ <path d="M891 181L909 163L929 165L937 174L926 187L902 196Z" fill="#111" stroke="#777" stroke-width="1"/>
  <g fill="url(#metal)" stroke="#222" stroke-width="1.1">
-  <ellipse cx="902" cy="145" rx="5.5" ry="3.8"/><ellipse cx="914" cy="149" rx="5.5" ry="3.8"/><ellipse cx="926" cy="153" rx="5.5" ry="3.8"/>
-  <ellipse cx="934" cy="162" rx="5.5" ry="3.8"/><ellipse cx="924" cy="175" rx="5.5" ry="3.8"/><ellipse cx="911" cy="183" rx="5.5" ry="3.8"/>
+  <ellipse cx="902" cy="158" rx="5.5" ry="3.8"/><ellipse cx="914" cy="162" rx="5.5" ry="3.8"/><ellipse cx="926" cy="166" rx="5.5" ry="3.8"/>
+  <ellipse cx="934" cy="175" rx="5.5" ry="3.8"/><ellipse cx="924" cy="188" rx="5.5" ry="3.8"/><ellipse cx="911" cy="196" rx="5.5" ry="3.8"/>
  </g>
- <!-- neck taper follows one shallow axis; fingerboard sits inside neck -->
- <path d="M398 231L894 179L900 198L407 258Z" fill="url(#neck)" stroke="#aaa" stroke-width="1.5"/>
- <path d="M405 235L891 184L895 194L410 251Z" fill="#101010" stroke="#777" stroke-width="1.1"/>
- <!-- fret bars are perpendicular to the same neck axis -->
- <g stroke="#c7c7c7" stroke-width="1.2">
-  <path d="M432 233L434 251M456 230L458 248M481 227L483 245M507 224L509 242M534 221L536 239M562 218L564 236M591 215L593 233M621 212L623 230M652 208L654 226M684 205L686 223M717 202L719 220M751 198L753 216M786 195L788 213M822 191L824 209M859 187L861 205M880 185L882 202"/>
+ <!-- neck outer edge and fingerboard are generated parallel to the same centerline -->
+ <use href="#neck-axis" stroke="#aaa" stroke-width="29" stroke-linecap="butt" fill="none"/>
+ <use href="#neck-axis" stroke="url(#neck)" stroke-width="25" stroke-linecap="butt" fill="none"/>
+ <use href="#neck-axis" stroke="#111" stroke-width="17" stroke-linecap="butt" fill="none"/>
+ <!-- fret bars share the centerline angle; positions tighten toward the nut -->
+ <g stroke="#c7c7c7" stroke-width="1.3" stroke-linecap="round">
+  <path d="M432 239L434 257M456 236L458 254M481 233L483 251M507 230L509 248M534 226L536 244M562 223L564 241M591 219L593 237M621 215L623 233M652 211L654 229M684 207L686 225M717 203L719 221M751 199L753 217M786 195L788 213M822 191L824 209M859 187L861 205M880 184L882 202"/>
  </g>
- <g fill="#eee">
-  <circle cx="470" cy="236" r="1.6"/><circle cx="526" cy="230" r="1.6"/><circle cx="585" cy="224" r="1.6"/><circle cx="647" cy="217" r="1.6"/><circle cx="714" cy="210" r="1.6"/><circle cx="783" cy="202" r="1.6"/>
+ <!-- inlays centered on fretboard -->
+ <g fill="#ddd">
+  <circle cx="470" cy="239" r="1.7"/><circle cx="526" cy="231.5" r="1.7"/><circle cx="585" cy="223.5" r="1.7"/><circle cx="647" cy="215.5" r="1.7"/><circle cx="714" cy="206.5" r="1.7"/><circle cx="783" cy="197.5" r="1.7"/>
  </g>
- <!-- sculpted double-cutaway solid body -->
+ <!-- body -->
  <path d="M397 174C376 153 346 149 326 164C309 177 310 197 326 213C339 227 340 239 323 251C301 266 282 282 288 305C294 330 321 344 348 337C370 332 390 316 410 315C431 314 448 328 469 338C494 350 522 338 528 317C533 299 521 281 506 266C491 251 485 235 494 218C507 194 489 173 466 166C441 158 421 166 410 181Z" fill="url(#body)" stroke="#ddd" stroke-width="2.2"/>
  <path d="M399 181C379 161 351 158 332 170C318 180 319 196 335 211C352 228 352 242 331 257C310 272 294 286 298 304C303 325 326 337 348 330C372 323 390 307 411 308C433 307 450 322 471 331C491 340 515 329 519 313C523 298 510 280 496 266C480 249 477 233 488 215C500 195 482 178 462 173C441 166 421 173 410 188Z" fill="none" stroke="#777" stroke-width="1.2"/>
  <path d="M330 173C348 159 372 163 389 180M300 292C303 315 321 329 343 329M472 332C491 340 511 327 515 312" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="2.2" stroke-linecap="round"/>
- <!-- one pickguard, three aligned single-coil pickups -->
+ <!-- pickguard and three pickups perpendicular to neck axis -->
  <path d="M359 178C380 166 408 170 431 187L461 228L459 268L432 300L399 292L373 258L354 220Z" fill="#bdbdbd" fill-opacity=".96" stroke="#eee" stroke-width="1.4"/>
- <path d="M366 184C385 174 406 177 425 192L453 231L452 265L429 291L402 284L379 254L362 219Z" fill="#202020" stroke="#666" stroke-width="1"/>
+ <path d="M366 184C385 174 406 177 425 192L453 231L452 265L429 291L402 284L379 254L362 219Z" fill="#202020" stroke="#666"/>
  <g fill="url(#metal)" stroke="#111" stroke-width="1.3">
   <rect x="383" y="190" width="47" height="9" rx="2" transform="rotate(-6 406 194)"/>
   <rect x="391" y="216" width="47" height="9" rx="2" transform="rotate(-6 414 220)"/>
@@ -65,19 +72,18 @@
   <circle cx="396" cy="218" r="1.4"/><circle cx="404" cy="217" r="1.4"/><circle cx="412" cy="216" r="1.4"/><circle cx="420" cy="215" r="1.4"/><circle cx="428" cy="214" r="1.4"/><circle cx="436" cy="213" r="1.4"/>
   <circle cx="404" cy="244" r="1.4"/><circle cx="412" cy="243" r="1.4"/><circle cx="420" cy="242" r="1.4"/><circle cx="428" cy="241" r="1.4"/><circle cx="436" cy="240" r="1.4"/><circle cx="444" cy="239" r="1.4"/>
  </g>
- <!-- six-saddle bridge placed below the bridge pickup; saddle spacing matches the strings -->
+ <!-- bridge saddles are exactly the six string start points -->
  <path d="M400 258L459 252L463 264L404 271Z" fill="url(#metal)" stroke="#fff" stroke-width="1"/>
  <g fill="#ddd" stroke="#222" stroke-width=".8">
-  <rect x="404" y="257" width="5" height="10" rx="1"/><rect x="413" y="256" width="5" height="10" rx="1"/><rect x="422" y="255" width="5" height="10" rx="1"/><rect x="431" y="254" width="5" height="10" rx="1"/><rect x="440" y="253" width="5" height="10" rx="1"/><rect x="449" y="252" width="5" height="10" rx="1"/>
+  <rect x="402.5" y="257" width="5" height="10" rx="1"/><rect x="411.5" y="256" width="5" height="10" rx="1"/><rect x="420.5" y="255" width="5" height="10" rx="1"/><rect x="429.5" y="254" width="5" height="10" rx="1"/><rect x="438.5" y="253" width="5" height="10" rx="1"/><rect x="447.5" y="252" width="5" height="10" rx="1"/>
  </g>
  <path d="M450 263L476 286L472 290L447 267Z" fill="url(#metal)" stroke="#aaa"/><circle cx="450" cy="263" r="3" fill="#eee" stroke="#333"/>
- <!-- three volume/tone controls and selector -->
  <g fill="url(#metal)" stroke="#222" stroke-width="1.2"><circle cx="354" cy="263" r="9"/><circle cx="369" cy="284" r="9"/><circle cx="389" cy="301" r="8"/></g>
  <g stroke="#222" stroke-width="1.2"><path d="M354 257v4M369 278v4M389 295v4"/></g>
  <path d="M375 272l10-7 3 4-10 7Z" fill="#eee" stroke="#222"/>
  <circle cx="322" cy="319" r="5.5" fill="url(#metal)" stroke="#eee"/><circle cx="322" cy="319" r="2.2" fill="#111"/>
  <circle cx="318" cy="170" r="5" fill="url(#metal)" stroke="#ddd"/><circle cx="328" cy="338" r="5" fill="url(#metal)" stroke="#ddd"/>
- <!-- six continuous, parallel strings: saddles to nut; aligned over pickup poles and fretboard -->
+ <!-- strings use a shared, parallel bundle derived from the same neck axis -->
  <g fill="none" stroke="url(#steelString)" stroke-width=".9" stroke-linecap="round">
   <path class="string" d="M405 262L892 188"/>
   <path class="string" d="M414 261L893 189.5"/>
