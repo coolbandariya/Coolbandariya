@@ -39,6 +39,7 @@ jobs:
               "single contribution snake section": readme.count('id="snake-eating-my-contribution-snake"') == 1,
               "original contribution snake palettes": "dist/github-contribution-grid-snake.svg" in Path(".github/workflows/snake.yml").read_text(encoding="utf-8") and "dist/github-contribution-grid-snake-dark.svg?palette=github-dark" in Path(".github/workflows/snake.yml").read_text(encoding="utf-8"),
               "themed GitHub stats cards": all(value in readme for value in ("bg_color=0D1117", "title_color=A0A0A0", "text_color=C9C9C9", "icon_color=E5E5E5", "ring=A0A0A0", "currStreakLabel=A0A0A0")),
+              "GitHub follow badge URL is valid": "https://img.shields.io/badge/GITHUB-FOLLOW-303030" in readme,
               "no obsolete Minecraft theme": not any(word in readme.lower() for word in ("minecraft", "nether")),
               "no placeholder copy": not any(text in readme.lower() for text in ("no description yet", "todo:", "lorem ipsum")),
           }
