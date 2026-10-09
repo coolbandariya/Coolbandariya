@@ -35,6 +35,7 @@
   <!-- local neck axis: nut at x=895, y=190; bridge end at x=405, y=255 -->
   <path id="neck-axis" d="M405 255L895 190"/>
   <path id="fret-axis" d="M0 -9L0 9"/>
+  <g id="fret-bar"><use href="#fret-axis" stroke="#c7c7c7" stroke-width="1.3" stroke-linecap="round"/></g>
  </defs>
  <!-- headstock aligned with the neck axis -->
  <path d="M886 178L906 156L931 159L945 173L932 192L901 203Z" fill="url(#metal)" stroke="#ddd" stroke-width="1.5"/>
@@ -48,8 +49,23 @@
  <use href="#neck-axis" stroke="url(#neck)" stroke-width="25" stroke-linecap="butt" fill="none"/>
  <use href="#neck-axis" stroke="#111" stroke-width="17" stroke-linecap="butt" fill="none"/>
  <!-- fret bars share the centerline angle; positions tighten toward the nut -->
- <g stroke="#c7c7c7" stroke-width="1.3" stroke-linecap="round">
-  <path d="M432 239L434 257M456 236L458 254M481 233L483 251M507 230L509 248M534 226L536 244M562 223L564 241M591 219L593 237M621 215L623 233M652 211L654 229M684 207L686 225M717 203L719 221M751 199L753 217M786 195L788 213M822 191L824 209M859 187L861 205M880 184L882 202"/>
+ <g>
+  <use href="#fret-bar" transform="translate(433 248) rotate(-7.6) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(457 245) rotate(-7.6) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(482 242) rotate(-7.6) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(508 239) rotate(-7.6) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(535 235) rotate(-7.6) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(563 232) rotate(-7.6) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(592 228) rotate(-7.6) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(622 224) rotate(-7.6) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(653 220) rotate(-7.6) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(685 216) rotate(-7.6) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(718 212) rotate(-7.6) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(752 208) rotate(-7.6) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(787 204) rotate(-7.6) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(823 200) rotate(-7.6) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(860 196) rotate(-7.6) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(881 193) rotate(-7.6) scale(1 .92)"/>
  </g>
  <!-- inlays centered on fretboard -->
  <g fill="#ddd">
@@ -85,12 +101,13 @@
  <circle cx="318" cy="170" r="5" fill="url(#metal)" stroke="#ddd"/><circle cx="328" cy="338" r="5" fill="url(#metal)" stroke="#ddd"/>
  <!-- strings use a shared, parallel bundle derived from the same neck axis -->
  <g fill="none" stroke="url(#steelString)" stroke-width=".9" stroke-linecap="round">
-  <path class="string" d="M405 262L892 188"/>
-  <path class="string" d="M414 261L893 189.5"/>
-  <path class="string" d="M423 260L894 191"/>
-  <path class="string" d="M432 259L895 192.5"/>
-  <path class="string" d="M441 258L896 194"/>
-  <path class="string" d="M450 257L897 195.5"/>
+  <!-- Six parallel string lanes offset from the same nut-to-bridge axis. -->
+  <use href="#neck-axis" class="string" transform="translate(0 7)"/>
+  <use href="#neck-axis" class="string" transform="translate(0 4.2)"/>
+  <use href="#neck-axis" class="string" transform="translate(0 1.4)"/>
+  <use href="#neck-axis" class="string" transform="translate(0 -1.4)"/>
+  <use href="#neck-axis" class="string" transform="translate(0 -4.2)"/>
+  <use href="#neck-axis" class="string" transform="translate(0 -7)"/>
  </g>
 </g>
 <!-- tabletop and coiled cable -->
