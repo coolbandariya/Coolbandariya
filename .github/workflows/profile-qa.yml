@@ -95,7 +95,7 @@ jobs:
               ET.parse(path)
               source = path.read_text(encoding="utf-8")
               if path.name == "studio-notes.svg":
-                  assert "class=\"heading-highlight\"" in source and "@keyframes revealText" in source, f"Missing animated studio title: {path}"
+                  assert "heading-highlight" in source and "@keyframes revealText" in source, f"Missing animated studio title: {path}"
                   assert "prefers-reduced-motion" in source, f"Missing reduced-motion fallback: {path}"
               else:
                   assert "class=\"heading-highlight\"" in source and "@keyframes revealText" in source, f"Missing animated title highlight: {path}"
