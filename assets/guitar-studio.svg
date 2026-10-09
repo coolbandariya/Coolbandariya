@@ -47,6 +47,35 @@
  <g fill="#eee"><circle cx="395" cy="190" r="1.2"/><circle cx="405" cy="189" r="1.2"/><circle cx="415" cy="188" r="1.2"/><circle cx="425" cy="187" r="1.2"/><circle cx="402" cy="216" r="1.2"/><circle cx="412" cy="215" r="1.2"/><circle cx="422" cy="214" r="1.2"/><circle cx="432" cy="213" r="1.2"/></g>
  <path d="M400 257L459 252L465 265L405 271Z" fill="url(#metal)" stroke="#eee"/><path d="M452 265L476 289L471 293L447 269Z" fill="url(#metal)" stroke="#aaa"/><path d="M473 291l8 3" stroke="#eee" stroke-width="4" stroke-linecap="round"/>
  <g fill="url(#metal)" stroke="#111" stroke-width="2"><circle cx="352" cy="261" r="12"/><circle cx="365" cy="286" r="12"/><circle cx="386" cy="305" r="10"/></g><g fill="#222"><circle cx="352" cy="261" r="4"/><circle cx="365" cy="286" r="4"/><circle cx="386" cy="305" r="3"/></g>
+ <!-- Strat-style pickguard, three single-coil pickups, selector and controls -->
+ <path d="M359 178C378 164 409 167 431 184L465 229L463 273L433 304L397 294L370 260L351 220Z" fill="#d6d6d6" fill-opacity=".94" stroke="#fff" stroke-width="1.4"/>
+ <path d="M365 183C384 171 407 174 426 190L458 232L456 270L431 297L401 288L376 257L358 220Z" fill="#242424" stroke="#777" stroke-width="1"/>
+ <!-- three correctly separated single-coil pickups with six pole pieces each -->
+ <g fill="#e6e6e6" stroke="#111" stroke-width="1.4">
+   <rect x="385" y="184" width="45" height="9" rx="2" transform="rotate(-4 407 188)"/>
+   <rect x="393" y="211" width="45" height="9" rx="2" transform="rotate(-4 415 215)"/>
+   <rect x="400" y="238" width="45" height="9" rx="2" transform="rotate(-4 422 242)"/>
+ </g>
+ <g fill="#333" stroke="#aaa" stroke-width=".45">
+  <circle cx="390" cy="187" r="1.6"/><circle cx="398" cy="186.5" r="1.6"/><circle cx="406" cy="186" r="1.6"/><circle cx="414" cy="185.5" r="1.6"/><circle cx="422" cy="185" r="1.6"/><circle cx="430" cy="184.5" r="1.6"/>
+  <circle cx="398" cy="214" r="1.6"/><circle cx="406" cy="213.5" r="1.6"/><circle cx="414" cy="213" r="1.6"/><circle cx="422" cy="212.5" r="1.6"/><circle cx="430" cy="212" r="1.6"/><circle cx="438" cy="211.5" r="1.6"/>
+  <circle cx="405" cy="241" r="1.6"/><circle cx="413" cy="240.5" r="1.6"/><circle cx="421" cy="240" r="1.6"/><circle cx="429" cy="239.5" r="1.6"/><circle cx="437" cy="239" r="1.6"/><circle cx="445" cy="238.5" r="1.6"/>
+ </g>
+ <!-- six-saddle tremolo bridge and tremolo arm -->
+ <path d="M400 258L459 253L464 265L405 271Z" fill="url(#metal)" stroke="#fff" stroke-width="1"/>
+ <g stroke="#333" stroke-width="1"><path d="M407 260l1 8M416 259l1 8M425 258l1 8M434 257l1 8M443 256l1 8M452 255l1 8"/></g>
+ <path d="M450 265L476 289L471 293L447 269Z" fill="url(#metal)" stroke="#aaa"/>
+ <circle cx="450" cy="265" r="3" fill="#eee" stroke="#333"/>
+ <!-- volume and two tone knobs, plus five-way pickup selector -->
+ <g fill="url(#metal)" stroke="#222" stroke-width="1.2"><circle cx="354" cy="263" r="10"/><circle cx="367" cy="286" r="10"/><circle cx="388" cy="302" r="9"/></g>
+ <g stroke="#222" stroke-width="1.2"><path d="M354 256v4M367 279v4M388 296v4"/></g>
+ <path d="M375 272l10-7 3 4-10 7Z" fill="#eee" stroke="#222" stroke-width="1"/>
+ <!-- output jack and strap buttons -->
+ <circle cx="322" cy="319" r="6" fill="url(#metal)" stroke="#eee" stroke-width="1.2"/>
+ <circle cx="318" cy="319" r="2.5" fill="#111"/>
+ <circle cx="318" cy="170" r="5" fill="url(#metal)" stroke="#ddd"/>
+ <circle cx="328" cy="338" r="5" fill="url(#metal)" stroke="#ddd"/>
+ <!-- accurate six-string run from bridge saddles across the nut to the inline tuners -->
  <path class="string" d="M406 263L927 130"/><path class="string" d="M412 264L929 135"/><path class="string" d="M418 265L931 140"/><path class="string" d="M424 266L933 145"/><path class="string" d="M430 267L935 150"/><path class="string" d="M436 268L937 155"/>
 </g>
 <!-- tabletop and coiled cable -->
