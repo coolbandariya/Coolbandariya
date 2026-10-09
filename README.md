@@ -7,9 +7,9 @@
 <img src="./assets/system-map.svg?v=20261009" width="100%" alt="Animated map connecting product design, intelligence and reliability" loading="lazy"/>
 
 <p>
-  <a href="#selected-work">SELECTED WORK</a> &nbsp;·&nbsp;
-  <a href="#toolkit">TOOLKIT</a> &nbsp;·&nbsp;
-  <a href="#now-playing">NOW PLAYING</a> &nbsp;·&nbsp;
+  <a href="#setlist">SETLIST</a> &nbsp;·&nbsp;
+  <a href="#rig-signal-chain">RIG & SIGNAL CHAIN</a> &nbsp;·&nbsp;
+  <a href="#on-the-turntable">ON THE TURNTABLE</a> &nbsp;·&nbsp;
   <a href="https://github.com/kaustubhdua?tab=repositories">ALL REPOSITORIES ↗</a>
 </p>
 
@@ -26,13 +26,13 @@ I build practical software across **AI, data, systems and product engineering** 
 
 ---
 
-## Selected work
+## Setlist
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [01 / GitGlobe ↗](https://github.com/kaustubhdua/GitGlobe)
+### [01 / GitGlobe — Opening Track ↗](https://github.com/kaustubhdua/GitGlobe)
 
 An interactive 3D map for exploring open-source repositories by capability — making software discovery feel spatial.
 
@@ -41,7 +41,7 @@ An interactive 3D map for exploring open-source repositories by capability — m
 </td>
 <td width="50%" valign="top">
 
-### [02 / NIRDHOOM ↗](https://github.com/kaustubhdua/nihdhoom)
+### [02 / NIRDHOOM — Earth Song ↗](https://github.com/kaustubhdua/nihdhoom)
 
 A crop-residue coordination system connecting field requests, service workflows, operational evidence and buyer pathways.
 
@@ -52,7 +52,7 @@ A crop-residue coordination system connecting field requests, service workflows,
 <tr>
 <td width="50%" valign="top">
 
-### [03 / Saathi ↗](https://github.com/kaustubhdua/Saathi)
+### [03 / Saathi — Voice & Verse ↗](https://github.com/kaustubhdua/Saathi)
 
 A voice-first, multilingual assistance platform built around source-aware answers, consent-based workflows and human escalation.
 
@@ -61,7 +61,7 @@ A voice-first, multilingual assistance platform built around source-aware answer
 </td>
 <td width="50%" valign="top">
 
-### [04 / SATARK ↗](https://github.com/kaustubhdua/Satark)
+### [04 / SATARK — Feedback Loop ↗](https://github.com/kaustubhdua/Satark)
 
 An AI-assisted security-awareness workspace for triaging suspicious messages, links, images, QR codes, PDFs and supported videos.
 
@@ -72,7 +72,7 @@ An AI-assisted security-awareness workspace for triaging suspicious messages, li
 <tr>
 <td width="50%" valign="top">
 
-### [05 / Adapt AI ↗](https://github.com/kaustubhdua/adapt-ai)
+### [05 / Adapt AI — Side B ↗](https://github.com/kaustubhdua/adapt-ai)
 
 A team-built local AI assistant that checks available hardware and recommends a suitable model for on-device chat, file and Python workflows.
 
@@ -81,7 +81,7 @@ A team-built local AI assistant that checks available hardware and recommends a 
 </td>
 <td width="50%" valign="top">
 
-### [06 / JIIT Youth Club Website ↗](https://github.com/kaustubhdua/JYC-Website)
+### [06 / JIIT Youth Club Website — Live Stage ↗](https://github.com/kaustubhdua/JYC-Website)
 
 The public website for JIIT Youth Club 128, covering its organisation, clubs, events, history, gallery and recruitment journey.
 
@@ -92,7 +92,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 </table>
 
 <details>
-<summary><strong>More builds ↗</strong></summary>
+<summary><strong>Encore tracks ↗</strong></summary>
 
 - [Smart Waste Collection](https://github.com/kaustubhdua/smart_waste_project) — a predictive-to-optimisation pipeline using synthetic IoT-style data.
 - [AkashChalak](https://github.com/kaustubhdua/AkashChalak) — a satellite-assisted air-quality and hotspot decision-support prototype for India.
@@ -105,15 +105,15 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
-## Toolkit
+## Rig & Signal Chain
 
-<sub>A broader map of the tools and technologies represented across my projects. Specific stacks vary by repository.</sub>
+<sub>The instruments, pedals and signal paths behind the projects. Each stack varies by repository.</sub>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**01 / Languages & foundations**
+**01 / Strings & fundamentals**
 
 ![Python](https://img.shields.io/badge/Python-252525?style=flat-square&logo=python&logoColor=F4EFE5)
 ![JavaScript](https://img.shields.io/badge/JavaScript-252525?style=flat-square&logo=javascript&logoColor=F4EFE5)
@@ -127,7 +127,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 </td>
 <td width="50%" valign="top">
 
-**02 / Frontend & experience**
+**02 / Stage & visual effects**
 
 ![React](https://img.shields.io/badge/React-252525?style=flat-square&logo=react&logoColor=F4EFE5)
 ![Next.js](https://img.shields.io/badge/Next.js-252525?style=flat-square&logo=nextdotjs&logoColor=F4EFE5)
@@ -147,7 +147,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 <tr>
 <td valign="top">
 
-**03 / Backend & APIs**
+**03 / Amps & signal routing**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-252525?style=flat-square&logo=fastapi&logoColor=F4EFE5)
 ![Node.js](https://img.shields.io/badge/Node.js-252525?style=flat-square&logo=nodedotjs&logoColor=F4EFE5)
@@ -161,7 +161,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 </td>
 <td valign="top">
 
-**04 / AI, data & optimisation**
+**04 / Sound design & signal processing**
 
 ![Pandas](https://img.shields.io/badge/Pandas-252525?style=flat-square&logo=pandas&logoColor=F4EFE5)
 ![NumPy](https://img.shields.io/badge/NumPy-252525?style=flat-square&logo=numpy&logoColor=F4EFE5)
@@ -187,7 +187,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 <tr>
 <td valign="top">
 
-**05 / Databases & integrations**
+**05 / Recording room & connections**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
 ![PostGIS](https://img.shields.io/badge/PostGIS-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
@@ -202,7 +202,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 </td>
 <td valign="top">
 
-**06 / Testing & delivery**
+**06 / Soundcheck & release**
 
 ![Git](https://img.shields.io/badge/Git-252525?style=flat-square&logo=git&logoColor=F4EFE5)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-252525?style=flat-square&logo=githubactions&logoColor=F4EFE5)
@@ -221,7 +221,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 </table>
 
 <details>
-<summary><strong>Project-by-project stack map</strong></summary>
+<summary><strong>Track-by-track rig notes</strong></summary>
 
 | Project | Verified technologies / concepts |
 |:--|:--|
@@ -244,25 +244,25 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
-## Now playing
+## On the Turntable
 
 <div align="center">
 
 <img src="./assets/guitar-studio.svg?v=20261010-stratocaster" width="100%" alt="Animated black-and-white electric guitar studio scene with fretboard, strings, pickups, amplifier-inspired details and a music visualizer" loading="lazy"/>
 
-**NOW PLAYING / IRIS — GOO GOO DOLLS**
+**ON REPEAT / IRIS — GOO GOO DOLLS**
 
 *“And I'd give up forever to touch you…”*
 
 <a href="https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"><img src="https://img.shields.io/badge/SPOTIFY-LISTEN-252525?style=for-the-badge&logo=spotify&logoColor=white" alt="Listen to Iris by Goo Goo Dolls on Spotify" loading="lazy"/></a>
 <a href="https://www.youtube.com/results?search_query=Goo+Goo+Dolls+Iris+official"><img src="https://img.shields.io/badge/YOUTUBE-PLAY-252525?style=for-the-badge&logo=youtube&logoColor=white" alt="Find the official Iris music video on YouTube" loading="lazy"/></a>
 
-<sub>GUITAR · MUSIC · CREATIVE RESET — same six strings, different worlds.</sub>
+<sub>THE RIFF · THE FEEL · THE RESET — six strings, endless sound.</sub>
 
 </div>
 
 ---
-## Contributions
+## The Encore
 
 <div align="center">
 
@@ -280,7 +280,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
  
-## GitHub dashboard
+## Backstage Pass
 
 <div align="center">
 
@@ -319,6 +319,6 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <a href="https://github.com/kaustubhdua?tab=repositories">EXPLORE ALL REPOSITORIES ↗</a>
 
-<sub>Build thoughtfully. Verify everything.</sub>
+<sub>Play loud. Build thoughtfully. Leave a little reverb.</sub>
 
 </div>
