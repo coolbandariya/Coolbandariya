@@ -1,28 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
-<title id="title">Most Used Languages — snapshot</title>
-<desc id="desc">Monochrome language breakdown from the last manually verified snapshot. These percentages are not live.</desc>
+<title id="title">Most Used Languages — updated automatically</title>
+<desc id="desc">Top languages by bytes across non-fork, non-archived repositories owned by kaustubhdua, excluding this profile repository. Updated weekly.</desc>
 <rect width="1000" height="280" rx="12" fill="#0D1117"/>
-<text x="40" y="38" fill="#A0A0A0" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="2">MOST USED LANGUAGES · SNAPSHOT</text>
-<text x="40" y="52" fill="#777777" font-family="Arial,Helvetica,sans-serif" font-size="10">Percentages from the supplied screenshot · not live repository totals</text>
-<defs><clipPath id="barclip"><rect x="40" y="66" width="920" height="18" rx="9"/></clipPath></defs>
-<rect x="40" y="66" width="920" height="18" rx="9" fill="#252525"/>
-<g clip-path="url(#barclip)">
-<rect x="40" y="66" width="431.388" height="18" fill="#E5E5E5"/>
-<rect x="471.388" y="66" width="225.86" height="18" fill="#BDBDBD"/>
-<rect x="697.248" y="66" width="138.276" height="18" fill="#969696"/>
-<rect x="835.524" y="66" width="66.056" height="18" fill="#737373"/>
-<rect x="901.58" y="66" width="48.944" height="18" fill="#555555"/>
-<rect x="950.524" y="66" width="6.992" height="18" fill="#414141"/>
-<rect x="957.516" y="66" width="2.024" height="18" fill="#303030"/>
-<rect x="959.54" y="66" width=".368" height="18" fill="#242424"/>
-</g>
-<g font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#C9C9C9">
-<circle cx="52" cy="122" r="8" fill="#E5E5E5"/><text x="72" y="129">CSS <tspan fill="#A0A0A0">46.89%</tspan></text>
-<circle cx="52" cy="168" r="8" fill="#BDBDBD"/><text x="72" y="175">JavaScript <tspan fill="#A0A0A0">24.55%</tspan></text>
-<circle cx="52" cy="214" r="8" fill="#969696"/><text x="72" y="221">TypeScript <tspan fill="#A0A0A0">15.03%</tspan></text>
-<circle cx="52" cy="260" r="8" fill="#737373"/><text x="72" y="267">PLpgSQL <tspan fill="#A0A0A0">7.18%</tspan></text>
-<circle cx="520" cy="122" r="8" fill="#555555"/><text x="540" y="129">Python <tspan fill="#A0A0A0">5.32%</tspan></text>
-<circle cx="520" cy="168" r="8" fill="#414141"/><text x="540" y="175">C++ <tspan fill="#A0A0A0">0.76%</tspan></text>
-<circle cx="520" cy="214" r="8" fill="#303030" stroke="#777777" stroke-width="1"/><text x="540" y="221">HTML <tspan fill="#A0A0A0">0.22%</tspan></text>
-<circle cx="520" cy="260" r="8" fill="#242424" stroke="#777777" stroke-width="1"/><text x="540" y="267">PowerShell <tspan fill="#A0A0A0">0.04%</tspan></text>
-</g></svg>
+<text x="40" y="38" fill="#A0A0A0" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="2">MOST USED LANGUAGES</text>
+<text x="40" y="53" fill="#777777" font-family="Arial,Helvetica,sans-serif" font-size="10">PUBLIC REPOSITORY LANGUAGE BYTES · WEEKLY REFRESH</text>
+<defs><clipPath id="barclip"><rect x="40" y="67" width="920" height="18" rx="9"/></clipPath></defs>
+<rect x="40" y="67" width="920" height="18" rx="9" fill="#252525"/>
+<g clip-path="url(#barclip)"><rect x="40.000" y="67" width="431.296" height="18" fill="#E5E5E5"/><rect x="471.296" y="67" width="225.857" height="18" fill="#BDBDBD"/><rect x="697.153" y="67" width="138.249" height="18" fill="#969696"/><rect x="835.402" y="67" width="66.080" height="18" fill="#737373"/><rect x="901.482" y="67" width="48.922" height="18" fill="#555555"/><rect x="950.404" y="67" width="7.027" height="18" fill="#414141"/><rect x="957.431" y="67" width="1.995" height="18" fill="#303030"/><rect x="959.425" y="67" width="0.406" height="18" fill="#242424"/></g>
+<g font-family="Arial,Helvetica,sans-serif" font-size="20"><circle cx="52" cy="119" r="8" fill="#E5E5E5" stroke="#777777" stroke-width="0"/><text x="72" y="125" fill="#C9C9C9">CSS <tspan fill="#A0A0A0">46.88%</tspan></text><circle cx="52" cy="165" r="8" fill="#BDBDBD" stroke="#777777" stroke-width="0"/><text x="72" y="171" fill="#C9C9C9">JavaScript <tspan fill="#A0A0A0">24.55%</tspan></text><circle cx="52" cy="211" r="8" fill="#969696" stroke="#777777" stroke-width="0"/><text x="72" y="217" fill="#C9C9C9">TypeScript <tspan fill="#A0A0A0">15.03%</tspan></text><circle cx="52" cy="257" r="8" fill="#737373" stroke="#777777" stroke-width="0"/><text x="72" y="263" fill="#C9C9C9">PLpgSQL <tspan fill="#A0A0A0">7.18%</tspan></text><circle cx="520" cy="119" r="8" fill="#555555" stroke="#777777" stroke-width="0"/><text x="540" y="125" fill="#C9C9C9">Python <tspan fill="#A0A0A0">5.32%</tspan></text><circle cx="520" cy="165" r="8" fill="#414141" stroke="#777777" stroke-width="0"/><text x="540" y="171" fill="#C9C9C9">C++ <tspan fill="#A0A0A0">0.76%</tspan></text><circle cx="520" cy="211" r="8" fill="#303030" stroke="#777777" stroke-width="1"/><text x="540" y="217" fill="#C9C9C9">HTML <tspan fill="#A0A0A0">0.22%</tspan></text><circle cx="520" cy="257" r="8" fill="#242424" stroke="#777777" stroke-width="1"/><text x="540" y="263" fill="#C9C9C9">PowerShell <tspan fill="#A0A0A0">0.04%</tspan></text></g>
+</svg>
