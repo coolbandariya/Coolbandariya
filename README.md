@@ -163,64 +163,49 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
-<h2 id="studio-status" align="center"><img src="./assets/headings/studio-notes.svg?v=20261010-studio-notes-v4" alt="Studio Notes — animated signal-wave heading" width="100%" loading="lazy"/></h2>
+## THE BUILD LOOP
 
-<div align="center">
+*A good track is edited with intent. Good software is, too.*
 
 <table>
 <tr>
-<td align="center" valign="top" width="50%">
-<sub>◈ THE WORKBENCH / 02:17 AM</sub>
-<br/><br/>
-<img src="./assets/studio-status.svg?v=20261010-session-log-v5" width="100%" alt="Animated monochrome late-night coding workbench with monitor glow, signal strings, guitar pick and rotating vinyl; a studio illustration, not live telemetry" loading="lazy"/>
-<br/>
-<sub>BUILD SOMETHING. LISTEN CLOSELY. REPEAT.</sub>
+<td width="25%" valign="top">
+
+**01 / DISCOVER**
+
+Understand the user, reproduce the problem, and separate evidence from assumptions.
+
 </td>
-<td align="center" valign="top" width="50%">
-<sub>◈ CURRENT ROTATION</sub>
-<br/><br/>
-<img src="./assets/vu-meter.svg?v=20261010-vu-meter-v2" width="100%" alt="Animated monochrome analog VU meter and signal bars, decorative studio motion rather than live audio data" loading="lazy"/>
-<br/><br/>
-<sub>◈ THE SIX-STRING CHECK</sub>
-<br/><br/>
-<img src="./assets/fretboard-progress.svg?v=20261010-fretboard-v2" width="100%" alt="Six animated guitar strings representing design, build, data, test, documentation and ship" loading="lazy"/>
+<td width="25%" valign="top">
+
+**02 / PROTOTYPE**
+
+Build the smallest useful version. Make the core idea tangible before adding polish.
+
+</td>
+<td width="25%" valign="top">
+
+**03 / VERIFY**
+
+Test edge cases, inspect failure paths, and check that the change solves the original problem.
+
+</td>
+<td width="25%" valign="top">
+
+**04 / REFINE**
+
+Remove friction, document the important decisions, and leave the code easier to work with.
+
 </td>
 </tr>
 </table>
 
-</div>
-
-### Notes from the workbench
-
-<sub>01 — THE RIFF</sub>
-
-**Start small. Make it real.**
-
-Turn a vague idea into one useful slice that can be tried, reviewed, and improved.
-
-<sub>02 — THE LISTEN</sub>
-
-**Find the actual problem.**
-
-Reproduce the bug, check the evidence, and test the assumption before reaching for another feature.
-
-<sub>03 — THE ARRANGEMENT</sub>
-
-**Make the next step obvious.**
-
-Keep the interface quiet and the workflow clear. Remove friction instead of adding decoration.
-
-<sub>04 — THE SOUND CHECK</sub>
-
-**Earn the ship.**
-
-Run the relevant tests, check awkward inputs, explain known limits, and verify the final change.
-
 <div align="center">
 
-<sub>LESS NOISE · CLEARER SIGNAL · ONE MORE TAKE</sub>
+<sub>LESS NOISE · CLEARER SIGNAL · SHIP WITH INTENT</sub>
 
 </div>
+
 ---
 
 <h2 id="on-the-turntable"><img src="./assets/headings/on-the-turntable.svg?v=20261009-text-reveal-v2" alt="On the Turntable" width="100%" loading="lazy"/></h2>
