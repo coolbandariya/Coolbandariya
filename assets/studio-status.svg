@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="title desc">
 <title id="title">Studio status</title>
-<desc id="desc">Monochrome personal developer status panel with room notes, system status bars and the current featured track Iris by Goo Goo Dolls.</desc>
+<desc id="desc">Animated monochrome personal developer status panel with room notes, system status bars and the current featured track Iris by Goo Goo Dolls.</desc>
 <rect x="1" y="1" width="998" height="428" rx="14" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
 <path d="M500 1V429" stroke="#30363D" stroke-width="2"/>
 <g font-family="Arial,Helvetica,sans-serif">
@@ -25,7 +25,7 @@
   <text x="538" y="218" fill="#C9C9C9" font-size="16">Resting</text><rect x="672" y="202" width="270" height="13" rx="6.5" fill="#252525"/><rect x="672" y="202" width="68" height="13" rx="6.5" fill="#555555"/>
   <path d="M538 246H942" stroke="#30363D" stroke-width="2"/>
   <text x="538" y="280" fill="#A0A0A0" font-size="15" letter-spacing="3" font-weight="700">NOW PLAYING</text>
-  <circle cx="577" cy="337" r="31" fill="#161B22" stroke="#777777" stroke-width="2"/>
+  <circle class="vinyl-spin" cx="577" cy="337" r="31" fill="#161B22" stroke="#777777" stroke-width="2"/>
   <circle cx="577" cy="337" r="5" fill="#E5E5E5"/>
   <circle cx="577" cy="337" r="20" fill="none" stroke="#30363D"/>
   <path d="M577 337L594 321M577 337L560 328M577 337L570 355" stroke="#C9C9C9" stroke-width="3" stroke-linecap="round"/>
