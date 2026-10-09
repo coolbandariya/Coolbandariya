@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="title desc">
 <title id="title">Studio status</title>
-<desc id="desc">Animated monochrome personal developer status panel with room notes, system status bars and the current featured track Iris by Goo Goo Dolls.</desc>
+<desc id="desc">Animated monochrome personal developer moodboard with focus areas, a studio illustration and the featured track Iris by Goo Goo Dolls. Focus areas are thematic, not live telemetry.</desc>
 <style>.status-scan{stroke:#E5E5E5;stroke-opacity:.22;stroke-width:1;stroke-dasharray:3 12;animation:scan 9s linear infinite}.status-pulse{animation:statusPulse 2.6s ease-in-out infinite}.cursor-blink{animation:blink 1.2s steps(2,end) infinite}@keyframes scan{to{stroke-dashoffset:-180}}@keyframes statusPulse{0%,100%{opacity:.45}50%{opacity:1}}@keyframes blink{50%{opacity:0}}@media(prefers-reduced-motion:reduce){.status-scan,.status-pulse,.cursor-blink{animation:none!important}.status-pulse{opacity:1}}</style>
 <rect x="1" y="1" width="998" height="428" rx="14" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
 <path d="M500 1V429" stroke="#30363D" stroke-width="2"/><path class="status-scan" d="M18 132H982M18 395H982" fill="none"/>
@@ -19,11 +19,11 @@
   <text x="64" y="310" fill="#E6EDF3" font-size="19" font-weight="600">Current mode</text>
   <text x="64" y="338" fill="#A0A0A0" font-size="16">Engineering · debugging · shipping</text>
   <text x="64" y="365" fill="#777777" font-size="13" letter-spacing="1">FOCUS ON THE DETAILS</text>
-  <text x="538" y="45" fill="#A0A0A0" font-size="15" letter-spacing="3" font-weight="700">SYSTEM STATUS</text>
-  <text x="538" y="86" fill="#C9C9C9" font-size="16">Building</text><rect x="672" y="70" width="270" height="13" rx="6.5" fill="#252525"/><rect x="672" y="70" width="208" height="13" rx="6.5" fill="#E5E5E5"/>
-  <text x="538" y="130" fill="#C9C9C9" font-size="16">Learning</text><rect x="672" y="114" width="270" height="13" rx="6.5" fill="#252525"/><rect x="672" y="114" width="178" height="13" rx="6.5" fill="#BDBDBD"/>
-  <text x="538" y="174" fill="#C9C9C9" font-size="16">Designing</text><rect x="672" y="158" width="270" height="13" rx="6.5" fill="#252525"/><rect x="672" y="158" width="150" height="13" rx="6.5" fill="#969696"/>
-  <text x="538" y="218" fill="#C9C9C9" font-size="16">Resting</text><rect x="672" y="202" width="270" height="13" rx="6.5" fill="#252525"/><rect x="672" y="202" width="68" height="13" rx="6.5" fill="#555555"/>
+  <text x="538" y="45" fill="#A0A0A0" font-size="15" letter-spacing="3" font-weight="700">FOCUS AREAS · NOT LIVE METRICS</text>
+  <circle class="status-pulse" cx="548" cy="80" r="4" fill="#E5E5E5"/><text x="565" y="86" fill="#C9C9C9" font-size="17">BUILD</text><text x="942" y="86" text-anchor="end" fill="#777777" font-size="13">make it useful</text>
+  <circle class="status-pulse" cx="548" cy="124" r="4" fill="#BDBDBD"/><text x="565" y="130" fill="#C9C9C9" font-size="17">LEARN</text><text x="942" y="130" text-anchor="end" fill="#777777" font-size="13">test assumptions</text>
+  <circle class="status-pulse" cx="548" cy="168" r="4" fill="#969696"/><text x="565" y="174" fill="#C9C9C9" font-size="17">DESIGN</text><text x="942" y="174" text-anchor="end" fill="#777777" font-size="13">clarity over noise</text>
+  <circle class="status-pulse" cx="548" cy="212" r="4" fill="#555555"/><text x="565" y="218" fill="#C9C9C9" font-size="17">RESET</text><text x="942" y="218" text-anchor="end" fill="#777777" font-size="13">music keeps balance</text>
   <path d="M538 246H942" stroke="#30363D" stroke-width="2"/>
   <text x="538" y="280" fill="#A0A0A0" font-size="15" letter-spacing="3" font-weight="700">NOW PLAYING</text>
   <circle class="vinyl-spin" cx="577" cy="337" r="31" fill="#161B22" stroke="#777777" stroke-width="2"/>
