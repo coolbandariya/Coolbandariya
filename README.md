@@ -106,7 +106,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <h2 id="rig-signal-chain"><img src="./assets/headings/rig-signal-chain.svg?v=20261009-text-reveal-v2" alt="Rig & Signal Chain" width="100%" loading="lazy"/></h2>
 
-<sub>The instruments, pedals and signal paths behind the projects. Each stack varies by repository; tools listed here should reflect active project use.</sub>
+<sub>The signal chain behind the work: languages are the strings, frameworks are the pedals, data is the signal, and tests keep the whole rig in tune. Each stack varies by project.</sub>
 
 **Languages**  
 ![Python](https://img.shields.io/badge/Python-252525?style=flat-square&logo=python&logoColor=F4EFE5)
@@ -161,17 +161,17 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 ---
 
-<h2 id="studio-status" align="center">STUDIO NOTES</h2>
+<h2 id="studio-status" align="center">STUDIO NOTES · BETWEEN TAKES</h2>
 
 <div align="center">
 
-<img src="./assets/studio-status.svg?v=20261010-studio-notes" width="100%" alt="Illustrative monochrome studio notes panel with visual signal bars and a featured Iris by Goo Goo Dolls track" loading="lazy"/>
+<img src="./assets/studio-status.svg?v=20261010-studio-notes" width="100%" alt="Animated monochrome guitar studio notes: build, learn, design, reset; a spinning vinyl record plays Iris by Goo Goo Dolls. Status is illustrative, not live telemetry." loading="lazy"/>
 
 </div>
 
 ---
 
-<h2 id="on-the-turntable"><img src="./assets/headings/on-the-turntable.svg?v=20261009-text-reveal-v2" alt="On the Turntable" width="100%" loading="lazy"/></h2>
+<sub align="center">STRINGS IN TUNE · SIGNAL CLEAN · ONE MORE TAKE. The notes are a creative snapshot, not live system telemetry.</sub>\n\n<h2 id="on-the-turntable"><img src="./assets/headings/on-the-turntable.svg?v=20261009-text-reveal-v2" alt="On the Turntable" width="100%" loading="lazy"/></h2>
 
 <div align="center">
 
@@ -226,6 +226,9 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 </a>
 <a href="https://github.com/kaustubhdua?tab=repositories">
   <img src="./assets/most-used-languages.svg?v=20261009-live-card" height="170" alt="Automatically refreshed monochrome programming-language breakdown across owned non-fork, non-archived repositories" loading="lazy"/>
+</a>
+<a href="https://github.com/kaustubhdua">
+  <img src="https://streak-stats.demolab.com?user=kaustubhdua&theme=dark&background=0D1117&border=30363D&stroke=30363D&ring=E5E5E5&fire=BDBDBD&currStreakNum=E6EDF3&currStreakLabel=A0A0A0&sideNums=C9C9C9&sideLabels=8B949E&dates=666666&hide_border=false" height="170" alt="GitHub contribution streak, styled in the profile's monochrome studio palette" loading="lazy"/>
 </a>
 
 </div>
