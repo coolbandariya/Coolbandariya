@@ -48,28 +48,34 @@
  <use href="#neck-axis" stroke="#aaa" stroke-width="29" stroke-linecap="butt" fill="none"/>
  <use href="#neck-axis" stroke="url(#neck)" stroke-width="25" stroke-linecap="butt" fill="none"/>
  <use href="#neck-axis" stroke="#111" stroke-width="17" stroke-linecap="butt" fill="none"/>
- <!-- fret bars share the centerline angle; positions tighten toward the nut -->
+ <!-- Equal-tempered fret positions measured from the nut; each bar is perpendicular to the neck axis. -->
  <g>
-  <use href="#fret-bar" transform="translate(433 248) rotate(-7.6) scale(1 .92)"/>
-  <use href="#fret-bar" transform="translate(457 245) rotate(-7.6) scale(1 .92)"/>
-  <use href="#fret-bar" transform="translate(482 242) rotate(-7.6) scale(1 .92)"/>
-  <use href="#fret-bar" transform="translate(508 239) rotate(-7.6) scale(1 .92)"/>
-  <use href="#fret-bar" transform="translate(535 235) rotate(-7.6) scale(1 .92)"/>
-  <use href="#fret-bar" transform="translate(563 232) rotate(-7.6) scale(1 .92)"/>
-  <use href="#fret-bar" transform="translate(592 228) rotate(-7.6) scale(1 .92)"/>
-  <use href="#fret-bar" transform="translate(622 224) rotate(-7.6) scale(1 .92)"/>
-  <use href="#fret-bar" transform="translate(653 220) rotate(-7.6) scale(1 .92)"/>
-  <use href="#fret-bar" transform="translate(685 216) rotate(-7.6) scale(1 .92)"/>
-  <use href="#fret-bar" transform="translate(718 212) rotate(-7.6) scale(1 .92)"/>
-  <use href="#fret-bar" transform="translate(752 208) rotate(-7.6) scale(1 .92)"/>
-  <use href="#fret-bar" transform="translate(787 204) rotate(-7.6) scale(1 .92)"/>
-  <use href="#fret-bar" transform="translate(823 200) rotate(-7.6) scale(1 .92)"/>
-  <use href="#fret-bar" transform="translate(860 196) rotate(-7.6) scale(1 .92)"/>
-  <use href="#fret-bar" transform="translate(881 193) rotate(-7.6) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(867.50 193.65) rotate(-7.55) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(841.54 197.09) rotate(-7.55) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(817.04 200.34) rotate(-7.55) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(793.91 203.41) rotate(-7.55) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(772.09 206.31) rotate(-7.55) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(751.48 209.04) rotate(-7.55) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(732.04 211.62) rotate(-7.55) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(713.68 214.05) rotate(-7.55) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(696.36 216.35) rotate(-7.55) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(680.00 218.52) rotate(-7.55) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(664.57 220.57) rotate(-7.55) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(650.00 222.50) rotate(-7.55) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(636.25 224.32) rotate(-7.55) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(623.27 226.05) rotate(-7.55) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(611.02 227.67) rotate(-7.55) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(599.46 229.20) rotate(-7.55) scale(1 .92)"/>
+  <use href="#fret-bar" transform="translate(588.54 230.65) rotate(-7.55) scale(1 .92)"/>
  </g>
  <!-- inlays centered on fretboard -->
  <g fill="#ddd">
-  <circle cx="470" cy="239" r="1.7"/><circle cx="526" cy="231.5" r="1.7"/><circle cx="585" cy="223.5" r="1.7"/><circle cx="647" cy="215.5" r="1.7"/><circle cx="714" cy="206.5" r="1.7"/><circle cx="783" cy="197.5" r="1.7"/>
+  <circle cx="817.04" cy="200.34" r="1.7"/>
+  <circle cx="772.09" cy="206.31" r="1.7"/>
+  <circle cx="732.04" cy="211.62" r="1.7"/>
+  <circle cx="696.36" cy="216.35" r="1.7"/>
+  <circle cx="650.00" cy="222.50" r="1.7"/>
+  <circle cx="611.02" cy="227.67" r="1.7"/>
  </g>
  <!-- body -->
  <path d="M397 174C376 153 346 149 326 164C309 177 310 197 326 213C339 227 340 239 323 251C301 266 282 282 288 305C294 330 321 344 348 337C370 332 390 316 410 315C431 314 448 328 469 338C494 350 522 338 528 317C533 299 521 281 506 266C491 251 485 235 494 218C507 194 489 173 466 166C441 158 421 166 410 181Z" fill="url(#body)" stroke="#ddd" stroke-width="2.2"/>
