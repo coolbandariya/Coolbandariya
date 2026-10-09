@@ -252,7 +252,6 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 **ON REPEAT / IRIS — GOO GOO DOLLS**
 
-*“And I'd give up forever to touch you…”*
 
 <a href="https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"><img src="https://img.shields.io/badge/SPOTIFY-LISTEN-252525?style=for-the-badge&logo=spotify&logoColor=white" alt="Listen to Iris by Goo Goo Dolls on Spotify" loading="lazy"/></a>
 <a href="https://www.youtube.com/results?search_query=Goo+Goo+Dolls+Iris+official"><img src="https://img.shields.io/badge/YOUTUBE-PLAY-252525?style=for-the-badge&logo=youtube&logoColor=white" alt="Find the official Iris music video on YouTube" loading="lazy"/></a>
