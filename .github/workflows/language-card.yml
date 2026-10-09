@@ -1,0 +1,106 @@
+name: Refresh Monochrome Language Card
+
+on:
+  schedule:
+    - cron: "23 4 * * 1"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/language-card.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: language-card
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch repository language totals
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          python - <<'PY'
+          import json, os, urllib.request
+          token = os.environ["GH_TOKEN"]
+          owner = os.environ["OWNER"]
+          headers = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"}
+          def get(url):
+              req = urllib.request.Request(url, headers=headers)
+              with urllib.request.urlopen(req, timeout=30) as response:
+                  return json.load(response)
+          repos, page = [], 1
+          while True:
+              batch = get(f"https://api.github.com/users/{owner}/repos?per_page=100&page={page}&type=owner")
+              if not batch: break
+              repos.extend(batch)
+              if len(batch) < 100: break
+              page += 1
+          totals = {}
+          excluded = {os.environ.get("GITHUB_REPOSITORY", "").split("/")[-1]}
+          for repo in repos:
+              if repo.get("fork") or repo.get("archived") or repo["name"] in excluded: continue
+              try:
+                  languages = get(repo["languages_url"])
+              except Exception as exc:
+                  print(f"Skipping language endpoint for {repo['name']}: {exc}")
+                  continue
+              for language, byte_count in languages.items():
+                  totals[language] = totals.get(language, 0) + byte_count
+          if not totals:
+              raise SystemExit("No language data was returned; refusing to overwrite the existing card.")
+          total = sum(totals.values())
+          rows = sorted(totals.items(), key=lambda pair: pair[1], reverse=True)[:8]
+          rows = [(name, value, value * 100 / total) for name, value in rows]
+          os.makedirs("assets", exist_ok=True)
+          palette = ["#E5E5E5", "#BDBDBD", "#969696", "#737373", "#555555", "#414141", "#303030", "#242424"]
+          width, x0 = 920, 40
+          bar = []
+          cursor = x0
+          for i, (name, value, pct) in enumerate(rows):
+              segment = width * pct / 100
+              bar.append(f'<rect x="{cursor:.3f}" y="67" width="{segment:.3f}" height="18" fill="{palette[i % len(palette)]}"/>')
+              cursor += segment
+          lines = []
+          for i, (name, value, pct) in enumerate(rows):
+              x = 52 if i < 4 else 520
+              y = 125 + (i % 4) * 46
+              color = palette[i % len(palette)]
+              lines.append(f'<circle cx="{x}" cy="{y-6}" r="8" fill="{color}" stroke="#777777" stroke-width="{1 if i >= 6 else 0}"/>')
+              lines.append(f'<text x="{x+20}" y="{y}" fill="#C9C9C9">{name.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")} <tspan fill="#A0A0A0">{pct:.2f}%</tspan></text>')
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
+          <title id="title">Most Used Languages — updated automatically</title>
+          <desc id="desc">Top languages by bytes across non-fork, non-archived repositories owned by {owner}, excluding this profile repository. Updated weekly.</desc>
+          <rect width="1000" height="280" rx="12" fill="#0D1117"/>
+          <text x="40" y="38" fill="#A0A0A0" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="2">MOST USED LANGUAGES</text>
+          <text x="40" y="53" fill="#777777" font-family="Arial,Helvetica,sans-serif" font-size="10">PUBLIC REPOSITORY LANGUAGE BYTES · WEEKLY REFRESH</text>
+          <defs><clipPath id="barclip"><rect x="40" y="67" width="920" height="18" rx="9"/></clipPath></defs>
+          <rect x="40" y="67" width="920" height="18" rx="9" fill="#252525"/>
+          <g clip-path="url(#barclip)">{"".join(bar)}</g>
+          <g font-family="Arial,Helvetica,sans-serif" font-size="20">{"".join(lines)}</g>
+          </svg>'''
+          open("assets/most-used-languages.svg", "w", encoding="utf-8").write(svg)
+          print("Generated language card from", len(repos), "owned repositories; total bytes:", total)
+          PY
+
+      - name: Validate generated SVG
+        run: python -c "import xml.etree.ElementTree as ET; ET.parse('assets/most-used-languages.svg')"
+
+      - name: Commit updated card
+        run: |
+          if git diff --quiet -- assets/most-used-languages.svg; then
+            echo "Language card is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/most-used-languages.svg
+          git commit -m "chore: refresh monochrome language card"
+          git push
