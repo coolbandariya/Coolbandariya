@@ -107,7 +107,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <h2 id="rig-signal-chain"><img src="./assets/headings/rig-signal-chain.svg?v=20261010-centered" alt="Rig & Signal Chain" width="100%" loading="lazy"/></h2>
 
-<sub>The instruments, pedals and signal paths behind the projects. Each stack varies by repository.</sub>
+<sub>The instruments, pedals and signal paths behind the projects. Each stack varies by repository; tools listed here should reflect active project use.</sub>
 
 <table>
 <tr>
@@ -256,7 +256,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <div align="center">
 
-<img src="./assets/guitar-studio.svg?v=20261009-shared-axis-v2" width="100%" alt="Animated black-and-white studio scene with a detailed black double-cutaway electric guitar, six strings, fretboard, pickups, amplifier, Iris music player and animated equalizer" loading="lazy"/>
+<img src="./assets/guitar-studio.svg?v=20261009-geometry-pass" width="100%" alt="Animated black-and-white studio scene with a detailed black double-cutaway electric guitar, six strings, fretboard, pickups, amplifier, Iris music player and animated equalizer" loading="lazy"/>
 
 **ON REPEAT / IRIS — GOO GOO DOLLS**
 
@@ -315,7 +315,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
   <img src="https://github-readme-stats-fast.vercel.app/api?username=kaustubhdua&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A0A0A0&text_color=C9C9C9&icon_color=E5E5E5&rank_icon=github&include_all_commits=true" height="170" alt="Live GitHub statistics for kaustubhdua" loading="lazy"/>
 </a>
 <a href="https://github.com/kaustubhdua?tab=repositories">
-  <img src="./assets/most-used-languages.svg?v=20261009-snapshot" height="170" alt="Monochrome most-used languages card" loading="lazy"/>
+  <img src="./assets/most-used-languages.svg?v=20261009-live-card" height="170" alt="Automatically refreshed monochrome programming-language breakdown across owned non-fork, non-archived repositories" loading="lazy"/>
 </a>
 
 </div>
