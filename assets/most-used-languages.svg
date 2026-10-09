@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
+  <title id="title">Most Used Languages</title>
+  <desc id="desc">Monochrome language breakdown: CSS 46.89%, JavaScript 24.55%, TypeScript 15.03%, PLpgSQL 7.18%, Python 5.32%, C++ 0.76%, HTML 0.22%, PowerShell 0.04%.</desc>
+  <rect width="1000" height="280" rx="12" fill="#0D1117"/>
+  <text x="40" y="38" fill="#A0A0A0" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="2">MOST USED LANGUAGES</text>
+  <defs><clipPath id="barclip"><rect x="40" y="57" width="920" height="18" rx="9"/></clipPath></defs>
+  <rect x="40" y="57" width="920" height="18" rx="9" fill="#252525"/>
+  <g clip-path="url(#barclip)">
+    <rect x="40" y="57" width="431.388" height="18" fill="#E5E5E5"/>
+    <rect x="471.388" y="57" width="225.86" height="18" fill="#BDBDBD"/>
+    <rect x="697.248" y="57" width="138.276" height="18" fill="#969696"/>
+    <rect x="835.524" y="57" width="66.056" height="18" fill="#737373"/>
+    <rect x="901.58" y="57" width="48.944" height="18" fill="#555555"/>
+    <rect x="950.524" y="57" width="6.992" height="18" fill="#414141"/>
+    <rect x="957.516" y="57" width="2.024" height="18" fill="#303030"/>
+    <rect x="959.54" y="57" width=".368" height="18" fill="#242424"/>
+  </g>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#C9C9C9">
+    <circle cx="52" cy="112" r="8" fill="#E5E5E5"/><text x="72" y="119">CSS <tspan fill="#A0A0A0">46.89%</tspan></text>
+    <circle cx="52" cy="158" r="8" fill="#BDBDBD"/><text x="72" y="165">JavaScript <tspan fill="#A0A0A0">24.55%</tspan></text>
+    <circle cx="52" cy="204" r="8" fill="#969696"/><text x="72" y="211">TypeScript <tspan fill="#A0A0A0">15.03%</tspan></text>
+    <circle cx="52" cy="250" r="8" fill="#737373"/><text x="72" y="257">PLpgSQL <tspan fill="#A0A0A0">7.18%</tspan></text>
+    <circle cx="520" cy="112" r="8" fill="#555555"/><text x="540" y="119">Python <tspan fill="#A0A0A0">5.32%</tspan></text>
+    <circle cx="520" cy="158" r="8" fill="#414141"/><text x="540" y="165">C++ <tspan fill="#A0A0A0">0.76%</tspan></text>
+    <circle cx="520" cy="204" r="8" fill="#303030" stroke="#777777" stroke-width="1"/><text x="540" y="211">HTML <tspan fill="#A0A0A0">0.22%</tspan></text>
+    <circle cx="520" cy="250" r="8" fill="#242424" stroke="#777777" stroke-width="1"/><text x="540" y="257">PowerShell <tspan fill="#A0A0A0">0.04%</tspan></text>
+  </g>
+</svg>
