@@ -1,19 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="82" viewBox="0 0 720 82" role="img" aria-labelledby="title desc">
 <title id="title">ON THE TURNTABLE</title>
-<desc id="desc">Editorial section heading with a one-pass text reveal and a subtle record-groove accent.</desc>
+<desc id="desc">Editorial heading with a left-to-right animated text highlight, a fine monochrome divider and a section-specific music-inspired accent.</desc>
+<defs><clipPath id="heading-reveal"><rect x="0" y="0" width="0" height="82" class="reveal-window"/></clipPath></defs>
 <text class="eyebrow" x="360" y="16" text-anchor="middle">03 / CURRENT ROTATION</text>
-<text class="heading-text" x="360" y="49" text-anchor="middle">ON THE TURNTABLE</text>
+<text class="heading-base" x="360" y="49" text-anchor="middle">ON THE TURNTABLE</text>
+<text class="heading-highlight" x="360" y="49" text-anchor="middle" clip-path="url(#heading-reveal)">ON THE TURNTABLE</text>
 <path class="rule" d="M0 66 H720"/>
 <path class="track" d="M0 66 H285 M435 66 H720"/><circle class="record" cx="360" cy="66" r="7"/><circle cx="360" cy="66" r="2" fill="#D8D8D8"/>
 <style>
 .eyebrow{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:10px;font-weight:600;letter-spacing:2.6px;fill:#858585}
-.heading-text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:30px;font-weight:750;letter-spacing:1.2px;fill:#E5E5E5;stroke:#F5F5F5;stroke-width:.35;stroke-dasharray:1000;stroke-dashoffset:0;animation:titleDraw 9.2s cubic-bezier(.2,.7,.2,1) infinite}
+.heading-base,.heading-highlight{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:30px;font-weight:750;letter-spacing:1.2px}
+.heading-base{fill:#BDBDBD}
+.heading-highlight{fill:#FFFFFF}
+.reveal-window{animation:revealText 9.2s cubic-bezier(.22,.7,.18,1) infinite}
 .rule{stroke:#303030;stroke-width:1}
 .track{fill:none;stroke:#858585;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:520;stroke-dashoffset:520;animation:trackDraw 7s ease-in-out infinite}
 .record{fill:none;stroke:#858585;stroke-width:1.2;transform-origin:360px 66px;animation:spin 12s linear infinite}
-@keyframes titleDraw{0%,6%{opacity:.35;stroke-dashoffset:1000;fill:#777777}25%{opacity:1;stroke-dashoffset:0;fill:#FFFFFF}38%{stroke-dashoffset:0;fill:#E5E5E5}55%,100%{opacity:1;stroke-dashoffset:0;fill:#E5E5E5}}
+@keyframes revealText{0%,8%{width:0}35%,78%{width:720px}100%{width:0}}
 @keyframes trackDraw{0%,10%{stroke-dashoffset:520;opacity:.35}45%,80%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:-520;opacity:.45}}
 @keyframes spin{to{transform:rotate(360deg)}}
-@media(prefers-reduced-motion:reduce){.heading-text,.track,.record{animation:none!important;stroke-dashoffset:0!important;transform:none!important}.heading-text{fill:#E5E5E5;stroke:none}.track{stroke-dasharray:none}}
+@media(prefers-reduced-motion:reduce){.reveal-window,.track,.record{animation:none!important;transform:none!important}.reveal-window{width:720px}.heading-base{fill:#E5E5E5}.heading-highlight{display:none}.track{stroke-dasharray:none;stroke-dashoffset:0}}
 </style>
 </svg>
