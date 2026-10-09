@@ -1,37 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="title desc">
-<title id="title">Studio status</title>
-<desc id="desc">Animated monochrome personal developer moodboard with focus areas, a studio illustration and the featured track Iris by Goo Goo Dolls. Focus areas are thematic, not live telemetry.</desc>
-<style>.status-scan{stroke:#E5E5E5;stroke-opacity:.22;stroke-width:1;stroke-dasharray:3 12;animation:scan 9s linear infinite}.status-pulse{animation:statusPulse 2.6s ease-in-out infinite}.cursor-blink{animation:blink 1.2s steps(2,end) infinite}.vinyl-spin{transform-origin:577px 337px;animation:vinylSpin 7s linear infinite}.string-wave{stroke-dasharray:5 8;animation:stringWave 3.2s linear infinite}.pick-glow{animation:pickGlow 2.1s ease-in-out infinite}@keyframes scan{to{stroke-dashoffset:-180}}@keyframes statusPulse{0%,100%{opacity:.45}50%{opacity:1}}@keyframes blink{50%{opacity:0}}@keyframes vinylSpin{to{transform:rotate(360deg)}}@keyframes stringWave{to{stroke-dashoffset:-52}}@keyframes pickGlow{0%,100%{opacity:.45}50%{opacity:1}}@media(prefers-reduced-motion:reduce){.status-scan,.status-pulse,.cursor-blink,.vinyl-spin,.string-wave,.pick-glow{animation:none!important}.status-pulse,.pick-glow{opacity:1}}</style>
-<rect x="1" y="1" width="998" height="428" rx="14" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
-<path d="M500 1V429" stroke="#30363D" stroke-width="2"/><path class="status-scan" d="M18 132H982M18 395H982" fill="none"/>
-<g font-family="Arial,Helvetica,sans-serif">
-  <text x="38" y="45" fill="#A0A0A0" font-size="15" letter-spacing="3" font-weight="700">BETWEEN TAKES</text>
-  <text x="38" y="82" fill="#E6EDF3" font-size="28" font-weight="600">Tune. Build. Repeat.</text>
-  <text x="38" y="112" fill="#8B949E" font-size="16">Small fixes. Clear signal. Better takes.</text>
-  <rect x="38" y="145" width="424" height="240" rx="12" fill="#111820" stroke="#30363D"/>
-  <rect x="64" y="174" width="132" height="84" rx="7" fill="#202830" stroke="#777777"/>
-  <rect x="75" y="185" width="110" height="59" rx="3" fill="#0D1117" stroke="#555555"/>
-  <path d="M87 200H163M87 211H145M87 222H154" stroke="#A0A0A0" stroke-width="3" stroke-linecap="round"/>
-  <path d="M112 259V271M96 272H128" stroke="#777777" stroke-width="4" stroke-linecap="round"/>
-  <path d="M228 230h180" stroke="#777777" stroke-width="6" stroke-linecap="round"/><path class="string-wave" d="M228 218h180M228 224h180M228 236h180M228 242h180" stroke="#D8D8D8" stroke-width="1.2" opacity=".8"/><path class="pick-glow" d="M356 192l17 12-10 20-16-13z" fill="#D8D8D8" stroke="#F0F0F0" stroke-width="1"/>
-  <path d="M247 230v-23q0-10 10-10h45q10 0 10 10v23M256 197v-9h47v9" fill="#30363D" stroke="#A0A0A0" stroke-width="2"/>
-  <circle cx="268" cy="218" r="4" fill="#E5E5E5"/><circle cx="286" cy="218" r="4" fill="#777777"/><circle cx="304" cy="218" r="4" fill="#BDBDBD"/>
-  <text x="64" y="310" fill="#E6EDF3" font-size="19" font-weight="600">On the workbench</text>
-  <text x="64" y="338" fill="#A0A0A0" font-size="16">Prototype · debug · refine · ship</text>
-  <text x="64" y="365" fill="#777777" font-size="13" letter-spacing="1">FOCUS ON THE DETAILS</text>
-  <text x="538" y="45" fill="#A0A0A0" font-size="15" letter-spacing="3" font-weight="700">THE FOUR-TRACK SESSION</text>
-  <circle class="status-pulse" cx="548" cy="80" r="4" fill="#E5E5E5"/><text x="565" y="86" fill="#C9C9C9" font-size="17">WRITE THE RIFF</text><text x="942" y="86" text-anchor="end" fill="#777777" font-size="13">build with purpose</text>
-  <circle class="status-pulse" cx="548" cy="124" r="4" fill="#BDBDBD"/><text x="565" y="130" fill="#C9C9C9" font-size="17">LISTEN CLOSELY</text><text x="942" y="130" text-anchor="end" fill="#777777" font-size="13">test assumptions</text>
-  <circle class="status-pulse" cx="548" cy="168" r="4" fill="#969696"/><text x="565" y="174" fill="#C9C9C9" font-size="17">FIND THE GROOVE</text><text x="942" y="174" text-anchor="end" fill="#777777" font-size="13">clarity over noise</text>
-  <circle class="status-pulse" cx="548" cy="212" r="4" fill="#555555"/><text x="565" y="218" fill="#C9C9C9" font-size="17">TUNE THE SIGNAL</text><text x="942" y="218" text-anchor="end" fill="#777777" font-size="13">music keeps balance</text>
-  <path d="M538 246H942" stroke="#30363D" stroke-width="2"/>
-  <text x="538" y="280" fill="#A0A0A0" font-size="15" letter-spacing="3" font-weight="700">THE RESET TRACK</text>
-  <circle class="vinyl-spin" cx="577" cy="337" r="31" fill="#161B22" stroke="#777777" stroke-width="2"/>
-  <circle cx="577" cy="337" r="5" fill="#E5E5E5"/>
-  <circle cx="577" cy="337" r="20" fill="none" stroke="#30363D"/>
-  <path d="M577 337L594 321M577 337L560 328M577 337L570 355" stroke="#C9C9C9" stroke-width="3" stroke-linecap="round"/>
-  <text x="625" y="329" fill="#E6EDF3" font-size="22" font-weight="600">Iris</text>
-  <text x="625" y="356" fill="#A0A0A0" font-size="16">Goo Goo Dolls</text>
-  <text x="625" y="381" fill="#777777" font-size="12" letter-spacing="1">SIX STRINGS · ONE CLEAN SIGNAL</text>
-</g>
-</svg>
+<title id="title">Studio notes: the working method</title><desc id="desc">Animated monochrome studio board connecting four practical engineering habits—start small, test assumptions, simplify workflows, and verify before shipping—with a guitar, signal waveform and rotating record. Decorative motion, not live telemetry.</desc>
+<style>.mono{font-family:Arial,Helvetica,sans-serif}.scan{stroke:#E5E5E5;stroke-opacity:.22;stroke-width:1;stroke-dasharray:3 12;animation:scan 9s linear infinite}.pulse{animation:pulse 3s ease-in-out infinite}.wave{stroke-dasharray:5 8;animation:wave 3.4s linear infinite}.pick{transform-origin:390px 212px;animation:pick 3.2s ease-in-out infinite}.vinyl{transform-origin:135px 342px;animation:spin 9s linear infinite}.cursor{animation:blink 1.4s steps(2,end) infinite}.marker{animation:marker 4s ease-in-out infinite}.m2{animation-delay:-1s}.m3{animation-delay:-2s}.m4{animation-delay:-3s}@keyframes scan{to{stroke-dashoffset:-180}}@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}@keyframes wave{to{stroke-dashoffset:-52}}@keyframes pick{0%,100%{transform:rotate(-7deg);opacity:.6}50%{transform:rotate(8deg);opacity:1}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes blink{50%{opacity:0}}@keyframes marker{0%,100%{transform:translateX(0)}50%{transform:translateX(15px)}}@media(prefers-reduced-motion:reduce){.scan,.pulse,.wave,.pick,.vinyl,.cursor,.marker{animation:none!important}.pulse,.pick{opacity:1}}</style>
+<rect x="1" y="1" width="998" height="428" rx="14" fill="#0D1117" stroke="#30363D" stroke-width="2"/><path d="M480 1V429" stroke="#30363D" stroke-width="2"/><path class="scan" d="M18 132H982M18 395H982" fill="none"/>
+<g class="mono">
+<text x="34" y="42" fill="#A0A0A0" font-size="14" letter-spacing="3" font-weight="700">THE WORKING METHOD</text><text x="34" y="78" fill="#E6EDF3" font-size="28" font-weight="700">Make it useful.</text><text x="34" y="106" fill="#8B949E" font-size="16">Then make it reliable.</text>
+<rect x="30" y="145" width="420" height="235" rx="12" fill="#111820" stroke="#30363D"/>
+<rect x="53" y="166" width="112" height="75" rx="6" fill="#202830" stroke="#777"/><rect x="62" y="175" width="94" height="52" rx="3" fill="#0D1117" stroke="#555"/><path d="M72 188H145M72 198H126M72 208H139" stroke="#A0A0A0" stroke-width="3" stroke-linecap="round"/><path d="M99 242V253M86 254H112" stroke="#777" stroke-width="3" stroke-linecap="round"/>
+<path d="M190 205H422" stroke="#777" stroke-width="5" stroke-linecap="round"/><path class="wave" d="M190 190H422M190 197H422M190 213H422M190 220H422" stroke="#D8D8D8" stroke-width="1.2"/><g class="pick"><path d="M350 173l17 12-10 21-16-13z" fill="#E6EDF3" stroke="#F0F0F0"/></g>
+<g fill="none" stroke="#A0A0A0" stroke-width="2"><rect x="194" y="234" width="48" height="20" rx="3"/><rect x="270" y="234" width="48" height="20" rx="3"/><rect x="346" y="234" width="48" height="20" rx="3"/><path d="M242 244H270M318 244H346"/></g><g fill="#E6EDF3"><circle cx="256" cy="244" r="2.5"/><circle cx="332" cy="244" r="2.5"/></g>
+<text x="53" y="291" fill="#E6EDF3" font-size="18" font-weight="700">The workbench</text><text x="53" y="318" fill="#A0A0A0" font-size="14">Idea → prototype → test → ship</text><text x="53" y="346" fill="#777" font-size="12" letter-spacing="1">SMALL CHANGES. PROVE THE SIGNAL.</text><text x="53" y="366" fill="#777" font-size="11">A method, not a live status feed.</text>
+<text x="512" y="42" fill="#A0A0A0" font-size="14" letter-spacing="3" font-weight="700">FOUR NOTES TO SELF</text>
+<g class="pulse"><circle cx="522" cy="79" r="4" fill="#E6EDF3"/><circle cx="522" cy="143" r="4" fill="#C9C9C9"/><circle cx="522" cy="207" r="4" fill="#A0A0A0"/><circle cx="522" cy="271" r="4" fill="#777"/></g>
+<text x="540" y="77" fill="#E6EDF3" font-size="17" font-weight="700">01 / WRITE THE RIFF</text><text x="540" y="99" fill="#8B949E" font-size="14">Start with one useful, shippable slice.</text><path d="M540 111H950" stroke="#30363D"/>
+<text x="540" y="141" fill="#E6EDF3" font-size="17" font-weight="700">02 / LISTEN CLOSELY</text><text x="540" y="163" fill="#8B949E" font-size="14">Reproduce the bug; test the assumption.</text><path d="M540 175H950" stroke="#30363D"/>
+<text x="540" y="205" fill="#E6EDF3" font-size="17" font-weight="700">03 / FIND THE GROOVE</text><text x="540" y="227" fill="#8B949E" font-size="14">Remove friction from the user journey.</text><path d="M540 239H950" stroke="#30363D"/>
+<text x="540" y="269" fill="#E6EDF3" font-size="17" font-weight="700">04 / TUNE THE SIGNAL</text><text x="540" y="291" fill="#8B949E" font-size="14">Run checks; document limits; verify release.</text>
+<path d="M512 315H950" stroke="#30363D" stroke-width="2"/><text x="512" y="341" fill="#A0A0A0" font-size="13" letter-spacing="3">THE RESET TRACK</text>
+<g class="vinyl"><circle cx="135" cy="342" r="23" fill="#161B22" stroke="#777" stroke-width="2"/><circle cx="135" cy="342" r="15" fill="none" stroke="#30363D"/><path d="M135 342L147 331M135 342L124 336M135 342L130 354" stroke="#C9C9C9" stroke-width="2.5" stroke-linecap="round"/><circle cx="135" cy="342" r="3" fill="#E5E5E5"/></g>
+<text x="174" y="337" fill="#E6EDF3" font-size="18" font-weight="700">Pause. Listen. Reset.</text><text x="174" y="359" fill="#8B949E" font-size="13">Iris · Goo Goo Dolls</text>
+<text x="950" y="371" text-anchor="end" fill="#666" font-size="11" letter-spacing="2">LESS NOISE / CLEARER SIGNAL / ONE MORE TAKE</text>
+</g></svg>
