@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="82" viewBox="0 0 720 82" role="img" aria-labelledby="title desc">
 <title id="title">BACKSTAGE PASS</title>
 <desc id="desc">Editorial section heading with a one-pass text reveal and a minimal access-line accent.</desc>
-<text class="eyebrow" x="360" y="16" text-anchor="middle">05 / ABOUT & CONTACT</text>
+<text class="eyebrow" x="360" y="16" text-anchor="middle">05 / ABOUT &amp; CONTACT</text>
 <text class="heading-text" x="360" y="49" text-anchor="middle">BACKSTAGE PASS</text>
 <path class="rule" d="M0 66 H720"/>
 <path class="track" d="M0 66 H278 M442 66 H720"/><path d="M278 60 V72 M442 60 V72" stroke="#777" stroke-width="1.4"/>
