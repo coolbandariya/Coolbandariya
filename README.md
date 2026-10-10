@@ -11,7 +11,7 @@
   <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-↗-252525?style=flat-square&labelColor=111111&color=252525" alt="All repositories" loading="lazy"/></a>
 </p>
 
-**ELECTRONICS & COMPUTER ENGINEERING · JIIT NOIDA**
+<img src="./assets/academic-kicker.svg?v=20261010-academic-kicker" width="100%" alt="Electronics and Computer Engineering · JIIT Noida" loading="lazy"/>
 
 I build practical software across **AI, data, systems and product engineering** — with a focus on turning complex problems into useful, testable tools.
 
