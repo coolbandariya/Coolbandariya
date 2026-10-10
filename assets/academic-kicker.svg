@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="54" viewBox="0 0 900 54" role="img" aria-labelledby="title desc">
 <title id="title">Electronics and Computer Engineering · JIIT Noida</title>
-<desc id="desc">Very slow, gentle fade in and fade out between two academic titles, with long readable pauses.</desc>
+<desc id="desc">A very slow, elegant cross-fade between the academic program and university, with a long hold and gentle transitions.</desc>
 <defs>
   <style>
     .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px;font-weight:600;letter-spacing:1.7px;fill:#f4efe5;text-anchor:middle}
-    .frame{opacity:0;animation:softfade 20s linear infinite}
-    .second{animation-delay:10s}
+    .frame{opacity:0;animation:softfade 32s ease-in-out infinite;will-change:opacity}
+    .second{animation-delay:16s}
     @keyframes softfade{
-      0%,12%{opacity:0}
-      28%{opacity:1}
-      72%{opacity:1}
-      88%,100%{opacity:0}
+      0%,8%{opacity:0}
+      22%{opacity:1}
+      78%{opacity:1}
+      92%,100%{opacity:0}
     }
     @media(prefers-reduced-motion:reduce){
-      .frame{animation:none!important;opacity:0}
+      .frame{animation:none!important;opacity:0;will-change:auto}
       .first{opacity:1}
     }
   </style>
