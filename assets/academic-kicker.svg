@@ -1,35 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="54" viewBox="0 0 900 54" role="img" aria-labelledby="title desc">
 <title id="title">Electronics and Computer Engineering · JIIT Noida</title>
-<desc id="desc">Slow, restrained alternating academic title with a gentle fade and a subtle underline draw.</desc>
+<desc id="desc">Two academic titles gently cross-fade between visible states, with no sliding, blur, or moving underline.</desc>
 <defs>
   <style>
     .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px;font-weight:600;letter-spacing:1.7px;fill:#f4efe5;text-anchor:middle}
-    .frame{opacity:0;animation:holdfade 14s ease-in-out infinite}
-    .second{animation-delay:7s}
-    .track{stroke:#b9b1a5;stroke-opacity:.28;stroke-width:1}
-    .underline{stroke:#f4efe5;stroke-opacity:.8;stroke-width:1.5;stroke-linecap:round;stroke-dasharray:250;stroke-dashoffset:250;animation:draw 14s ease-in-out infinite}
-    .underline2{animation-delay:7s}
-    @keyframes holdfade{
-      0%,5%{opacity:0}
-      13%,39%{opacity:1}
-      48%,100%{opacity:0}
-    }
-    @keyframes draw{
-      0%,9%{stroke-dashoffset:250;opacity:0}
-      18%{stroke-dashoffset:0;opacity:.8}
-      39%{stroke-dashoffset:0;opacity:.65}
-      47%,100%{stroke-dashoffset:0;opacity:0}
+    .frame{opacity:0;animation:crossfade 12s ease-in-out infinite}
+    .second{animation-delay:6s}
+    @keyframes crossfade{
+      0%,8%{opacity:0}
+      22%,62%{opacity:1}
+      78%,100%{opacity:0}
     }
     @media(prefers-reduced-motion:reduce){
-      .frame,.underline{animation:none!important}
-      .frame{opacity:0}.first{opacity:1}
-      .underline{display:none}
+      .frame{animation:none!important;opacity:0}
+      .first{opacity:1}
     }
   </style>
 </defs>
-<path class="track" d="M86 42H814"/>
-<path class="underline" d="M325 42H575"/>
-<path class="underline underline2" d="M325 42H575"/>
+<path d="M86 42H814" stroke="#b9b1a5" stroke-opacity=".28" stroke-width="1"/>
 <circle cx="66" cy="42" r="2.5" fill="#f4efe5" opacity=".65"/>
 <circle cx="834" cy="42" r="2.5" fill="#f4efe5" opacity=".65"/>
 <text class="mono frame first" x="450" y="29">ELECTRONICS &amp; COMPUTER ENGINEERING</text>
