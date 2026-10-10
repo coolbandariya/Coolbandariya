@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="46" viewBox="0 0 900 46" role="img" aria-labelledby="title desc">
+<title id="title">Electronics and Computer Engineering · JIIT Noida</title>
+<desc id="desc">A monochrome animated label alternating between Electronics and Computer Engineering and JIIT Noida.</desc>
+<defs>
+  <style>
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:16px;font-weight:600;letter-spacing:2px;fill:#f4efe5;text-anchor:middle}
+    .frame{opacity:0;animation:swap 6s steps(1,end) infinite}
+    .second{animation-delay:3s}
+    .rule{stroke:#b9b1a5;stroke-opacity:.5}
+    @keyframes swap{0%,4%,46%,54%,100%{opacity:0}8%,42%{opacity:1}}
+    @media(prefers-reduced-motion:reduce){.frame{animation:none;opacity:0}.first{opacity:1}}
+  </style>
+</defs>
+<path class="rule" d="M100 23H250M650 23H800"/>
+<circle cx="82" cy="23" r="3" fill="#f4efe5"/>
+<circle cx="818" cy="23" r="3" fill="#f4efe5"/>
+<text class="mono frame first" x="450" y="29">ELECTRONICS &amp; COMPUTER ENGINEERING</text>
+<text class="mono frame second" x="450" y="29">JIIT NOIDA</text>
+</svg>
