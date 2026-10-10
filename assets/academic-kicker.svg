@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="54" viewBox="0 0 900 54" role="img" aria-labelledby="title desc">
 <title id="title">Electronics and Computer Engineering · JIIT Noida</title>
-<desc id="desc">Fast academic title ticker with a brief fade and subtle vertical movement matching the profile build-log animation.</desc>
+<desc id="desc">Rapid academic title ticker with short fade transitions and subtle vertical movement.</desc>
 <defs>
   <style>
     .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px;font-weight:600;letter-spacing:1.7px;fill:#f4efe5;text-anchor:middle}
-    .phrase{opacity:0;animation:rotate 5s linear infinite}
-    .p2{animation-delay:2.5s}
+    .phrase{opacity:0;animation:rotate 3s linear infinite}
+    .p2{animation-delay:1.5s}
     @keyframes rotate{
-      0%,3%{opacity:0;transform:translateY(4px)}
-      8%,25%{opacity:1;transform:translateY(0)}
-      30%,100%{opacity:0;transform:translateY(-3px)}
+      0%,2%{opacity:0;transform:translateY(4px)}
+      6%,25%{opacity:1;transform:translateY(0)}
+      29%,100%{opacity:0;transform:translateY(-3px)}
     }
     @media(prefers-reduced-motion:reduce){
       .phrase{animation:none!important;opacity:0;transform:none}
