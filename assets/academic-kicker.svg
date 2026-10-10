@@ -1,19 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="46" viewBox="0 0 900 46" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="54" viewBox="0 0 900 54" role="img" aria-labelledby="title desc">
 <title id="title">Electronics and Computer Engineering · JIIT Noida</title>
-<desc id="desc">A monochrome animated label alternating between Electronics and Computer Engineering and JIIT Noida.</desc>
+<desc id="desc">A minimal monochrome title animation that reveals the degree and university in alternating, upward-moving text with a sweeping underline.</desc>
 <defs>
+  <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#f4efe5" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#f4efe5"/>
+    <stop offset="1" stop-color="#f4efe5" stop-opacity="0"/>
+  </linearGradient>
   <style>
-    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:16px;font-weight:600;letter-spacing:2px;fill:#f4efe5;text-anchor:middle}
-    .frame{opacity:0;animation:swap 6s steps(1,end) infinite}
-    .second{animation-delay:3s}
-    .rule{stroke:#b9b1a5;stroke-opacity:.5}
-    @keyframes swap{0%,4%,46%,54%,100%{opacity:0}8%,42%{opacity:1}}
-    @media(prefers-reduced-motion:reduce){.frame{animation:none;opacity:0}.first{opacity:1}}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px;font-weight:600;letter-spacing:1.8px;fill:#f4efe5;text-anchor:middle}
+    .frame{opacity:0;transform-box:fill-box;transform-origin:center;animation:reveal 8s cubic-bezier(.2,.75,.25,1) infinite}
+    .second{animation-delay:4s}
+    .track{stroke:#b9b1a5;stroke-opacity:.3;stroke-width:1}
+    .beam{animation:sweep 4s ease-in-out infinite}
+    .beam2{animation-delay:4s}
+    @keyframes reveal{
+      0%,3%{opacity:0;transform:translateY(9px);filter:blur(3px);letter-spacing:4px}
+      10%,39%{opacity:1;transform:translateY(0);filter:blur(0);letter-spacing:1.8px}
+      47%,100%{opacity:0;transform:translateY(-7px);filter:blur(2px);letter-spacing:3px}
+    }
+    @keyframes sweep{
+      0%,8%{opacity:0;transform:translateX(-250px)}
+      18%{opacity:.9}
+      65%{opacity:.65;transform:translateX(250px)}
+      75%,100%{opacity:0;transform:translateX(250px)}
+    }
+    @media(prefers-reduced-motion:reduce){
+      .frame,.beam{animation:none!important;filter:none;transform:none}
+      .frame{opacity:0}.first{opacity:1}
+      .beam{display:none}
+    }
   </style>
 </defs>
-<path class="rule" d="M100 23H250M650 23H800"/>
-<circle cx="82" cy="23" r="3" fill="#f4efe5"/>
-<circle cx="818" cy="23" r="3" fill="#f4efe5"/>
+<path class="track" d="M86 42H814"/>
+<path class="beam" d="M450 42h250" stroke="url(#beam)" stroke-width="2" stroke-linecap="round"/>
+<path class="beam beam2" d="M450 42h250" stroke="url(#beam)" stroke-width="2" stroke-linecap="round"/>
+<circle cx="66" cy="42" r="2.5" fill="#f4efe5" opacity=".8"/>
+<circle cx="834" cy="42" r="2.5" fill="#f4efe5" opacity=".8"/>
 <text class="mono frame first" x="450" y="29">ELECTRONICS &amp; COMPUTER ENGINEERING</text>
 <text class="mono frame second" x="450" y="29">JIIT NOIDA</text>
 </svg>
